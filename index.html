@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Random Character Generator</title>
+<title>Starbrew Generators</title>
 <link rel="stylesheet" href="style.css?v=1">
 </head>
 <body>
 <header class="site-header">
   <div class="header-card">
     <p class="eyebrow">Starbrew Tools</p>
-    <h1>Random Character Generator</h1>
-    <p class="subtitle">Roll a fresh character idea with species, theme, palette, personality, job, traits, and a story hook.</p>
+    <h1>Random Generators</h1>
+    <p class="subtitle">Roll fresh character ideas or Pokemon-inspired concepts with themes, palettes, personalities, traits, and story hooks.</p>
     <div class="hub-links">
       <a href="https://characterhub.pages.dev/">⭐ Star Hub</a>
       <a href="https://lunabrew.pages.dev/">🌙 Luna Hub</a>
@@ -23,17 +23,49 @@
 </header>
 
 <main class="generator-page">
-  <section class="generator-card">
-    <button id="generateButton" class="generate-button">🎲 Generate Character</button>
+  <nav class="tabs generator-tabs" aria-label="Generator types">
+    <button class="tab-button active" data-tab="characterGenerator">Character Generator</button>
+    <button class="tab-button" data-tab="pokemonGenerator">Pokemon Generator</button>
+  </nav>
 
-    <div id="result" class="result-card">
-      <p class="empty-text">Your character idea will appear here.</p>
-    </div>
+  <section id="characterGenerator" class="tab-panel active">
+    <section class="generator-card">
+      <div class="section-title">
+        <h2>Random Character Generator</h2>
+        <p>Roll a cozy original character idea.</p>
+      </div>
 
-    <div class="button-row">
-      <button id="copyButton" class="secondary-button">Copy Idea</button>
-      <button id="clearButton" class="secondary-button">Clear</button>
-    </div>
+      <button id="generateCharacterButton" class="generate-button">🎲 Generate Character</button>
+
+      <div id="characterResult" class="result-card">
+        <p class="empty-text">Your character idea will appear here.</p>
+      </div>
+
+      <div class="button-row">
+        <button id="copyCharacterButton" class="secondary-button">Copy Character Idea</button>
+        <button id="clearCharacterButton" class="secondary-button">Clear</button>
+      </div>
+    </section>
+  </section>
+
+  <section id="pokemonGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title">
+        <h2>Pokemon Generator</h2>
+        <p>Roll a Pokemon-themed concept with type, region vibe, trainer role, ability, move style, and story hook.</p>
+      </div>
+
+      <button id="generatePokemonButton" class="generate-button">⚡ Generate Pokemon Idea</button>
+
+      <div id="pokemonResult" class="result-card">
+        <p class="empty-text">Your Pokemon idea will appear here.</p>
+      </div>
+
+      <div class="button-row">
+        <button id="copyPokemonButton" class="secondary-button">Copy Pokemon Idea</button>
+        <button id="clearPokemonButton" class="secondary-button">Clear</button>
+      </div>
+    </section>
   </section>
 </main>
 
@@ -43,10 +75,6 @@ function pick(list){
   return list[Math.floor(Math.random() * list.length)];
 }
 
-function generateName(){
-  return `${pick(DATA.nameStarts)}${pick(DATA.nameEnds)} ${pick(DATA.surnames)}`;
-}
-
 function uniquePicks(list, count){
   const picked = [];
   while(picked.length < count && picked.length < list.length){
@@ -54,6 +82,27 @@ function uniquePicks(list, count){
     if(!picked.includes(item)) picked.push(item);
   }
   return picked;
+}
+
+function setupTabs(){
+  document.querySelectorAll(".tab-button").forEach(button => {
+    button.addEventListener("click", () => {
+      const target = button.dataset.tab;
+
+      document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
+      document.querySelectorAll(".tab-panel").forEach(panel => panel.classList.remove("active"));
+
+      button.classList.add("active");
+      const panel = document.getElementById(target);
+      if(panel) panel.classList.add("active");
+    });
+  });
+}
+
+/* Character Generator */
+
+function generateName(){
+  return `${pick(DATA.nameStarts)}${pick(DATA.nameEnds)} ${pick(DATA.surnames)}`;
 }
 
 function generateCharacter(){
@@ -74,7 +123,7 @@ function generateCharacter(){
 }
 
 function renderCharacter(character){
-  const result = document.getElementById("result");
+  const result = document.getElementById("characterResult");
 
   result.innerHTML = `
     <h2>${character.name}</h2>
@@ -110,8 +159,86 @@ Story Hook:
 ${character.story}`;
 }
 
-async function copyIdea(){
-  const result = document.getElementById("result");
+/* Pokemon Generator */
+
+function generatePokemonName(){
+  return `${pick(POKEMON_DATA.nameStarts)}${pick(POKEMON_DATA.nameEnds)}`;
+}
+
+function generatePokemon(){
+  const typeOne = pick(POKEMON_DATA.types);
+  let typeTwo = pick(POKEMON_DATA.types);
+
+  if(typeTwo === typeOne){
+    typeTwo = "None";
+  }
+
+  const pokemon = {
+    name: generatePokemonName(),
+    inspiration: pick(POKEMON_DATA.inspirations),
+    type: typeTwo === "None" ? typeOne : `${typeOne} / ${typeTwo}`,
+    region: pick(POKEMON_DATA.regionVibes),
+    habitat: pick(POKEMON_DATA.habitats),
+    palette: pick(POKEMON_DATA.palettes),
+    personality: uniquePicks(POKEMON_DATA.personalities, 3).join(", "),
+    trainerRole: pick(POKEMON_DATA.trainerRoles),
+    ability: pick(POKEMON_DATA.abilities),
+    moveStyle: pick(POKEMON_DATA.moveStyles),
+    heldItem: pick(POKEMON_DATA.heldItems),
+    specialTrait: pick(POKEMON_DATA.specialTraits),
+    story: pick(POKEMON_DATA.storyHooks)
+  };
+
+  renderPokemon(pokemon);
+}
+
+function renderPokemon(pokemon){
+  const result = document.getElementById("pokemonResult");
+
+  result.innerHTML = `
+    <h2>${pokemon.name}</h2>
+    <div class="result-grid">
+      <div><strong>Inspired By</strong><span>${pokemon.inspiration}</span></div>
+      <div><strong>Type</strong><span>${pokemon.type}</span></div>
+      <div><strong>Region Vibe</strong><span>${pokemon.region}</span></div>
+      <div><strong>Habitat</strong><span>${pokemon.habitat}</span></div>
+      <div><strong>Palette</strong><span>${pokemon.palette}</span></div>
+      <div><strong>Personality</strong><span>${pokemon.personality}</span></div>
+      <div><strong>Trainer Role</strong><span>${pokemon.trainerRole}</span></div>
+      <div><strong>Ability</strong><span>${pokemon.ability}</span></div>
+      <div><strong>Move Style</strong><span>${pokemon.moveStyle}</span></div>
+      <div><strong>Held Item</strong><span>${pokemon.heldItem}</span></div>
+      <div><strong>Special Trait</strong><span>${pokemon.specialTrait}</span></div>
+    </div>
+    <div class="story-box">
+      <strong>Story Hook</strong>
+      <p>${pokemon.story}</p>
+    </div>
+  `;
+
+  result.dataset.copyText =
+`${pokemon.name}
+
+Inspired By: ${pokemon.inspiration}
+Type: ${pokemon.type}
+Region Vibe: ${pokemon.region}
+Habitat: ${pokemon.habitat}
+Palette: ${pokemon.palette}
+Personality: ${pokemon.personality}
+Trainer Role: ${pokemon.trainerRole}
+Ability: ${pokemon.ability}
+Move Style: ${pokemon.moveStyle}
+Held Item: ${pokemon.heldItem}
+Special Trait: ${pokemon.specialTrait}
+
+Story Hook:
+${pokemon.story}`;
+}
+
+/* Copy and Clear */
+
+async function copyFromResult(resultId){
+  const result = document.getElementById(resultId);
   const text = result.dataset.copyText || "";
 
   if(!text){
@@ -123,15 +250,23 @@ async function copyIdea(){
   alert("Copied!");
 }
 
-function clearIdea(){
-  const result = document.getElementById("result");
+function clearResult(resultId, message){
+  const result = document.getElementById(resultId);
   result.dataset.copyText = "";
-  result.innerHTML = `<p class="empty-text">Your character idea will appear here.</p>`;
+  result.innerHTML = `<p class="empty-text">${message}</p>`;
 }
 
-document.getElementById("generateButton").addEventListener("click", generateCharacter);
-document.getElementById("copyButton").addEventListener("click", copyIdea);
-document.getElementById("clearButton").addEventListener("click", clearIdea);
+document.addEventListener("DOMContentLoaded", () => {
+  setupTabs();
+
+  document.getElementById("generateCharacterButton").addEventListener("click", generateCharacter);
+  document.getElementById("copyCharacterButton").addEventListener("click", () => copyFromResult("characterResult"));
+  document.getElementById("clearCharacterButton").addEventListener("click", () => clearResult("characterResult", "Your character idea will appear here."));
+
+  document.getElementById("generatePokemonButton").addEventListener("click", generatePokemon);
+  document.getElementById("copyPokemonButton").addEventListener("click", () => copyFromResult("pokemonResult"));
+  document.getElementById("clearPokemonButton").addEventListener("click", () => clearResult("pokemonResult", "Your Pokemon idea will appear here."));
+});
 </script>
 </body>
 </html>
