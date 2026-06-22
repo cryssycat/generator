@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Character Generator | Starbrew Tools</title>
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-card">
+    <p class="eyebrow">Starbrew Tools</p>
+    <h1>Random Character Generator</h1>
+    <p class="subtitle">Roll a fresh character idea with species, theme, palette, personality, job, traits, and a story hook.</p>
+    <div class="hub-links">
+      <a href="https://characterhub.pages.dev/">⭐ Star Hub</a>
+      <a href="https://lunabrew.pages.dev/">🌙 Luna Hub</a>
+      <a href="https://sharedhub.pages.dev/">💞 Shared Hub</a>
+      <a href="https://characterhub.pages.dev/worlds/">🌎 Worlds</a>
+      <a href="https://starbrew.pages.dev/">💵 Sales Hub</a>
+    </div>
+  </div>
+</header>
+
+<main class="generator-page">
+  <section class="generator-card">
+    <button id="generateButton" class="generate-button">🎲 Generate Character</button>
+
+    <div id="result" class="result-card">
+      <p class="empty-text">Your character idea will appear here.</p>
+    </div>
+
+    <div class="button-row">
+      <button id="copyButton" class="secondary-button">Copy Idea</button>
+      <button id="clearButton" class="secondary-button">Clear</button>
+    </div>
+  </section>
+</main>
+
+<script src="generator-data.js?v=1"></script>
+<script>
+function pick(list){
+  return list[Math.floor(Math.random() * list.length)];
+}
+
+function generateName(){
+  return `${pick(DATA.nameStarts)}${pick(DATA.nameEnds)} ${pick(DATA.surnames)}`;
+}
+
+function uniquePicks(list, count){
+  const picked = [];
+  while(picked.length < count && picked.length < list.length){
+    const item = pick(list);
+    if(!picked.includes(item)) picked.push(item);
+  }
+  return picked;
+}
+
+function generateCharacter(){
+  const character = {
+    name: generateName(),
+    species: pick(DATA.species),
+    theme: pick(DATA.themes),
+    palette: pick(DATA.palettes),
+    personality: uniquePicks(DATA.personalities, 3).join(", "),
+    occupation: pick(DATA.occupations),
+    aesthetic: pick(DATA.aesthetics),
+    accessory: pick(DATA.accessories),
+    trait: pick(DATA.specialTraits),
+    story: pick(DATA.storyHooks)
+  };
+
+  renderCharacter(character);
+}
+
+function renderCharacter(character){
+  const result = document.getElementById("result");
+
+  result.innerHTML = `
+    <h2>${character.name}</h2>
+    <div class="result-grid">
+      <div><strong>Species</strong><span>${character.species}</span></div>
+      <div><strong>Theme</strong><span>${character.theme}</span></div>
+      <div><strong>Palette</strong><span>${character.palette}</span></div>
+      <div><strong>Personality</strong><span>${character.personality}</span></div>
+      <div><strong>Occupation</strong><span>${character.occupation}</span></div>
+      <div><strong>Aesthetic</strong><span>${character.aesthetic}</span></div>
+      <div><strong>Accessory</strong><span>${character.accessory}</span></div>
+      <div><strong>Special Trait</strong><span>${character.trait}</span></div>
+    </div>
+    <div class="story-box">
+      <strong>Story Hook</strong>
+      <p>${character.story}</p>
+    </div>
+  `;
+
+  result.dataset.copyText =
+`${character.name}
+
+Species: ${character.species}
+Theme: ${character.theme}
+Palette: ${character.palette}
+Personality: ${character.personality}
+Occupation: ${character.occupation}
+Aesthetic: ${character.aesthetic}
+Accessory: ${character.accessory}
+Special Trait: ${character.trait}
+
+Story Hook:
+${character.story}`;
+}
+
+async function copyIdea(){
+  const result = document.getElementById("result");
+  const text = result.dataset.copyText || "";
+
+  if(!text){
+    alert("Generate an idea first!");
+    return;
+  }
+
+  await navigator.clipboard.writeText(text);
+  alert("Copied!");
+}
+
+function clearIdea(){
+  const result = document.getElementById("result");
+  result.dataset.copyText = "";
+  result.innerHTML = `<p class="empty-text">Your character idea will appear here.</p>`;
+}
+
+document.getElementById("generateButton").addEventListener("click", generateCharacter);
+document.getElementById("copyButton").addEventListener("click", copyIdea);
+document.getElementById("clearButton").addEventListener("click", clearIdea);
+</script>
+</body>
+</html>
