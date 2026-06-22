@@ -4,22 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Starbrew Generators</title>
-<link rel="stylesheet" href="style.css?v=4">
-
-<style>
-/* Failsafe tab behavior */
-.tab-panel{display:none !important;}
-.tab-panel.active{display:block !important;}
-.tab-button{cursor:pointer;}
-.tab-button.active{filter:brightness(1.03);}
-</style>
+<link rel="stylesheet" href="style.css?v=1">
 </head>
 <body>
 <header class="site-header">
   <div class="header-card">
     <p class="eyebrow">Starbrew Tools</p>
     <h1>Random Generators</h1>
-    <p class="subtitle">Roll fresh character ideas or Pokemon-inspired concepts with themes, palettes, personalities, traits, and story hooks.</p>
+    <p class="subtitle">Roll fresh character ideas, Pokemon-inspired concepts, or fantasy humanoid designs.</p>
     <div class="hub-links">
       <a href="https://characterhub.pages.dev/">⭐ Star Hub</a>
       <a href="https://lunabrew.pages.dev/">🌙 Luna Hub</a>
@@ -34,6 +26,7 @@
   <nav class="tabs generator-tabs" aria-label="Generator types">
     <button class="tab-button active" data-tab="characterGenerator">Character Generator</button>
     <button class="tab-button" data-tab="pokemonGenerator">Pokemon Generator</button>
+    <button class="tab-button" data-tab="fantasyGenerator">Fantasy Humanoid Generator</button>
   </nav>
 
   <section id="characterGenerator" class="tab-panel active">
@@ -42,13 +35,10 @@
         <h2>Random Character Generator</h2>
         <p>Roll a cozy original character idea.</p>
       </div>
-
       <button id="generateCharacterButton" class="generate-button">🎲 Generate Character</button>
-
       <div id="characterResult" class="result-card">
         <p class="empty-text">Your character idea will appear here.</p>
       </div>
-
       <div class="button-row">
         <button id="copyCharacterButton" class="secondary-button">Copy Character Idea</button>
         <button id="clearCharacterButton" class="secondary-button">Clear</button>
@@ -62,22 +52,36 @@
         <h2>Pokemon Generator</h2>
         <p>Roll a Pokemon-themed concept with type, region vibe, trainer role, ability, move style, and story hook.</p>
       </div>
-
       <button id="generatePokemonButton" class="generate-button">⚡ Generate Pokemon Idea</button>
-
       <div id="pokemonResult" class="result-card">
         <p class="empty-text">Your Pokemon idea will appear here.</p>
       </div>
-
       <div class="button-row">
         <button id="copyPokemonButton" class="secondary-button">Copy Pokemon Idea</button>
         <button id="clearPokemonButton" class="secondary-button">Clear</button>
       </div>
     </section>
   </section>
+
+  <section id="fantasyGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title">
+        <h2>Fantasy Humanoid Generator</h2>
+        <p>Roll a fantasy humanoid, kemonomimi, or DND-inspired character.</p>
+      </div>
+      <button id="generateFantasyButton" class="generate-button">🧝 Generate Fantasy Character</button>
+      <div id="fantasyResult" class="result-card">
+        <p class="empty-text">Your fantasy character idea will appear here.</p>
+      </div>
+      <div class="button-row">
+        <button id="copyFantasyButton" class="secondary-button">Copy Fantasy Idea</button>
+        <button id="clearFantasyButton" class="secondary-button">Clear</button>
+      </div>
+    </section>
+  </section>
 </main>
 
-<script src="generator-data.js?v=4"></script>
+<script src="generator-data.js?v=1"></script>
 <script>
 function pick(list){
   return list[Math.floor(Math.random() * list.length)];
@@ -93,29 +97,17 @@ function uniquePicks(list, count){
 }
 
 function setupTabs(){
-  const buttons = document.querySelectorAll(".tab-button");
-  const panels = document.querySelectorAll(".tab-panel");
-
-  function showTab(target){
-    buttons.forEach(btn => btn.classList.toggle("active", btn.dataset.tab === target));
-    panels.forEach(panel => {
-      const isActive = panel.id === target;
-      panel.classList.toggle("active", isActive);
-      panel.hidden = !isActive;
-      panel.style.display = isActive ? "block" : "none";
+  document.querySelectorAll(".tab-button").forEach(button => {
+    button.addEventListener("click", () => {
+      const target = button.dataset.tab;
+      document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
+      document.querySelectorAll(".tab-panel").forEach(panel => panel.classList.remove("active"));
+      button.classList.add("active");
+      const panel = document.getElementById(target);
+      if(panel) panel.classList.add("active");
     });
-  }
-
-  buttons.forEach(button => {
-    button.type = "button";
-    button.addEventListener("click", () => showTab(button.dataset.tab));
   });
-
-  const activeButton = document.querySelector(".tab-button.active") || buttons[0];
-  if(activeButton) showTab(activeButton.dataset.tab);
 }
-
-/* Character Generator */
 
 function generateName(){
   return `${pick(DATA.nameStarts)}${pick(DATA.nameEnds)} ${pick(DATA.surnames)}`;
@@ -134,48 +126,17 @@ function generateCharacter(){
     trait: pick(DATA.specialTraits),
     story: pick(DATA.storyHooks)
   };
-
-  renderCharacter(character);
+  renderStandardResult("characterResult", character.name, [
+    ["Species", character.species],
+    ["Theme", character.theme],
+    ["Palette", character.palette],
+    ["Personality", character.personality],
+    ["Occupation", character.occupation],
+    ["Aesthetic", character.aesthetic],
+    ["Accessory", character.accessory],
+    ["Special Trait", character.trait]
+  ], character.story);
 }
-
-function renderCharacter(character){
-  const result = document.getElementById("characterResult");
-
-  result.innerHTML = `
-    <h2>${character.name}</h2>
-    <div class="result-grid">
-      <div><strong>Species</strong><span>${character.species}</span></div>
-      <div><strong>Theme</strong><span>${character.theme}</span></div>
-      <div><strong>Palette</strong><span>${character.palette}</span></div>
-      <div><strong>Personality</strong><span>${character.personality}</span></div>
-      <div><strong>Occupation</strong><span>${character.occupation}</span></div>
-      <div><strong>Aesthetic</strong><span>${character.aesthetic}</span></div>
-      <div><strong>Accessory</strong><span>${character.accessory}</span></div>
-      <div><strong>Special Trait</strong><span>${character.trait}</span></div>
-    </div>
-    <div class="story-box">
-      <strong>Story Hook</strong>
-      <p>${character.story}</p>
-    </div>
-  `;
-
-  result.dataset.copyText =
-`${character.name}
-
-Species: ${character.species}
-Theme: ${character.theme}
-Palette: ${character.palette}
-Personality: ${character.personality}
-Occupation: ${character.occupation}
-Aesthetic: ${character.aesthetic}
-Accessory: ${character.accessory}
-Special Trait: ${character.trait}
-
-Story Hook:
-${character.story}`;
-}
-
-/* Pokemon Generator */
 
 function generatePokemonName(){
   return `${pick(POKEMON_DATA.nameStarts)}${pick(POKEMON_DATA.nameEnds)}`;
@@ -184,10 +145,7 @@ function generatePokemonName(){
 function generatePokemon(){
   const typeOne = pick(POKEMON_DATA.types);
   let typeTwo = pick(POKEMON_DATA.types);
-
-  if(typeTwo === typeOne){
-    typeTwo = "None";
-  }
+  if(typeTwo === typeOne) typeTwo = "None";
 
   const pokemon = {
     name: generatePokemonName(),
@@ -205,53 +163,78 @@ function generatePokemon(){
     story: pick(POKEMON_DATA.storyHooks)
   };
 
-  renderPokemon(pokemon);
+  renderStandardResult("pokemonResult", pokemon.name, [
+    ["Inspired By", pokemon.inspiration],
+    ["Type", pokemon.type],
+    ["Region Vibe", pokemon.region],
+    ["Habitat", pokemon.habitat],
+    ["Palette", pokemon.palette],
+    ["Personality", pokemon.personality],
+    ["Trainer Role", pokemon.trainerRole],
+    ["Ability", pokemon.ability],
+    ["Move Style", pokemon.moveStyle],
+    ["Held Item", pokemon.heldItem],
+    ["Special Trait", pokemon.specialTrait]
+  ], pokemon.story);
 }
 
-function renderPokemon(pokemon){
-  const result = document.getElementById("pokemonResult");
+function generateFantasyName(){
+  return `${pick(FANTASY_DATA.nameStarts)}${pick(FANTASY_DATA.nameEnds)} ${pick(FANTASY_DATA.surnames)}`;
+}
+
+function generateFantasy(){
+  const fantasy = {
+    name: generateFantasyName(),
+    race: pick(FANTASY_DATA.races),
+    classRole: pick(FANTASY_DATA.classRoles),
+    theme: pick(FANTASY_DATA.themes),
+    palette: pick(FANTASY_DATA.palettes),
+    personality: uniquePicks(FANTASY_DATA.personalities, 3).join(", "),
+    occupation: pick(FANTASY_DATA.occupations),
+    aesthetic: pick(FANTASY_DATA.aesthetics),
+    accessory: pick(FANTASY_DATA.accessories),
+    magicStyle: pick(FANTASY_DATA.magicStyles),
+    weapon: pick(FANTASY_DATA.weapons),
+    specialTrait: pick(FANTASY_DATA.specialTraits),
+    story: pick(FANTASY_DATA.storyHooks)
+  };
+
+  renderStandardResult("fantasyResult", fantasy.name, [
+    ["Race / Type", fantasy.race],
+    ["Class / Role", fantasy.classRole],
+    ["Theme", fantasy.theme],
+    ["Palette", fantasy.palette],
+    ["Personality", fantasy.personality],
+    ["Occupation", fantasy.occupation],
+    ["Aesthetic", fantasy.aesthetic],
+    ["Accessory", fantasy.accessory],
+    ["Magic Style", fantasy.magicStyle],
+    ["Weapon / Tool", fantasy.weapon],
+    ["Special Trait", fantasy.specialTrait]
+  ], fantasy.story);
+}
+
+function renderStandardResult(resultId, title, rows, story){
+  const result = document.getElementById(resultId);
+  const rowsHtml = rows.map(row => `<div><strong>${row[0]}</strong><span>${row[1]}</span></div>`).join("");
 
   result.innerHTML = `
-    <h2>${pokemon.name}</h2>
-    <div class="result-grid">
-      <div><strong>Inspired By</strong><span>${pokemon.inspiration}</span></div>
-      <div><strong>Type</strong><span>${pokemon.type}</span></div>
-      <div><strong>Region Vibe</strong><span>${pokemon.region}</span></div>
-      <div><strong>Habitat</strong><span>${pokemon.habitat}</span></div>
-      <div><strong>Palette</strong><span>${pokemon.palette}</span></div>
-      <div><strong>Personality</strong><span>${pokemon.personality}</span></div>
-      <div><strong>Trainer Role</strong><span>${pokemon.trainerRole}</span></div>
-      <div><strong>Ability</strong><span>${pokemon.ability}</span></div>
-      <div><strong>Move Style</strong><span>${pokemon.moveStyle}</span></div>
-      <div><strong>Held Item</strong><span>${pokemon.heldItem}</span></div>
-      <div><strong>Special Trait</strong><span>${pokemon.specialTrait}</span></div>
-    </div>
+    <h2>${title}</h2>
+    <div class="result-grid">${rowsHtml}</div>
     <div class="story-box">
       <strong>Story Hook</strong>
-      <p>${pokemon.story}</p>
+      <p>${story}</p>
     </div>
   `;
 
   result.dataset.copyText =
-`${pokemon.name}
+`${title}
 
-Inspired By: ${pokemon.inspiration}
-Type: ${pokemon.type}
-Region Vibe: ${pokemon.region}
-Habitat: ${pokemon.habitat}
-Palette: ${pokemon.palette}
-Personality: ${pokemon.personality}
-Trainer Role: ${pokemon.trainerRole}
-Ability: ${pokemon.ability}
-Move Style: ${pokemon.moveStyle}
-Held Item: ${pokemon.heldItem}
-Special Trait: ${pokemon.specialTrait}
+${rows.map(row => `${row[0]}: ${row[1]}`).join("\n")}
 
 Story Hook:
-${pokemon.story}`;
+${story}`;
 }
-
-/* Copy and Clear */
 
 async function copyFromResult(resultId){
   const result = document.getElementById(resultId);
@@ -282,6 +265,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("generatePokemonButton").addEventListener("click", generatePokemon);
   document.getElementById("copyPokemonButton").addEventListener("click", () => copyFromResult("pokemonResult"));
   document.getElementById("clearPokemonButton").addEventListener("click", () => clearResult("pokemonResult", "Your Pokemon idea will appear here."));
+
+  document.getElementById("generateFantasyButton").addEventListener("click", generateFantasy);
+  document.getElementById("copyFantasyButton").addEventListener("click", () => copyFromResult("fantasyResult"));
+  document.getElementById("clearFantasyButton").addEventListener("click", () => clearResult("fantasyResult", "Your fantasy character idea will appear here."));
 });
 </script>
 </body>
