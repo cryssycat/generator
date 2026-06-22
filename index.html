@@ -4,7 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Starbrew Generators</title>
-<link rel="stylesheet" href="style.css?v=1">
+<link rel="stylesheet" href="style.css?v=4">
+
+<style>
+/* Failsafe tab behavior */
+.tab-panel{display:none !important;}
+.tab-panel.active{display:block !important;}
+.tab-button{cursor:pointer;}
+.tab-button.active{filter:brightness(1.03);}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -69,7 +77,7 @@
   </section>
 </main>
 
-<script src="generator-data.js?v=1"></script>
+<script src="generator-data.js?v=4"></script>
 <script>
 function pick(list){
   return list[Math.floor(Math.random() * list.length)];
@@ -85,18 +93,26 @@ function uniquePicks(list, count){
 }
 
 function setupTabs(){
-  document.querySelectorAll(".tab-button").forEach(button => {
-    button.addEventListener("click", () => {
-      const target = button.dataset.tab;
+  const buttons = document.querySelectorAll(".tab-button");
+  const panels = document.querySelectorAll(".tab-panel");
 
-      document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
-      document.querySelectorAll(".tab-panel").forEach(panel => panel.classList.remove("active"));
-
-      button.classList.add("active");
-      const panel = document.getElementById(target);
-      if(panel) panel.classList.add("active");
+  function showTab(target){
+    buttons.forEach(btn => btn.classList.toggle("active", btn.dataset.tab === target));
+    panels.forEach(panel => {
+      const isActive = panel.id === target;
+      panel.classList.toggle("active", isActive);
+      panel.hidden = !isActive;
+      panel.style.display = isActive ? "block" : "none";
     });
+  }
+
+  buttons.forEach(button => {
+    button.type = "button";
+    button.addEventListener("click", () => showTab(button.dataset.tab));
   });
+
+  const activeButton = document.querySelector(".tab-button.active") || buttons[0];
+  if(activeButton) showTab(activeButton.dataset.tab);
 }
 
 /* Character Generator */
