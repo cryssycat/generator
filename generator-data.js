@@ -1329,9 +1329,9 @@ const POKEMON_DATA = {
   "Plush Heart", "Star Garden", "Moonlit Comfort", "Sweet Spirit",
   "Aurora Dream", "Cloud Blessing", "Moon Bunny", "Lucky Charm",
   "Frosted Heart", "Candy Veil", "Celestial Bond", "Dreamy Soul"
-]
+],
 
-moveStyles: [
+  moveStyles: [
   "Uses heart-shaped sparkles to distract opponents.",
   "Attacks with glowing ribbons and moonlight beams.",
   "Curls into a ball and rolls like a fluffy meteor.",
@@ -1463,9 +1463,9 @@ moveStyles: [
   "Uses dream bubbles that pop into bursts of light.",
   "Creates a soft aura that reflects status effects.",
   "Unleashes a dazzling explosion of stars, ribbons, and moonlight."
-]
+],
 
-heldItems: [
+  heldItems: [
   "Soothe Bell", "Moon Stone Charm", "Ribbon Scarf", "Berry Basket",
   "Tiny Bell Collar", "Star-Shaped Cookie", "Warm Cafe Mug",
   "Mystic Ribbon", "Glittery Shell", "Friendship Bracelet",
@@ -1539,9 +1539,9 @@ heldItems: [
   "Tiny Plush Backpack", "Mushroom Charm", "Acorn Pendant",
   "Tiny Bat Plush", "Moon Bunny Charm", "Celestial Brooch",
   "Tea Set Charm", "Cozy Lantern", "Starry Mug"
-]
+],
 
- specialTraits: [
+  specialTraits: [
   "Its tail glows when it trusts someone.",
   "It purrs when healed at a Pokemon Center.",
   "It leaves paw-shaped sparkles behind.",
@@ -1695,9 +1695,9 @@ heldItems: [
   "It enjoys falling asleep to stories.",
   "It often gifts trainers shiny leaves.",
   "It radiates a calming warmth wherever it goes."
-]
+],
 
- storyHooks: [
+  storyHooks: [
   "A shy trainer finds it hiding behind a cafe during a thunderstorm.",
   "It becomes the mascot of a tiny Pokemon bakery.",
   "It keeps sneaking into contests because it loves applause.",
