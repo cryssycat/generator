@@ -5,6 +5,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Starbrew Generators</title>
 <link rel="stylesheet" href="style.css?v=1">
+
+<style>
+.palette-swatches{
+  display:grid;
+  grid-template-columns:repeat(5, minmax(90px, 1fr));
+  gap:12px;
+  margin:14px 0 18px;
+}
+.palette-swatch{
+  min-height:110px;
+  border-radius:18px;
+  border:1px solid rgba(255,255,255,.22);
+  box-shadow:0 10px 25px rgba(0,0,0,.18);
+  overflow:hidden;
+  display:flex;
+  align-items:flex-end;
+}
+.palette-swatch-label{
+  width:100%;
+  padding:10px;
+  background:rgba(0,0,0,.38);
+  backdrop-filter:blur(6px);
+  color:white;
+  text-shadow:0 1px 3px rgba(0,0,0,.45);
+  font-size:.85rem;
+  line-height:1.25;
+}
+.palette-swatch-label strong{
+  display:block;
+  font-size:.9rem;
+}
+.palette-swatch-label span{
+  opacity:.9;
+}
+@media(max-width:720px){
+  .palette-swatches{
+    grid-template-columns:repeat(2, minmax(120px, 1fr));
+  }
+}
+</style>
+
 </head>
 <body>
 <header class="site-header">
@@ -50,10 +91,24 @@
 
   <section id="paletteGenerator" class="tab-panel">
     <section class="generator-card">
-      <div class="section-title"><h2>Palette Generator</h2><p>Roll a color palette idea.</p></div>
-      <button id="generatePaletteButton" class="generate-button">🎨 Generate Palette</button>
-      <div id="paletteResult" class="result-card"><p class="empty-text">Your palette idea will appear here.</p></div>
-      <div class="button-row"><button id="copyPaletteButton" class="secondary-button">Copy Palette Idea</button><button id="clearPaletteButton" class="secondary-button">Clear</button></div>
+      <div class="section-title">
+        <h2>Palette Generator</h2>
+        <p>Roll a premade palette, or use Chaos Mode to roll all 5 colors separately.</p>
+      </div>
+
+      <div class="button-row">
+        <button id="generatePaletteButton" class="generate-button">🎨 Generate Palette</button>
+        <button id="generateChaosPaletteButton" class="generate-button">🌈 Chaos Mode</button>
+      </div>
+
+      <div id="paletteResult" class="result-card">
+        <p class="empty-text">Your palette idea will appear here.</p>
+      </div>
+
+      <div class="button-row">
+        <button id="copyPaletteButton" class="secondary-button">Copy Palette Idea</button>
+        <button id="clearPaletteButton" class="secondary-button">Clear</button>
+      </div>
     </section>
   </section>
 
@@ -266,58 +321,196 @@ function generateCharacter(){
 
 
 /* Palette */
-function parsePaletteColors(palette){
-  if(!palette) return [];
+const FALLBACK_CHAOS_COLORS = [
+  { name: "Moonlit Navy", hex: "#1B2140" },
+  { name: "Strawberry Milk", hex: "#F7A9C4" },
+  { name: "Vanilla Cream", hex: "#FFF1D8" },
+  { name: "Moss Garden", hex: "#7D9A6B" },
+  { name: "Blood Rose", hex: "#8F2338" },
+  { name: "Lavender Fog", hex: "#B9A7D8" },
+  { name: "Soft Lilac", hex: "#D9C6F2" },
+  { name: "Cloud White", hex: "#F7F4F0" },
+  { name: "Espresso Brown", hex: "#4A2E25" },
+  { name: "Honey Gold", hex: "#E7B85B" },
+  { name: "Rose Quartz", hex: "#E8A6B8" },
+  { name: "Midnight Plum", hex: "#33213F" },
+  { name: "Seafoam Mint", hex: "#9DDDC8" },
+  { name: "Peach Cream", hex: "#FFD1B8" },
+  { name: "Charcoal Lace", hex: "#2B2B33" },
+  { name: "Silver Moon", hex: "#C9CEDA" },
+  { name: "Baby Blue", hex: "#A9D8FF" },
+  { name: "Sage Tea", hex: "#A8B99A" },
+  { name: "Pumpkin Spice", hex: "#D9823B" },
+  { name: "Black Velvet", hex: "#17131C" },
+  { name: "Candy Pink", hex: "#FF8FCB" },
+  { name: "Crystal Blue", hex: "#86C8E8" },
+  { name: "Warm Cocoa", hex: "#7A4E3A" },
+  { name: "Pearl Blush", hex: "#F8DDE5" },
+  { name: "Star Gold", hex: "#F4D06F" },
+  { name: "Forest Shadow", hex: "#304734" },
+  { name: "Cherry Soda", hex: "#C73352" },
+  { name: "Opal Glow", hex: "#DDEFEF" },
+  { name: "Dusty Mauve", hex: "#A77B91" },
+  { name: "Cream Soda", hex: "#F6E7B8" }
+];
 
-  if(Array.isArray(palette.colors)){
-    return palette.colors.map(color => {
-      if(typeof color === "string") return color;
-      return `${color.name || "Color"}${color.hex ? " — " + color.hex : ""}`;
-    });
+function normalizePaletteColor(color){
+  if(typeof color === "string"){
+    return { name: color.trim(), hex: "" };
   }
 
-  if(typeof palette === "string"){
-    return palette.split(",").map(color => color.trim()).filter(Boolean);
-  }
-
-  return [];
+  return {
+    name: color?.name || "Unnamed Color",
+    hex: color?.hex || color?.value || ""
+  };
 }
 
-function generatePalette(){
-  let palette = null;
+function stringPaletteToColors(value){
+  return String(value || "")
+    .split(",")
+    .map(color => color.trim())
+    .filter(Boolean)
+    .map(name => ({ name, hex: "" }));
+}
 
-  if(typeof PALETTE_DATA !== "undefined" && Array.isArray(PALETTE_DATA.palettes)){
-    palette = pick(PALETTE_DATA.palettes);
-  } else if(typeof PALETTE_DATA !== "undefined" && Array.isArray(PALETTE_DATA)){
-    palette = pick(PALETTE_DATA);
-  } else if(typeof DATA !== "undefined" && Array.isArray(DATA.palettes)){
-    palette = {
+function getPremadePalette(){
+  if(typeof PALETTE_DATA !== "undefined"){
+    if(Array.isArray(PALETTE_DATA.palettes)){
+      return pick(PALETTE_DATA.palettes);
+    }
+
+    if(Array.isArray(PALETTE_DATA)){
+      return pick(PALETTE_DATA);
+    }
+  }
+
+  if(typeof DATA !== "undefined" && Array.isArray(DATA.palettes)){
+    const paletteString = pick(DATA.palettes);
+    return {
       name: "Random Palette",
       aesthetic: "Mixed",
-      moods: [],
+      moods: ["Random", "Creative", "Flexible"],
       story: "Generated from the main character palette list.",
-      colors: pick(DATA.palettes).split(",").map(color => color.trim())
+      colors: stringPaletteToColors(paletteString)
     };
   }
 
+  return null;
+}
+
+function getChaosColorPool(){
+  if(typeof PALETTE_CHAOS_DATA !== "undefined" && Array.isArray(PALETTE_CHAOS_DATA.colors)){
+    return PALETTE_CHAOS_DATA.colors.map(normalizePaletteColor);
+  }
+
+  if(typeof PALETTE_DATA !== "undefined"){
+    let pool = [];
+
+    if(Array.isArray(PALETTE_DATA.colors)){
+      pool = PALETTE_DATA.colors;
+    } else if(Array.isArray(PALETTE_DATA.palettes)){
+      PALETTE_DATA.palettes.forEach(palette => {
+        if(Array.isArray(palette.colors)){
+          pool.push(...palette.colors);
+        }
+      });
+    } else if(Array.isArray(PALETTE_DATA)){
+      PALETTE_DATA.forEach(palette => {
+        if(Array.isArray(palette.colors)){
+          pool.push(...palette.colors);
+        }
+      });
+    }
+
+    if(pool.length){
+      return pool.map(normalizePaletteColor);
+    }
+  }
+
+  return FALLBACK_CHAOS_COLORS;
+}
+
+function renderPaletteResult(title, palette, colors, story){
+  const result = document.getElementById("paletteResult");
+  const safeColors = colors.slice(0, 5).map(normalizePaletteColor);
+
+  while(safeColors.length < 5){
+    safeColors.push({ name: "Extra Color", hex: "" });
+  }
+
+  const swatchesHtml = safeColors.map(color => {
+    const bg = color.hex || "linear-gradient(135deg, rgba(255,255,255,.22), rgba(255,255,255,.06))";
+    const hexText = color.hex || "No hex";
+    return `
+      <div class="palette-swatch" style="background:${bg};">
+        <div class="palette-swatch-label">
+          <strong>${color.name}</strong>
+          <span>${hexText}</span>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  const moods = Array.isArray(palette?.moods)
+    ? palette.moods.join(", ")
+    : (palette?.moods || "Random");
+
+  result.innerHTML = `
+    <h2>${title}</h2>
+    <div class="palette-swatches">${swatchesHtml}</div>
+    <div class="result-grid">
+      <div><strong>Aesthetic</strong><span>${palette?.aesthetic || "Mixed"}</span></div>
+      <div><strong>Moods</strong><span>${moods}</span></div>
+      <div><strong>Color 1</strong><span>${safeColors[0].name}${safeColors[0].hex ? " — " + safeColors[0].hex : ""}</span></div>
+      <div><strong>Color 2</strong><span>${safeColors[1].name}${safeColors[1].hex ? " — " + safeColors[1].hex : ""}</span></div>
+      <div><strong>Color 3</strong><span>${safeColors[2].name}${safeColors[2].hex ? " — " + safeColors[2].hex : ""}</span></div>
+      <div><strong>Color 4</strong><span>${safeColors[3].name}${safeColors[3].hex ? " — " + safeColors[3].hex : ""}</span></div>
+      <div><strong>Color 5</strong><span>${safeColors[4].name}${safeColors[4].hex ? " — " + safeColors[4].hex : ""}</span></div>
+    </div>
+    <div class="story-box">
+      <strong>Story Hook</strong>
+      <p>${story || palette?.story || "A five-color palette for character design, adopts, icons, or worldbuilding."}</p>
+    </div>
+  `;
+
+  result.dataset.copyText = [
+    title,
+    "",
+    `Aesthetic: ${palette?.aesthetic || "Mixed"}`,
+    `Moods: ${moods}`,
+    "",
+    ...safeColors.map((color, index) => `Color ${index + 1}: ${color.name}${color.hex ? " — " + color.hex : ""}`),
+    "",
+    "Story:",
+    story || palette?.story || "A five-color palette for character design, adopts, icons, or worldbuilding."
+  ].join("\n");
+}
+
+function generatePalette(){
+  const palette = getPremadePalette();
+
   if(!palette){
     renderStandardResult("paletteResult", "Palette Generator", [
-      ["Error", "No PALETTE_DATA or DATA.palettes found"]
-    ], "Add palette data to generator-data.js.");
+      ["Error", "No palette data found"]
+    ], "Add PALETTE_DATA or DATA.palettes to generator-data.js.");
     return;
   }
 
-  const colors = parsePaletteColors(palette);
+  const colors = Array.isArray(palette.colors)
+    ? palette.colors.map(normalizePaletteColor)
+    : stringPaletteToColors(palette.colors || palette.palette || "");
 
-  renderStandardResult("paletteResult", palette.name || "Random Palette", [
-    ["Aesthetic", palette.aesthetic || "Mixed"],
-    ["Moods", Array.isArray(palette.moods) ? palette.moods.join(", ") : (palette.moods || "Random")],
-    ["Color 1", colors[0] || "—"],
-    ["Color 2", colors[1] || "—"],
-    ["Color 3", colors[2] || "—"],
-    ["Color 4", colors[3] || "—"],
-    ["Color 5", colors[4] || "—"]
-  ], palette.story || "A randomly generated palette.");
+  renderPaletteResult(palette.name || "Random Palette", palette, colors, palette.story);
+}
+
+function generateChaosPalette(){
+  const colors = uniquePicks(getChaosColorPool(), 5);
+
+  renderPaletteResult("Chaos Palette", {
+    aesthetic: "Chaos Mode",
+    moods: ["Random", "Mixed", "Surprising"],
+    story: "Every slot was rolled separately from the full color pool."
+  }, colors, "Every slot was rolled separately from the full color pool.");
 }
 
 
@@ -698,6 +891,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("clearCharacterButton").addEventListener("click", () => clearResult("characterResult", "Your character idea will appear here."));
 
   document.getElementById("generatePaletteButton").addEventListener("click", generatePalette);
+  document.getElementById("generateChaosPaletteButton").addEventListener("click", generateChaosPalette);
   document.getElementById("copyPaletteButton").addEventListener("click", () => copyFromResult("paletteResult"));
   document.getElementById("clearPaletteButton").addEventListener("click", () => clearResult("paletteResult", "Your palette idea will appear here."));
 
