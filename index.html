@@ -158,6 +158,10 @@
       🎨 Generate Palette
     </button>
 
+    <button id="generateChaosPaletteButton" class="secondary-button chaos-button">
+      🌈 Chaos Mode
+    </button>
+
     <div id="paletteResult" class="result-card">
       <p class="empty-text">Your palette will appear here.</p>
     </div>
@@ -685,6 +689,64 @@ Story Hook:
 ${palette.story}`;
 }
   
+
+function randomHex(){
+  return "#" + Math.floor(Math.random() * 16777215)
+    .toString(16)
+    .padStart(6, "0")
+    .toUpperCase();
+}
+
+function generateChaosPalette(){
+  const colors = [
+    randomHex(),
+    randomHex(),
+    randomHex(),
+    randomHex(),
+    randomHex()
+  ];
+
+  const swatches = colors.map(hex => `
+    <div class="color-swatch" style="background:${hex};"></div>
+  `).join("");
+
+  const rows = colors.map((hex, i) => `
+    <div class="palette-row">
+      <span>Color ${i + 1}</span>
+      <code>${hex}</code>
+    </div>
+  `).join("");
+
+  const result = document.getElementById("paletteResult");
+
+  result.innerHTML = `
+    <h2>Chaos Palette</h2>
+    <p class="palette-subtitle">Completely Random Colors</p>
+
+    <div class="palette-strip">
+      ${swatches}
+    </div>
+
+    <div class="palette-list">
+      ${rows}
+    </div>
+
+    <div class="story-box">
+      <strong>Chaos Mode</strong>
+      <p>This palette was born entirely from randomness.</p>
+    </div>
+  `;
+
+  result.dataset.copyText =
+`Chaos Palette
+
+${colors.map((hex, i) => `Color ${i + 1}: ${hex}`).join("\n")}
+
+Chaos Mode:
+This palette was born entirely from randomness.`;
+}
+
+
 document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
 
@@ -737,8 +799,9 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("clearRelationshipButton").addEventListener("click", () => clearResult("relationshipResult", "Your relationship idea will appear here."));
 
   document.getElementById("generatePaletteButton").addEventListener("click", generatePalette);
-document.getElementById("copyPaletteButton").addEventListener("click", () => copyFromResult("paletteResult"));
-document.getElementById("clearPaletteButton").addEventListener("click", () => clearResult("paletteResult", "Your palette will appear here."));
+  document.getElementById("generateChaosPaletteButton").addEventListener("click", generateChaosPalette);
+  document.getElementById("copyPaletteButton").addEventListener("click", () => copyFromResult("paletteResult"));
+  document.getElementById("clearPaletteButton").addEventListener("click", () => clearResult("paletteResult", "Your palette will appear here."));
 });
 </script>
 </body>
