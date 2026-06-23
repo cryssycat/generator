@@ -78,6 +78,7 @@
     <button class="tab-button" data-tab="outfitGenerator">Outfit</button>
     <button class="tab-button" data-tab="itemGenerator">Item</button>
     <button class="tab-button" data-tab="relationshipGenerator">Relationship</button>
+    <button class="tab-button" data-tab="polyculeGenerator">Polycule</button>
   </nav>
 
   <section id="characterGenerator" class="tab-panel active">
@@ -210,6 +211,26 @@
       <div class="button-row"><button id="copyRelationshipButton" class="secondary-button">Copy Relationship Idea</button><button id="clearRelationshipButton" class="secondary-button">Clear</button></div>
     </section>
   </section>
+<section id="polyculeGenerator" class="tab-panel">
+  <section class="generator-card">
+    <div class="section-title">
+      <h2>Party Polycule Generator</h2>
+      <p>Generate three anthro characters and their shared relationship dynamic.</p>
+    </div>
+
+    <button id="generatePolyculeButton" class="generate-button">💕 Generate Polycule</button>
+
+    <div id="polyculeResult" class="result-card">
+      <p class="empty-text">Your polycule idea will appear here.</p>
+    </div>
+
+    <div class="button-row">
+      <button id="copyPolyculeButton" class="secondary-button">Copy Polycule Idea</button>
+      <button id="clearPolyculeButton" class="secondary-button">Clear</button>
+    </div>
+  </section>
+</section>
+  
 </main>
 
 <script src="generator-data.js?v=1"></script>
@@ -1052,7 +1073,46 @@ function generateRelationship(){
     ["Special Trait", relationship.specialTrait]
   ], relationship.story);
 }
+function generatePolyculeName(){
+  return `${pick(POLYCULE_DATA.nameStarts)}${pick(POLYCULE_DATA.nameEnds)}`;
+}
 
+function generatePolycule(){
+  const c1 = {
+    name: generatePolyculeName(),
+    species: pick(POLYCULE_DATA.species),
+    gender: pick(POLYCULE_DATA.genders)
+  };
+
+  const c2 = {
+    name: generatePolyculeName(),
+    species: pick(POLYCULE_DATA.species),
+    gender: pick(POLYCULE_DATA.genders)
+  };
+
+  const c3 = {
+    name: generatePolyculeName(),
+    species: pick(POLYCULE_DATA.species),
+    gender: pick(POLYCULE_DATA.genders)
+  };
+
+  const dynamic = pick(POLYCULE_DATA.dynamics);
+  const loveLanguage = pick(POLYCULE_DATA.loveLanguages);
+  const sharedItem = pick(POLYCULE_DATA.sharedItems);
+  const sharedDream = pick(POLYCULE_DATA.sharedDreams);
+  const story = pick(POLYCULE_DATA.storyHooks);
+
+  renderStandardResult("polyculeResult", `${c1.name}, ${c2.name}, and ${c3.name}`, [
+    ["Character 1", `${c1.name} — ${c1.gender} ${c1.species}`],
+    ["Character 2", `${c2.name} — ${c2.gender} ${c2.species}`],
+    ["Character 3", `${c3.name} — ${c3.gender} ${c3.species}`],
+    ["Dynamic", dynamic],
+    ["Love Language", loveLanguage],
+    ["Shared Item", sharedItem],
+    ["Shared Dream", sharedDream]
+  ], story);
+}
+  
 document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
 
@@ -1108,6 +1168,11 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("generateRelationshipButton").addEventListener("click", generateRelationship);
   document.getElementById("copyRelationshipButton").addEventListener("click", () => copyFromResult("relationshipResult"));
   document.getElementById("clearRelationshipButton").addEventListener("click", () => clearResult("relationshipResult", "Your relationship idea will appear here."));
+
+  document.getElementById("generatePolyculeButton").addEventListener("click", generatePolycule);
+document.getElementById("copyPolyculeButton").addEventListener("click", () => copyFromResult("polyculeResult"));
+document.getElementById("clearPolyculeButton").addEventListener("click", () => clearResult("polyculeResult", "Your polycule idea will appear here."));
+  
 });
 </script>
 </body>
