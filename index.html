@@ -848,7 +848,7 @@ function generateWorld(){
     technology: pick(WORLD_DATA.technologyLevels),
     economy: pick(WORLD_DATA.economies),
     culture: pick(WORLD_DATA.cultures),
-    landmark: pick(WORLD_DATA.landmarks),
+    landmark: pick(WORLD_DATA.majorlandmarks),
     conflict: pick(WORLD_DATA.conflicts),
     secret: pick(WORLD_DATA.secrets),
     story: pick(WORLD_DATA.storyHooks)
@@ -861,7 +861,7 @@ function generateWorld(){
     ["Technology", world.technology],
     ["Economy", world.economy],
     ["Culture", world.culture],
-    ["Major Landmark", world.landmark],
+    ["Major Landmark", world.majorlandmark],
     ["Conflict", world.conflict],
     ["Secret", world.secret]
   ], world.story);
