@@ -643,7 +643,7 @@ function generatePalette(){
   const palette = pick(PALETTE_DATA.palettes);
 
   const swatches = palette.colors.map(color => `
-    <div class="color-swatch" style="background:#HEX;"></div>
+    <div class="color-swatch" style="background:color.hex;"></div>
   `).join("");
 
   const rows = palette.colors.map(color => `
