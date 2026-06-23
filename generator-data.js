@@ -13377,6213 +13377,32005 @@ const RELATIONSHIP_DATA = {
 
 const PALETTE_DATA = {
   "palettes": [
-    {
-      "name": "Moonflower Palette",
-      "aesthetic": "Soft Celestial",
-      "moods": [
-        "Dreamy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by moonflowers blooming beneath a rainy midnight sky.",
-      "colors": [
-        {
-          "name": "Midnight Navy",
-          "hex": "#1A1B2E"
-        },
-        {
-          "name": "Dusky Violet",
-          "hex": "#4B3F72"
-        },
-        {
-          "name": "Lavender Mist",
-          "hex": "#A67DB8"
-        },
-        {
-          "name": "Moon Petal",
-          "hex": "#F4D6FF"
-        },
-        {
-          "name": "Vanilla Cream",
-          "hex": "#FFF8E7"
-        }
-      ]
-    },
-    {
-      "name": "Black Rose Velvet",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Elegant",
-        "Melancholic",
-        "Romantic"
-      ],
-      "story": "Inspired by black roses arranged inside a candlelit ballroom.",
-      "colors": [
-        {
-          "name": "Velvet Black",
-          "hex": "#131116"
-        },
-        {
-          "name": "Wine Red",
-          "hex": "#5C1F2F"
-        },
-        {
-          "name": "Rose Mauve",
-          "hex": "#A76D8A"
-        },
-        {
-          "name": "Pearl Pink",
-          "hex": "#E8C8D6"
-        },
-        {
-          "name": "Ivory Lace",
-          "hex": "#FFF6F2"
-        }
-      ]
-    },
-    {
-      "name": "Moonlit Cemetery",
-      "aesthetic": "Victorian Goth",
-      "moods": [
-        "Quiet",
-        "Dreamy",
-        "Lonely"
-      ],
-      "story": "Inspired by moonlight reflecting off old marble gravestones.",
-      "colors": [
-        {
-          "name": "Obsidian",
-          "hex": "#17161C"
-        },
-        {
-          "name": "Grave Violet",
-          "hex": "#433857"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#9CA3B3"
-        },
-        {
-          "name": "Moonstone",
-          "hex": "#D9D9E8"
-        },
-        {
-          "name": "Ghost White",
-          "hex": "#F6F7FA"
-        }
-      ]
-    },
-    {
-      "name": "Spider Lily Evening",
-      "aesthetic": "Dark Floral",
-      "moods": [
-        "Elegant",
-        "Mysterious",
-        "Soft"
-      ],
-      "story": "Inspired by spider lilies blooming after a summer rain.",
-      "colors": [
-        {
-          "name": "Midnight Plum",
-          "hex": "#24182D"
-        },
-        {
-          "name": "Blood Petal",
-          "hex": "#7C2036"
-        },
-        {
-          "name": "Rosewood",
-          "hex": "#A65567"
-        },
-        {
-          "name": "Dusty Pink",
-          "hex": "#D9A8B7"
-        },
-        {
-          "name": "Moon Cream",
-          "hex": "#FFF7ED"
-        }
-      ]
-    },
-    {
-      "name": "Candlelight Manor",
-      "aesthetic": "Dark Academia",
-      "moods": [
-        "Cozy",
-        "Bookish",
-        "Warm"
-      ],
-      "story": "Inspired by old libraries lit only by candles.",
-      "colors": [
-        {
-          "name": "Coffee Black",
-          "hex": "#1B1718"
-        },
-        {
-          "name": "Walnut Brown",
-          "hex": "#4A342F"
-        },
-        {
-          "name": "Antique Gold",
-          "hex": "#A58356"
-        },
-        {
-          "name": "Parchment",
-          "hex": "#E9D9C0"
-        },
-        {
-          "name": "Vanilla Smoke",
-          "hex": "#FFF6E8"
-        }
-      ]
-    },
-    {
-      "name": "Moon Moth Garden",
-      "aesthetic": "Moon Witch",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Magical"
-      ],
-      "story": "Inspired by pale moths fluttering around moonflowers.",
-      "colors": [
-        {
-          "name": "Night Sky",
-          "hex": "#1B1D33"
-        },
-        {
-          "name": "Lavender Bloom",
-          "hex": "#7560A8"
-        },
-        {
-          "name": "Lilac Petal",
-          "hex": "#BA9CD8"
-        },
-        {
-          "name": "Moon Dust",
-          "hex": "#E9E1F5"
-        },
-        {
-          "name": "Cream Petal",
-          "hex": "#FFF8ED"
-        }
-      ]
-    },
-    {
-      "name": "Velvet Coffin",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Elegant",
-        "Quiet",
-        "Beautiful"
-      ],
-      "story": "Inspired by burgundy velvet lining inside antique coffins.",
-      "colors": [
-        {
-          "name": "Onyx",
-          "hex": "#151316"
-        },
-        {
-          "name": "Crimson Velvet",
-          "hex": "#5F1D31"
-        },
-        {
-          "name": "Dusty Rose",
-          "hex": "#AA6E85"
-        },
-        {
-          "name": "Blush Lace",
-          "hex": "#E5C7D1"
-        },
-        {
-          "name": "Pearl Ivory",
-          "hex": "#FFF8F4"
-        }
-      ]
-    },
-    {
-      "name": "Rainy Record Store",
-      "aesthetic": "Soft Goth",
-      "moods": [
-        "Cozy",
-        "Nostalgic",
-        "Melancholic"
-      ],
-      "story": "Inspired by old vinyl records and rainy city lights.",
-      "colors": [
-        {
-          "name": "Vinyl Black",
-          "hex": "#1A1A1E"
-        },
-        {
-          "name": "Dust Blue",
-          "hex": "#50607B"
-        },
-        {
-          "name": "Mauve Gray",
-          "hex": "#958DAA"
-        },
-        {
-          "name": "Cloud Lilac",
-          "hex": "#D4CDE3"
-        },
-        {
-          "name": "Cream White",
-          "hex": "#F8F6F2"
-        }
-      ]
-    },
-    {
-      "name": "Black Lace Tea",
-      "aesthetic": "Gothic Lolita",
-      "moods": [
-        "Cute",
-        "Elegant",
-        "Soft"
-      ],
-      "story": "Inspired by tea parties held beneath stained glass windows.",
-      "colors": [
-        {
-          "name": "Lace Black",
-          "hex": "#181619"
-        },
-        {
-          "name": "Rose Tea",
-          "hex": "#784659"
-        },
-        {
-          "name": "Mauve Cream",
-          "hex": "#B48EA3"
-        },
-        {
-          "name": "Pink Sugar",
-          "hex": "#E5C5D4"
-        },
-        {
-          "name": "Tea Cream",
-          "hex": "#FFF6EA"
-        }
-      ]
-    },
-    {
-      "name": "Wisteria Dreams",
-      "aesthetic": "Pastel Goth",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by sleeping beneath hanging wisteria vines.",
-      "colors": [
-        {
-          "name": "Night Violet",
-          "hex": "#29233D"
-        },
-        {
-          "name": "Purple Bloom",
-          "hex": "#67538D"
-        },
-        {
-          "name": "Wisteria",
-          "hex": "#A88DCB"
-        },
-        {
-          "name": "Lilac Cream",
-          "hex": "#E0D2F4"
-        },
-        {
-          "name": "Moon Milk",
-          "hex": "#FFF9F3"
-        }
-      ]
-    },
-    {
-      "name": "Moonlit Cathedral",
-      "aesthetic": "Cathedral Goth",
-      "moods": [
-        "Peaceful",
-        "Elegant",
-        "Sacred"
-      ],
-      "story": "Inspired by moonlight pouring through stained glass windows.",
-      "colors": [
-        {
-          "name": "Cathedral Black",
-          "hex": "#17161C"
-        },
-        {
-          "name": "Royal Violet",
-          "hex": "#4B3D6A"
-        },
-        {
-          "name": "Dusty Mauve",
-          "hex": "#A38AAE"
-        },
-        {
-          "name": "Silver Moon",
-          "hex": "#D9D7E8"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FAF8F4"
-        }
-      ]
-    },
-    {
-      "name": "Spider Lily Waltz",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Elegant",
-        "Melancholic",
-        "Dreamy"
-      ],
-      "story": "Inspired by dancing among blooming spider lilies beneath the rain.",
-      "colors": [
-        {
-          "name": "Velvet Night",
-          "hex": "#1B151A"
-        },
-        {
-          "name": "Blood Rose",
-          "hex": "#7D1F35"
-        },
-        {
-          "name": "Rose Wine",
-          "hex": "#A45872"
-        },
-        {
-          "name": "Dusty Blush",
-          "hex": "#DDB8C7"
-        },
-        {
-          "name": "Moon Ivory",
-          "hex": "#FFF7F0"
-        }
-      ]
-    },
-    {
-      "name": "Ghost Piano",
-      "aesthetic": "Haunted Elegance",
-      "moods": [
-        "Quiet",
-        "Lonely",
-        "Beautiful"
-      ],
-      "story": "Inspired by forgotten melodies echoing through abandoned ballrooms.",
-      "colors": [
-        {
-          "name": "Piano Black",
-          "hex": "#19181B"
-        },
-        {
-          "name": "Storm Gray",
-          "hex": "#56596B"
-        },
-        {
-          "name": "Ash Lavender",
-          "hex": "#A8A0B6"
-        },
-        {
-          "name": "Moon Dust",
-          "hex": "#DDDCE7"
-        },
-        {
-          "name": "Ghost White",
-          "hex": "#F8F8FA"
-        }
-      ]
-    },
-    {
-      "name": "Black Tea Roses",
-      "aesthetic": "Tea Witch",
-      "moods": [
-        "Cozy",
-        "Warm",
-        "Romantic"
-      ],
-      "story": "Inspired by black tea and dried roses on rainy evenings.",
-      "colors": [
-        {
-          "name": "Tea Leaf",
-          "hex": "#241D1C"
-        },
-        {
-          "name": "Burgundy Rose",
-          "hex": "#663040"
-        },
-        {
-          "name": "Dust Pink",
-          "hex": "#B98D98"
-        },
-        {
-          "name": "Cream Petal",
-          "hex": "#EED9D8"
-        },
-        {
-          "name": "Vanilla Milk",
-          "hex": "#FFF7EC"
-        }
-      ]
-    },
-    {
-      "name": "Velvet Moon",
-      "aesthetic": "Soft Goth",
-      "moods": [
-        "Sleepy",
-        "Magical",
-        "Dreamy"
-      ],
-      "story": "Inspired by moonlight reflecting across velvet curtains.",
-      "colors": [
-        {
-          "name": "Moon Black",
-          "hex": "#181722"
-        },
-        {
-          "name": "Amethyst",
-          "hex": "#564382"
-        },
-        {
-          "name": "Lavender Smoke",
-          "hex": "#A493C6"
-        },
-        {
-          "name": "Moon Petal",
-          "hex": "#E5DAF4"
-        },
-        {
-          "name": "Soft Cream",
-          "hex": "#FFF9F1"
-        }
-      ]
-    },
-    {
-      "name": "Raven's Library",
-      "aesthetic": "Dark Academia",
-      "moods": [
-        "Bookish",
-        "Cozy",
-        "Quiet"
-      ],
-      "story": "Inspired by ravens nesting outside forgotten libraries.",
-      "colors": [
-        {
-          "name": "Ink Black",
-          "hex": "#1A191C"
-        },
-        {
-          "name": "Walnut Brown",
-          "hex": "#49382F"
-        },
-        {
-          "name": "Dust Mauve",
-          "hex": "#9E8396"
-        },
-        {
-          "name": "Old Paper",
-          "hex": "#DED2C1"
-        },
-        {
-          "name": "Ivory Cream",
-          "hex": "#FFF8ED"
-        }
-      ]
-    },
-    {
-      "name": "Crimson Moon Garden",
-      "aesthetic": "Moon Witch",
-      "moods": [
-        "Mystical",
-        "Romantic",
-        "Gentle"
-      ],
-      "story": "Inspired by roses blooming beneath blood moons.",
-      "colors": [
-        {
-          "name": "Obsidian",
-          "hex": "#171418"
-        },
-        {
-          "name": "Crimson Moon",
-          "hex": "#7B2035"
-        },
-        {
-          "name": "Rose Mauve",
-          "hex": "#A86D88"
-        },
-        {
-          "name": "Moon Blush",
-          "hex": "#E5CAD7"
-        },
-        {
-          "name": "Cream Moonlight",
-          "hex": "#FFF8F3"
-        }
-      ]
-    },
-    {
-      "name": "Rainy Vinyl Night",
-      "aesthetic": "Soft Goth",
-      "moods": [
-        "Nostalgic",
-        "Cozy",
-        "Melancholic"
-      ],
-      "story": "Inspired by listening to old records during midnight rain.",
-      "colors": [
-        {
-          "name": "Record Black",
-          "hex": "#1A1A20"
-        },
-        {
-          "name": "Dust Blue",
-          "hex": "#526176"
-        },
-        {
-          "name": "Gray Lilac",
-          "hex": "#9A93AA"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#D7D8E1"
-        },
-        {
-          "name": "Moon White",
-          "hex": "#F8F7F3"
-        }
-      ]
-    },
-    {
-      "name": "Rose Chapel",
-      "aesthetic": "Victorian Goth",
-      "moods": [
-        "Elegant",
-        "Sacred",
-        "Dreamy"
-      ],
-      "story": "Inspired by abandoned chapels overgrown with climbing roses.",
-      "colors": [
-        {
-          "name": "Chapel Black",
-          "hex": "#161518"
-        },
-        {
-          "name": "Rosewood",
-          "hex": "#6A3948"
-        },
-        {
-          "name": "Blush Mauve",
-          "hex": "#B5889B"
-        },
-        {
-          "name": "Pearl Pink",
-          "hex": "#E6CCD6"
-        },
-        {
-          "name": "Ivory Lace",
-          "hex": "#FFF8F4"
-        }
-      ]
-    },
-    {
-      "name": "Moon Moth Dream",
-      "aesthetic": "Pastel Goth",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Magical"
-      ],
-      "story": "Inspired by moon moths fluttering around lavender candles.",
-      "colors": [
-        {
-          "name": "Night Indigo",
-          "hex": "#23243B"
-        },
-        {
-          "name": "Moon Violet",
-          "hex": "#6854A1"
-        },
-        {
-          "name": "Lilac Dust",
-          "hex": "#B39BD8"
-        },
-        {
-          "name": "Moon Glow",
-          "hex": "#E7DDF8"
-        },
-        {
-          "name": "Vanilla Cream",
-          "hex": "#FFF8ED"
-        }
-      ]
-    },
-    {
-      "name": "Black Lace Bedroom",
-      "aesthetic": "Gothic Lolita",
-      "moods": [
-        "Cozy",
-        "Elegant",
-        "Cute"
-      ],
-      "story": "Inspired by velvet pillows and lace curtains.",
-      "colors": [
-        {
-          "name": "Velvet Black",
-          "hex": "#18171A"
-        },
-        {
-          "name": "Dust Rose",
-          "hex": "#865D72"
-        },
-        {
-          "name": "Pink Mauve",
-          "hex": "#BA94A6"
-        },
-        {
-          "name": "Lace Pink",
-          "hex": "#E7D1DB"
-        },
-        {
-          "name": "Milk White",
-          "hex": "#FFF9F4"
-        }
-      ]
-    },
-    {
-      "name": "Midnight Greenhouse",
-      "aesthetic": "Dark Floral",
-      "moods": [
-        "Quiet",
-        "Rainy",
-        "Dreamy"
-      ],
-      "story": "Inspired by moonflowers growing inside abandoned glass houses.",
-      "colors": [
-        {
-          "name": "Forest Night",
-          "hex": "#19201E"
-        },
-        {
-          "name": "Moss Green",
-          "hex": "#506059"
-        },
-        {
-          "name": "Dust Lavender",
-          "hex": "#9B8FA9"
-        },
-        {
-          "name": "Moon Mist",
-          "hex": "#D8D7E3"
-        },
-        {
-          "name": "Cream Petal",
-          "hex": "#FFF8F0"
-        }
-      ]
-    },
-    {
-      "name": "Forgotten Ballroom",
-      "aesthetic": "Victorian Goth",
-      "moods": [
-        "Elegant",
-        "Lonely",
-        "Dreamy"
-      ],
-      "story": "Inspired by abandoned ballrooms where ghostly waltzes continue after midnight.",
-      "colors": [
-        {
-          "name": "Ebony Floor",
-          "hex": "#18171B"
-        },
-        {
-          "name": "Royal Wine",
-          "hex": "#5D2940"
-        },
-        {
-          "name": "Dust Mauve",
-          "hex": "#A17C92"
-        },
-        {
-          "name": "Moon Satin",
-          "hex": "#DCCFDB"
-        },
-        {
-          "name": "Pearl Cream",
-          "hex": "#FFF8F2"
-        }
-      ]
-    },
-    {
-      "name": "Moonlit Aquarium",
-      "aesthetic": "Soft Celestial",
-      "moods": [
-        "Peaceful",
-        "Dreamy",
-        "Gentle"
-      ],
-      "story": "Inspired by jellyfish drifting beneath pale moonlight.",
-      "colors": [
-        {
-          "name": "Deep Ocean",
-          "hex": "#182334"
-        },
-        {
-          "name": "Moon Blue",
-          "hex": "#4A648C"
-        },
-        {
-          "name": "Lavender Sea",
-          "hex": "#998EB8"
-        },
-        {
-          "name": "Silver Foam",
-          "hex": "#DCE1F1"
-        },
-        {
-          "name": "Moon Cream",
-          "hex": "#FFF9EF"
-        }
-      ]
-    },
-    {
-      "name": "Rose Perfume",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Elegant",
-        "Warm",
-        "Beautiful"
-      ],
-      "story": "Inspired by antique perfume bottles and pressed roses.",
-      "colors": [
-        {
-          "name": "Obsidian Glass",
-          "hex": "#1B181B"
-        },
-        {
-          "name": "Wine Rose",
-          "hex": "#73364C"
-        },
-        {
-          "name": "Blush Mauve",
-          "hex": "#BB8C9C"
-        },
-        {
-          "name": "Pink Pearl",
-          "hex": "#E8CFD5"
-        },
-        {
-          "name": "Vanilla Silk",
-          "hex": "#FFF8F1"
-        }
-      ]
-    },
-    {
-      "name": "Ghost Tea Party",
-      "aesthetic": "Haunted Doll",
-      "moods": [
-        "Cute",
-        "Quiet",
-        "Magical"
-      ],
-      "story": "Inspired by lonely spirits gathering for midnight tea.",
-      "colors": [
-        {
-          "name": "Porcelain Black",
-          "hex": "#1A181A"
-        },
-        {
-          "name": "Tea Violet",
-          "hex": "#65567B"
-        },
-        {
-          "name": "Dust Pink",
-          "hex": "#B9A1B5"
-        },
-        {
-          "name": "Ghost Lilac",
-          "hex": "#DDD7E7"
-        },
-        {
-          "name": "Milk Tea",
-          "hex": "#FFF7EE"
-        }
-      ]
-    },
-    {
-      "name": "Stormy Abbey",
-      "aesthetic": "Cathedral Goth",
-      "moods": [
-        "Sacred",
-        "Quiet",
-        "Melancholic"
-      ],
-      "story": "Inspired by rain striking old stained glass windows.",
-      "colors": [
-        {
-          "name": "Storm Black",
-          "hex": "#19191F"
-        },
-        {
-          "name": "Slate Blue",
-          "hex": "#4F566C"
-        },
-        {
-          "name": "Dust Lavender",
-          "hex": "#A19CB4"
-        },
-        {
-          "name": "Moon Silver",
-          "hex": "#D9DCE7"
-        },
-        {
-          "name": "Ivory Stone",
-          "hex": "#FAF7F2"
-        }
-      ]
-    },
-    {
-      "name": "Batwing Velvet",
-      "aesthetic": "Pastel Goth",
-      "moods": [
-        "Cute",
-        "Dreamy",
-        "Sleepy"
-      ],
-      "story": "Inspired by plush bats sleeping inside velvet curtains.",
-      "colors": [
-        {
-          "name": "Night Velvet",
-          "hex": "#191720"
-        },
-        {
-          "name": "Royal Purple",
-          "hex": "#5A417E"
-        },
-        {
-          "name": "Lilac Plush",
-          "hex": "#B098D3"
-        },
-        {
-          "name": "Moon Cotton",
-          "hex": "#E8DDF6"
-        },
-        {
-          "name": "Soft Cream",
-          "hex": "#FFF8F0"
-        }
-      ]
-    },
-    {
-      "name": "Moonflower Conservatory",
-      "aesthetic": "Dark Floral",
-      "moods": [
-        "Rainy",
-        "Dreamy",
-        "Magical"
-      ],
-      "story": "Inspired by moonflowers blooming beneath greenhouse glass.",
-      "colors": [
-        {
-          "name": "Garden Night",
-          "hex": "#1B211D"
-        },
-        {
-          "name": "Forest Sage",
-          "hex": "#506055"
-        },
-        {
-          "name": "Lavender Petal",
-          "hex": "#A494B8"
-        },
-        {
-          "name": "Moon Mist",
-          "hex": "#D8DCE3"
-        },
-        {
-          "name": "Vanilla Bloom",
-          "hex": "#FFF9F0"
-        }
-      ]
-    },
-    {
-      "name": "Vampire Ballroom",
-      "aesthetic": "Vampire Chic",
-      "moods": [
-        "Romantic",
-        "Elegant",
-        "Dramatic"
-      ],
-      "story": "Inspired by immortal dances beneath crystal chandeliers.",
-      "colors": [
-        {
-          "name": "Crimson Night",
-          "hex": "#1B171A"
-        },
-        {
-          "name": "Blood Wine",
-          "hex": "#6D233A"
-        },
-        {
-          "name": "Rose Velvet",
-          "hex": "#A86D84"
-        },
-        {
-          "name": "Silver Pearl",
-          "hex": "#DDD8E5"
-        },
-        {
-          "name": "Ivory Lace",
-          "hex": "#FFF7F4"
-        }
-      ]
-    },
-    {
-      "name": "Rainy Record Shop",
-      "aesthetic": "Soft Goth",
-      "moods": [
-        "Cozy",
-        "Nostalgic",
-        "Melancholic"
-      ],
-      "story": "Inspired by old vinyl and rainy neon lights.",
-      "colors": [
-        {
-          "name": "Vinyl Black",
-          "hex": "#1B1B1F"
-        },
-        {
-          "name": "Dust Navy",
-          "hex": "#4F5C74"
-        },
-        {
-          "name": "Faded Mauve",
-          "hex": "#9B91AC"
-        },
-        {
-          "name": "Silver Cloud",
-          "hex": "#D8DCE4"
-        },
-        {
-          "name": "Warm Cream",
-          "hex": "#FFF8EF"
-        }
-      ]
-    },
-    {
-      "name": "Black Rose Chapel",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Elegant",
-        "Quiet",
-        "Sacred"
-      ],
-      "story": "Inspired by black roses laid before old altars.",
-      "colors": [
-        {
-          "name": "Cathedral Ebony",
-          "hex": "#18171A"
-        },
-        {
-          "name": "Dark Rose",
-          "hex": "#633043"
-        },
-        {
-          "name": "Rose Dust",
-          "hex": "#A78293"
-        },
-        {
-          "name": "Pearl Veil",
-          "hex": "#E4D6DE"
-        },
-        {
-          "name": "Moon Ivory",
-          "hex": "#FFF9F4"
-        }
-      ]
-    },
-    {
-      "name": "Spiderweb Lace",
-      "aesthetic": "Gothic Lolita",
-      "moods": [
-        "Cute",
-        "Elegant",
-        "Soft"
-      ],
-      "story": "Inspired by black lace dresses and silver cobwebs.",
-      "colors": [
-        {
-          "name": "Lace Black",
-          "hex": "#171619"
-        },
-        {
-          "name": "Dust Plum",
-          "hex": "#6E5B80"
-        },
-        {
-          "name": "Lilac Smoke",
-          "hex": "#AF9DC3"
-        },
-        {
-          "name": "Moon Lace",
-          "hex": "#E4DDF0"
-        },
-        {
-          "name": "Vanilla Pearl",
-          "hex": "#FFF8F1"
-        }
-      ]
-    },
-    {
-      "name": "Moonlit Library",
-      "aesthetic": "Dark Academia",
-      "moods": [
-        "Bookish",
-        "Quiet",
-        "Cozy"
-      ],
-      "story": "Inspired by forgotten stories and candlelight.",
-      "colors": [
-        {
-          "name": "Ink Black",
-          "hex": "#1A1819"
-        },
-        {
-          "name": "Walnut Brown",
-          "hex": "#4C3A31"
-        },
-        {
-          "name": "Dust Mauve",
-          "hex": "#9D8798"
-        },
-        {
-          "name": "Old Paper",
-          "hex": "#DDD1C1"
-        },
-        {
-          "name": "Parchment Cream",
-          "hex": "#FFF7EA"
-        }
-      ]
-    },
-    {
-      "name": "Candlelit Catacombs",
-      "aesthetic": "Cathedral Goth",
-      "moods": [
-        "Mysterious",
-        "Quiet",
-        "Sacred"
-      ],
-      "story": "Inspired by ancient catacombs illuminated by flickering candles.",
-      "colors": [
-        {
-          "name": "Catacomb Black",
-          "hex": "#161518"
-        },
-        {
-          "name": "Stone Gray",
-          "hex": "#53515B"
-        },
-        {
-          "name": "Dust Lavender",
-          "hex": "#9D96AA"
-        },
-        {
-          "name": "Moon Marble",
-          "hex": "#D8D7E0"
-        },
-        {
-          "name": "Ivory Candle",
-          "hex": "#FFF8EE"
-        }
-      ]
-    },
-    {
-      "name": "Velvet Opera",
-      "aesthetic": "Victorian Goth",
-      "moods": [
-        "Elegant",
-        "Dramatic",
-        "Romantic"
-      ],
-      "story": "Inspired by forgotten opera houses and velvet curtains.",
-      "colors": [
-        {
-          "name": "Opera Black",
-          "hex": "#181517"
-        },
-        {
-          "name": "Ruby Velvet",
-          "hex": "#712B3F"
-        },
-        {
-          "name": "Rose Mauve",
-          "hex": "#B07D95"
-        },
-        {
-          "name": "Pearl Satin",
-          "hex": "#E4D2DB"
-        },
-        {
-          "name": "Champagne Cream",
-          "hex": "#FFF8F0"
-        }
-      ]
-    },
-    {
-      "name": "Moon Rabbit Dreams",
-      "aesthetic": "Soft Celestial",
-      "moods": [
-        "Cute",
-        "Dreamy",
-        "Sleepy"
-      ],
-      "story": "Inspired by moon rabbits hopping through lavender clouds.",
-      "colors": [
-        {
-          "name": "Night Indigo",
-          "hex": "#23253C"
-        },
-        {
-          "name": "Moon Violet",
-          "hex": "#6757A0"
-        },
-        {
-          "name": "Lavender Fluff",
-          "hex": "#B59EDB"
-        },
-        {
-          "name": "Cloud Lilac",
-          "hex": "#E3DBF7"
-        },
-        {
-          "name": "Vanilla Milk",
-          "hex": "#FFF9F2"
-        }
-      ]
-    },
-    {
-      "name": "Forgotten Perfumery",
-      "aesthetic": "Dark Academia",
-      "moods": [
-        "Elegant",
-        "Cozy",
-        "Nostalgic"
-      ],
-      "story": "Inspired by dusty perfume bottles in antique shops.",
-      "colors": [
-        {
-          "name": "Glass Black",
-          "hex": "#19181A"
-        },
-        {
-          "name": "Amber Brown",
-          "hex": "#5B463C"
-        },
-        {
-          "name": "Dust Rose",
-          "hex": "#A78891"
-        },
-        {
-          "name": "Old Lace",
-          "hex": "#E2D4D0"
-        },
-        {
-          "name": "Vanilla Silk",
-          "hex": "#FFF7EC"
-        }
-      ]
-    },
-    {
-      "name": "Black Butterfly Garden",
-      "aesthetic": "Dark Floral",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Magical"
-      ],
-      "story": "Inspired by butterflies resting among moonflowers.",
-      "colors": [
-        {
-          "name": "Butterfly Black",
-          "hex": "#1A181B"
-        },
-        {
-          "name": "Forest Violet",
-          "hex": "#4F4964"
-        },
-        {
-          "name": "Dust Lilac",
-          "hex": "#A797BE"
-        },
-        {
-          "name": "Moon Petal",
-          "hex": "#DDD7EC"
-        },
-        {
-          "name": "Cream Blossom",
-          "hex": "#FFF9F1"
-        }
-      ]
-    },
-    {
-      "name": "Haunted Tea Room",
-      "aesthetic": "Haunted Doll",
-      "moods": [
-        "Cozy",
-        "Cute",
-        "Quiet"
-      ],
-      "story": "Inspired by ghosts gathering for tea on rainy evenings.",
-      "colors": [
-        {
-          "name": "Tea Black",
-          "hex": "#1B1A1D"
-        },
-        {
-          "name": "Mauve Smoke",
-          "hex": "#665B77"
-        },
-        {
-          "name": "Pink Cream",
-          "hex": "#C4A8B7"
-        },
-        {
-          "name": "Ghost Rose",
-          "hex": "#E6D8DF"
-        },
-        {
-          "name": "Milk Tea",
-          "hex": "#FFF8ED"
-        }
-      ]
-    },
-    {
-      "name": "Moonlit Clocktower",
-      "aesthetic": "Moon Witch",
-      "moods": [
-        "Peaceful",
-        "Mystical",
-        "Quiet"
-      ],
-      "story": "Inspired by bells ringing beneath a full moon.",
-      "colors": [
-        {
-          "name": "Clockwork Black",
-          "hex": "#19181F"
-        },
-        {
-          "name": "Midnight Blue",
-          "hex": "#445370"
-        },
-        {
-          "name": "Silver Lavender",
-          "hex": "#A0A4C0"
-        },
-        {
-          "name": "Moon Mist",
-          "hex": "#DCE0EA"
-        },
-        {
-          "name": "Pearl Cream",
-          "hex": "#FFF9F2"
-        }
-      ]
-    },
-    {
-      "name": "Crimson Lace",
-      "aesthetic": "Gothic Lolita",
-      "moods": [
-        "Cute",
-        "Elegant",
-        "Romantic"
-      ],
-      "story": "Inspired by crimson ribbons and lace dresses.",
-      "colors": [
-        {
-          "name": "Velvet Night",
-          "hex": "#18171A"
-        },
-        {
-          "name": "Crimson Ribbon",
-          "hex": "#8A2943"
-        },
-        {
-          "name": "Rose Dust",
-          "hex": "#B98497"
-        },
-        {
-          "name": "Pink Lace",
-          "hex": "#E7D2D8"
-        },
-        {
-          "name": "Vanilla Cream",
-          "hex": "#FFF8F1"
-        }
-      ]
-    },
-    {
-      "name": "Rainy Cemetery Roses",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Melancholic",
-        "Peaceful",
-        "Beautiful"
-      ],
-      "story": "Inspired by fresh roses left beneath rain-soaked gravestones.",
-      "colors": [
-        {
-          "name": "Grave Black",
-          "hex": "#17161A"
-        },
-        {
-          "name": "Storm Rose",
-          "hex": "#6B384C"
-        },
-        {
-          "name": "Dust Mauve",
-          "hex": "#A18497"
-        },
-        {
-          "name": "Silver Rain",
-          "hex": "#D9DCE5"
-        },
-        {
-          "name": "Moon Ivory",
-          "hex": "#FFF8F3"
-        }
-      ]
-    },
-    {
-      "name": "Moon Moth Tea",
-      "aesthetic": "Tea Witch",
-      "moods": [
-        "Warm",
-        "Dreamy",
-        "Cozy"
-      ],
-      "story": "Inspired by chamomile tea and moon moth wings.",
-      "colors": [
-        {
-          "name": "Tea Night",
-          "hex": "#1C1A1E"
-        },
-        {
-          "name": "Plum Tea",
-          "hex": "#5E4A76"
-        },
-        {
-          "name": "Lavender Cream",
-          "hex": "#B4A6CB"
-        },
-        {
-          "name": "Moon Foam",
-          "hex": "#E4DFF0"
-        },
-        {
-          "name": "Vanilla Tea",
-          "hex": "#FFF8EC"
-        }
-      ]
-    },
-    {
-      "name": "Silver Raven Manor",
-      "aesthetic": "Victorian Goth",
-      "moods": [
-        "Elegant",
-        "Quiet",
-        "Bookish"
-      ],
-      "story": "Inspired by ravens perched on old manor rooftops.",
-      "colors": [
-        {
-          "name": "Raven Black",
-          "hex": "#18181B"
-        },
-        {
-          "name": "Slate Blue",
-          "hex": "#526176"
-        },
-        {
-          "name": "Dust Silver",
-          "hex": "#AAB1C0"
-        },
-        {
-          "name": "Moon Gray",
-          "hex": "#DBDDE4"
-        },
-        {
-          "name": "Ivory Paper",
-          "hex": "#FFF9F0"
-        }
-      ]
-    },
-    {
-      "name": "Rose Quartz Dreams",
-      "aesthetic": "Pastel Goth",
-      "moods": [
-        "Cute",
-        "Soft",
-        "Romantic"
-      ],
-      "story": "Inspired by rose quartz jewelry glowing in moonlight.",
-      "colors": [
-        {
-          "name": "Midnight Plum",
-          "hex": "#251F32"
-        },
-        {
-          "name": "Amethyst Rose",
-          "hex": "#745E96"
-        },
-        {
-          "name": "Rose Quartz",
-          "hex": "#D2A8C2"
-        },
-        {
-          "name": "Moon Blush",
-          "hex": "#ECDCE8"
-        },
-        {
-          "name": "Cloud Cream",
-          "hex": "#FFF9F4"
-        }
-      ]
-    },
-    {
-      "name": "Midnight Vinyl",
-      "aesthetic": "Soft Goth",
-      "moods": [
-        "Nostalgic",
-        "Cozy",
-        "Melancholic"
-      ],
-      "story": "Inspired by rainy nights spent listening to old records.",
-      "colors": [
-        {
-          "name": "Vinyl Black",
-          "hex": "#1A1A1F"
-        },
-        {
-          "name": "Storm Navy",
-          "hex": "#49556D"
-        },
-        {
-          "name": "Dust Violet",
-          "hex": "#9A91B2"
-        },
-        {
-          "name": "Silver Echo",
-          "hex": "#D7DCE7"
-        },
-        {
-          "name": "Cream Static",
-          "hex": "#FFF8EF"
-        }
-      ]
-    },
-    {
-      "name": "Cathedral Roses",
-      "aesthetic": "Cathedral Goth",
-      "moods": [
-        "Sacred",
-        "Elegant",
-        "Romantic"
-      ],
-      "story": "Inspired by roses growing beneath stained glass windows.",
-      "colors": [
-        {
-          "name": "Midnight Stone",
-          "hex": "#18171A"
-        },
-        {
-          "name": "Rose Wine",
-          "hex": "#6C3146"
-        },
-        {
-          "name": "Dust Mauve",
-          "hex": "#AB849B"
-        },
-        {
-          "name": "Pearl Veil",
-          "hex": "#E4D7E0"
-        },
-        {
-          "name": "Ivory Petal",
-          "hex": "#FFF9F3"
-        }
-      ]
-    },
-    {
-      "name": "Moonlit Vinyl Cafe",
-      "aesthetic": "Dark Academia",
-      "moods": [
-        "Cozy",
-        "Bookish",
-        "Warm"
-      ],
-      "story": "Inspired by old books and quiet jazz playing after midnight.",
-      "colors": [
-        {
-          "name": "Coffee Black",
-          "hex": "#1B1819"
-        },
-        {
-          "name": "Walnut Brown",
-          "hex": "#4F3D34"
-        },
-        {
-          "name": "Dust Rose",
-          "hex": "#A18693"
-        },
-        {
-          "name": "Old Paper",
-          "hex": "#DED2C3"
-        },
-        {
-          "name": "Milk Cream",
-          "hex": "#FFF8EE"
-        }
-      ]
-    },
-    {
-      "name": "Spider Lily Rain",
-      "aesthetic": "Dark Floral",
-      "moods": [
-        "Dreamy",
-        "Lonely",
-        "Beautiful"
-      ],
-      "story": "Inspired by spider lilies swaying beneath summer rain.",
-      "colors": [
-        {
-          "name": "Storm Black",
-          "hex": "#19171A"
-        },
-        {
-          "name": "Blood Blossom",
-          "hex": "#7B2940"
-        },
-        {
-          "name": "Rosewood",
-          "hex": "#A4637D"
-        },
-        {
-          "name": "Rain Mist",
-          "hex": "#DAD8E4"
-        },
-        {
-          "name": "Moon Cream",
-          "hex": "#FFF9F1"
-        }
-      ]
-    },
-    {
-      "name": "Ghost Library",
-      "aesthetic": "Haunted Elegance",
-      "moods": [
-        "Quiet",
-        "Bookish",
-        "Magical"
-      ],
-      "story": "Inspired by forgotten books read by affectionate ghosts.",
-      "colors": [
-        {
-          "name": "Ink Black",
-          "hex": "#19181B"
-        },
-        {
-          "name": "Slate Violet",
-          "hex": "#5C5972"
-        },
-        {
-          "name": "Dust Lavender",
-          "hex": "#AAA1BD"
-        },
-        {
-          "name": "Moon Paper",
-          "hex": "#DDDCE8"
-        },
-        {
-          "name": "Vanilla Pages",
-          "hex": "#FFF8F0"
-        }
-      ]
-    },
-    {
-      "name": "Black Rose Perfume",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Elegant",
-        "Warm",
-        "Soft"
-      ],
-      "story": "Inspired by antique perfume bottles and dried roses.",
-      "colors": [
-        {
-          "name": "Obsidian Glass",
-          "hex": "#18171A"
-        },
-        {
-          "name": "Crimson Velvet",
-          "hex": "#6E2D42"
-        },
-        {
-          "name": "Rose Mauve",
-          "hex": "#B28499"
-        },
-        {
-          "name": "Pink Pearl",
-          "hex": "#E8D2DA"
-        },
-        {
-          "name": "Champagne Cream",
-          "hex": "#FFF8F3"
-        }
-      ]
-    },
-    {
-      "name": "Moon Rabbit Bakery",
-      "aesthetic": "Pastel Goth",
-      "moods": [
-        "Cute",
-        "Cozy",
-        "Sleepy"
-      ],
-      "story": "Inspired by moon rabbits baking pastries beneath lavender skies.",
-      "colors": [
-        {
-          "name": "Night Plum",
-          "hex": "#241E33"
-        },
-        {
-          "name": "Amethyst",
-          "hex": "#7360A0"
-        },
-        {
-          "name": "Lilac Frost",
-          "hex": "#C0A8E0"
-        },
-        {
-          "name": "Moon Sugar",
-          "hex": "#E9DFF6"
-        },
-        {
-          "name": "Vanilla Cream",
-          "hex": "#FFF9F2"
-        }
-      ]
-    },
-    {
-      "name": "Velvet Bat Wings",
-      "aesthetic": "Pastel Goth",
-      "moods": [
-        "Cute",
-        "Dreamy",
-        "Playful"
-      ],
-      "story": "Inspired by plush bats sleeping in velvet curtains.",
-      "colors": [
-        {
-          "name": "Bat Black",
-          "hex": "#1A1821"
-        },
-        {
-          "name": "Royal Violet",
-          "hex": "#654A91"
-        },
-        {
-          "name": "Dust Lilac",
-          "hex": "#B29ACC"
-        },
-        {
-          "name": "Moon Glow",
-          "hex": "#E7E0F4"
-        },
-        {
-          "name": "Milk White",
-          "hex": "#FFF8F2"
-        }
-      ]
-    },
-    {
-      "name": "Raven Observatory",
-      "aesthetic": "Moon Witch",
-      "moods": [
-        "Mystical",
-        "Quiet",
-        "Dreamy"
-      ],
-      "story": "Inspired by ravens perched outside old observatories.",
-      "colors": [
-        {
-          "name": "Cosmic Black",
-          "hex": "#181A24"
-        },
-        {
-          "name": "Deep Indigo",
-          "hex": "#47557E"
-        },
-        {
-          "name": "Silver Lavender",
-          "hex": "#A2A9C9"
-        },
-        {
-          "name": "Moon Mist",
-          "hex": "#DCE1EC"
-        },
-        {
-          "name": "Cloud Cream",
-          "hex": "#FFF9F0"
-        }
-      ]
-    },
-    {
-      "name": "Porcelain Dollhouse",
-      "aesthetic": "Haunted Doll",
-      "moods": [
-        "Cute",
-        "Quiet",
-        "Gentle"
-      ],
-      "story": "Inspired by antique dolls and tiny music boxes.",
-      "colors": [
-        {
-          "name": "Porcelain Black",
-          "hex": "#1A191A"
-        },
-        {
-          "name": "Dust Rose",
-          "hex": "#876273"
-        },
-        {
-          "name": "Pink Satin",
-          "hex": "#C5A9B5"
-        },
-        {
-          "name": "Porcelain White",
-          "hex": "#EDE6E8"
-        },
-        {
-          "name": "Vanilla Lace",
-          "hex": "#FFF8F4"
-        }
-      ]
-    },
-    {
-      "name": "Moonflower Tea Garden",
-      "aesthetic": "Tea Witch",
-      "moods": [
-        "Warm",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by tea shared among moonflowers after rain.",
-      "colors": [
-        {
-          "name": "Garden Night",
-          "hex": "#1C1F1C"
-        },
-        {
-          "name": "Forest Sage",
-          "hex": "#57675B"
-        },
-        {
-          "name": "Lavender Steam",
-          "hex": "#AEA3BE"
-        },
-        {
-          "name": "Moon Petal",
-          "hex": "#DDE1E5"
-        },
-        {
-          "name": "Tea Cream",
-          "hex": "#FFF8ED"
-        }
-      ]
-    },
-    {
-      "name": "Silver Violin Sonata",
-      "aesthetic": "Victorian Goth",
-      "moods": [
-        "Elegant",
-        "Melancholic",
-        "Romantic"
-      ],
-      "story": "Inspired by lonely violin melodies echoing through moonlit halls.",
-      "colors": [
-        {
-          "name": "Concert Black",
-          "hex": "#19181B"
-        },
-        {
-          "name": "Wine Purple",
-          "hex": "#5F3A67"
-        },
-        {
-          "name": "Dust Mauve",
-          "hex": "#A98AA8"
-        },
-        {
-          "name": "Silver Satin",
-          "hex": "#DCD8E5"
-        },
-        {
-          "name": "Pearl Ivory",
-          "hex": "#FFF9F2"
-        }
-      ]
-    },
-    {
-      "name": "Moonlit Conservatory",
-      "aesthetic": "Dark Floral",
-      "moods": [
-        "Dreamy",
-        "Rainy",
-        "Peaceful"
-      ],
-      "story": "Inspired by moonflowers blooming inside abandoned glass gardens.",
-      "colors": [
-        {
-          "name": "Garden Midnight",
-          "hex": "#1B1D1C"
-        },
-        {
-          "name": "Forest Sage",
-          "hex": "#55645C"
-        },
-        {
-          "name": "Lavender Moss",
-          "hex": "#9EA0B7"
-        },
-        {
-          "name": "Moon Mist",
-          "hex": "#DDE1E7"
-        },
-        {
-          "name": "Vanilla Petal",
-          "hex": "#FFF8F1"
-        }
-      ]
-    },
-    {
-      "name": "Rose Cathedral Bells",
-      "aesthetic": "Cathedral Goth",
-      "moods": [
-        "Sacred",
-        "Elegant",
-        "Quiet"
-      ],
-      "story": "Inspired by bells ringing through rose-covered cathedrals.",
-      "colors": [
-        {
-          "name": "Bell Tower Black",
-          "hex": "#18171A"
-        },
-        {
-          "name": "Rose Wine",
-          "hex": "#6C3449"
-        },
-        {
-          "name": "Dust Mauve",
-          "hex": "#AD8C9B"
-        },
-        {
-          "name": "Silver Glass",
-          "hex": "#D8D9E5"
-        },
-        {
-          "name": "Pearl Ivory",
-          "hex": "#FFF8F3"
-        }
-      ]
-    },
-    {
-      "name": "Moonlit Aquarium Dreams",
-      "aesthetic": "Soft Celestial",
-      "moods": [
-        "Gentle",
-        "Sleepy",
-        "Magical"
-      ],
-      "story": "Inspired by glowing jellyfish beneath moonlight.",
-      "colors": [
-        {
-          "name": "Ocean Night",
-          "hex": "#1A2333"
-        },
-        {
-          "name": "Moon Blue",
-          "hex": "#52739A"
-        },
-        {
-          "name": "Sea Lavender",
-          "hex": "#A7A7CB"
-        },
-        {
-          "name": "Silver Foam",
-          "hex": "#DDE5F0"
-        },
-        {
-          "name": "Cloud Cream",
-          "hex": "#FFF9F3"
-        }
-      ]
-    },
-    {
-      "name": "Velvet Coffin Roses",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Beautiful",
-        "Melancholic",
-        "Elegant"
-      ],
-      "story": "Inspired by black roses placed upon velvet-lined coffins.",
-      "colors": [
-        {
-          "name": "Obsidian Velvet",
-          "hex": "#171518"
-        },
-        {
-          "name": "Blood Rose",
-          "hex": "#752C42"
-        },
-        {
-          "name": "Dust Pink",
-          "hex": "#B88799"
-        },
-        {
-          "name": "Rose Veil",
-          "hex": "#E8D1DA"
-        },
-        {
-          "name": "Moon Silk",
-          "hex": "#FFF8F4"
-        }
-      ]
-    },
-    {
-      "name": "Ghost Record Shop",
-      "aesthetic": "Soft Goth",
-      "moods": [
-        "Nostalgic",
-        "Cozy",
-        "Lonely"
-      ],
-      "story": "Inspired by jazz records played by unseen hands.",
-      "colors": [
-        {
-          "name": "Vinyl Shadow",
-          "hex": "#1A1A20"
-        },
-        {
-          "name": "Slate Blue",
-          "hex": "#52607A"
-        },
-        {
-          "name": "Dust Violet",
-          "hex": "#A09BB6"
-        },
-        {
-          "name": "Moon Silver",
-          "hex": "#DCE0E8"
-        },
-        {
-          "name": "Milk Cream",
-          "hex": "#FFF8EE"
-        }
-      ]
-    },
-    {
-      "name": "Black Lace Manor",
-      "aesthetic": "Victorian Goth",
-      "moods": [
-        "Elegant",
-        "Quiet",
-        "Romantic"
-      ],
-      "story": "Inspired by moonlit halls lined with lace curtains.",
-      "colors": [
-        {
-          "name": "Manor Black",
-          "hex": "#18171A"
-        },
-        {
-          "name": "Plum Wine",
-          "hex": "#603E67"
-        },
-        {
-          "name": "Dust Mauve",
-          "hex": "#A487A8"
-        },
-        {
-          "name": "Lace Silver",
-          "hex": "#DDD9E4"
-        },
-        {
-          "name": "Champagne Cream",
-          "hex": "#FFF8F1"
-        }
-      ]
-    },
-    {
-      "name": "Spiderweb Tea Party",
-      "aesthetic": "Gothic Lolita",
-      "moods": [
-        "Cute",
-        "Elegant",
-        "Cozy"
-      ],
-      "story": "Inspired by tea parties attended by dolls and ghosts.",
-      "colors": [
-        {
-          "name": "Tea Shadow",
-          "hex": "#1A181B"
-        },
-        {
-          "name": "Berry Plum",
-          "hex": "#72577D"
-        },
-        {
-          "name": "Pink Lilac",
-          "hex": "#C0A7C7"
-        },
-        {
-          "name": "Porcelain Pink",
-          "hex": "#E7DCE8"
-        },
-        {
-          "name": "Vanilla Milk",
-          "hex": "#FFF9F2"
-        }
-      ]
-    },
-    {
-      "name": "Moon Moth Ballroom",
-      "aesthetic": "Pastel Goth",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Romantic"
-      ],
-      "story": "Inspired by moon moths dancing beneath crystal chandeliers.",
-      "colors": [
-        {
-          "name": "Midnight Plum",
-          "hex": "#231E31"
-        },
-        {
-          "name": "Royal Violet",
-          "hex": "#6A589C"
-        },
-        {
-          "name": "Lilac Glow",
-          "hex": "#BEABD8"
-        },
-        {
-          "name": "Moon Satin",
-          "hex": "#E8E0F5"
-        },
-        {
-          "name": "Pearl Cream",
-          "hex": "#FFF9F3"
-        }
-      ]
-    },
-    {
-      "name": "Rainy Cemetery Path",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Peaceful",
-        "Lonely",
-        "Beautiful"
-      ],
-      "story": "Inspired by quiet walks among roses after rain.",
-      "colors": [
-        {
-          "name": "Stone Black",
-          "hex": "#18181C"
-        },
-        {
-          "name": "Rain Gray",
-          "hex": "#57606D"
-        },
-        {
-          "name": "Dust Rose",
-          "hex": "#A68A9D"
-        },
-        {
-          "name": "Fog Silver",
-          "hex": "#D7DDE5"
-        },
-        {
-          "name": "Ivory Mist",
-          "hex": "#FFF9F2"
-        }
-      ]
-    },
-    {
-      "name": "Moonflower Letters",
-      "aesthetic": "Dark Academia",
-      "moods": [
-        "Bookish",
-        "Warm",
-        "Dreamy"
-      ],
-      "story": "Inspired by love letters pressed with moonflower petals.",
-      "colors": [
-        {
-          "name": "Ink Black",
-          "hex": "#1A1819"
-        },
-        {
-          "name": "Walnut Brown",
-          "hex": "#503D35"
-        },
-        {
-          "name": "Dust Rose",
-          "hex": "#AA8A98"
-        },
-        {
-          "name": "Old Paper",
-          "hex": "#E0D5C7"
-        },
-        {
-          "name": "Vanilla Cream",
-          "hex": "#FFF8ED"
-        }
-      ]
-    },
-    {
-      "name": "Crimson Moon Waltz",
-      "aesthetic": "Vampire Chic",
-      "moods": [
-        "Romantic",
-        "Dramatic",
-        "Elegant"
-      ],
-      "story": "Inspired by immortal lovers dancing beneath blood moons.",
-      "colors": [
-        {
-          "name": "Midnight Velvet",
-          "hex": "#181518"
-        },
-        {
-          "name": "Crimson Wine",
-          "hex": "#7D263F"
-        },
-        {
-          "name": "Rose Velvet",
-          "hex": "#B37389"
-        },
-        {
-          "name": "Moon Pearl",
-          "hex": "#DDD8E6"
-        },
-        {
-          "name": "Silk Ivory",
-          "hex": "#FFF8F3"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Coffin",
-      "aesthetic": "Haunted Doll",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Magical"
-      ],
-      "story": "Inspired by tiny music boxes hidden inside antique coffins.",
-      "colors": [
-        {
-          "name": "Shadow Plum",
-          "hex": "#241F33"
-        },
-        {
-          "name": "Amethyst Gray",
-          "hex": "#736A95"
-        },
-        {
-          "name": "Lavender Dust",
-          "hex": "#B9AFD3"
-        },
-        {
-          "name": "Moon Lace",
-          "hex": "#E9E2F4"
-        },
-        {
-          "name": "Cloud Cream",
-          "hex": "#FFF9F2"
-        }
-      ]
-    },
-    {
-      "name": "Silver Raven Study",
-      "aesthetic": "Dark Academia",
-      "moods": [
-        "Bookish",
-        "Cozy",
-        "Quiet"
-      ],
-      "story": "Inspired by rainy afternoons spent reading beside raven statues.",
-      "colors": [
-        {
-          "name": "Ink Shadow",
-          "hex": "#1A181B"
-        },
-        {
-          "name": "Walnut Wood",
-          "hex": "#4E4037"
-        },
-        {
-          "name": "Dust Plum",
-          "hex": "#9D8798"
-        },
-        {
-          "name": "Old Parchment",
-          "hex": "#DDD2C2"
-        },
-        {
-          "name": "Vanilla Cream",
-          "hex": "#FFF8ED"
-        }
-      ]
-    },
-    {
-      "name": "Moonlit Carousel",
-      "aesthetic": "Soft Celestial",
-      "moods": [
-        "Dreamy",
-        "Magical",
-        "Cute"
-      ],
-      "story": "Inspired by abandoned carousels glowing beneath moonlight.",
-      "colors": [
-        {
-          "name": "Night Sky",
-          "hex": "#20233A"
-        },
-        {
-          "name": "Moon Blue",
-          "hex": "#5974A5"
-        },
-        {
-          "name": "Cotton Lavender",
-          "hex": "#B8B0DB"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E3E5F1"
-        },
-        {
-          "name": "Cloud Cream",
-          "hex": "#FFF9F3"
-        }
-      ]
-    },
-    {
-      "name": "Rose Chapel Rain",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Beautiful",
-        "Peaceful",
-        "Melancholic"
-      ],
-      "story": "Inspired by rain falling on forgotten chapels covered in roses.",
-      "colors": [
-        {
-          "name": "Chapel Black",
-          "hex": "#171619"
-        },
-        {
-          "name": "Rose Wine",
-          "hex": "#6B3147"
-        },
-        {
-          "name": "Dust Rose",
-          "hex": "#B08598"
-        },
-        {
-          "name": "Pearl Veil",
-          "hex": "#E5D5DE"
-        },
-        {
-          "name": "Moon Ivory",
-          "hex": "#FFF8F4"
-        }
-      ]
-    },
-    {
-      "name": "Cat Familiar Cafe",
-      "aesthetic": "Tea Witch",
-      "moods": [
-        "Warm",
-        "Cozy",
-        "Cute"
-      ],
-      "story": "Inspired by black cats sleeping inside moonlit cafes.",
-      "colors": [
-        {
-          "name": "Coffee Night",
-          "hex": "#1C1A1D"
-        },
-        {
-          "name": "Tea Brown",
-          "hex": "#584239"
-        },
-        {
-          "name": "Dust Mauve",
-          "hex": "#A88C9D"
-        },
-        {
-          "name": "Milk Foam",
-          "hex": "#E7DFD8"
-        },
-        {
-          "name": "Vanilla Latte",
-          "hex": "#FFF8EE"
-        }
-      ]
-    },
-    {
-      "name": "Blood Moon Sonata",
-      "aesthetic": "Vampire Chic",
-      "moods": [
-        "Elegant",
-        "Romantic",
-        "Dramatic"
-      ],
-      "story": "Inspired by violin music played beneath crimson moons.",
-      "colors": [
-        {
-          "name": "Velvet Night",
-          "hex": "#181518"
-        },
-        {
-          "name": "Blood Ruby",
-          "hex": "#84243D"
-        },
-        {
-          "name": "Rose Satin",
-          "hex": "#B46E85"
-        },
-        {
-          "name": "Moon Pearl",
-          "hex": "#DED9E6"
-        },
-        {
-          "name": "Ivory Silk",
-          "hex": "#FFF8F2"
-        }
-      ]
-    },
-    {
-      "name": "Moonflower Letters",
-      "aesthetic": "Victorian Goth",
-      "moods": [
-        "Romantic",
-        "Bookish",
-        "Quiet"
-      ],
-      "story": "Inspired by love letters hidden inside moonflower bouquets.",
-      "colors": [
-        {
-          "name": "Letter Ink",
-          "hex": "#1A1819"
-        },
-        {
-          "name": "Rosewood",
-          "hex": "#5C4037"
-        },
-        {
-          "name": "Dust Pink",
-          "hex": "#B08C98"
-        },
-        {
-          "name": "Paper Cream",
-          "hex": "#E5D9CB"
-        },
-        {
-          "name": "Vanilla Silk",
-          "hex": "#FFF8EE"
-        }
-      ]
-    },
-    {
-      "name": "Spider Lily Moon",
-      "aesthetic": "Dark Floral",
-      "moods": [
-        "Dreamy",
-        "Elegant",
-        "Soft"
-      ],
-      "story": "Inspired by spider lilies blooming beneath eclipses.",
-      "colors": [
-        {
-          "name": "Night Plum",
-          "hex": "#201B24"
-        },
-        {
-          "name": "Blood Blossom",
-          "hex": "#7D2740"
-        },
-        {
-          "name": "Rose Mauve",
-          "hex": "#B1788F"
-        },
-        {
-          "name": "Moon Fog",
-          "hex": "#DDD8E4"
-        },
-        {
-          "name": "Cream Petal",
-          "hex": "#FFF8F1"
-        }
-      ]
-    },
-    {
-      "name": "Ghost Orchestra",
-      "aesthetic": "Haunted Elegance",
-      "moods": [
-        "Lonely",
-        "Beautiful",
-        "Magical"
-      ],
-      "story": "Inspired by invisible musicians playing old symphonies.",
-      "colors": [
-        {
-          "name": "Concert Black",
-          "hex": "#18181B"
-        },
-        {
-          "name": "Storm Blue",
-          "hex": "#55637B"
-        },
-        {
-          "name": "Dust Violet",
-          "hex": "#A29CB7"
-        },
-        {
-          "name": "Silver Echo",
-          "hex": "#D9DDE7"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FDF9F4"
-        }
-      ]
-    },
-    {
-      "name": "Velvet Dollhouse",
-      "aesthetic": "Haunted Doll",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Gentle"
-      ],
-      "story": "Inspired by antique dollhouses lit by moonlight.",
-      "colors": [
-        {
-          "name": "Shadow Rose",
-          "hex": "#241D24"
-        },
-        {
-          "name": "Dust Plum",
-          "hex": "#705D7E"
-        },
-        {
-          "name": "Pink Satin",
-          "hex": "#C6ACC1"
-        },
-        {
-          "name": "Porcelain White",
-          "hex": "#ECE5E7"
-        },
-        {
-          "name": "Vanilla Milk",
-          "hex": "#FFF9F3"
-        }
-      ]
-    },
-    {
-      "name": "Moon Moth Bedroom",
-      "aesthetic": "Pastel Goth",
-      "moods": [
-        "Sleepy",
-        "Cute",
-        "Dreamy"
-      ],
-      "story": "Inspired by moon moths resting on lace curtains.",
-      "colors": [
-        {
-          "name": "Midnight Lavender",
-          "hex": "#25203A"
-        },
-        {
-          "name": "Royal Violet",
-          "hex": "#705AA2"
-        },
-        {
-          "name": "Lilac Plush",
-          "hex": "#C1B0E0"
-        },
-        {
-          "name": "Moon Glow",
-          "hex": "#EBE3F8"
-        },
-        {
-          "name": "Cloud Cream",
-          "hex": "#FFF9F4"
-        }
-      ]
-    },
-    {
-      "name": "Stormy Greenhouse",
-      "aesthetic": "Moon Witch",
-      "moods": [
-        "Rainy",
-        "Magical",
-        "Peaceful"
-      ],
-      "story": "Inspired by moonflowers growing beneath storm clouds.",
-      "colors": [
-        {
-          "name": "Forest Night",
-          "hex": "#1B1F1D"
-        },
-        {
-          "name": "Sage Green",
-          "hex": "#5C6C63"
-        },
-        {
-          "name": "Silver Lavender",
-          "hex": "#A6A5BA"
-        },
-        {
-          "name": "Rain Mist",
-          "hex": "#DBE1E2"
-        },
-        {
-          "name": "Moon Cream",
-          "hex": "#FFF8F0"
-        }
-      ]
-    },
-    {
-      "name": "Black Ribbon Waltz",
-      "aesthetic": "Gothic Lolita",
-      "moods": [
-        "Elegant",
-        "Cute",
-        "Romantic"
-      ],
-      "story": "Inspired by lace dresses twirling in candlelight.",
-      "colors": [
-        {
-          "name": "Ribbon Black",
-          "hex": "#18171A"
-        },
-        {
-          "name": "Berry Plum",
-          "hex": "#724B75"
-        },
-        {
-          "name": "Rose Pink",
-          "hex": "#C195AE"
-        },
-        {
-          "name": "Pink Lace",
-          "hex": "#EAD7E3"
-        },
-        {
-          "name": "Pearl Cream",
-          "hex": "#FFF8F2"
-        }
-      ]
-    },
-    {
-      "name": "Moonlit Graveyard Picnic",
-      "aesthetic": "Romantic Goth",
-      "moods": [
-        "Peaceful",
-        "Dreamy",
-        "Melancholic"
-      ],
-      "story": "Inspired by quiet evenings among moonflowers and old stone angels.",
-      "colors": [
-        {
-          "name": "Grave Black",
-          "hex": "#17171A"
-        },
-        {
-          "name": "Rose Wine",
-          "hex": "#6D3449"
-        },
-        {
-          "name": "Dust Mauve",
-          "hex": "#AB8B9E"
-        },
-        {
-          "name": "Moon Fog",
-          "hex": "#DCDCE6"
-        },
-        {
-          "name": "Ivory Petal",
-          "hex": "#FFF9F2"
-        }
-      ]
-    },
-    {
-      "name": "Silver Moon Vinyl",
-      "aesthetic": "Soft Goth",
-      "moods": [
-        "Nostalgic",
-        "Cozy",
-        "Quiet"
-      ],
-      "story": "Inspired by rainy nights and vintage jazz records.",
-      "colors": [
-        {
-          "name": "Vinyl Black",
-          "hex": "#1A1B1E"
-        },
-        {
-          "name": "Slate Blue",
-          "hex": "#586377"
-        },
-        {
-          "name": "Dust Violet",
-          "hex": "#A19CB7"
-        },
-        {
-          "name": "Silver Echo",
-          "hex": "#DCE0E8"
-        },
-        {
-          "name": "Vanilla Cream",
-          "hex": "#FFF8EE"
-        }
-      ]
-    },
-    {
-      "name": "Coffin Bouquet",
-      "aesthetic": "Haunted Elegance",
-      "moods": [
-        "Elegant",
-        "Beautiful",
-        "Lonely"
-      ],
-      "story": "Inspired by bouquets left on antique coffins.",
-      "colors": [
-        {
-          "name": "Velvet Black",
-          "hex": "#181619"
-        },
-        {
-          "name": "Crimson Rose",
-          "hex": "#7B2942"
-        },
-        {
-          "name": "Dust Pink",
-          "hex": "#B78A9E"
-        },
-        {
-          "name": "Moon Satin",
-          "hex": "#E2D8E4"
-        },
-        {
-          "name": "Pearl Ivory",
-          "hex": "#FFF9F3"
-        }
-      ]
-    },
-    {
-      "name": "Moonlight Perfumery",
-      "aesthetic": "Victorian Goth",
-      "moods": [
-        "Elegant",
-        "Warm",
-        "Dreamy"
-      ],
-      "story": "Inspired by crystal perfume bottles on lace vanities.",
-      "colors": [
-        {
-          "name": "Perfume Black",
-          "hex": "#1A181A"
-        },
-        {
-          "name": "Rosewood",
-          "hex": "#694440"
-        },
-        {
-          "name": "Pink Mauve",
-          "hex": "#B592A1"
-        },
-        {
-          "name": "Champagne Pink",
-          "hex": "#E9D9DE"
-        },
-        {
-          "name": "Vanilla Silk",
-          "hex": "#FFF8F2"
-        }
-      ]
-    },
-    {
-      "name": "Raven Feather Rain",
-      "aesthetic": "Moon Witch",
-      "moods": [
-        "Mystical",
-        "Rainy",
-        "Peaceful"
-      ],
-      "story": "Inspired by ravens perched beneath cloudy skies.",
-      "colors": [
-        {
-          "name": "Storm Black",
-          "hex": "#1A1A1F"
-        },
-        {
-          "name": "Rain Blue",
-          "hex": "#51627D"
-        },
-        {
-          "name": "Silver Plum",
-          "hex": "#A0A0BC"
-        },
-        {
-          "name": "Fog Gray",
-          "hex": "#D8DEE5"
-        },
-        {
-          "name": "Cloud Cream",
-          "hex": "#FFF8F0"
-        }
-      ]
-    },
-    {
-      "name": "Rose Quartz Manor",
-      "aesthetic": "Pastel Goth",
-      "moods": [
-        "Cute",
-        "Soft",
-        "Romantic"
-      ],
-      "story": "Inspired by moonlit rooms decorated with crystals and roses.",
-      "colors": [
-        {
-          "name": "Plum Night",
-          "hex": "#241F34"
-        },
-        {
-          "name": "Amethyst Rose",
-          "hex": "#7A639F"
-        },
-        {
-          "name": "Rose Quartz",
-          "hex": "#D3ACC4"
-        },
-        {
-          "name": "Moon Blush",
-          "hex": "#EDDFE8"
-        },
-        {
-          "name": "Milk Cream",
-          "hex": "#FFF9F4"
-        }
-      ]
-    },
-    {
-      "name": "Ghost Violin Sonata",
-      "aesthetic": "Haunted Doll",
-      "moods": [
-        "Beautiful",
-        "Quiet",
-        "Melancholic"
-      ],
-      "story": "Inspired by phantom melodies played beneath chandeliers.",
-      "colors": [
-        {
-          "name": "Concert Black",
-          "hex": "#18181B"
-        },
-        {
-          "name": "Storm Violet",
-          "hex": "#5E5978"
-        },
-        {
-          "name": "Dust Lavender",
-          "hex": "#A89FB9"
-        },
-        {
-          "name": "Silver Moon",
-          "hex": "#DCDDE8"
-        },
-        {
-          "name": "Ivory Lace",
-          "hex": "#FFF8F2"
-        }
-      ]
-    },
-    {
-      "name": "Spider Lily Ballroom",
-      "aesthetic": "Dark Floral",
-      "moods": [
-        "Elegant",
-        "Romantic",
-        "Dreamy"
-      ],
-      "story": "Inspired by moonlit dances among blooming spider lilies.",
-      "colors": [
-        {
-          "name": "Midnight Black",
-          "hex": "#18171A"
-        },
-        {
-          "name": "Blood Petal",
-          "hex": "#7C2B42"
-        },
-        {
-          "name": "Rose Velvet",
-          "hex": "#B3788F"
-        },
-        {
-          "name": "Moon Pearl",
-          "hex": "#E2DCE7"
-        },
-        {
-          "name": "Cream Blossom",
-          "hex": "#FFF9F1"
-        }
-      ]
-    },
-    {
-      "name": "Moon Rabbit Tea Party",
-      "aesthetic": "Tea Witch",
-      "moods": [
-        "Cozy",
-        "Cute",
-        "Warm"
-      ],
-      "story": "Inspired by moon rabbits gathering around teacups.",
-      "colors": [
-        {
-          "name": "Tea Shadow",
-          "hex": "#1D1A1C"
-        },
-        {
-          "name": "Berry Brown",
-          "hex": "#634A47"
-        },
-        {
-          "name": "Dust Pink",
-          "hex": "#B495A8"
-        },
-        {
-          "name": "Milk Tea",
-          "hex": "#E7DED7"
-        },
-        {
-          "name": "Vanilla Foam",
-          "hex": "#FFF8EE"
-        }
-      ]
-    },
-    {
-      "name": "Black Rose Observatory",
-      "aesthetic": "Soft Celestial",
-      "moods": [
-        "Dreamy",
-        "Quiet",
-        "Magical"
-      ],
-      "story": "Inspired by stargazing through antique telescopes.",
-      "colors": [
-        {
-          "name": "Cosmic Black",
-          "hex": "#1B1D2A"
-        },
-        {
-          "name": "Midnight Indigo",
-          "hex": "#48567E"
-        },
-        {
-          "name": "Dust Lavender",
-          "hex": "#A5A6C8"
-        },
-        {
-          "name": "Moon Mist",
-          "hex": "#DEE3EF"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFF9F4"
-        }
-      ]
-    },
-    {
-      "name": "Velvet Rose Bedroom",
-      "aesthetic": "Gothic Lolita",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Elegant"
-      ],
-      "story": "Inspired by lace canopies and plush bats sleeping nearby.",
-      "colors": [
-        {
-          "name": "Velvet Shadow",
-          "hex": "#19171A"
-        },
-        {
-          "name": "Berry Plum",
-          "hex": "#744D7C"
-        },
-        {
-          "name": "Rose Pink",
-          "hex": "#C49AB3"
-        },
-        {
-          "name": "Lace Pink",
-          "hex": "#EBD9E4"
-        },
-        {
-          "name": "Pearl Cream",
-          "hex": "#FFF9F3"
-        }
-      ]
-    },
-    {
-      "name": "Moonflower Cathedral",
-      "aesthetic": "Cathedral Goth",
-      "moods": [
-        "Sacred",
-        "Dreamy",
-        "Peaceful"
-      ],
-      "story": "Inspired by moonflowers climbing stained-glass walls.",
-      "colors": [
-        {
-          "name": "Cathedral Black",
-          "hex": "#18181C"
-        },
-        {
-          "name": "Royal Violet",
-          "hex": "#5A5078"
-        },
-        {
-          "name": "Dust Lilac",
-          "hex": "#ACA6C2"
-        },
-        {
-          "name": "Silver Glass",
-          "hex": "#DDE0E7"
-        },
-        {
-          "name": "Moon Ivory",
-          "hex": "#FFF8F2"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cute",
-        "Sleepy",
-        "Happy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Magical",
-        "Gentle",
-        "Dreamy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Cotton Candy Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Sleepy",
-        "Happy",
-        "Cozy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Cotton Candy Pink",
-          "hex": "#FFD6E8"
-        },
-        {
-          "name": "Baby Sky Blue",
-          "hex": "#CFE8FF"
-        },
-        {
-          "name": "Buttercream Yellow",
-          "hex": "#FFF7C7"
-        },
-        {
-          "name": "Cloud White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Lavender Dream Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Gentle",
-        "Dreamy",
-        "Cute"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Amethyst Lavender",
-          "hex": "#BFA8FF"
-        },
-        {
-          "name": "Fairy Lilac",
-          "hex": "#E8D8FF"
-        },
-        {
-          "name": "Pink Moonlight",
-          "hex": "#FFF0FA"
-        },
-        {
-          "name": "Vanilla Snow",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Peach Milk Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Happy",
-        "Cozy",
-        "Magical"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Peach Sorbet",
-          "hex": "#FFD8C2"
-        },
-        {
-          "name": "Milk Tea Cream",
-          "hex": "#FFF0E6"
-        },
-        {
-          "name": "Soft Orchid",
-          "hex": "#F8E8FF"
-        },
-        {
-          "name": "Pearl White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Mint Bunny Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Dreamy",
-        "Cute",
-        "Sleepy"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Mint Matcha",
-          "hex": "#CFF5E7"
-        },
-        {
-          "name": "Seafoam Mist",
-          "hex": "#E8FFF8"
-        },
-        {
-          "name": "Strawberry Milk",
-          "hex": "#FFF3FA"
-        },
-        {
-          "name": "Snow Puff",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    },
-    {
-      "name": "Moon Jelly Palette",
-      "aesthetic": "Pastel Kawaii",
-      "moods": [
-        "Cozy",
-        "Magical",
-        "Gentle"
-      ],
-      "story": "Inspired by soft pastel skies and cozy dreams.",
-      "colors": [
-        {
-          "name": "Moon Jelly Blue",
-          "hex": "#C7D8FF"
-        },
-        {
-          "name": "Silver Mist",
-          "hex": "#E6EEFF"
-        },
-        {
-          "name": "Lavender Frost",
-          "hex": "#F8F2FF"
-        },
-        {
-          "name": "Angel White",
-          "hex": "#FFFFFF"
-        },
-        {
-          "name": "Soft Glow",
-          "hex": "#FFF9FD"
-        }
-      ]
-    }
+[
+  {
+    "name": "Aurora Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Song",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Honey Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Honey Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Peach Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Bloom",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Berry Bloom",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Rose Bloom",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Whisper",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Dream",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Song",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Glow",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Berry Song",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Magical",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Mint Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Whisper",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Gentle",
+      "Happy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Peach Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Berry Bloom",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Berry Song",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Magical",
+      "Cozy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Dream",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Star Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Romantic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Garden",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Peach Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Peach Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Gentle",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Dream",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Warm",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Honey Song",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Mist",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Mint Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Bloom",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Moon Haze",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Star Garden",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Cozy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Star Mist",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Haze",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Star Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Whisper",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Berry Tea",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Charm",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Nostalgic",
+      "Cozy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Song",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Peach Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Moon Bloom",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Star Whisper",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Rose Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Sleepy",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Song",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Elegant",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Glow",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Honey Bloom",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Warm",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Berry Song",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Mist",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Rose Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Moon Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Moon Lullaby",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Honey Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Mist",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Warm",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Rain",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Romantic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Lullaby",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Sleepy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Sleepy",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Whisper",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Bloom",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Gentle",
+      "Sleepy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Dream",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Dream",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Honey Song",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Elegant",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Bloom",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Song",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Song",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Star Rain",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Cozy",
+      "Elegant",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Moon Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Lullaby",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Haze",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Bloom",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Charm",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Whisper",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Lullaby",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Peach Dream",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Star Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Happy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Peach Glow",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Happy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Song",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Peach Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Rose Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Peach Dream",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Peach Tea",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Moon Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Warm",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Glow",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Sleepy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Glow",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Cozy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Mint Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Dream",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Rain",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Mint Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Cozy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Whisper",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Mint Glow",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Sleepy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Rose Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Lullaby",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Mint Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Rose Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Bloom",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Bloom",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Dream",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Garden",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Song",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Charm",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Song",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Cozy",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Romantic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Berry Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Dream",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Romantic",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Dream",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Magical",
+      "Cozy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Honey Mist",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Honey Whisper",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Honey Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Warm",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Bloom",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Mist",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Song",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Song",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Whisper",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Peach Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Mist",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Rain",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Cozy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Berry Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Mist",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Moon Song",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Song",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Garden",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Mist",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Magical",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Mint Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Berry Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Moon Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+
+[
+  {
+    "name": "Honey Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Lullaby",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Dream",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Tea",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Mist",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Cozy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Song",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Dream",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Haze",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Mist",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Warm",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Mist",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Rain",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Gentle",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Bloom",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Berry Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Honey Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Warm",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Whisper",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Dream",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Warm",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Dream",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Dream",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Cozy",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Star Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Sleepy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Cozy",
+      "Happy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Lullaby",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Honey Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Honey Whisper",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Warm",
+      "Cozy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Haze",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Bloom",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Lullaby",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Romantic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Rose Garden",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Romantic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Song",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Elegant",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Bloom",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Honey Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Cozy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Berry Bloom",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Happy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Bloom",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Warm",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Honey Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Rose Bloom",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Warm",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Haze",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Moon Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Haze",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Charm",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Warm",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Garden",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Glow",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Whisper",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Rose Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Glow",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Lullaby",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Elegant",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Bloom",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Song",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Cozy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Star Haze",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Cozy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Star Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Gentle",
+      "Warm",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Rain",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Romantic",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Mist",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Glow",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Star Mist",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Mist",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Star Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Romantic",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Berry Charm",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Tea",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Peach Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Dream",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Dream",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Elegant",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Glow",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Tea",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Lullaby",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Song",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Mist",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Sleepy",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Star Song",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Star Mist",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Moon Bloom",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Peach Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Garden",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Song",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Mist",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Bloom",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Nostalgic",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Bloom",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Glow",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Moon Bloom",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Song",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Mint Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Romantic",
+      "Happy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Dream",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Bloom",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Moon Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Haze",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Cozy",
+      "Sleepy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Mist",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Mint Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Dreamy",
+      "Sleepy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Haze",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Mint Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Romantic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Honey Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Berry Dream",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Berry Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Glow",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Cozy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Honey Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Bloom",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Rose Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Star Haze",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Rain",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Peach Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Honey Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Rose Bloom",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Peach Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Sleepy",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Star Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Honey Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Moon Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Mint Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Tea",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Rose Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Magical",
+      "Happy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Whisper",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Tea",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Cozy",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Haze",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Peach Charm",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Charm",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Peach Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Warm",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Moon Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Peach Song",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Warm",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Mist",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Dream",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Charm",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Glow",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Dream",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Rose Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Rose Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Charm",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Peach Haze",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Berry Lullaby",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Honey Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Rain",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Song",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Berry Song",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Romantic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+
+    [
+  {
+    "name": "Star Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Berry Lullaby",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Rose Song",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Star Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Berry Mist",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Honey Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Garden",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Haze",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Honey Song",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Glow",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Dream",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Star Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Honey Haze",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Song",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Honey Dream",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Song",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Romantic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Mint Glow",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Lullaby",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Moon Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Happy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Peach Rain",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Mint Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Mist",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Song",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Lullaby",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Moon Lullaby",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Cozy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Berry Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Elegant",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Star Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Rose Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Star Haze",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Magical",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Peach Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Bloom",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Dreamy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Song",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Glow",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Bloom",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Honey Haze",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Cozy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Honey Rain",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Glow",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Mist",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Dream",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Peach Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Honey Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Peach Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Rain",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Warm",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Song",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Song",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Bloom",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Moon Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Peach Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Cozy",
+      "Sleepy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Whisper",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Elegant",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Warm",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Mist",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Haze",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Song",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Honey Dream",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Song",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Star Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Romantic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Song",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Cozy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Bloom",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Glow",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Charm",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Bloom",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Cozy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Whisper",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Charm",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Peach Haze",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Magical",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Rose Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Romantic",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Haze",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Tea",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Honey Rain",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Rain",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Peach Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Dream",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Berry Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Haze",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Star Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Lullaby",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Mint Mist",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Sleepy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Song",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Nostalgic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Peach Haze",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Dreamy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Peach Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Elegant",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Peach Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Magical",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Bloom",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Warm",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Haze",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Magical",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Bloom",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Moon Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Honey Song",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Peach Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Warm",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Peach Glow",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Magical",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Haze",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Honey Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Moon Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Bloom",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Star Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Star Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Sleepy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Moon Mist",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Peach Song",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Lullaby",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Bloom",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Happy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Honey Tea",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Mist",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Honey Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Rain",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Berry Dream",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Star Charm",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Elegant",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Moon Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Moon Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Mint Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Berry Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Dream",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Mint Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Star Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Warm",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Warm",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Lullaby",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Cozy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Bloom",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Song",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Peach Song",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Glow",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Rose Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Whisper",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Peach Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Berry Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Honey Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Honey Bloom",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Romantic",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Haze",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Dream",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Berry Song",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Song",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Warm",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Rain",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+[
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Berry Song",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Haze",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Honey Lullaby",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Magical",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Honey Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Berry Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Tea",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Gentle",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Berry Glow",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Berry Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Star Whisper",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Lullaby",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Mist",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Rose Whisper",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Dream",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Magical",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Berry Rain",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Berry Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Happy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Happy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Mist",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Cozy",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Star Mist",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Rain",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Cozy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Tea",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Romantic",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Haze",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Whisper",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Cozy",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Mist",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Berry Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Honey Dream",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Moon Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Mint Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Rain",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Bloom",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Elegant",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Gentle",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Haze",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Gentle",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Star Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Haze",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Song",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Berry Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Warm",
+      "Sleepy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Happy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Dream",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Charm",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Haze",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Rain",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Warm",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Dream",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Mist",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Peach Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Gentle",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Haze",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Cozy",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Berry Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Haze",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Whisper",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Star Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Mist",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Cozy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Dreamy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Mint Haze",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Cozy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Dream",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Bloom",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Lullaby",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Dreamy",
+      "Sleepy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Star Charm",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Garden",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Warm",
+      "Cozy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Berry Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Berry Bloom",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Lullaby",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Bloom",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Cozy",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Happy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Berry Tea",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Berry Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Gentle",
+      "Cozy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Charm",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Magical",
+      "Cozy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Honey Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Moon Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Sleepy",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Tea",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Star Song",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Song",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Elegant",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Peach Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Dream",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Peach Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Cozy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Dreamy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Bloom",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Glow",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Elegant",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Rose Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Sleepy",
+      "Romantic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Glow",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Tea",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Nostalgic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Glow",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Warm",
+      "Sleepy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Rain",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Cozy",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Berry Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Elegant",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Song",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Haze",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Nostalgic",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Moon Haze",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Mist",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Cozy",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Moon Song",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Mist",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Berry Dream",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Dream",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Honey Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Cozy",
+      "Nostalgic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Berry Rain",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Moon Bloom",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Elegant",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Charm",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Warm",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Lullaby",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Cozy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Rose Lullaby",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Happy",
+      "Cozy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Star Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Warm",
+      "Magical",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Glow",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Haze",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Nostalgic",
+      "Gentle",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Peach Dream",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Warm",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Honey Whisper",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Rose Haze",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Star Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Nostalgic",
+      "Cozy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Dream",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Cozy",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Magical",
+      "Dreamy",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Garden",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Mist",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Haze",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Mint Tea",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Happy",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Moon Dream",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Elegant",
+      "Warm",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Honey Garden",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Magical",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Haze",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Sleepy",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Tea",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Rain",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Magical",
+      "Elegant",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Star Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Happy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Star Dream",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Honey Song",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Romantic",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Honey Charm",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Sleepy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Nostalgic",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Nostalgic",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Song",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Moon Haze",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Elegant",
+      "Dreamy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Rose Mist",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Moon Bloom",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Elegant",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Dreamy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Berry Haze",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Happy",
+      "Nostalgic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Mint Haze",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Cozy",
+      "Elegant",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Peach Song",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Magical",
+      "Gentle",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Song",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Dreamy",
+      "Warm",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Star Dream",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Glow",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Magical",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Warm",
+      "Cozy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Garden",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Charm",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Romantic",
+      "Magical",
+      "Sleepy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Honey Rain",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Elegant",
+      "Dreamy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Mint Mist",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Warm",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Berry Lullaby",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Cozy",
+      "Sleepy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Rose Lullaby",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Sleepy",
+      "Gentle",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Moon Witch",
+    "moods": [
+      "Nostalgic",
+      "Happy",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Rose Rain",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Dreamy",
+      "Warm",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Honey Garden",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Dreamy",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Honey Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Romantic",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Dream",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Sleepy",
+      "Gentle",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Rose Charm",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Dreamy",
+      "Gentle",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Rain",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Nostalgic",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Honey Whisper",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Elegant",
+      "Cozy",
+      "Magical"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Moon Haze",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Elegant",
+      "Sleepy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Glow",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Gentle",
+      "Warm",
+      "Romantic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Ocean Haze",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Happy",
+      "Sleepy",
+      "Nostalgic"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Tea",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Cozy",
+      "Elegant",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      }
+    ]
+  },
+  {
+    "name": "Peach Whisper",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Romantic",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      }
+    ]
+  },
+  {
+    "name": "Sakura Mist",
+    "aesthetic": "Dreamy Cafe",
+    "moods": [
+      "Gentle",
+      "Magical",
+      "Dreamy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Mint Haze",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Gentle",
+      "Happy",
+      "Cozy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Garden",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Sleepy",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Peach Glow",
+    "aesthetic": "Pastel Goth",
+    "moods": [
+      "Romantic",
+      "Elegant",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Peach Sorbet",
+        "hex": "#FFD1B5"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Warm",
+      "Magical",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      }
+    ]
+  },
+  {
+    "name": "Star Bloom",
+    "aesthetic": "Soft Celestial",
+    "moods": [
+      "Cozy",
+      "Happy",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Strawberry Cream",
+        "hex": "#F6B6D4"
+      },
+      {
+        "name": "Mint Matcha",
+        "hex": "#CBECCB"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  },
+  {
+    "name": "Berry Bloom",
+    "aesthetic": "Plushcore",
+    "moods": [
+      "Nostalgic",
+      "Sleepy",
+      "Happy"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Mist",
+    "aesthetic": "Cloudcore",
+    "moods": [
+      "Elegant",
+      "Dreamy",
+      "Gentle"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Cloud White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Rose Tea",
+    "aesthetic": "Dark Academia",
+    "moods": [
+      "Cozy",
+      "Romantic",
+      "Warm"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      },
+      {
+        "name": "Blueberry Milk",
+        "hex": "#B8C6FF"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Lavender Mist",
+        "hex": "#C8B4E3"
+      },
+      {
+        "name": "Seafoam",
+        "hex": "#BFE7D6"
+      }
+    ]
+  },
+  {
+    "name": "Velvet Whisper",
+    "aesthetic": "Candycore",
+    "moods": [
+      "Sleepy",
+      "Gentle",
+      "Elegant"
+    ],
+    "story": "Inspired by beautiful colors and quiet moments.",
+    "colors": [
+      {
+        "name": "Rose Quartz",
+        "hex": "#E8C3D1"
+      },
+      {
+        "name": "Moon Petal",
+        "hex": "#F4D6FF"
+      },
+      {
+        "name": "Midnight Plum",
+        "hex": "#3F314F"
+      },
+      {
+        "name": "Silver Moon",
+        "hex": "#D9DDE8"
+      },
+      {
+        "name": "Honey Butter",
+        "hex": "#F7E3A1"
+      }
+    ]
+  }}
   ]
 };
