@@ -215,6 +215,7 @@
 <script src="generator-data.js?v=1"></script>
 <script>
 function pick(list){
+  if(!Array.isArray(list) || !list.length) return "—";
   return list[Math.floor(Math.random() * list.length)];
 }
 
@@ -835,25 +836,47 @@ function generateDragon(){
 }
 
 /* World */
+function worldList(...keys){
+  if(typeof WORLD_DATA === "undefined") return [];
+  for(const key of keys){
+    if(Array.isArray(WORLD_DATA[key]) && WORLD_DATA[key].length){
+      return WORLD_DATA[key];
+    }
+  }
+  return [];
+}
+
 function generateWorldName(){
-  return `${pick(WORLD_DATA.nameStarts)}${pick(WORLD_DATA.nameEnds)}`;
+  const starts = worldList("nameStarts", "names", "worldNameStarts");
+  const ends = worldList("nameEnds", "worldNameEnds", "suffixes");
+
+  const start = pick(starts);
+  const end = pick(ends);
+
+  if(start === "—" && end === "—") return "Unnamed World";
+  return `${start}${end}`;
 }
 
 function generateWorld(){
-  const landmarkPool = WORLD_DATA.landmarks || WORLD_DATA.majorLandmarks || WORLD_DATA.majorlandmarks || [];
+  if(typeof WORLD_DATA === "undefined"){
+    renderStandardResult("worldResult", "World Generator Error", [
+      ["Missing Data", "WORLD_DATA is not loaded"]
+    ], "Check generator-data.js and make sure it contains const WORLD_DATA.");
+    return;
+  }
 
   const world = {
     name: generateWorldName(),
-    genre: pick(WORLD_DATA.genres),
-    theme: pick(WORLD_DATA.themes),
-    magicSystem: pick(WORLD_DATA.magicSystems),
-    technology: pick(WORLD_DATA.technologyLevels),
-    economy: pick(WORLD_DATA.economies),
-    culture: pick(WORLD_DATA.cultures),
-    landmark: pick(landmarkPool),
-    conflict: pick(WORLD_DATA.conflicts),
-    secret: pick(WORLD_DATA.secrets),
-    story: pick(WORLD_DATA.storyHooks)
+    genre: pick(worldList("genres", "genre")),
+    theme: pick(worldList("themes", "theme")),
+    magicSystem: pick(worldList("magicSystems", "magicSystem", "magics", "magic")),
+    technology: pick(worldList("technologyLevels", "technologies", "technology", "techLevels")),
+    economy: pick(worldList("economies", "economy")),
+    culture: pick(worldList("cultures", "culture")),
+    landmark: pick(worldList("landmarks", "majorLandmarks", "majorlandmarks", "major_landmarks")),
+    conflict: pick(worldList("conflicts", "conflict")),
+    secret: pick(worldList("secrets", "secret")),
+    story: pick(worldList("storyHooks", "storyHook", "hooks"))
   };
 
   renderStandardResult("worldResult", world.name, [
