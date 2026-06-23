@@ -13377,18 +13377,1319 @@ const RELATIONSHIP_DATA = {
 
   const PALETTE_DATA = {
   palettes: [
-    {
-      name: "Moonflower Palette",
-      aesthetic: "Soft Celestial",
-      moods: ["Dreamy", "Cozy", "Magical"],
-      story: "Inspired by moonflowers blooming beneath a rainy midnight sky.",
-      colors: [
-        { name: "Midnight Navy", hex: "#1A1B2E" },
-        { name: "Dusky Violet", hex: "#4B3F72" },
-        { name: "Lavender Mist", hex: "#A67DB8" },
-        { name: "Moon Petal", hex: "#F4D6FF" },
-        { name: "Vanilla Cream", hex: "#FFF8E7" }
-      ]
-    }
+{
+  name: "Moonflower Palette",
+  aesthetic: "Soft Celestial",
+  moods: ["Dreamy", "Cozy", "Magical"],
+  story: "Inspired by moonflowers blooming beneath a rainy midnight sky.",
+  colors: [
+    { name: "Midnight Navy", hex: "#1A1B2E" },
+    { name: "Dusky Violet", hex: "#4B3F72" },
+    { name: "Lavender Mist", hex: "#A67DB8" },
+    { name: "Moon Petal", hex: "#F4D6FF" },
+    { name: "Vanilla Cream", hex: "#FFF8E7" }
+  ]
+},
+
+{
+  name: "Black Rose Velvet",
+  aesthetic: "Romantic Goth",
+  moods: ["Elegant", "Melancholic", "Romantic"],
+  story: "Inspired by black roses arranged inside a candlelit ballroom.",
+  colors: [
+    { name: "Velvet Black", hex: "#131116" },
+    { name: "Wine Red", hex: "#5C1F2F" },
+    { name: "Rose Mauve", hex: "#A76D8A" },
+    { name: "Pearl Pink", hex: "#E8C8D6" },
+    { name: "Ivory Lace", hex: "#FFF6F2" }
+  ]
+},
+
+{
+  name: "Moonlit Cemetery",
+  aesthetic: "Victorian Goth",
+  moods: ["Quiet", "Dreamy", "Lonely"],
+  story: "Inspired by moonlight reflecting off old marble gravestones.",
+  colors: [
+    { name: "Obsidian", hex: "#17161C" },
+    { name: "Grave Violet", hex: "#433857" },
+    { name: "Silver Mist", hex: "#9CA3B3" },
+    { name: "Moonstone", hex: "#D9D9E8" },
+    { name: "Ghost White", hex: "#F6F7FA" }
+  ]
+},
+
+{
+  name: "Spider Lily Evening",
+  aesthetic: "Dark Floral",
+  moods: ["Elegant", "Mysterious", "Soft"],
+  story: "Inspired by spider lilies blooming after a summer rain.",
+  colors: [
+    { name: "Midnight Plum", hex: "#24182D" },
+    { name: "Blood Petal", hex: "#7C2036" },
+    { name: "Rosewood", hex: "#A65567" },
+    { name: "Dusty Pink", hex: "#D9A8B7" },
+    { name: "Moon Cream", hex: "#FFF7ED" }
+  ]
+},
+
+{
+  name: "Candlelight Manor",
+  aesthetic: "Dark Academia",
+  moods: ["Cozy", "Bookish", "Warm"],
+  story: "Inspired by old libraries lit only by candles.",
+  colors: [
+    { name: "Coffee Black", hex: "#1B1718" },
+    { name: "Walnut Brown", hex: "#4A342F" },
+    { name: "Antique Gold", hex: "#A58356" },
+    { name: "Parchment", hex: "#E9D9C0" },
+    { name: "Vanilla Smoke", hex: "#FFF6E8" }
+  ]
+},
+
+{
+  name: "Moon Moth Garden",
+  aesthetic: "Moon Witch",
+  moods: ["Gentle", "Dreamy", "Magical"],
+  story: "Inspired by pale moths fluttering around moonflowers.",
+  colors: [
+    { name: "Night Sky", hex: "#1B1D33" },
+    { name: "Lavender Bloom", hex: "#7560A8" },
+    { name: "Lilac Petal", hex: "#BA9CD8" },
+    { name: "Moon Dust", hex: "#E9E1F5" },
+    { name: "Cream Petal", hex: "#FFF8ED" }
+  ]
+},
+
+{
+  name: "Velvet Coffin",
+  aesthetic: "Romantic Goth",
+  moods: ["Elegant", "Quiet", "Beautiful"],
+  story: "Inspired by burgundy velvet lining inside antique coffins.",
+  colors: [
+    { name: "Onyx", hex: "#151316" },
+    { name: "Crimson Velvet", hex: "#5F1D31" },
+    { name: "Dusty Rose", hex: "#AA6E85" },
+    { name: "Blush Lace", hex: "#E5C7D1" },
+    { name: "Pearl Ivory", hex: "#FFF8F4" }
+  ]
+},
+
+{
+  name: "Rainy Record Store",
+  aesthetic: "Soft Goth",
+  moods: ["Cozy", "Nostalgic", "Melancholic"],
+  story: "Inspired by old vinyl records and rainy city lights.",
+  colors: [
+    { name: "Vinyl Black", hex: "#1A1A1E" },
+    { name: "Dust Blue", hex: "#50607B" },
+    { name: "Mauve Gray", hex: "#958DAA" },
+    { name: "Cloud Lilac", hex: "#D4CDE3" },
+    { name: "Cream White", hex: "#F8F6F2" }
+  ]
+},
+
+{
+  name: "Black Lace Tea",
+  aesthetic: "Gothic Lolita",
+  moods: ["Cute", "Elegant", "Soft"],
+  story: "Inspired by tea parties held beneath stained glass windows.",
+  colors: [
+    { name: "Lace Black", hex: "#181619" },
+    { name: "Rose Tea", hex: "#784659" },
+    { name: "Mauve Cream", hex: "#B48EA3" },
+    { name: "Pink Sugar", hex: "#E5C5D4" },
+    { name: "Tea Cream", hex: "#FFF6EA" }
+  ]
+},
+
+{
+  name: "Wisteria Dreams",
+  aesthetic: "Pastel Goth",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by sleeping beneath hanging wisteria vines.",
+  colors: [
+    { name: "Night Violet", hex: "#29233D" },
+    { name: "Purple Bloom", hex: "#67538D" },
+    { name: "Wisteria", hex: "#A88DCB" },
+    { name: "Lilac Cream", hex: "#E0D2F4" },
+    { name: "Moon Milk", hex: "#FFF9F3" }
+  ]
+},
+
+{
+  name: "Moonlit Cathedral",
+  aesthetic: "Cathedral Goth",
+  moods: ["Peaceful", "Elegant", "Sacred"],
+  story: "Inspired by moonlight pouring through stained glass windows.",
+  colors: [
+    { name: "Cathedral Black", hex: "#17161C" },
+    { name: "Royal Violet", hex: "#4B3D6A" },
+    { name: "Dusty Mauve", hex: "#A38AAE" },
+    { name: "Silver Moon", hex: "#D9D7E8" },
+    { name: "Pearl White", hex: "#FAF8F4" }
+  ]
+},
+
+{
+  name: "Spider Lily Waltz",
+  aesthetic: "Romantic Goth",
+  moods: ["Elegant", "Melancholic", "Dreamy"],
+  story: "Inspired by dancing among blooming spider lilies beneath the rain.",
+  colors: [
+    { name: "Velvet Night", hex: "#1B151A" },
+    { name: "Blood Rose", hex: "#7D1F35" },
+    { name: "Rose Wine", hex: "#A45872" },
+    { name: "Dusty Blush", hex: "#DDB8C7" },
+    { name: "Moon Ivory", hex: "#FFF7F0" }
+  ]
+},
+
+{
+  name: "Ghost Piano",
+  aesthetic: "Haunted Elegance",
+  moods: ["Quiet", "Lonely", "Beautiful"],
+  story: "Inspired by forgotten melodies echoing through abandoned ballrooms.",
+  colors: [
+    { name: "Piano Black", hex: "#19181B" },
+    { name: "Storm Gray", hex: "#56596B" },
+    { name: "Ash Lavender", hex: "#A8A0B6" },
+    { name: "Moon Dust", hex: "#DDDCE7" },
+    { name: "Ghost White", hex: "#F8F8FA" }
+  ]
+},
+
+{
+  name: "Black Tea Roses",
+  aesthetic: "Tea Witch",
+  moods: ["Cozy", "Warm", "Romantic"],
+  story: "Inspired by black tea and dried roses on rainy evenings.",
+  colors: [
+    { name: "Tea Leaf", hex: "#241D1C" },
+    { name: "Burgundy Rose", hex: "#663040" },
+    { name: "Dust Pink", hex: "#B98D98" },
+    { name: "Cream Petal", hex: "#EED9D8" },
+    { name: "Vanilla Milk", hex: "#FFF7EC" }
+  ]
+},
+
+{
+  name: "Velvet Moon",
+  aesthetic: "Soft Goth",
+  moods: ["Sleepy", "Magical", "Dreamy"],
+  story: "Inspired by moonlight reflecting across velvet curtains.",
+  colors: [
+    { name: "Moon Black", hex: "#181722" },
+    { name: "Amethyst", hex: "#564382" },
+    { name: "Lavender Smoke", hex: "#A493C6" },
+    { name: "Moon Petal", hex: "#E5DAF4" },
+    { name: "Soft Cream", hex: "#FFF9F1" }
+  ]
+},
+
+{
+  name: "Raven's Library",
+  aesthetic: "Dark Academia",
+  moods: ["Bookish", "Cozy", "Quiet"],
+  story: "Inspired by ravens nesting outside forgotten libraries.",
+  colors: [
+    { name: "Ink Black", hex: "#1A191C" },
+    { name: "Walnut Brown", hex: "#49382F" },
+    { name: "Dust Mauve", hex: "#9E8396" },
+    { name: "Old Paper", hex: "#DED2C1" },
+    { name: "Ivory Cream", hex: "#FFF8ED" }
+  ]
+},
+
+{
+  name: "Crimson Moon Garden",
+  aesthetic: "Moon Witch",
+  moods: ["Mystical", "Romantic", "Gentle"],
+  story: "Inspired by roses blooming beneath blood moons.",
+  colors: [
+    { name: "Obsidian", hex: "#171418" },
+    { name: "Crimson Moon", hex: "#7B2035" },
+    { name: "Rose Mauve", hex: "#A86D88" },
+    { name: "Moon Blush", hex: "#E5CAD7" },
+    { name: "Cream Moonlight", hex: "#FFF8F3" }
+  ]
+},
+
+{
+  name: "Rainy Vinyl Night",
+  aesthetic: "Soft Goth",
+  moods: ["Nostalgic", "Cozy", "Melancholic"],
+  story: "Inspired by listening to old records during midnight rain.",
+  colors: [
+    { name: "Record Black", hex: "#1A1A20" },
+    { name: "Dust Blue", hex: "#526176" },
+    { name: "Gray Lilac", hex: "#9A93AA" },
+    { name: "Silver Mist", hex: "#D7D8E1" },
+    { name: "Moon White", hex: "#F8F7F3" }
+  ]
+},
+
+{
+  name: "Rose Chapel",
+  aesthetic: "Victorian Goth",
+  moods: ["Elegant", "Sacred", "Dreamy"],
+  story: "Inspired by abandoned chapels overgrown with climbing roses.",
+  colors: [
+    { name: "Chapel Black", hex: "#161518" },
+    { name: "Rosewood", hex: "#6A3948" },
+    { name: "Blush Mauve", hex: "#B5889B" },
+    { name: "Pearl Pink", hex: "#E6CCD6" },
+    { name: "Ivory Lace", hex: "#FFF8F4" }
+  ]
+},
+
+{
+  name: "Moon Moth Dream",
+  aesthetic: "Pastel Goth",
+  moods: ["Cute", "Sleepy", "Magical"],
+  story: "Inspired by moon moths fluttering around lavender candles.",
+  colors: [
+    { name: "Night Indigo", hex: "#23243B" },
+    { name: "Moon Violet", hex: "#6854A1" },
+    { name: "Lilac Dust", hex: "#B39BD8" },
+    { name: "Moon Glow", hex: "#E7DDF8" },
+    { name: "Vanilla Cream", hex: "#FFF8ED" }
+  ]
+},
+
+{
+  name: "Black Lace Bedroom",
+  aesthetic: "Gothic Lolita",
+  moods: ["Cozy", "Elegant", "Cute"],
+  story: "Inspired by velvet pillows and lace curtains.",
+  colors: [
+    { name: "Velvet Black", hex: "#18171A" },
+    { name: "Dust Rose", hex: "#865D72" },
+    { name: "Pink Mauve", hex: "#BA94A6" },
+    { name: "Lace Pink", hex: "#E7D1DB" },
+    { name: "Milk White", hex: "#FFF9F4" }
+  ]
+},
+
+{
+  name: "Midnight Greenhouse",
+  aesthetic: "Dark Floral",
+  moods: ["Quiet", "Rainy", "Dreamy"],
+  story: "Inspired by moonflowers growing inside abandoned glass houses.",
+  colors: [
+    { name: "Forest Night", hex: "#19201E" },
+    { name: "Moss Green", hex: "#506059" },
+    { name: "Dust Lavender", hex: "#9B8FA9" },
+    { name: "Moon Mist", hex: "#D8D7E3" },
+    { name: "Cream Petal", hex: "#FFF8F0" }
+  ]
+},
+
+{
+  name: "Forgotten Ballroom",
+  aesthetic: "Victorian Goth",
+  moods: ["Elegant", "Lonely", "Dreamy"],
+  story: "Inspired by abandoned ballrooms where ghostly waltzes continue after midnight.",
+  colors: [
+    { name: "Ebony Floor", hex: "#18171B" },
+    { name: "Royal Wine", hex: "#5D2940" },
+    { name: "Dust Mauve", hex: "#A17C92" },
+    { name: "Moon Satin", hex: "#DCCFDB" },
+    { name: "Pearl Cream", hex: "#FFF8F2" }
+  ]
+},
+
+{
+  name: "Moonlit Aquarium",
+  aesthetic: "Soft Celestial",
+  moods: ["Peaceful", "Dreamy", "Gentle"],
+  story: "Inspired by jellyfish drifting beneath pale moonlight.",
+  colors: [
+    { name: "Deep Ocean", hex: "#182334" },
+    { name: "Moon Blue", hex: "#4A648C" },
+    { name: "Lavender Sea", hex: "#998EB8" },
+    { name: "Silver Foam", hex: "#DCE1F1" },
+    { name: "Moon Cream", hex: "#FFF9EF" }
+  ]
+},
+
+{
+  name: "Rose Perfume",
+  aesthetic: "Romantic Goth",
+  moods: ["Elegant", "Warm", "Beautiful"],
+  story: "Inspired by antique perfume bottles and pressed roses.",
+  colors: [
+    { name: "Obsidian Glass", hex: "#1B181B" },
+    { name: "Wine Rose", hex: "#73364C" },
+    { name: "Blush Mauve", hex: "#BB8C9C" },
+    { name: "Pink Pearl", hex: "#E8CFD5" },
+    { name: "Vanilla Silk", hex: "#FFF8F1" }
+  ]
+},
+
+{
+  name: "Ghost Tea Party",
+  aesthetic: "Haunted Doll",
+  moods: ["Cute", "Quiet", "Magical"],
+  story: "Inspired by lonely spirits gathering for midnight tea.",
+  colors: [
+    { name: "Porcelain Black", hex: "#1A181A" },
+    { name: "Tea Violet", hex: "#65567B" },
+    { name: "Dust Pink", hex: "#B9A1B5" },
+    { name: "Ghost Lilac", hex: "#DDD7E7" },
+    { name: "Milk Tea", hex: "#FFF7EE" }
+  ]
+},
+
+{
+  name: "Stormy Abbey",
+  aesthetic: "Cathedral Goth",
+  moods: ["Sacred", "Quiet", "Melancholic"],
+  story: "Inspired by rain striking old stained glass windows.",
+  colors: [
+    { name: "Storm Black", hex: "#19191F" },
+    { name: "Slate Blue", hex: "#4F566C" },
+    { name: "Dust Lavender", hex: "#A19CB4" },
+    { name: "Moon Silver", hex: "#D9DCE7" },
+    { name: "Ivory Stone", hex: "#FAF7F2" }
+  ]
+},
+
+{
+  name: "Batwing Velvet",
+  aesthetic: "Pastel Goth",
+  moods: ["Cute", "Dreamy", "Sleepy"],
+  story: "Inspired by plush bats sleeping inside velvet curtains.",
+  colors: [
+    { name: "Night Velvet", hex: "#191720" },
+    { name: "Royal Purple", hex: "#5A417E" },
+    { name: "Lilac Plush", hex: "#B098D3" },
+    { name: "Moon Cotton", hex: "#E8DDF6" },
+    { name: "Soft Cream", hex: "#FFF8F0" }
+  ]
+},
+
+{
+  name: "Moonflower Conservatory",
+  aesthetic: "Dark Floral",
+  moods: ["Rainy", "Dreamy", "Magical"],
+  story: "Inspired by moonflowers blooming beneath greenhouse glass.",
+  colors: [
+    { name: "Garden Night", hex: "#1B211D" },
+    { name: "Forest Sage", hex: "#506055" },
+    { name: "Lavender Petal", hex: "#A494B8" },
+    { name: "Moon Mist", hex: "#D8DCE3" },
+    { name: "Vanilla Bloom", hex: "#FFF9F0" }
+  ]
+},
+
+{
+  name: "Vampire Ballroom",
+  aesthetic: "Vampire Chic",
+  moods: ["Romantic", "Elegant", "Dramatic"],
+  story: "Inspired by immortal dances beneath crystal chandeliers.",
+  colors: [
+    { name: "Crimson Night", hex: "#1B171A" },
+    { name: "Blood Wine", hex: "#6D233A" },
+    { name: "Rose Velvet", hex: "#A86D84" },
+    { name: "Silver Pearl", hex: "#DDD8E5" },
+    { name: "Ivory Lace", hex: "#FFF7F4" }
+  ]
+},
+
+{
+  name: "Rainy Record Shop",
+  aesthetic: "Soft Goth",
+  moods: ["Cozy", "Nostalgic", "Melancholic"],
+  story: "Inspired by old vinyl and rainy neon lights.",
+  colors: [
+    { name: "Vinyl Black", hex: "#1B1B1F" },
+    { name: "Dust Navy", hex: "#4F5C74" },
+    { name: "Faded Mauve", hex: "#9B91AC" },
+    { name: "Silver Cloud", hex: "#D8DCE4" },
+    { name: "Warm Cream", hex: "#FFF8EF" }
+  ]
+},
+
+{
+  name: "Black Rose Chapel",
+  aesthetic: "Romantic Goth",
+  moods: ["Elegant", "Quiet", "Sacred"],
+  story: "Inspired by black roses laid before old altars.",
+  colors: [
+    { name: "Cathedral Ebony", hex: "#18171A" },
+    { name: "Dark Rose", hex: "#633043" },
+    { name: "Rose Dust", hex: "#A78293" },
+    { name: "Pearl Veil", hex: "#E4D6DE" },
+    { name: "Moon Ivory", hex: "#FFF9F4" }
+  ]
+},
+
+{
+  name: "Spiderweb Lace",
+  aesthetic: "Gothic Lolita",
+  moods: ["Cute", "Elegant", "Soft"],
+  story: "Inspired by black lace dresses and silver cobwebs.",
+  colors: [
+    { name: "Lace Black", hex: "#171619" },
+    { name: "Dust Plum", hex: "#6E5B80" },
+    { name: "Lilac Smoke", hex: "#AF9DC3" },
+    { name: "Moon Lace", hex: "#E4DDF0" },
+    { name: "Vanilla Pearl", hex: "#FFF8F1" }
+  ]
+},
+
+{
+  name: "Moonlit Library",
+  aesthetic: "Dark Academia",
+  moods: ["Bookish", "Quiet", "Cozy"],
+  story: "Inspired by forgotten stories and candlelight.",
+  colors: [
+    { name: "Ink Black", hex: "#1A1819" },
+    { name: "Walnut Brown", hex: "#4C3A31" },
+    { name: "Dust Mauve", hex: "#9D8798" },
+    { name: "Old Paper", hex: "#DDD1C1" },
+    { name: "Parchment Cream", hex: "#FFF7EA" }
+  ]
+},
+
+{
+  name: "Candlelit Catacombs",
+  aesthetic: "Cathedral Goth",
+  moods: ["Mysterious", "Quiet", "Sacred"],
+  story: "Inspired by ancient catacombs illuminated by flickering candles.",
+  colors: [
+    { name: "Catacomb Black", hex: "#161518" },
+    { name: "Stone Gray", hex: "#53515B" },
+    { name: "Dust Lavender", hex: "#9D96AA" },
+    { name: "Moon Marble", hex: "#D8D7E0" },
+    { name: "Ivory Candle", hex: "#FFF8EE" }
+  ]
+},
+
+{
+  name: "Velvet Opera",
+  aesthetic: "Victorian Goth",
+  moods: ["Elegant", "Dramatic", "Romantic"],
+  story: "Inspired by forgotten opera houses and velvet curtains.",
+  colors: [
+    { name: "Opera Black", hex: "#181517" },
+    { name: "Ruby Velvet", hex: "#712B3F" },
+    { name: "Rose Mauve", hex: "#B07D95" },
+    { name: "Pearl Satin", hex: "#E4D2DB" },
+    { name: "Champagne Cream", hex: "#FFF8F0" }
+  ]
+},
+
+{
+  name: "Moon Rabbit Dreams",
+  aesthetic: "Soft Celestial",
+  moods: ["Cute", "Dreamy", "Sleepy"],
+  story: "Inspired by moon rabbits hopping through lavender clouds.",
+  colors: [
+    { name: "Night Indigo", hex: "#23253C" },
+    { name: "Moon Violet", hex: "#6757A0" },
+    { name: "Lavender Fluff", hex: "#B59EDB" },
+    { name: "Cloud Lilac", hex: "#E3DBF7" },
+    { name: "Vanilla Milk", hex: "#FFF9F2" }
+  ]
+},
+
+{
+  name: "Forgotten Perfumery",
+  aesthetic: "Dark Academia",
+  moods: ["Elegant", "Cozy", "Nostalgic"],
+  story: "Inspired by dusty perfume bottles in antique shops.",
+  colors: [
+    { name: "Glass Black", hex: "#19181A" },
+    { name: "Amber Brown", hex: "#5B463C" },
+    { name: "Dust Rose", hex: "#A78891" },
+    { name: "Old Lace", hex: "#E2D4D0" },
+    { name: "Vanilla Silk", hex: "#FFF7EC" }
+  ]
+},
+
+{
+  name: "Black Butterfly Garden",
+  aesthetic: "Dark Floral",
+  moods: ["Gentle", "Dreamy", "Magical"],
+  story: "Inspired by butterflies resting among moonflowers.",
+  colors: [
+    { name: "Butterfly Black", hex: "#1A181B" },
+    { name: "Forest Violet", hex: "#4F4964" },
+    { name: "Dust Lilac", hex: "#A797BE" },
+    { name: "Moon Petal", hex: "#DDD7EC" },
+    { name: "Cream Blossom", hex: "#FFF9F1" }
+  ]
+},
+
+{
+  name: "Haunted Tea Room",
+  aesthetic: "Haunted Doll",
+  moods: ["Cozy", "Cute", "Quiet"],
+  story: "Inspired by ghosts gathering for tea on rainy evenings.",
+  colors: [
+    { name: "Tea Black", hex: "#1B1A1D" },
+    { name: "Mauve Smoke", hex: "#665B77" },
+    { name: "Pink Cream", hex: "#C4A8B7" },
+    { name: "Ghost Rose", hex: "#E6D8DF" },
+    { name: "Milk Tea", hex: "#FFF8ED" }
+  ]
+},
+
+{
+  name: "Moonlit Clocktower",
+  aesthetic: "Moon Witch",
+  moods: ["Peaceful", "Mystical", "Quiet"],
+  story: "Inspired by bells ringing beneath a full moon.",
+  colors: [
+    { name: "Clockwork Black", hex: "#19181F" },
+    { name: "Midnight Blue", hex: "#445370" },
+    { name: "Silver Lavender", hex: "#A0A4C0" },
+    { name: "Moon Mist", hex: "#DCE0EA" },
+    { name: "Pearl Cream", hex: "#FFF9F2" }
+  ]
+},
+
+{
+  name: "Crimson Lace",
+  aesthetic: "Gothic Lolita",
+  moods: ["Cute", "Elegant", "Romantic"],
+  story: "Inspired by crimson ribbons and lace dresses.",
+  colors: [
+    { name: "Velvet Night", hex: "#18171A" },
+    { name: "Crimson Ribbon", hex: "#8A2943" },
+    { name: "Rose Dust", hex: "#B98497" },
+    { name: "Pink Lace", hex: "#E7D2D8" },
+    { name: "Vanilla Cream", hex: "#FFF8F1" }
+  ]
+},
+
+{
+  name: "Rainy Cemetery Roses",
+  aesthetic: "Romantic Goth",
+  moods: ["Melancholic", "Peaceful", "Beautiful"],
+  story: "Inspired by fresh roses left beneath rain-soaked gravestones.",
+  colors: [
+    { name: "Grave Black", hex: "#17161A" },
+    { name: "Storm Rose", hex: "#6B384C" },
+    { name: "Dust Mauve", hex: "#A18497" },
+    { name: "Silver Rain", hex: "#D9DCE5" },
+    { name: "Moon Ivory", hex: "#FFF8F3" }
+  ]
+},
+
+{
+  name: "Moon Moth Tea",
+  aesthetic: "Tea Witch",
+  moods: ["Warm", "Dreamy", "Cozy"],
+  story: "Inspired by chamomile tea and moon moth wings.",
+  colors: [
+    { name: "Tea Night", hex: "#1C1A1E" },
+    { name: "Plum Tea", hex: "#5E4A76" },
+    { name: "Lavender Cream", hex: "#B4A6CB" },
+    { name: "Moon Foam", hex: "#E4DFF0" },
+    { name: "Vanilla Tea", hex: "#FFF8EC" }
+  ]
+},
+
+{
+  name: "Silver Raven Manor",
+  aesthetic: "Victorian Goth",
+  moods: ["Elegant", "Quiet", "Bookish"],
+  story: "Inspired by ravens perched on old manor rooftops.",
+  colors: [
+    { name: "Raven Black", hex: "#18181B" },
+    { name: "Slate Blue", hex: "#526176" },
+    { name: "Dust Silver", hex: "#AAB1C0" },
+    { name: "Moon Gray", hex: "#DBDDE4" },
+    { name: "Ivory Paper", hex: "#FFF9F0" }
+  ]
+},
+
+{
+  name: "Rose Quartz Dreams",
+  aesthetic: "Pastel Goth",
+  moods: ["Cute", "Soft", "Romantic"],
+  story: "Inspired by rose quartz jewelry glowing in moonlight.",
+  colors: [
+    { name: "Midnight Plum", hex: "#251F32" },
+    { name: "Amethyst Rose", hex: "#745E96" },
+    { name: "Rose Quartz", hex: "#D2A8C2" },
+    { name: "Moon Blush", hex: "#ECDCE8" },
+    { name: "Cloud Cream", hex: "#FFF9F4" }
+  ]
+},
+
+{
+  name: "Midnight Vinyl",
+  aesthetic: "Soft Goth",
+  moods: ["Nostalgic", "Cozy", "Melancholic"],
+  story: "Inspired by rainy nights spent listening to old records.",
+  colors: [
+    { name: "Vinyl Black", hex: "#1A1A1F" },
+    { name: "Storm Navy", hex: "#49556D" },
+    { name: "Dust Violet", hex: "#9A91B2" },
+    { name: "Silver Echo", hex: "#D7DCE7" },
+    { name: "Cream Static", hex: "#FFF8EF" }
+  ]
+},
+
+{
+  name: "Cathedral Roses",
+  aesthetic: "Cathedral Goth",
+  moods: ["Sacred", "Elegant", "Romantic"],
+  story: "Inspired by roses growing beneath stained glass windows.",
+  colors: [
+    { name: "Midnight Stone", hex: "#18171A" },
+    { name: "Rose Wine", hex: "#6C3146" },
+    { name: "Dust Mauve", hex: "#AB849B" },
+    { name: "Pearl Veil", hex: "#E4D7E0" },
+    { name: "Ivory Petal", hex: "#FFF9F3" }
+  ]
+},
+
+{
+  name: "Moonlit Vinyl Cafe",
+  aesthetic: "Dark Academia",
+  moods: ["Cozy", "Bookish", "Warm"],
+  story: "Inspired by old books and quiet jazz playing after midnight.",
+  colors: [
+    { name: "Coffee Black", hex: "#1B1819" },
+    { name: "Walnut Brown", hex: "#4F3D34" },
+    { name: "Dust Rose", hex: "#A18693" },
+    { name: "Old Paper", hex: "#DED2C3" },
+    { name: "Milk Cream", hex: "#FFF8EE" }
+  ]
+},
+
+{
+  name: "Spider Lily Rain",
+  aesthetic: "Dark Floral",
+  moods: ["Dreamy", "Lonely", "Beautiful"],
+  story: "Inspired by spider lilies swaying beneath summer rain.",
+  colors: [
+    { name: "Storm Black", hex: "#19171A" },
+    { name: "Blood Blossom", hex: "#7B2940" },
+    { name: "Rosewood", hex: "#A4637D" },
+    { name: "Rain Mist", hex: "#DAD8E4" },
+    { name: "Moon Cream", hex: "#FFF9F1" }
+  ]
+},
+
+{
+  name: "Ghost Library",
+  aesthetic: "Haunted Elegance",
+  moods: ["Quiet", "Bookish", "Magical"],
+  story: "Inspired by forgotten books read by affectionate ghosts.",
+  colors: [
+    { name: "Ink Black", hex: "#19181B" },
+    { name: "Slate Violet", hex: "#5C5972" },
+    { name: "Dust Lavender", hex: "#AAA1BD" },
+    { name: "Moon Paper", hex: "#DDDCE8" },
+    { name: "Vanilla Pages", hex: "#FFF8F0" }
+  ]
+},
+
+{
+  name: "Black Rose Perfume",
+  aesthetic: "Romantic Goth",
+  moods: ["Elegant", "Warm", "Soft"],
+  story: "Inspired by antique perfume bottles and dried roses.",
+  colors: [
+    { name: "Obsidian Glass", hex: "#18171A" },
+    { name: "Crimson Velvet", hex: "#6E2D42" },
+    { name: "Rose Mauve", hex: "#B28499" },
+    { name: "Pink Pearl", hex: "#E8D2DA" },
+    { name: "Champagne Cream", hex: "#FFF8F3" }
+  ]
+},
+
+{
+  name: "Moon Rabbit Bakery",
+  aesthetic: "Pastel Goth",
+  moods: ["Cute", "Cozy", "Sleepy"],
+  story: "Inspired by moon rabbits baking pastries beneath lavender skies.",
+  colors: [
+    { name: "Night Plum", hex: "#241E33" },
+    { name: "Amethyst", hex: "#7360A0" },
+    { name: "Lilac Frost", hex: "#C0A8E0" },
+    { name: "Moon Sugar", hex: "#E9DFF6" },
+    { name: "Vanilla Cream", hex: "#FFF9F2" }
+  ]
+},
+
+{
+  name: "Velvet Bat Wings",
+  aesthetic: "Pastel Goth",
+  moods: ["Cute", "Dreamy", "Playful"],
+  story: "Inspired by plush bats sleeping in velvet curtains.",
+  colors: [
+    { name: "Bat Black", hex: "#1A1821" },
+    { name: "Royal Violet", hex: "#654A91" },
+    { name: "Dust Lilac", hex: "#B29ACC" },
+    { name: "Moon Glow", hex: "#E7E0F4" },
+    { name: "Milk White", hex: "#FFF8F2" }
+  ]
+},
+
+{
+  name: "Raven Observatory",
+  aesthetic: "Moon Witch",
+  moods: ["Mystical", "Quiet", "Dreamy"],
+  story: "Inspired by ravens perched outside old observatories.",
+  colors: [
+    { name: "Cosmic Black", hex: "#181A24" },
+    { name: "Deep Indigo", hex: "#47557E" },
+    { name: "Silver Lavender", hex: "#A2A9C9" },
+    { name: "Moon Mist", hex: "#DCE1EC" },
+    { name: "Cloud Cream", hex: "#FFF9F0" }
+  ]
+},
+
+{
+  name: "Porcelain Dollhouse",
+  aesthetic: "Haunted Doll",
+  moods: ["Cute", "Quiet", "Gentle"],
+  story: "Inspired by antique dolls and tiny music boxes.",
+  colors: [
+    { name: "Porcelain Black", hex: "#1A191A" },
+    { name: "Dust Rose", hex: "#876273" },
+    { name: "Pink Satin", hex: "#C5A9B5" },
+    { name: "Porcelain White", hex: "#EDE6E8" },
+    { name: "Vanilla Lace", hex: "#FFF8F4" }
+  ]
+},
+
+{
+  name: "Moonflower Tea Garden",
+  aesthetic: "Tea Witch",
+  moods: ["Warm", "Cozy", "Magical"],
+  story: "Inspired by tea shared among moonflowers after rain.",
+  colors: [
+    { name: "Garden Night", hex: "#1C1F1C" },
+    { name: "Forest Sage", hex: "#57675B" },
+    { name: "Lavender Steam", hex: "#AEA3BE" },
+    { name: "Moon Petal", hex: "#DDE1E5" },
+    { name: "Tea Cream", hex: "#FFF8ED" }
+  ]
+},
+
+{
+  name: "Silver Violin Sonata",
+  aesthetic: "Victorian Goth",
+  moods: ["Elegant", "Melancholic", "Romantic"],
+  story: "Inspired by lonely violin melodies echoing through moonlit halls.",
+  colors: [
+    { name: "Concert Black", hex: "#19181B" },
+    { name: "Wine Purple", hex: "#5F3A67" },
+    { name: "Dust Mauve", hex: "#A98AA8" },
+    { name: "Silver Satin", hex: "#DCD8E5" },
+    { name: "Pearl Ivory", hex: "#FFF9F2" }
+  ]
+},
+
+{
+  name: "Moonlit Conservatory",
+  aesthetic: "Dark Floral",
+  moods: ["Dreamy", "Rainy", "Peaceful"],
+  story: "Inspired by moonflowers blooming inside abandoned glass gardens.",
+  colors: [
+    { name: "Garden Midnight", hex: "#1B1D1C" },
+    { name: "Forest Sage", hex: "#55645C" },
+    { name: "Lavender Moss", hex: "#9EA0B7" },
+    { name: "Moon Mist", hex: "#DDE1E7" },
+    { name: "Vanilla Petal", hex: "#FFF8F1" }
+  ]
+},
+
+{
+  name: "Rose Cathedral Bells",
+  aesthetic: "Cathedral Goth",
+  moods: ["Sacred", "Elegant", "Quiet"],
+  story: "Inspired by bells ringing through rose-covered cathedrals.",
+  colors: [
+    { name: "Bell Tower Black", hex: "#18171A" },
+    { name: "Rose Wine", hex: "#6C3449" },
+    { name: "Dust Mauve", hex: "#AD8C9B" },
+    { name: "Silver Glass", hex: "#D8D9E5" },
+    { name: "Pearl Ivory", hex: "#FFF8F3" }
+  ]
+},
+
+{
+  name: "Moonlit Aquarium Dreams",
+  aesthetic: "Soft Celestial",
+  moods: ["Gentle", "Sleepy", "Magical"],
+  story: "Inspired by glowing jellyfish beneath moonlight.",
+  colors: [
+    { name: "Ocean Night", hex: "#1A2333" },
+    { name: "Moon Blue", hex: "#52739A" },
+    { name: "Sea Lavender", hex: "#A7A7CB" },
+    { name: "Silver Foam", hex: "#DDE5F0" },
+    { name: "Cloud Cream", hex: "#FFF9F3" }
+  ]
+},
+
+{
+  name: "Velvet Coffin Roses",
+  aesthetic: "Romantic Goth",
+  moods: ["Beautiful", "Melancholic", "Elegant"],
+  story: "Inspired by black roses placed upon velvet-lined coffins.",
+  colors: [
+    { name: "Obsidian Velvet", hex: "#171518" },
+    { name: "Blood Rose", hex: "#752C42" },
+    { name: "Dust Pink", hex: "#B88799" },
+    { name: "Rose Veil", hex: "#E8D1DA" },
+    { name: "Moon Silk", hex: "#FFF8F4" }
+  ]
+},
+
+{
+  name: "Ghost Record Shop",
+  aesthetic: "Soft Goth",
+  moods: ["Nostalgic", "Cozy", "Lonely"],
+  story: "Inspired by jazz records played by unseen hands.",
+  colors: [
+    { name: "Vinyl Shadow", hex: "#1A1A20" },
+    { name: "Slate Blue", hex: "#52607A" },
+    { name: "Dust Violet", hex: "#A09BB6" },
+    { name: "Moon Silver", hex: "#DCE0E8" },
+    { name: "Milk Cream", hex: "#FFF8EE" }
+  ]
+},
+
+{
+  name: "Black Lace Manor",
+  aesthetic: "Victorian Goth",
+  moods: ["Elegant", "Quiet", "Romantic"],
+  story: "Inspired by moonlit halls lined with lace curtains.",
+  colors: [
+    { name: "Manor Black", hex: "#18171A" },
+    { name: "Plum Wine", hex: "#603E67" },
+    { name: "Dust Mauve", hex: "#A487A8" },
+    { name: "Lace Silver", hex: "#DDD9E4" },
+    { name: "Champagne Cream", hex: "#FFF8F1" }
+  ]
+},
+
+{
+  name: "Spiderweb Tea Party",
+  aesthetic: "Gothic Lolita",
+  moods: ["Cute", "Elegant", "Cozy"],
+  story: "Inspired by tea parties attended by dolls and ghosts.",
+  colors: [
+    { name: "Tea Shadow", hex: "#1A181B" },
+    { name: "Berry Plum", hex: "#72577D" },
+    { name: "Pink Lilac", hex: "#C0A7C7" },
+    { name: "Porcelain Pink", hex: "#E7DCE8" },
+    { name: "Vanilla Milk", hex: "#FFF9F2" }
+  ]
+},
+
+{
+  name: "Moon Moth Ballroom",
+  aesthetic: "Pastel Goth",
+  moods: ["Dreamy", "Cute", "Romantic"],
+  story: "Inspired by moon moths dancing beneath crystal chandeliers.",
+  colors: [
+    { name: "Midnight Plum", hex: "#231E31" },
+    { name: "Royal Violet", hex: "#6A589C" },
+    { name: "Lilac Glow", hex: "#BEABD8" },
+    { name: "Moon Satin", hex: "#E8E0F5" },
+    { name: "Pearl Cream", hex: "#FFF9F3" }
+  ]
+},
+
+{
+  name: "Rainy Cemetery Path",
+  aesthetic: "Romantic Goth",
+  moods: ["Peaceful", "Lonely", "Beautiful"],
+  story: "Inspired by quiet walks among roses after rain.",
+  colors: [
+    { name: "Stone Black", hex: "#18181C" },
+    { name: "Rain Gray", hex: "#57606D" },
+    { name: "Dust Rose", hex: "#A68A9D" },
+    { name: "Fog Silver", hex: "#D7DDE5" },
+    { name: "Ivory Mist", hex: "#FFF9F2" }
+  ]
+},
+
+{
+  name: "Moonflower Letters",
+  aesthetic: "Dark Academia",
+  moods: ["Bookish", "Warm", "Dreamy"],
+  story: "Inspired by love letters pressed with moonflower petals.",
+  colors: [
+    { name: "Ink Black", hex: "#1A1819" },
+    { name: "Walnut Brown", hex: "#503D35" },
+    { name: "Dust Rose", hex: "#AA8A98" },
+    { name: "Old Paper", hex: "#E0D5C7" },
+    { name: "Vanilla Cream", hex: "#FFF8ED" }
+  ]
+},
+
+{
+  name: "Crimson Moon Waltz",
+  aesthetic: "Vampire Chic",
+  moods: ["Romantic", "Dramatic", "Elegant"],
+  story: "Inspired by immortal lovers dancing beneath blood moons.",
+  colors: [
+    { name: "Midnight Velvet", hex: "#181518" },
+    { name: "Crimson Wine", hex: "#7D263F" },
+    { name: "Rose Velvet", hex: "#B37389" },
+    { name: "Moon Pearl", hex: "#DDD8E6" },
+    { name: "Silk Ivory", hex: "#FFF8F3" }
+  ]
+},
+
+{
+  name: "Lavender Dream Coffin",
+  aesthetic: "Haunted Doll",
+  moods: ["Cute", "Sleepy", "Magical"],
+  story: "Inspired by tiny music boxes hidden inside antique coffins.",
+  colors: [
+    { name: "Shadow Plum", hex: "#241F33" },
+    { name: "Amethyst Gray", hex: "#736A95" },
+    { name: "Lavender Dust", hex: "#B9AFD3" },
+    { name: "Moon Lace", hex: "#E9E2F4" },
+    { name: "Cloud Cream", hex: "#FFF9F2" }
+  ]
+},
+
+{
+  name: "Silver Raven Study",
+  aesthetic: "Dark Academia",
+  moods: ["Bookish", "Cozy", "Quiet"],
+  story: "Inspired by rainy afternoons spent reading beside raven statues.",
+  colors: [
+    { name: "Ink Shadow", hex: "#1A181B" },
+    { name: "Walnut Wood", hex: "#4E4037" },
+    { name: "Dust Plum", hex: "#9D8798" },
+    { name: "Old Parchment", hex: "#DDD2C2" },
+    { name: "Vanilla Cream", hex: "#FFF8ED" }
+  ]
+},
+
+{
+  name: "Moonlit Carousel",
+  aesthetic: "Soft Celestial",
+  moods: ["Dreamy", "Magical", "Cute"],
+  story: "Inspired by abandoned carousels glowing beneath moonlight.",
+  colors: [
+    { name: "Night Sky", hex: "#20233A" },
+    { name: "Moon Blue", hex: "#5974A5" },
+    { name: "Cotton Lavender", hex: "#B8B0DB" },
+    { name: "Silver Mist", hex: "#E3E5F1" },
+    { name: "Cloud Cream", hex: "#FFF9F3" }
+  ]
+},
+
+{
+  name: "Rose Chapel Rain",
+  aesthetic: "Romantic Goth",
+  moods: ["Beautiful", "Peaceful", "Melancholic"],
+  story: "Inspired by rain falling on forgotten chapels covered in roses.",
+  colors: [
+    { name: "Chapel Black", hex: "#171619" },
+    { name: "Rose Wine", hex: "#6B3147" },
+    { name: "Dust Rose", hex: "#B08598" },
+    { name: "Pearl Veil", hex: "#E5D5DE" },
+    { name: "Moon Ivory", hex: "#FFF8F4" }
+  ]
+},
+
+{
+  name: "Cat Familiar Cafe",
+  aesthetic: "Tea Witch",
+  moods: ["Warm", "Cozy", "Cute"],
+  story: "Inspired by black cats sleeping inside moonlit cafes.",
+  colors: [
+    { name: "Coffee Night", hex: "#1C1A1D" },
+    { name: "Tea Brown", hex: "#584239" },
+    { name: "Dust Mauve", hex: "#A88C9D" },
+    { name: "Milk Foam", hex: "#E7DFD8" },
+    { name: "Vanilla Latte", hex: "#FFF8EE" }
+  ]
+},
+
+{
+  name: "Blood Moon Sonata",
+  aesthetic: "Vampire Chic",
+  moods: ["Elegant", "Romantic", "Dramatic"],
+  story: "Inspired by violin music played beneath crimson moons.",
+  colors: [
+    { name: "Velvet Night", hex: "#181518" },
+    { name: "Blood Ruby", hex: "#84243D" },
+    { name: "Rose Satin", hex: "#B46E85" },
+    { name: "Moon Pearl", hex: "#DED9E6" },
+    { name: "Ivory Silk", hex: "#FFF8F2" }
+  ]
+},
+
+{
+  name: "Moonflower Letters",
+  aesthetic: "Victorian Goth",
+  moods: ["Romantic", "Bookish", "Quiet"],
+  story: "Inspired by love letters hidden inside moonflower bouquets.",
+  colors: [
+    { name: "Letter Ink", hex: "#1A1819" },
+    { name: "Rosewood", hex: "#5C4037" },
+    { name: "Dust Pink", hex: "#B08C98" },
+    { name: "Paper Cream", hex: "#E5D9CB" },
+    { name: "Vanilla Silk", hex: "#FFF8EE" }
+  ]
+},
+
+{
+  name: "Spider Lily Moon",
+  aesthetic: "Dark Floral",
+  moods: ["Dreamy", "Elegant", "Soft"],
+  story: "Inspired by spider lilies blooming beneath eclipses.",
+  colors: [
+    { name: "Night Plum", hex: "#201B24" },
+    { name: "Blood Blossom", hex: "#7D2740" },
+    { name: "Rose Mauve", hex: "#B1788F" },
+    { name: "Moon Fog", hex: "#DDD8E4" },
+    { name: "Cream Petal", hex: "#FFF8F1" }
+  ]
+},
+
+{
+  name: "Ghost Orchestra",
+  aesthetic: "Haunted Elegance",
+  moods: ["Lonely", "Beautiful", "Magical"],
+  story: "Inspired by invisible musicians playing old symphonies.",
+  colors: [
+    { name: "Concert Black", hex: "#18181B" },
+    { name: "Storm Blue", hex: "#55637B" },
+    { name: "Dust Violet", hex: "#A29CB7" },
+    { name: "Silver Echo", hex: "#D9DDE7" },
+    { name: "Pearl White", hex: "#FDF9F4" }
+  ]
+},
+
+{
+  name: "Velvet Dollhouse",
+  aesthetic: "Haunted Doll",
+  moods: ["Cute", "Sleepy", "Gentle"],
+  story: "Inspired by antique dollhouses lit by moonlight.",
+  colors: [
+    { name: "Shadow Rose", hex: "#241D24" },
+    { name: "Dust Plum", hex: "#705D7E" },
+    { name: "Pink Satin", hex: "#C6ACC1" },
+    { name: "Porcelain White", hex: "#ECE5E7" },
+    { name: "Vanilla Milk", hex: "#FFF9F3" }
+  ]
+},
+
+{
+  name: "Moon Moth Bedroom",
+  aesthetic: "Pastel Goth",
+  moods: ["Sleepy", "Cute", "Dreamy"],
+  story: "Inspired by moon moths resting on lace curtains.",
+  colors: [
+    { name: "Midnight Lavender", hex: "#25203A" },
+    { name: "Royal Violet", hex: "#705AA2" },
+    { name: "Lilac Plush", hex: "#C1B0E0" },
+    { name: "Moon Glow", hex: "#EBE3F8" },
+    { name: "Cloud Cream", hex: "#FFF9F4" }
+  ]
+},
+
+{
+  name: "Stormy Greenhouse",
+  aesthetic: "Moon Witch",
+  moods: ["Rainy", "Magical", "Peaceful"],
+  story: "Inspired by moonflowers growing beneath storm clouds.",
+  colors: [
+    { name: "Forest Night", hex: "#1B1F1D" },
+    { name: "Sage Green", hex: "#5C6C63" },
+    { name: "Silver Lavender", hex: "#A6A5BA" },
+    { name: "Rain Mist", hex: "#DBE1E2" },
+    { name: "Moon Cream", hex: "#FFF8F0" }
+  ]
+},
+
+{
+  name: "Black Ribbon Waltz",
+  aesthetic: "Gothic Lolita",
+  moods: ["Elegant", "Cute", "Romantic"],
+  story: "Inspired by lace dresses twirling in candlelight.",
+  colors: [
+    { name: "Ribbon Black", hex: "#18171A" },
+    { name: "Berry Plum", hex: "#724B75" },
+    { name: "Rose Pink", hex: "#C195AE" },
+    { name: "Pink Lace", hex: "#EAD7E3" },
+    { name: "Pearl Cream", hex: "#FFF8F2" }
+  ]
+},
+{
+  name: "Moonlit Graveyard Picnic",
+  aesthetic: "Romantic Goth",
+  moods: ["Peaceful", "Dreamy", "Melancholic"],
+  story: "Inspired by quiet evenings among moonflowers and old stone angels.",
+  colors: [
+    { name: "Grave Black", hex: "#17171A" },
+    { name: "Rose Wine", hex: "#6D3449" },
+    { name: "Dust Mauve", hex: "#AB8B9E" },
+    { name: "Moon Fog", hex: "#DCDCE6" },
+    { name: "Ivory Petal", hex: "#FFF9F2" }
+  ]
+},
+
+{
+  name: "Silver Moon Vinyl",
+  aesthetic: "Soft Goth",
+  moods: ["Nostalgic", "Cozy", "Quiet"],
+  story: "Inspired by rainy nights and vintage jazz records.",
+  colors: [
+    { name: "Vinyl Black", hex: "#1A1B1E" },
+    { name: "Slate Blue", hex: "#586377" },
+    { name: "Dust Violet", hex: "#A19CB7" },
+    { name: "Silver Echo", hex: "#DCE0E8" },
+    { name: "Vanilla Cream", hex: "#FFF8EE" }
+  ]
+},
+
+{
+  name: "Coffin Bouquet",
+  aesthetic: "Haunted Elegance",
+  moods: ["Elegant", "Beautiful", "Lonely"],
+  story: "Inspired by bouquets left on antique coffins.",
+  colors: [
+    { name: "Velvet Black", hex: "#181619" },
+    { name: "Crimson Rose", hex: "#7B2942" },
+    { name: "Dust Pink", hex: "#B78A9E" },
+    { name: "Moon Satin", hex: "#E2D8E4" },
+    { name: "Pearl Ivory", hex: "#FFF9F3" }
+  ]
+},
+
+{
+  name: "Moonlight Perfumery",
+  aesthetic: "Victorian Goth",
+  moods: ["Elegant", "Warm", "Dreamy"],
+  story: "Inspired by crystal perfume bottles on lace vanities.",
+  colors: [
+    { name: "Perfume Black", hex: "#1A181A" },
+    { name: "Rosewood", hex: "#694440" },
+    { name: "Pink Mauve", hex: "#B592A1" },
+    { name: "Champagne Pink", hex: "#E9D9DE" },
+    { name: "Vanilla Silk", hex: "#FFF8F2" }
+  ]
+},
+
+{
+  name: "Raven Feather Rain",
+  aesthetic: "Moon Witch",
+  moods: ["Mystical", "Rainy", "Peaceful"],
+  story: "Inspired by ravens perched beneath cloudy skies.",
+  colors: [
+    { name: "Storm Black", hex: "#1A1A1F" },
+    { name: "Rain Blue", hex: "#51627D" },
+    { name: "Silver Plum", hex: "#A0A0BC" },
+    { name: "Fog Gray", hex: "#D8DEE5" },
+    { name: "Cloud Cream", hex: "#FFF8F0" }
+  ]
+},
+
+{
+  name: "Rose Quartz Manor",
+  aesthetic: "Pastel Goth",
+  moods: ["Cute", "Soft", "Romantic"],
+  story: "Inspired by moonlit rooms decorated with crystals and roses.",
+  colors: [
+    { name: "Plum Night", hex: "#241F34" },
+    { name: "Amethyst Rose", hex: "#7A639F" },
+    { name: "Rose Quartz", hex: "#D3ACC4" },
+    { name: "Moon Blush", hex: "#EDDFE8" },
+    { name: "Milk Cream", hex: "#FFF9F4" }
+  ]
+},
+
+{
+  name: "Ghost Violin Sonata",
+  aesthetic: "Haunted Doll",
+  moods: ["Beautiful", "Quiet", "Melancholic"],
+  story: "Inspired by phantom melodies played beneath chandeliers.",
+  colors: [
+    { name: "Concert Black", hex: "#18181B" },
+    { name: "Storm Violet", hex: "#5E5978" },
+    { name: "Dust Lavender", hex: "#A89FB9" },
+    { name: "Silver Moon", hex: "#DCDDE8" },
+    { name: "Ivory Lace", hex: "#FFF8F2" }
+  ]
+},
+
+{
+  name: "Spider Lily Ballroom",
+  aesthetic: "Dark Floral",
+  moods: ["Elegant", "Romantic", "Dreamy"],
+  story: "Inspired by moonlit dances among blooming spider lilies.",
+  colors: [
+    { name: "Midnight Black", hex: "#18171A" },
+    { name: "Blood Petal", hex: "#7C2B42" },
+    { name: "Rose Velvet", hex: "#B3788F" },
+    { name: "Moon Pearl", hex: "#E2DCE7" },
+    { name: "Cream Blossom", hex: "#FFF9F1" }
+  ]
+},
+
+{
+  name: "Moon Rabbit Tea Party",
+  aesthetic: "Tea Witch",
+  moods: ["Cozy", "Cute", "Warm"],
+  story: "Inspired by moon rabbits gathering around teacups.",
+  colors: [
+    { name: "Tea Shadow", hex: "#1D1A1C" },
+    { name: "Berry Brown", hex: "#634A47" },
+    { name: "Dust Pink", hex: "#B495A8" },
+    { name: "Milk Tea", hex: "#E7DED7" },
+    { name: "Vanilla Foam", hex: "#FFF8EE" }
+  ]
+},
+
+{
+  name: "Black Rose Observatory",
+  aesthetic: "Soft Celestial",
+  moods: ["Dreamy", "Quiet", "Magical"],
+  story: "Inspired by stargazing through antique telescopes.",
+  colors: [
+    { name: "Cosmic Black", hex: "#1B1D2A" },
+    { name: "Midnight Indigo", hex: "#48567E" },
+    { name: "Dust Lavender", hex: "#A5A6C8" },
+    { name: "Moon Mist", hex: "#DEE3EF" },
+    { name: "Cloud White", hex: "#FFF9F4" }
+  ]
+},
+
+{
+  name: "Velvet Rose Bedroom",
+  aesthetic: "Gothic Lolita",
+  moods: ["Cute", "Sleepy", "Elegant"],
+  story: "Inspired by lace canopies and plush bats sleeping nearby.",
+  colors: [
+    { name: "Velvet Shadow", hex: "#19171A" },
+    { name: "Berry Plum", hex: "#744D7C" },
+    { name: "Rose Pink", hex: "#C49AB3" },
+    { name: "Lace Pink", hex: "#EBD9E4" },
+    { name: "Pearl Cream", hex: "#FFF9F3" }
+  ]
+},
+
+{
+  name: "Moonflower Cathedral",
+  aesthetic: "Cathedral Goth",
+  moods: ["Sacred", "Dreamy", "Peaceful"],
+  story: "Inspired by moonflowers climbing stained-glass walls.",
+  colors: [
+    { name: "Cathedral Black", hex: "#18181C" },
+    { name: "Royal Violet", hex: "#5A5078" },
+    { name: "Dust Lilac", hex: "#ACA6C2" },
+    { name: "Silver Glass", hex: "#DDE0E7" },
+    { name: "Moon Ivory", hex: "#FFF8F2" }
+  ]
+}
   ]
 };
