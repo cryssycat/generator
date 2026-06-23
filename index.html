@@ -11,7 +11,7 @@
   <div class="header-card">
     <p class="eyebrow">Starbrew Tools</p>
     <h1>Random Generators</h1>
-    <p class="subtitle">Roll fresh character ideas, Pokemon-inspired concepts, fantasy humanoid designs, or pony characters.</p>
+    <p class="subtitle">Roll fresh ideas for characters, Pokemon-inspired concepts, fantasy designs, ponies, goth girls, dragons, worlds, towns, magic, outfits, items, and relationships.</p>
     <div class="hub-links">
       <a href="https://characterhub.pages.dev/">⭐ Star Hub</a>
       <a href="https://lunabrew.pages.dev/">🌙 Luna Hub</a>
@@ -24,99 +24,127 @@
 
 <main class="generator-page">
   <nav class="tabs generator-tabs" aria-label="Generator types">
-    <button class="tab-button active" data-tab="characterGenerator">Character Generator</button>
-    <button class="tab-button" data-tab="pokemonGenerator">Pokemon Generator</button>
-    <button class="tab-button" data-tab="fantasyGenerator">Fantasy Humanoid Generator</button>
-    <button class="tab-button" data-tab="ponyGenerator">Pony Generator</button>
-    <button class="tab-button" data-tab="dragonGenerator">Dragon Generator</button>
+    <button class="tab-button active" data-tab="characterGenerator">Character</button>
+    <button class="tab-button" data-tab="pokemonGenerator">Pokemon</button>
+    <button class="tab-button" data-tab="fantasyGenerator">Fantasy</button>
+    <button class="tab-button" data-tab="ponyGenerator">Pony</button>
+    <button class="tab-button" data-tab="gothGenerator">Goth Girl</button>
+    <button class="tab-button" data-tab="dragonGenerator">Dragon</button>
+    <button class="tab-button" data-tab="worldGenerator">World</button>
+    <button class="tab-button" data-tab="townGenerator">Town</button>
+    <button class="tab-button" data-tab="magicGenerator">Magic</button>
+    <button class="tab-button" data-tab="outfitGenerator">Outfit</button>
+    <button class="tab-button" data-tab="itemGenerator">Item</button>
+    <button class="tab-button" data-tab="relationshipGenerator">Relationship</button>
   </nav>
 
   <section id="characterGenerator" class="tab-panel active">
     <section class="generator-card">
-      <div class="section-title">
-        <h2>Random Character Generator</h2>
-        <p>Roll a cozy original character idea.</p>
-      </div>
+      <div class="section-title"><h2>Random Character Generator</h2><p>Roll a cozy original character idea.</p></div>
       <button id="generateCharacterButton" class="generate-button">🎲 Generate Character</button>
-      <div id="characterResult" class="result-card">
-        <p class="empty-text">Your character idea will appear here.</p>
-      </div>
-      <div class="button-row">
-        <button id="copyCharacterButton" class="secondary-button">Copy Character Idea</button>
-        <button id="clearCharacterButton" class="secondary-button">Clear</button>
-      </div>
+      <div id="characterResult" class="result-card"><p class="empty-text">Your character idea will appear here.</p></div>
+      <div class="button-row"><button id="copyCharacterButton" class="secondary-button">Copy Character Idea</button><button id="clearCharacterButton" class="secondary-button">Clear</button></div>
     </section>
   </section>
 
   <section id="pokemonGenerator" class="tab-panel">
     <section class="generator-card">
-      <div class="section-title">
-        <h2>Pokemon Generator</h2>
-        <p>Roll a Pokemon-themed concept with type, region vibe, trainer role, ability, move style, and story hook.</p>
-      </div>
+      <div class="section-title"><h2>Pokemon Generator</h2><p>Roll a Pokemon-themed concept with type, region vibe, trainer role, ability, move style, and story hook.</p></div>
       <button id="generatePokemonButton" class="generate-button">⚡ Generate Pokemon Idea</button>
-      <div id="pokemonResult" class="result-card">
-        <p class="empty-text">Your Pokemon idea will appear here.</p>
-      </div>
-      <div class="button-row">
-        <button id="copyPokemonButton" class="secondary-button">Copy Pokemon Idea</button>
-        <button id="clearPokemonButton" class="secondary-button">Clear</button>
-      </div>
+      <div id="pokemonResult" class="result-card"><p class="empty-text">Your Pokemon idea will appear here.</p></div>
+      <div class="button-row"><button id="copyPokemonButton" class="secondary-button">Copy Pokemon Idea</button><button id="clearPokemonButton" class="secondary-button">Clear</button></div>
     </section>
   </section>
 
   <section id="fantasyGenerator" class="tab-panel">
     <section class="generator-card">
-      <div class="section-title">
-        <h2>Fantasy Humanoid Generator</h2>
-        <p>Roll a fantasy humanoid, kemonomimi, or DND-inspired character.</p>
-      </div>
+      <div class="section-title"><h2>Fantasy Humanoid Generator</h2><p>Roll a fantasy humanoid, kemonomimi, or DND-inspired character.</p></div>
       <button id="generateFantasyButton" class="generate-button">🧝 Generate Fantasy Character</button>
-      <div id="fantasyResult" class="result-card">
-        <p class="empty-text">Your fantasy character idea will appear here.</p>
-      </div>
-      <div class="button-row">
-        <button id="copyFantasyButton" class="secondary-button">Copy Fantasy Idea</button>
-        <button id="clearFantasyButton" class="secondary-button">Clear</button>
-      </div>
+      <div id="fantasyResult" class="result-card"><p class="empty-text">Your fantasy character idea will appear here.</p></div>
+      <div class="button-row"><button id="copyFantasyButton" class="secondary-button">Copy Fantasy Idea</button><button id="clearFantasyButton" class="secondary-button">Clear</button></div>
     </section>
   </section>
 
   <section id="ponyGenerator" class="tab-panel">
     <section class="generator-card">
-      <div class="section-title">
-        <h2>My Little Pony Generator</h2>
-        <p>Roll a pony character with type, cutie mark, accessory, special trait, and story hook.</p>
-      </div>
+      <div class="section-title"><h2>My Little Pony Generator</h2><p>Roll a pony character with type, cutie mark, accessory, special trait, and story hook.</p></div>
       <button id="generatePonyButton" class="generate-button">🦄 Generate Pony Character</button>
-      <div id="ponyResult" class="result-card">
-        <p class="empty-text">Your pony character idea will appear here.</p>
-      </div>
-      <div class="button-row">
-        <button id="copyPonyButton" class="secondary-button">Copy Pony Idea</button>
-        <button id="clearPonyButton" class="secondary-button">Clear</button>
-      </div>
+      <div id="ponyResult" class="result-card"><p class="empty-text">Your pony character idea will appear here.</p></div>
+      <div class="button-row"><button id="copyPonyButton" class="secondary-button">Copy Pony Idea</button><button id="clearPonyButton" class="secondary-button">Clear</button></div>
     </section>
   </section>
 
+  <section id="gothGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title"><h2>Goth Girl Generator</h2><p>Roll a gothic character with dark themes, moody palettes, magic style, weapon, and story hook.</p></div>
+      <button id="generateGothButton" class="generate-button">🦇 Generate Goth Girl</button>
+      <div id="gothResult" class="result-card"><p class="empty-text">Your goth girl idea will appear here.</p></div>
+      <div class="button-row"><button id="copyGothButton" class="secondary-button">Copy Goth Idea</button><button id="clearGothButton" class="secondary-button">Clear</button></div>
+    </section>
+  </section>
 
   <section id="dragonGenerator" class="tab-panel">
     <section class="generator-card">
-      <div class="section-title">
-        <h2>Dragon Generator</h2>
-        <p>Roll a dragon concept with species, element, habitat, hoard, personality, breath weapon, special trait, and story hook.</p>
-      </div>
+      <div class="section-title"><h2>Dragon Generator</h2><p>Roll a dragon concept with species, element, habitat, hoard, breath weapon, and story hook.</p></div>
       <button id="generateDragonButton" class="generate-button">🐉 Generate Dragon</button>
-      <div id="dragonResult" class="result-card">
-        <p class="empty-text">Your dragon idea will appear here.</p>
-      </div>
-      <div class="button-row">
-        <button id="copyDragonButton" class="secondary-button">Copy Dragon Idea</button>
-        <button id="clearDragonButton" class="secondary-button">Clear</button>
-      </div>
+      <div id="dragonResult" class="result-card"><p class="empty-text">Your dragon idea will appear here.</p></div>
+      <div class="button-row"><button id="copyDragonButton" class="secondary-button">Copy Dragon Idea</button><button id="clearDragonButton" class="secondary-button">Clear</button></div>
     </section>
   </section>
 
+  <section id="worldGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title"><h2>World Generator</h2><p>Roll a world concept with genre, theme, magic, technology, economy, culture, and story hook.</p></div>
+      <button id="generateWorldButton" class="generate-button">🌎 Generate World</button>
+      <div id="worldResult" class="result-card"><p class="empty-text">Your world idea will appear here.</p></div>
+      <div class="button-row"><button id="copyWorldButton" class="secondary-button">Copy World Idea</button><button id="clearWorldButton" class="secondary-button">Clear</button></div>
+    </section>
+  </section>
+
+  <section id="townGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title"><h2>Town Generator</h2><p>Roll a town concept with climate, landmark, industry, festival, local food, secret, and story hook.</p></div>
+      <button id="generateTownButton" class="generate-button">🏙 Generate Town</button>
+      <div id="townResult" class="result-card"><p class="empty-text">Your town idea will appear here.</p></div>
+      <div class="button-row"><button id="copyTownButton" class="secondary-button">Copy Town Idea</button><button id="clearTownButton" class="secondary-button">Clear</button></div>
+    </section>
+  </section>
+
+  <section id="magicGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title"><h2>Magic Generator</h2><p>Roll a magic system or power concept.</p></div>
+      <button id="generateMagicButton" class="generate-button">✨ Generate Magic</button>
+      <div id="magicResult" class="result-card"><p class="empty-text">Your magic idea will appear here.</p></div>
+      <div class="button-row"><button id="copyMagicButton" class="secondary-button">Copy Magic Idea</button><button id="clearMagicButton" class="secondary-button">Clear</button></div>
+    </section>
+  </section>
+
+  <section id="outfitGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title"><h2>Outfit Generator</h2><p>Roll outfit ideas with style, clothes, accessories, colors, and story hook.</p></div>
+      <button id="generateOutfitButton" class="generate-button">👗 Generate Outfit</button>
+      <div id="outfitResult" class="result-card"><p class="empty-text">Your outfit idea will appear here.</p></div>
+      <div class="button-row"><button id="copyOutfitButton" class="secondary-button">Copy Outfit Idea</button><button id="clearOutfitButton" class="secondary-button">Clear</button></div>
+    </section>
+  </section>
+
+  <section id="itemGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title"><h2>Item Generator</h2><p>Roll a magical item or relic concept.</p></div>
+      <button id="generateItemButton" class="generate-button">📦 Generate Item</button>
+      <div id="itemResult" class="result-card"><p class="empty-text">Your item idea will appear here.</p></div>
+      <div class="button-row"><button id="copyItemButton" class="secondary-button">Copy Item Idea</button><button id="clearItemButton" class="secondary-button">Clear</button></div>
+    </section>
+  </section>
+
+  <section id="relationshipGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title"><h2>Relationship Generator</h2><p>Roll a relationship dynamic, love languages, conflict, date idea, and story hook.</p></div>
+      <button id="generateRelationshipButton" class="generate-button">💕 Generate Relationship</button>
+      <div id="relationshipResult" class="result-card"><p class="empty-text">Your relationship idea will appear here.</p></div>
+      <div class="button-row"><button id="copyRelationshipButton" class="secondary-button">Copy Relationship Idea</button><button id="clearRelationshipButton" class="secondary-button">Clear</button></div>
+    </section>
+  </section>
 </main>
 
 <script src="generator-data.js?v=1"></script>
@@ -147,6 +175,48 @@ function setupTabs(){
   });
 }
 
+function renderStandardResult(resultId, title, rows, story){
+  const result = document.getElementById(resultId);
+  const rowsHtml = rows.map(row => `<div><strong>${row[0]}</strong><span>${row[1]}</span></div>`).join("");
+
+  result.innerHTML = `
+    <h2>${title}</h2>
+    <div class="result-grid">${rowsHtml}</div>
+    <div class="story-box">
+      <strong>Story Hook</strong>
+      <p>${story}</p>
+    </div>
+  `;
+
+  result.dataset.copyText =
+`${title}
+
+${rows.map(row => `${row[0]}: ${row[1]}`).join("\\n")}
+
+Story Hook:
+${story}`;
+}
+
+async function copyFromResult(resultId){
+  const result = document.getElementById(resultId);
+  const text = result.dataset.copyText || "";
+
+  if(!text){
+    alert("Generate an idea first!");
+    return;
+  }
+
+  await navigator.clipboard.writeText(text);
+  alert("Copied!");
+}
+
+function clearResult(resultId, message){
+  const result = document.getElementById(resultId);
+  result.dataset.copyText = "";
+  result.innerHTML = `<p class="empty-text">${message}</p>`;
+}
+
+/* Character */
 function generateName(){
   return `${pick(DATA.nameStarts)}${pick(DATA.nameEnds)} ${pick(DATA.surnames)}`;
 }
@@ -164,6 +234,7 @@ function generateCharacter(){
     trait: pick(DATA.specialTraits),
     story: pick(DATA.storyHooks)
   };
+
   renderStandardResult("characterResult", character.name, [
     ["Species", character.species],
     ["Theme", character.theme],
@@ -176,6 +247,7 @@ function generateCharacter(){
   ], character.story);
 }
 
+/* Pokemon */
 function generatePokemonName(){
   return `${pick(POKEMON_DATA.nameStarts)}${pick(POKEMON_DATA.nameEnds)}`;
 }
@@ -216,6 +288,7 @@ function generatePokemon(){
   ], pokemon.story);
 }
 
+/* Fantasy */
 function generateFantasyName(){
   return `${pick(FANTASY_DATA.nameStarts)}${pick(FANTASY_DATA.nameEnds)} ${pick(FANTASY_DATA.surnames)}`;
 }
@@ -252,7 +325,7 @@ function generateFantasy(){
   ], fantasy.story);
 }
 
-
+/* Pony */
 function generatePonyName(){
   return `${pick(PONY_DATA.nameStarts)} ${pick(PONY_DATA.nameEnds)}`;
 }
@@ -275,8 +348,44 @@ function generatePony(){
   ], pony.story);
 }
 
+/* Goth */
+function generateGothName(){
+  return `${pick(GOTH_DATA.nameStarts)}${pick(GOTH_DATA.nameEnds)} ${pick(GOTH_DATA.surnames)}`;
+}
 
+function generateGoth(){
+  const goth = {
+    name: generateGothName(),
+    type: pick(GOTH_DATA.types),
+    role: pick(GOTH_DATA.roles),
+    theme: pick(GOTH_DATA.themes),
+    palette: pick(GOTH_DATA.palettes),
+    personality: uniquePicks(GOTH_DATA.personalities, 3).join(", "),
+    occupation: pick(GOTH_DATA.occupations),
+    aesthetic: pick(GOTH_DATA.aesthetics),
+    accessory: pick(GOTH_DATA.accessories),
+    magicStyle: pick(GOTH_DATA.magicStyles),
+    weapon: pick(GOTH_DATA.weapons),
+    specialTrait: pick(GOTH_DATA.specialTraits),
+    story: pick(GOTH_DATA.storyHooks)
+  };
 
+  renderStandardResult("gothResult", goth.name, [
+    ["Type", goth.type],
+    ["Role", goth.role],
+    ["Theme", goth.theme],
+    ["Palette", goth.palette],
+    ["Personality", goth.personality],
+    ["Occupation", goth.occupation],
+    ["Aesthetic", goth.aesthetic],
+    ["Accessory", goth.accessory],
+    ["Magic Style", goth.magicStyle],
+    ["Weapon / Tool", goth.weapon],
+    ["Special Trait", goth.specialTrait]
+  ], goth.story);
+}
+
+/* Dragon */
 function generateDragonName(){
   return `${pick(DRAGON_DATA.nameStarts)}${pick(DRAGON_DATA.nameEnds)} ${pick(DRAGON_DATA.titles)}`;
 }
@@ -313,46 +422,198 @@ function generateDragon(){
   ], dragon.story);
 }
 
-
-function renderStandardResult(resultId, title, rows, story){
-  const result = document.getElementById(resultId);
-  const rowsHtml = rows.map(row => `<div><strong>${row[0]}</strong><span>${row[1]}</span></div>`).join("");
-
-  result.innerHTML = `
-    <h2>${title}</h2>
-    <div class="result-grid">${rowsHtml}</div>
-    <div class="story-box">
-      <strong>Story Hook</strong>
-      <p>${story}</p>
-    </div>
-  `;
-
-  result.dataset.copyText =
-`${title}
-
-${rows.map(row => `${row[0]}: ${row[1]}`).join("\n")}
-
-Story Hook:
-${story}`;
+/* World */
+function generateWorldName(){
+  return `${pick(WORLD_DATA.nameStarts)}${pick(WORLD_DATA.nameEnds)}`;
 }
 
-async function copyFromResult(resultId){
-  const result = document.getElementById(resultId);
-  const text = result.dataset.copyText || "";
+function generateWorld(){
+  const world = {
+    name: generateWorldName(),
+    genre: pick(WORLD_DATA.genres),
+    theme: pick(WORLD_DATA.themes),
+    magicSystem: pick(WORLD_DATA.magicSystems),
+    technology: pick(WORLD_DATA.technologyLevels),
+    economy: pick(WORLD_DATA.economies),
+    culture: pick(WORLD_DATA.cultures),
+    landmark: pick(WORLD_DATA.landmarks),
+    conflict: pick(WORLD_DATA.conflicts),
+    secret: pick(WORLD_DATA.secrets),
+    story: pick(WORLD_DATA.storyHooks)
+  };
 
-  if(!text){
-    alert("Generate an idea first!");
-    return;
-  }
-
-  await navigator.clipboard.writeText(text);
-  alert("Copied!");
+  renderStandardResult("worldResult", world.name, [
+    ["Genre", world.genre],
+    ["Theme", world.theme],
+    ["Magic System", world.magicSystem],
+    ["Technology", world.technology],
+    ["Economy", world.economy],
+    ["Culture", world.culture],
+    ["Major Landmark", world.landmark],
+    ["Conflict", world.conflict],
+    ["Secret", world.secret]
+  ], world.story);
 }
 
-function clearResult(resultId, message){
-  const result = document.getElementById(resultId);
-  result.dataset.copyText = "";
-  result.innerHTML = `<p class="empty-text">${message}</p>`;
+/* Town */
+function generateTownName(){
+  return `${pick(TOWN_DATA.nameStarts)} ${pick(TOWN_DATA.nameEnds)}`;
+}
+
+function generateTown(){
+  const town = {
+    name: generateTownName(),
+    climate: pick(TOWN_DATA.climates),
+    region: pick(TOWN_DATA.regions),
+    landmark: pick(TOWN_DATA.landmarks),
+    industry: pick(TOWN_DATA.industries),
+    festival: pick(TOWN_DATA.festivals),
+    localFood: pick(TOWN_DATA.localFoods),
+    aesthetic: pick(TOWN_DATA.aesthetics),
+    rumor: pick(TOWN_DATA.rumors),
+    secret: pick(TOWN_DATA.secrets),
+    story: pick(TOWN_DATA.storyHooks)
+  };
+
+  renderStandardResult("townResult", town.name, [
+    ["Climate", town.climate],
+    ["Region", town.region],
+    ["Landmark", town.landmark],
+    ["Main Industry", town.industry],
+    ["Festival", town.festival],
+    ["Local Food", town.localFood],
+    ["Aesthetic", town.aesthetic],
+    ["Rumor", town.rumor],
+    ["Secret", town.secret]
+  ], town.story);
+}
+
+/* Magic */
+function generateMagicName(){
+  return `${pick(MAGIC_DATA.nameStarts)} ${pick(MAGIC_DATA.nameEnds)}`;
+}
+
+function generateMagic(){
+  const magic = {
+    name: generateMagicName(),
+    element: pick(MAGIC_DATA.elements),
+    style: pick(MAGIC_DATA.styles),
+    ability: pick(MAGIC_DATA.abilities),
+    weakness: pick(MAGIC_DATA.weaknesses),
+    source: pick(MAGIC_DATA.sources),
+    tool: pick(MAGIC_DATA.tools),
+    sideEffect: pick(MAGIC_DATA.sideEffects),
+    aesthetic: pick(MAGIC_DATA.aesthetics),
+    rule: pick(MAGIC_DATA.rules),
+    story: pick(MAGIC_DATA.storyHooks)
+  };
+
+  renderStandardResult("magicResult", magic.name, [
+    ["Element", magic.element],
+    ["Style", magic.style],
+    ["Ability", magic.ability],
+    ["Weakness", magic.weakness],
+    ["Source", magic.source],
+    ["Tool / Focus", magic.tool],
+    ["Side Effect", magic.sideEffect],
+    ["Aesthetic", magic.aesthetic],
+    ["Rule", magic.rule]
+  ], magic.story);
+}
+
+/* Outfit */
+function generateOutfitName(){
+  return `${pick(OUTFIT_DATA.styles)} Outfit`;
+}
+
+function generateOutfit(){
+  const outfit = {
+    name: generateOutfitName(),
+    style: pick(OUTFIT_DATA.styles),
+    top: pick(OUTFIT_DATA.tops),
+    bottom: pick(OUTFIT_DATA.bottoms),
+    shoes: pick(OUTFIT_DATA.shoes),
+    accessory: pick(OUTFIT_DATA.accessories),
+    hairstyle: pick(OUTFIT_DATA.hairstyles),
+    colors: pick(OUTFIT_DATA.colors),
+    extra: pick(OUTFIT_DATA.extras),
+    aesthetic: pick(OUTFIT_DATA.aesthetics),
+    story: pick(OUTFIT_DATA.storyHooks)
+  };
+
+  renderStandardResult("outfitResult", outfit.name, [
+    ["Style", outfit.style],
+    ["Top", outfit.top],
+    ["Bottom", outfit.bottom],
+    ["Shoes", outfit.shoes],
+    ["Accessory", outfit.accessory],
+    ["Hairstyle", outfit.hairstyle],
+    ["Colors", outfit.colors],
+    ["Extra", outfit.extra],
+    ["Aesthetic", outfit.aesthetic]
+  ], outfit.story);
+}
+
+/* Item */
+function generateItemName(){
+  return `${pick(ITEM_DATA.nameStarts)} ${pick(ITEM_DATA.nameEnds)}`;
+}
+
+function generateItem(){
+  const item = {
+    name: generateItemName(),
+    type: pick(ITEM_DATA.types),
+    material: pick(ITEM_DATA.materials),
+    ability: pick(ITEM_DATA.abilities),
+    drawback: pick(ITEM_DATA.drawbacks),
+    owner: pick(ITEM_DATA.owners),
+    aesthetic: pick(ITEM_DATA.aesthetics),
+    specialTrait: pick(ITEM_DATA.specialTraits),
+    story: pick(ITEM_DATA.storyHooks)
+  };
+
+  renderStandardResult("itemResult", item.name, [
+    ["Type", item.type],
+    ["Material", item.material],
+    ["Ability", item.ability],
+    ["Drawback", item.drawback],
+    ["Owner / User", item.owner],
+    ["Aesthetic", item.aesthetic],
+    ["Special Trait", item.specialTrait]
+  ], item.story);
+}
+
+/* Relationship */
+function generateRelationshipName(){
+  return `${pick(RELATIONSHIP_DATA.dynamics)}`;
+}
+
+function generateRelationship(){
+  const relationship = {
+    name: generateRelationshipName(),
+    dynamic: pick(RELATIONSHIP_DATA.dynamics),
+    loveLanguage: pick(RELATIONSHIP_DATA.loveLanguages),
+    nickname: pick(RELATIONSHIP_DATA.nicknames),
+    sharedHobby: pick(RELATIONSHIP_DATA.sharedHobbies),
+    conflict: pick(RELATIONSHIP_DATA.conflicts),
+    dateIdea: pick(RELATIONSHIP_DATA.dateIdeas),
+    sharedDream: pick(RELATIONSHIP_DATA.sharedDreams),
+    aesthetic: pick(RELATIONSHIP_DATA.aesthetics),
+    specialTrait: pick(RELATIONSHIP_DATA.specialTraits),
+    story: pick(RELATIONSHIP_DATA.storyHooks)
+  };
+
+  renderStandardResult("relationshipResult", relationship.name, [
+    ["Dynamic", relationship.dynamic],
+    ["Love Language", relationship.loveLanguage],
+    ["Nickname", relationship.nickname],
+    ["Shared Hobby", relationship.sharedHobby],
+    ["Conflict", relationship.conflict],
+    ["Date Idea", relationship.dateIdea],
+    ["Shared Dream", relationship.sharedDream],
+    ["Aesthetic", relationship.aesthetic],
+    ["Special Trait", relationship.specialTrait]
+  ], relationship.story);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -374,9 +635,37 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("copyPonyButton").addEventListener("click", () => copyFromResult("ponyResult"));
   document.getElementById("clearPonyButton").addEventListener("click", () => clearResult("ponyResult", "Your pony character idea will appear here."));
 
+  document.getElementById("generateGothButton").addEventListener("click", generateGoth);
+  document.getElementById("copyGothButton").addEventListener("click", () => copyFromResult("gothResult"));
+  document.getElementById("clearGothButton").addEventListener("click", () => clearResult("gothResult", "Your goth girl idea will appear here."));
+
   document.getElementById("generateDragonButton").addEventListener("click", generateDragon);
   document.getElementById("copyDragonButton").addEventListener("click", () => copyFromResult("dragonResult"));
   document.getElementById("clearDragonButton").addEventListener("click", () => clearResult("dragonResult", "Your dragon idea will appear here."));
+
+  document.getElementById("generateWorldButton").addEventListener("click", generateWorld);
+  document.getElementById("copyWorldButton").addEventListener("click", () => copyFromResult("worldResult"));
+  document.getElementById("clearWorldButton").addEventListener("click", () => clearResult("worldResult", "Your world idea will appear here."));
+
+  document.getElementById("generateTownButton").addEventListener("click", generateTown);
+  document.getElementById("copyTownButton").addEventListener("click", () => copyFromResult("townResult"));
+  document.getElementById("clearTownButton").addEventListener("click", () => clearResult("townResult", "Your town idea will appear here."));
+
+  document.getElementById("generateMagicButton").addEventListener("click", generateMagic);
+  document.getElementById("copyMagicButton").addEventListener("click", () => copyFromResult("magicResult"));
+  document.getElementById("clearMagicButton").addEventListener("click", () => clearResult("magicResult", "Your magic idea will appear here."));
+
+  document.getElementById("generateOutfitButton").addEventListener("click", generateOutfit);
+  document.getElementById("copyOutfitButton").addEventListener("click", () => copyFromResult("outfitResult"));
+  document.getElementById("clearOutfitButton").addEventListener("click", () => clearResult("outfitResult", "Your outfit idea will appear here."));
+
+  document.getElementById("generateItemButton").addEventListener("click", generateItem);
+  document.getElementById("copyItemButton").addEventListener("click", () => copyFromResult("itemResult"));
+  document.getElementById("clearItemButton").addEventListener("click", () => clearResult("itemResult", "Your item idea will appear here."));
+
+  document.getElementById("generateRelationshipButton").addEventListener("click", generateRelationship);
+  document.getElementById("copyRelationshipButton").addEventListener("click", () => copyFromResult("relationshipResult"));
+  document.getElementById("clearRelationshipButton").addEventListener("click", () => clearResult("relationshipResult", "Your relationship idea will appear here."));
 });
 </script>
 </body>
