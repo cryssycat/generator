@@ -840,6 +840,8 @@ function generateWorldName(){
 }
 
 function generateWorld(){
+  const landmarkPool = WORLD_DATA.landmarks || WORLD_DATA.majorLandmarks || WORLD_DATA.majorlandmarks || [];
+
   const world = {
     name: generateWorldName(),
     genre: pick(WORLD_DATA.genres),
@@ -848,7 +850,7 @@ function generateWorld(){
     technology: pick(WORLD_DATA.technologyLevels),
     economy: pick(WORLD_DATA.economies),
     culture: pick(WORLD_DATA.cultures),
-    landmark: pick(WORLD_DATA.majorlandmarks),
+    landmark: pick(landmarkPool),
     conflict: pick(WORLD_DATA.conflicts),
     secret: pick(WORLD_DATA.secrets),
     story: pick(WORLD_DATA.storyHooks)
@@ -861,7 +863,7 @@ function generateWorld(){
     ["Technology", world.technology],
     ["Economy", world.economy],
     ["Culture", world.culture],
-    ["Major Landmark", world.majorlandmark],
+    ["Major Landmark", world.landmark],
     ["Conflict", world.conflict],
     ["Secret", world.secret]
   ], world.story);
