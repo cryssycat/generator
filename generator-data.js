@@ -45376,6 +45376,4 @@ const PALETTE_DATA = {
         "hex": "#F7E3A1"
       }
     ]
-  }}
-  ]
 };
