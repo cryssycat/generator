@@ -45465,3 +45465,137 @@ if (typeof PALETTE_DATA !== "undefined" && typeof PALETTE_CHAOS_DATA === "undefi
   };
 }
 
+const POLYCULE_DATA = {
+
+nameStarts: [
+"Moon","Star","Sun","Honey","Velvet","Rose","Willow","Maple","Sugar","Cinnamon",
+"Cloud","Berry","Dream","Crystal","Silver","Night","Lavender","Juniper","Peach","Mochi",
+"Cherry","Autumn","Spring","Summer","Winter","Blossom","Clover","Pearl","Amber","Ivory",
+"Nova","Cosmic","Celestial","Sky","Rain","Snow","Mist","Dawn","Dusk","Twilight",
+"Opal","Lily","Petal","Meadow","River","Ocean","Fern","Pumpkin","Coffee","Tea",
+"Cocoa","Boba","Melody","Harmony","Echo","Sunny","Golden","Soft","Cozy","Whisper",
+"Aurora","Comet","Nebula","Galaxy","Moonlight","Starlight","Wish","Secret","Fable","Story",
+"Bloom","Buttercup","Daisy","Apple","Pear","Poppy","Lilac","Violet","Ruby","Sapphire",
+"Marshmallow","Vanilla","Cream","Pastel","Mint","Sage","Bluebell","Bell","Raven","Ember",
+"Frost","Storm","Shadow","Glow","Spark","Angel","Sweet","Lucky","Breeze","Song"
+],
+
+nameEnds: [
+"Bloom","Wish","Song","Heart","Haven","Bell","Dew","Petal","Whisker","Tail",
+"Feather","Glow","Dream","Breeze","Berry","Sparkle","Frost","Moon","Star","Cloud",
+"Mist","Rain","Rose","Flower","Dancer","Melody","Harmony","Echo","Light","Shine",
+"Spirit","Wing","Paw","Leaf","Blossom","Whisper","Meadow","Sky","Twilight","Aurora",
+"Nova","Wish","Charm","Love","Snow","Brook","Brooke","Glen","Willow","River",
+"Creek","Wave","Drift","Songbird","Heart","Kiss","Hope","Promise","Secret","Memory",
+"Lantern","Tea","Honey","Sugar","Cookie","Cream","Velvet","Locket","Candle","Wish",
+"Starfall","Moonbeam","Starlace","Moonsong","Sunbeam","Rosepetal","Cloudtail","Softpaw","Nightfall","Sunrise",
+"Dreamer","Glowtail","Petalsong","Snowfall","Dawnlight","Moondew","Rainbell","Wishsong","Skydancer","Brightheart"
+],
+
+species: [
+"Bunny","Cat","Dog","Husky","Golden Retriever","Corgi","Shiba Inu","Fox","Red Panda","Bear",
+"Raccoon","Ferret","Otter","Cow","Sheep","Goat","Mouse","Hamster","Tiger","Lion",
+"Leopard","Jaguar","Hyena","Deer","Moose","Fawn","Panda","Koala","Bat","Possum",
+"Skunk","Lynx","Bobcat","Snow Leopard","Serval","Rabbit Dragon","Cat Dragon","Bear Dragon","Fennec Fox","Arctic Fox",
+"Chihuahua","Collie","Australian Shepherd","Border Collie","Dingo","Tanuki","Ragdoll Cat","Calico Cat","Tabby Cat","Scottish Fold"
+],
+
+genders: [
+"Female",
+"Male",
+"Nonbinary",
+"Trans Female",
+"Trans Male",
+"Genderfluid",
+"Agender"
+],
+
+dynamics: [
+"Childhood friends turned lovers",
+"Best friends who accidentally fell in love",
+"Long-distance throuple",
+"Found family turned soulmates",
+"Rivals who became inseparable",
+"Opposites who complete one another",
+"Protective partners with different personalities",
+"Chaos trio with one braincell",
+"Gentle caretakers who heal each other",
+"Cozy homebodies with shared hobbies",
+"Soulmates with matching aesthetics",
+"Longtime online friends who finally met",
+"Three hopeless romantics",
+"Artists who support each other",
+"Shy partners who communicate through gifts",
+"The golden retriever, black cat, and tired one"
+],
+
+loveLanguages: [
+"Physical affection",
+"Quality time",
+"Acts of service",
+"Gift giving",
+"Words of affirmation",
+"Cooking together",
+"Movie nights",
+"Tea dates",
+"Shared music playlists",
+"Handwritten notes",
+"Sleeping together",
+"Traveling together",
+"Matching outfits",
+"Playing games together",
+"Reading together",
+"Collecting plushies"
+],
+
+sharedItems: [
+"Matching promise rings",
+"Moon necklaces",
+"Sun-and-star bracelets",
+"Crystal lockets",
+"Charm bracelets",
+"Friendship anklets",
+"Matching hoodies",
+"Flower crowns",
+"Matching plushies",
+"Constellation keychains",
+"Promise pendants",
+"Moonstone rings",
+"Matching scarves",
+"Tea mugs engraved with their names",
+"Tiny matching bells"
+],
+
+sharedDreams: [
+"Opening a cozy cafe together",
+"Running an animal sanctuary",
+"Living by the sea",
+"Traveling the world",
+"Opening a bookstore",
+"Building a magical village",
+"Raising dragons",
+"Owning a bakery",
+"Living peacefully in the countryside",
+"Creating a game studio together",
+"Owning a flower shop",
+"Writing stories together",
+"Building a home filled with rescued animals",
+"Growing old together"
+],
+
+storyHooks: [
+"They inherit an abandoned lighthouse hiding forgotten worlds.",
+"Their matching necklaces awaken ancient magic.",
+"They adopt a baby dragon together.",
+"A mysterious letter changes their future forever.",
+"They purchase an abandoned cafe filled with secrets.",
+"A lost spirit mistakes them for legendary heroes.",
+"Their dreams begin connecting to another world.",
+"They become guardians of a moonlit forest.",
+"An old prophecy mentions the three by name.",
+"They discover a magical train station no one else remembers.",
+"A living map chooses them as its new owners.",
+"Their shared rings contain fragments of a sleeping star."
+]
+
+};
