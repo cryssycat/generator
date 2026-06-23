@@ -25,6 +25,7 @@
 <main class="generator-page">
   <nav class="tabs generator-tabs" aria-label="Generator types">
     <button class="tab-button active" data-tab="characterGenerator">Character</button>
+    <button class="tab-button" data-tab="paletteGenerator">Palette</button>
     <button class="tab-button" data-tab="pokemonGenerator">Pokemon</button>
     <button class="tab-button" data-tab="fantasyGenerator">Fantasy</button>
     <button class="tab-button" data-tab="ponyGenerator">Pony</button>
@@ -44,6 +45,15 @@
       <button id="generateCharacterButton" class="generate-button">🎲 Generate Character</button>
       <div id="characterResult" class="result-card"><p class="empty-text">Your character idea will appear here.</p></div>
       <div class="button-row"><button id="copyCharacterButton" class="secondary-button">Copy Character Idea</button><button id="clearCharacterButton" class="secondary-button">Clear</button></div>
+    </section>
+  </section>
+
+  <section id="paletteGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title"><h2>Palette Generator</h2><p>Roll a color palette idea.</p></div>
+      <button id="generatePaletteButton" class="generate-button">🎨 Generate Palette</button>
+      <div id="paletteResult" class="result-card"><p class="empty-text">Your palette idea will appear here.</p></div>
+      <div class="button-row"><button id="copyPaletteButton" class="secondary-button">Copy Palette Idea</button><button id="clearPaletteButton" class="secondary-button">Clear</button></div>
     </section>
   </section>
 
@@ -253,6 +263,63 @@ function generateCharacter(){
     ["Special Trait", character.trait]
   ], character.story);
 }
+
+
+/* Palette */
+function parsePaletteColors(palette){
+  if(!palette) return [];
+
+  if(Array.isArray(palette.colors)){
+    return palette.colors.map(color => {
+      if(typeof color === "string") return color;
+      return `${color.name || "Color"}${color.hex ? " — " + color.hex : ""}`;
+    });
+  }
+
+  if(typeof palette === "string"){
+    return palette.split(",").map(color => color.trim()).filter(Boolean);
+  }
+
+  return [];
+}
+
+function generatePalette(){
+  let palette = null;
+
+  if(typeof PALETTE_DATA !== "undefined" && Array.isArray(PALETTE_DATA.palettes)){
+    palette = pick(PALETTE_DATA.palettes);
+  } else if(typeof PALETTE_DATA !== "undefined" && Array.isArray(PALETTE_DATA)){
+    palette = pick(PALETTE_DATA);
+  } else if(typeof DATA !== "undefined" && Array.isArray(DATA.palettes)){
+    palette = {
+      name: "Random Palette",
+      aesthetic: "Mixed",
+      moods: [],
+      story: "Generated from the main character palette list.",
+      colors: pick(DATA.palettes).split(",").map(color => color.trim())
+    };
+  }
+
+  if(!palette){
+    renderStandardResult("paletteResult", "Palette Generator", [
+      ["Error", "No PALETTE_DATA or DATA.palettes found"]
+    ], "Add palette data to generator-data.js.");
+    return;
+  }
+
+  const colors = parsePaletteColors(palette);
+
+  renderStandardResult("paletteResult", palette.name || "Random Palette", [
+    ["Aesthetic", palette.aesthetic || "Mixed"],
+    ["Moods", Array.isArray(palette.moods) ? palette.moods.join(", ") : (palette.moods || "Random")],
+    ["Color 1", colors[0] || "—"],
+    ["Color 2", colors[1] || "—"],
+    ["Color 3", colors[2] || "—"],
+    ["Color 4", colors[3] || "—"],
+    ["Color 5", colors[4] || "—"]
+  ], palette.story || "A randomly generated palette.");
+}
+
 
 /* Pokemon */
 function generatePokemonName(){
@@ -629,6 +696,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("generateCharacterButton").addEventListener("click", generateCharacter);
   document.getElementById("copyCharacterButton").addEventListener("click", () => copyFromResult("characterResult"));
   document.getElementById("clearCharacterButton").addEventListener("click", () => clearResult("characterResult", "Your character idea will appear here."));
+
+  document.getElementById("generatePaletteButton").addEventListener("click", generatePalette);
+  document.getElementById("copyPaletteButton").addEventListener("click", () => copyFromResult("paletteResult"));
+  document.getElementById("clearPaletteButton").addEventListener("click", () => clearResult("paletteResult", "Your palette idea will appear here."));
 
   document.getElementById("generatePokemonButton").addEventListener("click", generatePokemon);
   document.getElementById("copyPokemonButton").addEventListener("click", () => copyFromResult("pokemonResult"));
