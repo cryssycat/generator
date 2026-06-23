@@ -11,7 +11,7 @@
   <div class="header-card">
     <p class="eyebrow">Starbrew Tools</p>
     <h1>Random Generators</h1>
-    <p class="subtitle">Roll fresh character ideas, Pokemon-inspired concepts, fantasy humanoid designs, or pony characters.</p>
+    <p class="subtitle">Roll fresh character ideas, Pokemon-inspired concepts, fantasy humanoid designs, pony characters, or gothic girl designs.</p>
     <div class="hub-links">
       <a href="https://characterhub.pages.dev/">⭐ Star Hub</a>
       <a href="https://lunabrew.pages.dev/">🌙 Luna Hub</a>
@@ -28,6 +28,7 @@
     <button class="tab-button" data-tab="pokemonGenerator">Pokemon Generator</button>
     <button class="tab-button" data-tab="fantasyGenerator">Fantasy Humanoid Generator</button>
     <button class="tab-button" data-tab="ponyGenerator">Pony Generator</button>
+    <button class="tab-button" data-tab="gothGenerator">Goth Girl Generator</button>
   </nav>
 
   <section id="characterGenerator" class="tab-panel active">
@@ -94,6 +95,24 @@
       <div class="button-row">
         <button id="copyPonyButton" class="secondary-button">Copy Pony Idea</button>
         <button id="clearPonyButton" class="secondary-button">Clear</button>
+      </div>
+    </section>
+  </section>
+
+
+  <section id="gothGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title">
+        <h2>Goth Girl Generator</h2>
+        <p>Roll a gothic character with dark themes, moody palettes, aesthetic, accessory, magic style, weapon, special trait, and story hook.</p>
+      </div>
+      <button id="generateGothButton" class="generate-button">🦇 Generate Goth Girl</button>
+      <div id="gothResult" class="result-card">
+        <p class="empty-text">Your goth girl idea will appear here.</p>
+      </div>
+      <div class="button-row">
+        <button id="copyGothButton" class="secondary-button">Copy Goth Idea</button>
+        <button id="clearGothButton" class="secondary-button">Clear</button>
       </div>
     </section>
   </section>
@@ -257,6 +276,44 @@ function generatePony(){
 }
 
 
+
+function generateGothName(){
+  return `${pick(GOTH_DATA.nameStarts)}${pick(GOTH_DATA.nameEnds)} ${pick(GOTH_DATA.surnames)}`;
+}
+
+function generateGoth(){
+  const goth = {
+    name: generateGothName(),
+    type: pick(GOTH_DATA.types),
+    role: pick(GOTH_DATA.roles),
+    theme: pick(GOTH_DATA.themes),
+    palette: pick(GOTH_DATA.palettes),
+    personality: uniquePicks(GOTH_DATA.personalities, 3).join(", "),
+    occupation: pick(GOTH_DATA.occupations),
+    aesthetic: pick(GOTH_DATA.aesthetics),
+    accessory: pick(GOTH_DATA.accessories),
+    magicStyle: pick(GOTH_DATA.magicStyles),
+    weapon: pick(GOTH_DATA.weapons),
+    specialTrait: pick(GOTH_DATA.specialTraits),
+    story: pick(GOTH_DATA.storyHooks)
+  };
+
+  renderStandardResult("gothResult", goth.name, [
+    ["Type", goth.type],
+    ["Role", goth.role],
+    ["Theme", goth.theme],
+    ["Palette", goth.palette],
+    ["Personality", goth.personality],
+    ["Occupation", goth.occupation],
+    ["Aesthetic", goth.aesthetic],
+    ["Accessory", goth.accessory],
+    ["Magic Style", goth.magicStyle],
+    ["Weapon / Tool", goth.weapon],
+    ["Special Trait", goth.specialTrait]
+  ], goth.story);
+}
+
+
 function renderStandardResult(resultId, title, rows, story){
   const result = document.getElementById(resultId);
   const rowsHtml = rows.map(row => `<div><strong>${row[0]}</strong><span>${row[1]}</span></div>`).join("");
@@ -316,6 +373,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("generatePonyButton").addEventListener("click", generatePony);
   document.getElementById("copyPonyButton").addEventListener("click", () => copyFromResult("ponyResult"));
   document.getElementById("clearPonyButton").addEventListener("click", () => clearResult("ponyResult", "Your pony character idea will appear here."));
+
+  document.getElementById("generateGothButton").addEventListener("click", generateGoth);
+  document.getElementById("copyGothButton").addEventListener("click", () => copyFromResult("gothResult"));
+  document.getElementById("clearGothButton").addEventListener("click", () => clearResult("gothResult", "Your goth girl idea will appear here."));
 });
 </script>
 </body>
