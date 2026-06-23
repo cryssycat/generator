@@ -2752,3 +2752,4 @@ storyHooks: [
   "They help everypony prepare for winter wrap-up.",
   "They believe everypony deserves a second chance."
 ]
+};
