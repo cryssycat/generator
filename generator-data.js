@@ -13374,3 +13374,21 @@ const RELATIONSHIP_DATA = {
   ]
 
 };
+
+  const PALETTE_DATA = {
+  palettes: [
+    {
+      name: "Moonflower Palette",
+      aesthetic: "Soft Celestial",
+      moods: ["Dreamy", "Cozy", "Magical"],
+      story: "Inspired by moonflowers blooming beneath a rainy midnight sky.",
+      colors: [
+        { name: "Midnight Navy", hex: "#1A1B2E" },
+        { name: "Dusky Violet", hex: "#4B3F72" },
+        { name: "Lavender Mist", hex: "#A67DB8" },
+        { name: "Moon Petal", hex: "#F4D6FF" },
+        { name: "Vanilla Cream", hex: "#FFF8E7" }
+      ]
+    }
+  ]
+};
