@@ -14690,6 +14690,1306 @@ const RELATIONSHIP_DATA = {
     { name: "Silver Glass", hex: "#DDE0E7" },
     { name: "Moon Ivory", hex: "#FFF8F2" }
   ]
-}
+},
+
+    {
+  name: "Cotton Candy Palette 1",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 2",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 3",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 4",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 5",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 6",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 7",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 8",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 9",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 10",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 11",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 12",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 13",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 14",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 15",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 16",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 17",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 18",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 19",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 20",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 21",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 22",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 23",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 24",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 25",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 26",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 27",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 28",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 29",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 30",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 31",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 32",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 33",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 34",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 35",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 36",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 37",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 38",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 39",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 40",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 41",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 42",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 43",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 44",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 45",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 46",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 47",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 48",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 49",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 50",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 51",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 52",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 53",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 54",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 55",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 56",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 57",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 58",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 59",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 60",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 61",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 62",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 63",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 64",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 65",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 66",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 67",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 68",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 69",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 70",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 71",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 72",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 73",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 74",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 75",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 76",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 77",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 78",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 79",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 80",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 81",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 82",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 83",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 84",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 85",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 86",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 87",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 88",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 89",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 90",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 91",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 92",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 93",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 94",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cute", "Sleepy", "Happy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 95",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Magical", "Gentle", "Dreamy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Cotton Candy Palette 96",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Sleepy", "Happy", "Cozy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Cotton Candy Pink", hex: "#FFD6E8" },
+    { name: "Baby Sky Blue", hex: "#CFE8FF" },
+    { name: "Buttercream Yellow", hex: "#FFF7C7" },
+    { name: "Cloud White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Lavender Dream Palette 97",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Gentle", "Dreamy", "Cute"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Amethyst Lavender", hex: "#BFA8FF" },
+    { name: "Fairy Lilac", hex: "#E8D8FF" },
+    { name: "Pink Moonlight", hex: "#FFF0FA" },
+    { name: "Vanilla Snow", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Peach Milk Palette 98",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Happy", "Cozy", "Magical"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Peach Sorbet", hex: "#FFD8C2" },
+    { name: "Milk Tea Cream", hex: "#FFF0E6" },
+    { name: "Soft Orchid", hex: "#F8E8FF" },
+    { name: "Pearl White", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Mint Bunny Palette 99",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Dreamy", "Cute", "Sleepy"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Mint Matcha", hex: "#CFF5E7" },
+    { name: "Seafoam Mist", hex: "#E8FFF8" },
+    { name: "Strawberry Milk", hex: "#FFF3FA" },
+    { name: "Snow Puff", hex: "#FFFFFF" }
+  ]
+},
+
+{
+  name: "Moon Jelly Palette 100",
+  aesthetic: "Pastel Kawaii",
+  moods: ["Cozy", "Magical", "Gentle"],
+  story: "Inspired by soft pastel skies and cozy dreams.",
+  colors: [
+    { name: "Moon Jelly Blue", hex: "#C7D8FF" },
+    { name: "Silver Mist", hex: "#E6EEFF" },
+    { name: "Lavender Frost", hex: "#F8F2FF" },
+    { name: "Angel White", hex: "#FFFFFF" }
+  ]
+},
   ]
 };
