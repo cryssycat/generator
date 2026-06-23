@@ -45630,7 +45630,7 @@ dynamics: [
   "A royal, a rogue, and the healer who loves them",
   "The sunshine one, the moonlit one, and the starry one",
   "Three lonely hearts who became home"
-]
+],
 
 loveLanguages: [
   "Physical affection",
@@ -45745,7 +45745,7 @@ loveLanguages: [
   "Laughing together",
   "Growing old together",
   "Simply existing together"
-]
+],
 
 sharedItems: [
   "Matching promise rings",
