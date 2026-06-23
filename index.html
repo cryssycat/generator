@@ -36,7 +36,6 @@
     <button class="tab-button" data-tab="outfitGenerator">Outfit</button>
     <button class="tab-button" data-tab="itemGenerator">Item</button>
     <button class="tab-button" data-tab="relationshipGenerator">Relationship</button>
-    <button class="tab-button" data-tab="paletteGenerator">Palette</button>
   </nav>
 
   <section id="characterGenerator" class="tab-panel active">
@@ -146,34 +145,6 @@
       <div class="button-row"><button id="copyRelationshipButton" class="secondary-button">Copy Relationship Idea</button><button id="clearRelationshipButton" class="secondary-button">Clear</button></div>
     </section>
   </section>
-
-  <section id="paletteGenerator" class="tab-panel">
-  <section class="generator-card">
-    <div class="section-title">
-      <h2>Palette Generator</h2>
-      <p>Generate a five-color palette with names, hex codes, mood, and theme.</p>
-    </div>
-
-    <button id="generatePaletteButton" class="generate-button">
-      🎨 Generate Palette
-    </button>
-
-    <button id="generateChaosPaletteButton" class="secondary-button chaos-button">
-      🌈 Chaos Mode
-    </button>
-
-    <div id="paletteResult" class="result-card">
-      <p class="empty-text">Your palette will appear here.</p>
-    </div>
-
-    <div class="button-row">
-      <button id="copyPaletteButton" class="secondary-button">Copy Palette</button>
-      <button id="clearPaletteButton" class="secondary-button">Clear</button>
-    </div>
-  </section>
-</section>
-
-  
 </main>
 
 <script src="generator-data.js?v=1"></script>
@@ -206,24 +177,32 @@ function setupTabs(){
 
 function renderStandardResult(resultId, title, rows, story){
   const result = document.getElementById(resultId);
-  const rowsHtml = rows.map(row => `<div><strong>${row[0]}</strong><span>${row[1]}</span></div>`).join("");
+
+  const safeRows = Array.isArray(rows) ? rows : [];
+  const safeStory = story || "No story hook generated.";
+
+  const rowsHtml = safeRows
+    .map(row => `<div><strong>${row[0]}</strong><span>${row[1]}</span></div>`)
+    .join("");
 
   result.innerHTML = `
     <h2>${title}</h2>
     <div class="result-grid">${rowsHtml}</div>
     <div class="story-box">
       <strong>Story Hook</strong>
-      <p>${story}</p>
+      <p>${safeStory}</p>
     </div>
   `;
 
-  result.dataset.copyText =
-`${title}
-
-${rows.map(row => `${row[0]}: ${row[1]}`).join("\\n")}
-
-Story Hook:
-${story}`;
+  result.dataset.copyText = [
+    title,
+    "",
+    ...safeRows.map(row => `${row[0]}: ${row[1]}`),
+    "",
+    "Story Hook:",
+    safeStory
+  ].join("
+");
 }
 
 async function copyFromResult(resultId){
@@ -465,8 +444,9 @@ function generateWorld(){
     technology: pick(WORLD_DATA.technologyLevels),
     economy: pick(WORLD_DATA.economies),
     culture: pick(WORLD_DATA.cultures),
-    landmark: pick(WORLD_DATA.majorLandmarks),
+    landmark: pick(WORLD_DATA.landmarks),
     conflict: pick(WORLD_DATA.conflicts),
+    secret: pick(WORLD_DATA.secrets),
     story: pick(WORLD_DATA.storyHooks)
   };
 
@@ -479,7 +459,8 @@ function generateWorld(){
     ["Culture", world.culture],
     ["Major Landmark", world.landmark],
     ["Conflict", world.conflict],
-     ], world.story);
+    ["Secret", world.secret]
+  ], world.story);
 }
 
 /* Town */
@@ -643,110 +624,6 @@ function generateRelationship(){
   ], relationship.story);
 }
 
-function generatePalette(){
-  const palette = pick(PALETTE_DATA.palettes);
-
-  const swatches = palette.colors.map(color => `
-    <div class="color-swatch" style="background:${color.hex};"></div>
-  `).join("");
-
-  const rows = palette.colors.map(color => `
-    <div class="palette-row">
-      <span>${color.name}</span>
-      <code>${color.hex}</code>
-    </div>
-  `).join("");
-
-  const result = document.getElementById("paletteResult");
-
-  result.innerHTML = `
-    <h2>${palette.name}</h2>
-    <p class="palette-subtitle">${palette.aesthetic} • ${palette.moods.join(" • ")}</p>
-
-    <div class="palette-strip">
-      ${swatches}
-    </div>
-
-    <div class="palette-list">
-      ${rows}
-    </div>
-
-    <div class="story-box">
-      <strong>Story Hook</strong>
-      <p>${palette.story}</p>
-    </div>
-  `;
-
-  result.dataset.copyText =
-`${palette.name}
-
-Aesthetic: ${palette.aesthetic}
-Mood: ${palette.moods.join(" • ")}
-
-${palette.colors.map(color => `${color.name}: ${color.hex}`).join("\n")}
-
-Story Hook:
-${palette.story}`;
-}
-  
-
-function randomHex(){
-  return "#" + Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, "0")
-    .toUpperCase();
-}
-
-function generateChaosPalette(){
-  const colors = [
-    randomHex(),
-    randomHex(),
-    randomHex(),
-    randomHex(),
-    randomHex()
-  ];
-
-  const swatches = colors.map(hex => `
-    <div class="color-swatch" style="background:${hex};"></div>
-  `).join("");
-
-  const rows = colors.map((hex, i) => `
-    <div class="palette-row">
-      <span>Color ${i + 1}</span>
-      <code>${hex}</code>
-    </div>
-  `).join("");
-
-  const result = document.getElementById("paletteResult");
-
-  result.innerHTML = `
-    <h2>Chaos Palette</h2>
-    <p class="palette-subtitle">Completely Random Colors</p>
-
-    <div class="palette-strip">
-      ${swatches}
-    </div>
-
-    <div class="palette-list">
-      ${rows}
-    </div>
-
-    <div class="story-box">
-      <strong>Chaos Mode</strong>
-      <p>This palette was born entirely from randomness.</p>
-    </div>
-  `;
-
-  result.dataset.copyText =
-`Chaos Palette
-
-${colors.map((hex, i) => `Color ${i + 1}: ${hex}`).join("\n")}
-
-Chaos Mode:
-This palette was born entirely from randomness.`;
-}
-
-
 document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
 
@@ -797,11 +674,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("generateRelationshipButton").addEventListener("click", generateRelationship);
   document.getElementById("copyRelationshipButton").addEventListener("click", () => copyFromResult("relationshipResult"));
   document.getElementById("clearRelationshipButton").addEventListener("click", () => clearResult("relationshipResult", "Your relationship idea will appear here."));
-
-  document.getElementById("generatePaletteButton").addEventListener("click", generatePalette);
-  document.getElementById("generateChaosPaletteButton").addEventListener("click", generateChaosPalette);
-  document.getElementById("copyPaletteButton").addEventListener("click", () => copyFromResult("paletteResult"));
-  document.getElementById("clearPaletteButton").addEventListener("click", () => clearResult("paletteResult", "Your palette will appear here."));
 });
 </script>
 </body>
