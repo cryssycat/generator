@@ -11,7 +11,7 @@
   <div class="header-card">
     <p class="eyebrow">Starbrew Tools</p>
     <h1>Random Generators</h1>
-    <p class="subtitle">Roll fresh character ideas, Pokemon-inspired concepts, or fantasy humanoid designs.</p>
+    <p class="subtitle">Roll fresh character ideas, Pokemon-inspired concepts, fantasy humanoid designs, or pony characters.</p>
     <div class="hub-links">
       <a href="https://characterhub.pages.dev/">⭐ Star Hub</a>
       <a href="https://lunabrew.pages.dev/">🌙 Luna Hub</a>
@@ -27,6 +27,7 @@
     <button class="tab-button active" data-tab="characterGenerator">Character Generator</button>
     <button class="tab-button" data-tab="pokemonGenerator">Pokemon Generator</button>
     <button class="tab-button" data-tab="fantasyGenerator">Fantasy Humanoid Generator</button>
+    <button class="tab-button" data-tab="ponyGenerator">Pony Generator</button>
   </nav>
 
   <section id="characterGenerator" class="tab-panel active">
@@ -79,6 +80,24 @@
       </div>
     </section>
   </section>
+
+  <section id="ponyGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title">
+        <h2>My Little Pony Generator</h2>
+        <p>Roll a pony character with type, cutie mark, accessory, special trait, and story hook.</p>
+      </div>
+      <button id="generatePonyButton" class="generate-button">🦄 Generate Pony Character</button>
+      <div id="ponyResult" class="result-card">
+        <p class="empty-text">Your pony character idea will appear here.</p>
+      </div>
+      <div class="button-row">
+        <button id="copyPonyButton" class="secondary-button">Copy Pony Idea</button>
+        <button id="clearPonyButton" class="secondary-button">Clear</button>
+      </div>
+    </section>
+  </section>
+
 </main>
 
 <script src="generator-data.js?v=1"></script>
@@ -214,6 +233,30 @@ function generateFantasy(){
   ], fantasy.story);
 }
 
+
+function generatePonyName(){
+  return `${pick(PONY_DATA.nameStarts)} ${pick(PONY_DATA.nameEnds)}`;
+}
+
+function generatePony(){
+  const pony = {
+    name: generatePonyName(),
+    ponyType: pick(PONY_DATA.ponyTypes),
+    cutieMark: `${pick(PONY_DATA.cutieMarkStarts)} ${pick(PONY_DATA.cutieMarkEnds)}`,
+    accessory: pick(PONY_DATA.accessories),
+    specialTrait: pick(PONY_DATA.specialTraits),
+    story: pick(PONY_DATA.storyHooks)
+  };
+
+  renderStandardResult("ponyResult", pony.name, [
+    ["Pony Type", pony.ponyType],
+    ["Cutie Mark", pony.cutieMark],
+    ["Accessory", pony.accessory],
+    ["Special Trait", pony.specialTrait]
+  ], pony.story);
+}
+
+
 function renderStandardResult(resultId, title, rows, story){
   const result = document.getElementById(resultId);
   const rowsHtml = rows.map(row => `<div><strong>${row[0]}</strong><span>${row[1]}</span></div>`).join("");
@@ -269,6 +312,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("generateFantasyButton").addEventListener("click", generateFantasy);
   document.getElementById("copyFantasyButton").addEventListener("click", () => copyFromResult("fantasyResult"));
   document.getElementById("clearFantasyButton").addEventListener("click", () => clearResult("fantasyResult", "Your fantasy character idea will appear here."));
+
+  document.getElementById("generatePonyButton").addEventListener("click", generatePony);
+  document.getElementById("copyPonyButton").addEventListener("click", () => copyFromResult("ponyResult"));
+  document.getElementById("clearPonyButton").addEventListener("click", () => clearResult("ponyResult", "Your pony character idea will appear here."));
 });
 </script>
 </body>
