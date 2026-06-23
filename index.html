@@ -354,15 +354,156 @@ const FALLBACK_CHAOS_COLORS = [
   { name: "Cream Soda", hex: "#F6E7B8" }
 ];
 
-function normalizePaletteColor(color){
-  if(typeof color === "string"){
-    return { name: color.trim(), hex: "" };
+
+const COLOR_HEX_LOOKUP = {
+  "storm gray": "#6F7480",
+  "honey gold": "#DDAA3A",
+  "peach": "#FFC1A3",
+  "soft gray": "#C9C4CC",
+  "champagne": "#F1D6A8",
+  "dusty pink": "#D99AAA",
+  "cream": "#FFF1D8",
+  "espresso brown": "#4A2E25",
+  "lavender": "#B9A7D8",
+  "black": "#17131C",
+  "silver": "#C9CEDA",
+  "baby blue": "#A9D8FF",
+  "cloud white": "#F7F4F0",
+  "soft gold": "#F4D06F",
+  "chocolate brown": "#6B3F30",
+  "rose pink": "#E8A6B8",
+  "vanilla": "#F8E7C5",
+  "mint": "#A8E6CF",
+  "warm cream": "#F6E1B8",
+  "deep purple": "#3E245C",
+  "magenta": "#C13C8A",
+  "moonlight silver": "#D6DAE8",
+  "pastel rainbow": "#F4B6D7",
+  "white": "#FFFFFF",
+  "candy pink": "#FF8FCB",
+  "forest green": "#304734",
+  "honey yellow": "#E7B85B",
+  "warm brown": "#7A4E3A",
+  "sky blue": "#8CCDF2",
+  "pearl white": "#F8F4EA",
+  "sage green": "#A8B99A",
+  "dusty rose": "#B98291",
+  "strawberry pink": "#F48FB1",
+  "milk white": "#FFF8EF",
+  "cocoa brown": "#7B4A3B",
+  "moonlight blue": "#7E9FD6",
+  "midnight navy": "#1B2140",
+  "coral": "#F88379",
+  "warm ivory": "#FFF0D9",
+  "mint green": "#98D7B5",
+  "pale yellow": "#F7E8A4",
+  "soft lilac": "#D9C6F2",
+  "blush pink": "#F2B7C6",
+  "crimson": "#8F2338",
+  "plum purple": "#5B3A6E",
+  "charcoal": "#2B2B33",
+  "rose gold": "#D8A19C",
+  "ivory": "#FFF4E4",
+  "sunflower yellow": "#F2C94C",
+  "ocean blue": "#3D8FB8",
+  "seafoam": "#9DDDC8",
+  "sandy beige": "#D8C3A5",
+  "teal": "#2C9A9A",
+  "ruby red": "#B11E3B",
+  "gold": "#D8B44A",
+  "emerald green": "#2E8B57",
+  "copper": "#B87333",
+  "periwinkle": "#A7B7E8",
+  "coffee brown": "#5C3A2E",
+  "caramel": "#C98545",
+  "soft orange": "#F5A45D",
+  "cotton candy pink": "#FFB7D5",
+  "aqua": "#7FE7E1",
+  "icy blue": "#BDE9F7",
+  "wine red": "#7B1E35",
+  "powder blue": "#BBDDF2",
+  "mocha": "#8B5E4A",
+  "midnight blue": "#202A54",
+  "violet": "#7A5DC7",
+  "sakura pink": "#F6AFC2",
+  "pale green": "#CFE8C7",
+  "berry purple": "#7D4C9E",
+  "rose red": "#C9435B",
+  "cinnamon": "#B06A3C",
+  "seafoam green": "#8ED9C1",
+  "lilac": "#C8A2C8",
+  "moon white": "#F2F4FF",
+  "bubblegum pink": "#FF9BD2",
+  "maroon": "#6E1E32",
+  "navy": "#1D2A4D",
+  "soft red": "#D76570",
+  "pumpkin orange": "#D9823B",
+  "golden yellow": "#EAC44D",
+  "pale blue": "#B7D7F0",
+  "dark green": "#21412E",
+  "pale gold": "#E8D79A",
+  "blue gray": "#7D8FA3",
+  "deep teal": "#1F6F73",
+  "cherry red": "#C73352",
+  "cloud gray": "#D3D8DE",
+  "magenta": "#C13C8A",
+  "soft aqua": "#9FE5E0",
+  "lemon yellow": "#F6E96B",
+  "royal purple": "#4B2E83",
+  "pastel mint": "#B8F0D2",
+  "strawberry red": "#D94A5A",
+  "blueberry": "#4E5FA8",
+  "blueberry blue": "#4E6BB5",
+  "blueberry purple": "#5B4DA8",
+  "berry blue": "#4A6FA5",
+  "warm beige": "#DCC7AA",
+  "blush": "#F0B8C8",
+  "berry pink": "#D96A9E",
+  "bluebell blue": "#8BAFE8",
+  "pastel peach": "#FFD1B8",
+  "pearl": "#EFE9DD",
+  "rosewood": "#9F4E5A",
+  "rose quartz pink": "#F0B7C8",
+  "lavender gray": "#B8AFC8",
+  "mint blue": "#A5DED6",
+  "peach pink": "#F7A6A0",
+  "cherry blossom pink": "#F7B6C8",
+  "teal blue": "#2F8FA8",
+  "soft yellow": "#F6E7A8",
+  "cotton pink": "#F7B7D8",
+  "chocolate": "#6B3F30",
+  "vanilla cream": "#F8E7C5",
+  "rose": "#D96A87",
+  "champagne": "#F1D6A8"
+};
+
+function fallbackHexFromName(name){
+  let hash = 0;
+  const text = String(name || "color").toLowerCase();
+  for(let i = 0; i < text.length; i++){
+    hash = text.charCodeAt(i) + ((hash << 5) - hash);
   }
 
-  return {
-    name: color?.name || "Unnamed Color",
-    hex: color?.hex || color?.value || ""
-  };
+  const hue = Math.abs(hash) % 360;
+  return `hsl(${hue}, 48%, 68%)`;
+}
+
+function hexForColorName(name){
+  const key = String(name || "").trim().toLowerCase();
+  return COLOR_HEX_LOOKUP[key] || fallbackHexFromName(key);
+}
+
+
+function normalizePaletteColor(color){
+  if(typeof color === "string"){
+    const name = color.trim();
+    return { name, hex: hexForColorName(name) };
+  }
+
+  const name = color?.name || "Unnamed Color";
+  const hex = color?.hex || color?.value || hexForColorName(name);
+
+  return { name, hex };
 }
 
 function stringPaletteToColors(value){
@@ -399,35 +540,35 @@ function getPremadePalette(){
 }
 
 function getChaosColorPool(){
+  let pool = [];
+
   if(typeof PALETTE_CHAOS_DATA !== "undefined" && Array.isArray(PALETTE_CHAOS_DATA.colors)){
-    return PALETTE_CHAOS_DATA.colors.map(normalizePaletteColor);
-  }
-
-  if(typeof PALETTE_DATA !== "undefined"){
-    let pool = [];
-
+    pool = PALETTE_CHAOS_DATA.colors;
+  } else if(typeof PALETTE_DATA !== "undefined"){
     if(Array.isArray(PALETTE_DATA.colors)){
       pool = PALETTE_DATA.colors;
     } else if(Array.isArray(PALETTE_DATA.palettes)){
       PALETTE_DATA.palettes.forEach(palette => {
-        if(Array.isArray(palette.colors)){
-          pool.push(...palette.colors);
-        }
+        if(Array.isArray(palette.colors)) pool.push(...palette.colors);
       });
     } else if(Array.isArray(PALETTE_DATA)){
       PALETTE_DATA.forEach(palette => {
-        if(Array.isArray(palette.colors)){
-          pool.push(...palette.colors);
-        }
+        if(Array.isArray(palette.colors)) pool.push(...palette.colors);
       });
-    }
-
-    if(pool.length){
-      return pool.map(normalizePaletteColor);
     }
   }
 
-  return FALLBACK_CHAOS_COLORS;
+  if((!pool || !pool.length) && typeof DATA !== "undefined" && Array.isArray(DATA.palettes)){
+    DATA.palettes.forEach(paletteString => {
+      pool.push(...stringPaletteToColors(paletteString));
+    });
+  }
+
+  if(!pool || !pool.length){
+    pool = FALLBACK_CHAOS_COLORS;
+  }
+
+  return pool.map(normalizePaletteColor);
 }
 
 function renderPaletteResult(title, palette, colors, story){
@@ -439,8 +580,8 @@ function renderPaletteResult(title, palette, colors, story){
   }
 
   const swatchesHtml = safeColors.map(color => {
-    const bg = color.hex || "linear-gradient(135deg, rgba(255,255,255,.22), rgba(255,255,255,.06))";
-    const hexText = color.hex || "No hex";
+    const bg = color.hex || hexForColorName(color.name);
+    const hexText = color.hex || hexForColorName(color.name);
     return `
       <div class="palette-swatch" style="background:${bg};">
         <div class="palette-swatch-label">
