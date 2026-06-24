@@ -90,7 +90,6 @@
 
 <button class="tab-button" data-tab="vibeGenerator">Vibe</button>
 <button class="tab-button" data-tab="paletteGenerator">Palette</button>
- 
   </nav>
 
   <section id="characterGenerator" class="tab-panel active">
@@ -143,28 +142,6 @@
     </section>
   </section>
 
-  <section id="magicalGirlGenerator" class="tab-panel">
-    <section class="generator-card">
-      <div class="section-title">
-        <h2>Magical Girl Generator</h2>
-        <p>Create a magical girl with a civilian name, magical title, theme, mascot, transformation item, power, and story hook.</p>
-      </div>
-
-      <button id="generateMagicalGirlButton" class="generate-button">
-        ✨ Generate Magical Girl
-      </button>
-
-      <div id="magicalGirlResult" class="result-card">
-        <p class="empty-text">Your magical girl will appear here.</p>
-      </div>
-
-      <div class="button-row">
-        <button id="copyMagicalGirlButton" class="secondary-button">Copy Magical Girl</button>
-        <button id="clearMagicalGirlButton" class="secondary-button">Clear</button>
-      </div>
-    </section>
-  </section>
-
   <section id="ponyGenerator" class="tab-panel">
     <section class="generator-card">
       <div class="section-title"><h2>My Little Pony Generator</h2><p>Roll a pony character with type, cutie mark, accessory, special trait, and story hook.</p></div>
@@ -180,6 +157,27 @@
       <button id="generateGothButton" class="generate-button">🦇 Generate Goth Girl</button>
       <div id="gothResult" class="result-card"><p class="empty-text">Your goth girl idea will appear here.</p></div>
       <div class="button-row"><button id="copyGothButton" class="secondary-button">Copy Goth Idea</button><button id="clearGothButton" class="secondary-button">Clear</button></div>
+    </section>
+  </section>
+
+
+  <section id="magicalGirlGenerator" class="tab-panel">
+    <section class="generator-card">
+      <div class="section-title">
+        <h2>Magical Girl Generator</h2>
+        <p>Create a magical girl with a civilian name, magical title, theme, weapon, mascot, transformation item, power, and story hook.</p>
+      </div>
+
+      <button id="generateMagicalGirlButton" class="generate-button">✨ Generate Magical Girl</button>
+
+      <div id="magicalGirlResult" class="result-card">
+        <p class="empty-text">Your magical girl will appear here.</p>
+      </div>
+
+      <div class="button-row">
+        <button id="copyMagicalGirlButton" class="secondary-button">Copy Magical Girl</button>
+        <button id="clearMagicalGirlButton" class="secondary-button">Clear</button>
+      </div>
     </section>
   </section>
 
@@ -957,121 +955,6 @@ function generateWeapon(){
   ], weapon.story);
 }
   
-
-/* Magical Girl */
-const MAGICAL_GIRL_DATA = {
-  civilianFirstNames: [
-    "Aiko", "Hana", "Mika", "Yuki", "Sora", "Rin", "Emi", "Akari", "Noa", "Kira",
-    "Luna", "Ruby", "Willow", "Rose", "Aurora", "Celeste", "Nova", "Ivy", "Skye", "Violet"
-  ],
-
-  civilianLastNames: [
-    "Moon", "Star", "Bloom", "Heart", "Petal", "Dream", "Song", "Mist", "Light", "River",
-    "Cloud", "Dawn", "Whisper", "Bell", "Shine", "Spark", "Willow", "Rose", "Snow", "Sky"
-  ],
-
-  magicalPrefixes: [
-    "Pretty", "Glitter", "Radiant", "Celestial", "Dream", "Star", "Moon", "Crystal",
-    "Rainbow", "Rose", "Sugar", "Lucky", "Miracle", "Sparkle", "Twilight"
-  ],
-
-  magicalTitles: [
-    "Princess", "Angel", "Guardian", "Bloom", "Heart", "Wish", "Melody", "Charm",
-    "Star", "Moon", "Dream", "Butterfly", "Rose", "Aurora", "Harmony"
-  ],
-
-  themes: [
-    "Stars", "Moonlight", "Flowers", "Dreams", "Music", "Candy", "Butterflies", "Rainbows",
-    "Books", "Tea", "Snow", "Ocean", "Sunlight", "Cherry Blossoms", "Constellations"
-  ],
-
-  palettes: [
-    "Pink, White, Gold", "Blue, Silver, White", "Lavender, Cream, Gold", "Mint, White, Pink",
-    "Black, Purple, Silver", "Peach, Gold, Ivory", "Sky Blue, White, Gold", "Rose Pink, Cream, Gold"
-  ],
-
-  weapons: [
-    "Magic Wand", "Ribbon Staff", "Moon Scepter", "Star Staff", "Crystal Sword", "Heart Bow",
-    "Music Baton", "Rose Lance", "Parasol", "Spellbook"
-  ],
-
-  mascots: [
-    "Moon Bunny", "Tiny Dragon", "Pocket Crow", "Cloud Cat", "Sugar Fox", "Crystal Mouse",
-    "Star Hamster", "Dream Otter", "Lantern Bat", "Tea Spirit"
-  ],
-
-  transformationPrefixes: [
-    "Heart", "Moon", "Crystal", "Star", "Ribbon", "Dream", "Wish", "Rose", "Aurora",
-    "Celestial", "Butterfly", "Rainbow", "Sugar", "Melody", "Twilight", "Sun", "Snow",
-    "Cloud", "Pearl", "Magic", "Honey", "Berry", "Starlight", "Moonlight", "Cherry Blossom"
-  ],
-
-  transformationItemTypes: [
-    "Locket", "Compact", "Bracelet", "Pendant", "Brooch", "Mirror", "Ring", "Tiara",
-    "Music Box", "Charm", "Pocket Watch", "Hair Clip", "Necklace", "Wand", "Key", "Ribbon",
-    "Earrings", "Anklet", "Circlet", "Hairpin", "Medallion", "Fan", "Rose Pin", "Snow Globe", "Lantern"
-  ],
-
-  powers: [
-    "Healing magic", "Dream manipulation", "Moonlight beams", "Flower creation", "Protective barriers",
-    "Starlight attacks", "Weather magic", "Memory magic", "Hope magic", "Music-based spells"
-  ],
-
-  specialTraits: [
-    "Can hear wishes", "Leaves sparkles behind", "Can talk to animals", "Transforms flowers into weapons",
-    "Has glowing eyes during transformation", "Can enter dreams", "Can sense sadness", "Can see magical creatures"
-  ],
-
-  storyHooks: [
-    "Discovers their powers during a meteor shower.",
-    "Must protect a hidden magical kingdom.",
-    "Is secretly descended from an ancient guardian.",
-    "Accidentally awakens a sleeping magical beast.",
-    "Finds a transformation item hidden in a library.",
-    "Learns their mascot has been searching for them for centuries.",
-    "Must gather magical relics before a lunar eclipse.",
-    "Protects a city no one realizes is magical."
-  ]
-};
-
-function generateCivilianName(){
-  return `${pick(MAGICAL_GIRL_DATA.civilianFirstNames)} ${pick(MAGICAL_GIRL_DATA.civilianLastNames)}`;
-}
-
-function generateMagicalName(){
-  return `${pick(MAGICAL_GIRL_DATA.magicalPrefixes)} ${pick(MAGICAL_GIRL_DATA.magicalTitles)}`;
-}
-
-function generateTransformationItem(){
-  return `${pick(MAGICAL_GIRL_DATA.transformationPrefixes)} ${pick(MAGICAL_GIRL_DATA.transformationItemTypes)}`;
-}
-
-function generateMagicalGirl(){
-  const girl = {
-    civilianName: generateCivilianName(),
-    magicalName: generateMagicalName(),
-    theme: pick(MAGICAL_GIRL_DATA.themes),
-    palette: pick(MAGICAL_GIRL_DATA.palettes),
-    weapon: pick(MAGICAL_GIRL_DATA.weapons),
-    mascot: pick(MAGICAL_GIRL_DATA.mascots),
-    transformationItem: generateTransformationItem(),
-    power: pick(MAGICAL_GIRL_DATA.powers),
-    specialTrait: pick(MAGICAL_GIRL_DATA.specialTraits),
-    story: pick(MAGICAL_GIRL_DATA.storyHooks)
-  };
-
-  renderStandardResult("magicalGirlResult", girl.magicalName, [
-    ["Civilian Name", girl.civilianName],
-    ["Theme", girl.theme],
-    ["Palette", girl.palette],
-    ["Weapon", girl.weapon],
-    ["Mascot", girl.mascot],
-    ["Transformation Item", girl.transformationItem],
-    ["Power", girl.power],
-    ["Special Trait", girl.specialTrait]
-  ], girl.story);
-}
-
 /* Pony */
 function generatePonyName(){
   return `${pick(PONY_DATA.nameStarts)} ${pick(PONY_DATA.nameEnds)}`;
@@ -1131,6 +1014,139 @@ function generateGoth(){
     ["Special Trait", goth.specialTrait]
   ], goth.story);
 }
+
+/* Magical Girl */
+const MAGICAL_GIRL_DATA = {
+  civilianFirstNames: [
+    "Aiko", "Hana", "Mika", "Yuki", "Sora", "Rin", "Emi", "Akari", "Noa", "Kira",
+    "Luna", "Ruby", "Willow", "Rose", "Aurora", "Celeste", "Nova", "Ivy", "Skye", "Violet",
+    "Mira", "Sera", "Lumi", "Nia", "Opal", "Lyra", "Runa", "Momo", "Chai", "Yumi"
+  ],
+
+  civilianLastNames: [
+    "Moon", "Star", "Bloom", "Heart", "Petal", "Dream", "Song", "Mist", "Light", "River",
+    "Cloud", "Dawn", "Whisper", "Bell", "Shine", "Spark", "Willow", "Rose", "Snow", "Sky",
+    "Mallow", "Honey", "Berry", "Lace", "Pearl", "Clover", "Rain", "Sun", "Night", "Wish"
+  ],
+
+  magicalPrefixes: [
+    "Pretty", "Glitter", "Radiant", "Celestial", "Dream", "Star", "Moon", "Crystal",
+    "Rainbow", "Rose", "Sugar", "Lucky", "Miracle", "Sparkle", "Twilight",
+    "Honey", "Aurora", "Pearl", "Starlight", "Moonlight"
+  ],
+
+  magicalTitles: [
+    "Princess", "Angel", "Guardian", "Bloom", "Heart", "Wish", "Melody", "Charm",
+    "Star", "Moon", "Dream", "Butterfly", "Rose", "Aurora", "Harmony",
+    "Swan", "Ribbon", "Locket", "Fairy", "Light"
+  ],
+
+  themes: [
+    "Stars", "Moonlight", "Flowers", "Dreams", "Music", "Candy", "Butterflies",
+    "Rainbows", "Books", "Tea", "Snow", "Ocean", "Sunlight", "Cherry Blossoms",
+    "Constellations", "Crystals", "Ribbons", "Pastries", "Clouds", "Wishes"
+  ],
+
+  palettes: [
+    "Pink, White, Gold", "Blue, Silver, White", "Lavender, Cream, Gold",
+    "Mint, White, Pink", "Black, Purple, Silver", "Peach, Gold, Ivory",
+    "Sky Blue, White, Gold", "Rose Pink, Cream, Gold", "Baby Blue, Pearl, Pink",
+    "Cherry Blossom Pink, White, Pale Green", "Moonlight Blue, Silver, Navy",
+    "Honey Gold, Cream, Soft Brown"
+  ],
+
+  weapons: [
+    "Magic Wand", "Ribbon Staff", "Moon Scepter", "Star Staff", "Crystal Sword",
+    "Heart Bow", "Music Baton", "Rose Lance", "Parasol", "Spellbook",
+    "Compact Shield", "Gemstone Rapier", "Bell Hammer", "Dream Scythe", "Charm Blades"
+  ],
+
+  mascots: [
+    "Moon Bunny", "Tiny Dragon", "Pocket Crow", "Cloud Cat", "Sugar Fox",
+    "Crystal Mouse", "Star Hamster", "Dream Otter", "Lantern Bat", "Tea Spirit",
+    "Rose Ferret", "Wish Frog", "Pearl Kitten", "Honey Bear", "Ribbon Moth"
+  ],
+
+  transformationPrefixes: [
+    "Heart", "Moon", "Crystal", "Star", "Ribbon", "Dream", "Wish", "Rose",
+    "Aurora", "Celestial", "Butterfly", "Rainbow", "Sugar", "Melody",
+    "Twilight", "Sun", "Snow", "Cloud", "Pearl", "Magic", "Honey",
+    "Berry", "Starlight", "Moonlight", "Cherry Blossom"
+  ],
+
+  transformationItemTypes: [
+    "Locket", "Compact", "Bracelet", "Pendant", "Brooch", "Mirror", "Ring",
+    "Tiara", "Music Box", "Charm", "Pocket Watch", "Hair Clip", "Necklace",
+    "Wand", "Key", "Ribbon", "Earrings", "Anklet", "Circlet", "Hairpin",
+    "Medallion", "Fan", "Rose Pin", "Snow Globe", "Lantern"
+  ],
+
+  powers: [
+    "Healing magic", "Dream manipulation", "Moonlight beams", "Flower creation",
+    "Protective barriers", "Starlight attacks", "Weather magic", "Memory magic",
+    "Hope magic", "Music-based spells", "Ribbon binding", "Crystal purification",
+    "Wish granting", "Shadow cleansing", "Time-slowing sparkles"
+  ],
+
+  specialTraits: [
+    "Can hear wishes", "Leaves sparkles behind", "Can talk to animals",
+    "Transforms flowers into weapons", "Has glowing eyes during transformation",
+    "Can enter dreams", "Can sense sadness", "Can see magical creatures",
+    "Her outfit changes slightly with the moon phase", "Her mascot can hide inside her shadow",
+    "Her weapon sings when danger is near", "Her magic smells faintly like vanilla"
+  ],
+
+  storyHooks: [
+    "Discovers their powers during a meteor shower.",
+    "Must protect a hidden magical kingdom.",
+    "Is secretly descended from an ancient guardian.",
+    "Accidentally awakens a sleeping magical beast.",
+    "Finds a transformation item hidden in a library.",
+    "Learns their mascot has been searching for them for centuries.",
+    "Must gather magical relics before a lunar eclipse.",
+    "Protects a city no one realizes is magical.",
+    "Joins a magical girl team after saving a tiny injured mascot.",
+    "Finds out their favorite cafe is a gateway to a dream kingdom."
+  ]
+};
+
+function generateCivilianName(){
+  return `${pick(MAGICAL_GIRL_DATA.civilianFirstNames)} ${pick(MAGICAL_GIRL_DATA.civilianLastNames)}`;
+}
+
+function generateMagicalName(){
+  return `${pick(MAGICAL_GIRL_DATA.magicalPrefixes)} ${pick(MAGICAL_GIRL_DATA.magicalTitles)}`;
+}
+
+function generateMagicalGirl(){
+  const transformationItem =
+    `${pick(MAGICAL_GIRL_DATA.transformationPrefixes)} ${pick(MAGICAL_GIRL_DATA.transformationItemTypes)}`;
+
+  const girl = {
+    civilianName: generateCivilianName(),
+    magicalName: generateMagicalName(),
+    theme: pick(MAGICAL_GIRL_DATA.themes),
+    palette: pick(MAGICAL_GIRL_DATA.palettes),
+    weapon: pick(MAGICAL_GIRL_DATA.weapons),
+    mascot: pick(MAGICAL_GIRL_DATA.mascots),
+    transformationItem,
+    power: pick(MAGICAL_GIRL_DATA.powers),
+    specialTrait: pick(MAGICAL_GIRL_DATA.specialTraits),
+    story: pick(MAGICAL_GIRL_DATA.storyHooks)
+  };
+
+  renderStandardResult("magicalGirlResult", girl.magicalName, [
+    ["Civilian Name", girl.civilianName],
+    ["Theme", girl.theme],
+    ["Palette", girl.palette],
+    ["Weapon", girl.weapon],
+    ["Mascot", girl.mascot],
+    ["Transformation Item", girl.transformationItem],
+    ["Power", girl.power],
+    ["Special Trait", girl.specialTrait]
+  ], girl.story);
+}
+
 
 /* Dragon */
 function generateDragonName(){
@@ -1536,10 +1552,6 @@ document.getElementById("clearWeaponButton").addEventListener("click", () => cle
   document.getElementById("copyFantasyButton").addEventListener("click", () => copyFromResult("fantasyResult"));
   document.getElementById("clearFantasyButton").addEventListener("click", () => clearResult("fantasyResult", "Your fantasy character idea will appear here."));
 
-  document.getElementById("generateMagicalGirlButton").addEventListener("click", generateMagicalGirl);
-  document.getElementById("copyMagicalGirlButton").addEventListener("click", () => copyFromResult("magicalGirlResult"));
-  document.getElementById("clearMagicalGirlButton").addEventListener("click", () => clearResult("magicalGirlResult", "Your magical girl will appear here."));
-
   document.getElementById("generatePonyButton").addEventListener("click", generatePony);
   document.getElementById("copyPonyButton").addEventListener("click", () => copyFromResult("ponyResult"));
   document.getElementById("clearPonyButton").addEventListener("click", () => clearResult("ponyResult", "Your pony character idea will appear here."));
@@ -1547,6 +1559,10 @@ document.getElementById("clearWeaponButton").addEventListener("click", () => cle
   document.getElementById("generateGothButton").addEventListener("click", generateGoth);
   document.getElementById("copyGothButton").addEventListener("click", () => copyFromResult("gothResult"));
   document.getElementById("clearGothButton").addEventListener("click", () => clearResult("gothResult", "Your goth girl idea will appear here."));
+
+  document.getElementById("generateMagicalGirlButton").addEventListener("click", generateMagicalGirl);
+  document.getElementById("copyMagicalGirlButton").addEventListener("click", () => copyFromResult("magicalGirlResult"));
+  document.getElementById("clearMagicalGirlButton").addEventListener("click", () => clearResult("magicalGirlResult", "Your magical girl will appear here."));
 
   document.getElementById("generateDragonButton").addEventListener("click", generateDragon);
   document.getElementById("copyDragonButton").addEventListener("click", () => copyFromResult("dragonResult"));
