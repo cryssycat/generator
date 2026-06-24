@@ -44,6 +44,10 @@
     grid-template-columns:repeat(2, minmax(120px, 1fr));
   }
 }
+
+/* Tab fallback: keeps panels controlled even if main CSS is cached/missing */
+.tab-panel{ display:none; }
+.tab-panel.active{ display:block; }
 </style>
 
 </head>
@@ -66,30 +70,30 @@
 <main class="generator-page">
   <nav class="tabs generator-tabs" aria-label="Generator types">
     
-<button class="tab-button active" data-tab="characterGenerator">Character</button>
-<button class="tab-button" data-tab="fantasyGenerator">Fantasy</button>
-<button class="tab-button" data-tab="gothGenerator">Goth Girl</button>
-<button class="tab-button" data-tab="magicalGirlGenerator">Magical Girl</button>
-<button class="tab-button" data-tab="ponyGenerator">Pony</button>
-<button class="tab-button" data-tab="pokemonGenerator">Pokemon</button>
-<button class="tab-button" data-tab="warriorGenerator">Warrior Cats</button>
-<button class="tab-button" data-tab="dragonGenerator">Dragon</button>
+<button type="button" class="tab-button active" data-tab="characterGenerator">Character</button>
+<button type="button" class="tab-button" data-tab="fantasyGenerator">Fantasy</button>
+<button type="button" class="tab-button" data-tab="gothGenerator">Goth Girl</button>
+<button type="button" class="tab-button" data-tab="magicalGirlGenerator">Magical Girl</button>
+<button type="button" class="tab-button" data-tab="ponyGenerator">Pony</button>
+<button type="button" class="tab-button" data-tab="pokemonGenerator">Pokemon</button>
+<button type="button" class="tab-button" data-tab="warriorGenerator">Warrior Cats</button>
+<button type="button" class="tab-button" data-tab="dragonGenerator">Dragon</button>
 
-<button class="tab-button" data-tab="familiar">Familiar</button>
+<button type="button" class="tab-button" data-tab="familiar">Familiar</button>
 
-<button class="tab-button" data-tab="outfitGenerator">Outfit</button>
-<button class="tab-button" data-tab="weaponGenerator">Weapon</button>
-<button class="tab-button" data-tab="itemGenerator">Item</button>
-<button class="tab-button" data-tab="magicGenerator">Magic</button>
+<button type="button" class="tab-button" data-tab="outfitGenerator">Outfit</button>
+<button type="button" class="tab-button" data-tab="weaponGenerator">Weapon</button>
+<button type="button" class="tab-button" data-tab="itemGenerator">Item</button>
+<button type="button" class="tab-button" data-tab="magicGenerator">Magic</button>
 
-<button class="tab-button" data-tab="relationshipGenerator">Relationship</button>
-<button class="tab-button" data-tab="polyculeGenerator">Polycule</button>
+<button type="button" class="tab-button" data-tab="relationshipGenerator">Relationship</button>
+<button type="button" class="tab-button" data-tab="polyculeGenerator">Polycule</button>
 
-<button class="tab-button" data-tab="worldGenerator">World</button>
-<button class="tab-button" data-tab="townGenerator">Town</button>
+<button type="button" class="tab-button" data-tab="worldGenerator">World</button>
+<button type="button" class="tab-button" data-tab="townGenerator">Town</button>
 
-<button class="tab-button" data-tab="vibeGenerator">Vibe</button>
-<button class="tab-button" data-tab="paletteGenerator">Palette</button>
+<button type="button" class="tab-button" data-tab="vibeGenerator">Vibe</button>
+<button type="button" class="tab-button" data-tab="paletteGenerator">Palette</button>
   </nav>
 
   <section id="characterGenerator" class="tab-panel active">
@@ -356,6 +360,45 @@
   </section>
 </section>
 </main>
+
+
+<script>
+(function(){
+  function activateGeneratorTab(target){
+    if(!target) return;
+
+    document.querySelectorAll('.tab-button').forEach(function(btn){
+      btn.classList.toggle('active', btn.dataset.tab === target);
+    });
+
+    document.querySelectorAll('.tab-panel').forEach(function(panel){
+      panel.classList.toggle('active', panel.id === target);
+    });
+  }
+
+  function setupGeneratorTabs(){
+    var tabs = document.querySelector('.generator-tabs');
+    if(!tabs) return;
+
+    tabs.addEventListener('click', function(event){
+      var button = event.target.closest('.tab-button');
+      if(!button) return;
+
+      event.preventDefault();
+      activateGeneratorTab(button.dataset.tab);
+    });
+
+    var activeButton = document.querySelector('.tab-button.active');
+    activateGeneratorTab(activeButton ? activeButton.dataset.tab : 'characterGenerator');
+  }
+
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', setupGeneratorTabs);
+  } else {
+    setupGeneratorTabs();
+  }
+})();
+</script>
 
 <script src="generator-data.js?v=1"></script>
 <script>
