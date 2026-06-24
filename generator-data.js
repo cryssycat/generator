@@ -49333,3 +49333,214 @@ storyHooks: [
   "Found by the only person it would ever accept."
 ]
 };
+
+
+  const WARRIOR_DATA = {
+  nameStarts: [
+    "Ash",
+    "Briar",
+    "Cedar",
+    "Cloud",
+    "Dawn",
+    "Dusk",
+    "Eagle",
+    "Fern",
+    "Frost",
+    "Golden",
+    "Hazel",
+    "Heather",
+    "Honey",
+    "Ice",
+    "Ivory",
+    "Juniper",
+    "Lark",
+    "Maple",
+    "Mist",
+    "Moon",
+    "Night",
+    "Oak",
+    "Pebble",
+    "Pine",
+    "Rain",
+    "Raven",
+    "Rose",
+    "Shadow",
+    "Silver",
+    "Snow",
+    "Storm",
+    "Sun",
+    "Swift",
+    "Thistle",
+    "Willow"
+  ],
+
+  nameEnds: [
+    "claw",
+    "fang",
+    "feather",
+    "flower",
+    "foot",
+    "fur",
+    "heart",
+    "leaf",
+    "pelt",
+    "pool",
+    "shine",
+    "song",
+    "spirit",
+    "step",
+    "storm",
+    "stripe",
+    "tail",
+    "tuft",
+    "whisker",
+    "wing"
+  ],
+
+  ranks: [
+    "Kit",
+    "Apprentice",
+    "Warrior",
+    "Medicine Cat",
+    "Deputy",
+    "Leader",
+    "Elder",
+    "Queen"
+  ],
+
+  clans: [
+    "ThunderClan",
+    "RiverClan",
+    "ShadowClan",
+    "WindClan",
+    "SkyClan"
+  ],
+
+  catTypes: [
+    "Domestic Cat",
+    "Maine Coon",
+    "Norwegian Forest Cat",
+    "Siberian",
+    "British Shorthair",
+    "Mixed Breed",
+    "Longhaired Cat",
+    "Shorthaired Cat"
+  ],
+
+  coatColors: [
+    "Black",
+    "White",
+    "Gray",
+    "Silver",
+    "Blue Gray",
+    "Brown",
+    "Golden",
+    "Cream",
+    "Orange",
+    "Red",
+    "Tortoiseshell",
+    "Calico"
+  ],
+
+  coatPatterns: [
+    "Solid",
+    "Tabby",
+    "Mackerel Tabby",
+    "Classic Tabby",
+    "Spotted Tabby",
+    "Ticked Tabby",
+    "Bicolor",
+    "Tuxedo",
+    "Colorpoint",
+    "Van Pattern",
+    "Tortoiseshell",
+    "Calico"
+  ],
+
+  eyeColors: [
+    "Amber",
+    "Yellow",
+    "Golden",
+    "Green",
+    "Blue",
+    "Dark Blue",
+    "Ice Blue",
+    "Hazel",
+    "Copper",
+    "Orange"
+  ],
+
+  personalities: [
+    "Loyal",
+    "Stubborn",
+    "Brave",
+    "Gentle",
+    "Protective",
+    "Ambitious",
+    "Curious",
+    "Impulsive",
+    "Wise",
+    "Patient",
+    "Hot-headed",
+    "Kind"
+  ],
+
+  skills: [
+    "Excellent hunter",
+    "Fast runner",
+    "Strong swimmer",
+    "Great climber",
+    "Battle expert",
+    "Tracking specialist",
+    "Herb knowledge",
+    "Night hunter",
+    "Stealth expert",
+    "Natural leader"
+  ],
+
+  scars: [
+    "None",
+    "Ear nick",
+    "Torn ear",
+    "Scar across muzzle",
+    "Scar over eye",
+    "Leg scar",
+    "Tail scar",
+    "Multiple battle scars"
+  ],
+
+  accessories: [
+    "None",
+    "Jay feather",
+    "Crow feather",
+    "Flower crown",
+    "Braided vine",
+    "Shell necklace",
+    "Tiny bell",
+    "Lucky pebble"
+  ],
+
+  specialTraits: [
+    "Unusually large paws",
+    "Fluffy tail",
+    "Very long fur",
+    "Unusual eye color",
+    "Extra fluffy ears",
+    "Tiny size",
+    "Massive size",
+    "Silent footsteps",
+    "Exceptional hearing",
+    "Exceptional sense of smell"
+  ],
+
+  storyHooks: [
+    "Receives a prophecy from StarClan.",
+    "Discovers a forgotten tunnel beneath camp.",
+    "Finds an abandoned kit in enemy territory.",
+    "Has recurring dreams about a long-dead warrior.",
+    "Witnesses a sign no other cat can see.",
+    "Must choose between loyalty and friendship.",
+    "Uncovers a secret hidden by the Clan leader.",
+    "Gets lost beyond the lake during leaf-bare."
+  ]
+};
