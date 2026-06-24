@@ -82,6 +82,9 @@
    <button class="tab-button" data-tab="ponyGenerator">Pony</button>
    <button class="tab-button" data-tab="pokemonGenerator">Pokemon</button>
     <button class="tab-button" data-tab="familiar">Familiar</button>
+    <button class="tab-button" data-tab="weaponGenerator">
+  Weapon
+</button>
   </nav>
 
   <section id="characterGenerator" class="tab-panel active">
@@ -272,6 +275,33 @@
       </div>
     </section>
   </section>
+
+  <section id="weaponGenerator" class="tab-panel">
+  <section class="generator-card">
+    <div class="section-title">
+      <h2>Weapon Generator</h2>
+      <p>Roll a magical weapon concept.</p>
+    </div>
+
+    <button id="generateWeaponButton" class="generate-button">
+      ⚔️ Generate Weapon
+    </button>
+
+    <div id="weaponResult" class="result-card">
+      <p class="empty-text">Your weapon idea will appear here.</p>
+    </div>
+
+    <div class="button-row">
+      <button id="copyWeaponButton" class="secondary-button">
+        Copy Weapon Idea
+      </button>
+
+      <button id="clearWeaponButton" class="secondary-button">
+        Clear
+      </button>
+    </div>
+  </section>
+</section>
 </main>
 
 <script src="generator-data.js?v=1"></script>
@@ -807,6 +837,35 @@ function generateFantasy(){
   ], fantasy.story);
 }
 
+  /* Weapons */
+  function generateWeaponName(){
+  return `${pick(WEAPON_DATA.nameStarts)} ${pick(WEAPON_DATA.nameEnds)}`;
+}
+
+function generateWeapon(){
+  const weapon = {
+    name: generateWeaponName(),
+    type: pick(WEAPON_DATA.weaponTypes),
+    material: pick(WEAPON_DATA.materials),
+    element: pick(WEAPON_DATA.elements),
+    ability: pick(WEAPON_DATA.abilities),
+    drawback: pick(WEAPON_DATA.drawbacks),
+    aesthetic: pick(WEAPON_DATA.aesthetics),
+    specialTrait: pick(WEAPON_DATA.specialTraits),
+    story: pick(WEAPON_DATA.storyHooks)
+  };
+
+  renderStandardResult("weaponResult", weapon.name, [
+    ["Weapon Type", weapon.type],
+    ["Material", weapon.material],
+    ["Element", weapon.element],
+    ["Ability", weapon.ability],
+    ["Drawback", weapon.drawback],
+    ["Aesthetic", weapon.aesthetic],
+    ["Special Trait", weapon.specialTrait]
+  ], weapon.story);
+}
+  
 /* Pony */
 function generatePonyName(){
   return `${pick(PONY_DATA.nameStarts)} ${pick(PONY_DATA.nameEnds)}`;
@@ -1249,7 +1308,11 @@ function generateFamiliar(){
 
 document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
+document.getElementById("generateWeaponButton").addEventListener("click", generateWeapon);
+document.getElementById("copyWeaponButton").addEventListener("click", () => copyFromResult("weaponResult"));
+document.getElementById("clearWeaponButton").addEventListener("click", () => clearResult("weaponResult", "Your weapon idea will appear here."));
 
+  
   document.getElementById("generateCharacterButton").addEventListener("click", generateCharacter);
   document.getElementById("copyCharacterButton").addEventListener("click", () => copyFromResult("characterResult"));
   document.getElementById("clearCharacterButton").addEventListener("click", () => clearResult("characterResult", "Your character idea will appear here."));
