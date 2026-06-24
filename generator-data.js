@@ -49643,3 +49643,234 @@ storyHooks: [
   "Realizes they may be the only cat who can prevent a coming disaster."
 ]
 };
+
+const MAGICAL_GIRL_DATA = {
+
+  civilianFirstNames: [
+    "Aiko",
+    "Hana",
+    "Mika",
+    "Yuki",
+    "Sora",
+    "Rin",
+    "Emi",
+    "Akari",
+    "Noa",
+    "Kira",
+    "Luna",
+    "Ruby",
+    "Willow",
+    "Rose",
+    "Aurora",
+    "Celeste",
+    "Nova",
+    "Ivy",
+    "Skye",
+    "Violet"
+  ],
+
+  civilianLastNames: [
+    "Moon",
+    "Star",
+    "Bloom",
+    "Heart",
+    "Petal",
+    "Dream",
+    "Song",
+    "Mist",
+    "Light",
+    "River",
+    "Cloud",
+    "Dawn",
+    "Whisper",
+    "Bell",
+    "Shine",
+    "Spark",
+    "Willow",
+    "Rose",
+    "Snow",
+    "Sky"
+  ],
+
+  magicalPrefixes: [
+    "Pretty",
+    "Glitter",
+    "Radiant",
+    "Celestial",
+    "Dream",
+    "Star",
+    "Moon",
+    "Crystal",
+    "Rainbow",
+    "Rose",
+    "Sugar",
+    "Lucky",
+    "Miracle",
+    "Sparkle",
+    "Twilight"
+  ],
+
+  magicalTitles: [
+    "Princess",
+    "Angel",
+    "Guardian",
+    "Bloom",
+    "Heart",
+    "Wish",
+    "Melody",
+    "Charm",
+    "Star",
+    "Moon",
+    "Dream",
+    "Butterfly",
+    "Rose",
+    "Aurora",
+    "Harmony"
+  ],
+
+  themes: [
+    "Stars",
+    "Moonlight",
+    "Flowers",
+    "Dreams",
+    "Music",
+    "Candy",
+    "Butterflies",
+    "Rainbows",
+    "Books",
+    "Tea",
+    "Snow",
+    "Ocean",
+    "Sunlight",
+    "Cherry Blossoms",
+    "Constellations"
+  ],
+
+  palettes: [
+    "Pink, White, Gold",
+    "Blue, Silver, White",
+    "Lavender, Cream, Gold",
+    "Mint, White, Pink",
+    "Black, Purple, Silver",
+    "Peach, Gold, Ivory",
+    "Sky Blue, White, Gold",
+    "Rose Pink, Cream, Gold"
+  ],
+
+  weapons: [
+    "Magic Wand",
+    "Ribbon Staff",
+    "Moon Scepter",
+    "Star Staff",
+    "Crystal Sword",
+    "Heart Bow",
+    "Music Baton",
+    "Rose Lance",
+    "Parasol",
+    "Spellbook"
+  ],
+
+  mascots: [
+    "Moon Bunny",
+    "Tiny Dragon",
+    "Pocket Crow",
+    "Cloud Cat",
+    "Sugar Fox",
+    "Crystal Mouse",
+    "Star Hamster",
+    "Dream Otter",
+    "Lantern Bat",
+    "Tea Spirit"
+  ],
+
+  transformationPrefixes: [
+    "Heart",
+    "Moon",
+    "Crystal",
+    "Star",
+    "Ribbon",
+    "Dream",
+    "Wish",
+    "Rose",
+    "Aurora",
+    "Celestial",
+    "Butterfly",
+    "Rainbow",
+    "Sugar",
+    "Melody",
+    "Twilight",
+    "Sun",
+    "Snow",
+    "Cloud",
+    "Pearl",
+    "Magic",
+    "Honey",
+    "Berry",
+    "Starlight",
+    "Moonlight",
+    "Cherry Blossom"
+  ],
+
+  transformationItemTypes: [
+    "Locket",
+    "Compact",
+    "Bracelet",
+    "Pendant",
+    "Brooch",
+    "Mirror",
+    "Ring",
+    "Tiara",
+    "Music Box",
+    "Charm",
+    "Pocket Watch",
+    "Hair Clip",
+    "Necklace",
+    "Wand",
+    "Key",
+    "Ribbon",
+    "Earrings",
+    "Anklet",
+    "Circlet",
+    "Hairpin",
+    "Medallion",
+    "Fan",
+    "Rose Pin",
+    "Snow Globe",
+    "Lantern"
+  ],
+
+  powers: [
+    "Healing magic",
+    "Dream manipulation",
+    "Moonlight beams",
+    "Flower creation",
+    "Protective barriers",
+    "Starlight attacks",
+    "Weather magic",
+    "Memory magic",
+    "Hope magic",
+    "Music-based spells"
+  ],
+
+  specialTraits: [
+    "Can hear wishes",
+    "Leaves sparkles behind",
+    "Can talk to animals",
+    "Transforms flowers into weapons",
+    "Has glowing eyes during transformation",
+    "Can enter dreams",
+    "Can sense sadness",
+    "Can see magical creatures"
+  ],
+
+  storyHooks: [
+    "Discovers their powers during a meteor shower.",
+    "Must protect a hidden magical kingdom.",
+    "Is secretly descended from an ancient guardian.",
+    "Accidentally awakens a sleeping magical beast.",
+    "Finds a transformation item hidden in a library.",
+    "Learns their mascot has been searching for them for centuries.",
+    "Must gather magical relics before a lunar eclipse.",
+    "Protects a city no one realizes is magical."
+  ]
+};
