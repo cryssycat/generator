@@ -435,6 +435,11 @@ async function copyFromResult(resultId){
   alert("Copied!");
 }
 
+function bindButton(id, handler){
+  const button = document.getElementById(id);
+  if(button) button.addEventListener("click", handler);
+}
+
 function clearResult(resultId, message){
   const result = document.getElementById(resultId);
   result.dataset.copyText = "";
@@ -1015,139 +1020,6 @@ function generateGoth(){
   ], goth.story);
 }
 
-/* Magical Girl */
-const MAGICAL_GIRL_DATA = {
-  civilianFirstNames: [
-    "Aiko", "Hana", "Mika", "Yuki", "Sora", "Rin", "Emi", "Akari", "Noa", "Kira",
-    "Luna", "Ruby", "Willow", "Rose", "Aurora", "Celeste", "Nova", "Ivy", "Skye", "Violet",
-    "Mira", "Sera", "Lumi", "Nia", "Opal", "Lyra", "Runa", "Momo", "Chai", "Yumi"
-  ],
-
-  civilianLastNames: [
-    "Moon", "Star", "Bloom", "Heart", "Petal", "Dream", "Song", "Mist", "Light", "River",
-    "Cloud", "Dawn", "Whisper", "Bell", "Shine", "Spark", "Willow", "Rose", "Snow", "Sky",
-    "Mallow", "Honey", "Berry", "Lace", "Pearl", "Clover", "Rain", "Sun", "Night", "Wish"
-  ],
-
-  magicalPrefixes: [
-    "Pretty", "Glitter", "Radiant", "Celestial", "Dream", "Star", "Moon", "Crystal",
-    "Rainbow", "Rose", "Sugar", "Lucky", "Miracle", "Sparkle", "Twilight",
-    "Honey", "Aurora", "Pearl", "Starlight", "Moonlight"
-  ],
-
-  magicalTitles: [
-    "Princess", "Angel", "Guardian", "Bloom", "Heart", "Wish", "Melody", "Charm",
-    "Star", "Moon", "Dream", "Butterfly", "Rose", "Aurora", "Harmony",
-    "Swan", "Ribbon", "Locket", "Fairy", "Light"
-  ],
-
-  themes: [
-    "Stars", "Moonlight", "Flowers", "Dreams", "Music", "Candy", "Butterflies",
-    "Rainbows", "Books", "Tea", "Snow", "Ocean", "Sunlight", "Cherry Blossoms",
-    "Constellations", "Crystals", "Ribbons", "Pastries", "Clouds", "Wishes"
-  ],
-
-  palettes: [
-    "Pink, White, Gold", "Blue, Silver, White", "Lavender, Cream, Gold",
-    "Mint, White, Pink", "Black, Purple, Silver", "Peach, Gold, Ivory",
-    "Sky Blue, White, Gold", "Rose Pink, Cream, Gold", "Baby Blue, Pearl, Pink",
-    "Cherry Blossom Pink, White, Pale Green", "Moonlight Blue, Silver, Navy",
-    "Honey Gold, Cream, Soft Brown"
-  ],
-
-  weapons: [
-    "Magic Wand", "Ribbon Staff", "Moon Scepter", "Star Staff", "Crystal Sword",
-    "Heart Bow", "Music Baton", "Rose Lance", "Parasol", "Spellbook",
-    "Compact Shield", "Gemstone Rapier", "Bell Hammer", "Dream Scythe", "Charm Blades"
-  ],
-
-  mascots: [
-    "Moon Bunny", "Tiny Dragon", "Pocket Crow", "Cloud Cat", "Sugar Fox",
-    "Crystal Mouse", "Star Hamster", "Dream Otter", "Lantern Bat", "Tea Spirit",
-    "Rose Ferret", "Wish Frog", "Pearl Kitten", "Honey Bear", "Ribbon Moth"
-  ],
-
-  transformationPrefixes: [
-    "Heart", "Moon", "Crystal", "Star", "Ribbon", "Dream", "Wish", "Rose",
-    "Aurora", "Celestial", "Butterfly", "Rainbow", "Sugar", "Melody",
-    "Twilight", "Sun", "Snow", "Cloud", "Pearl", "Magic", "Honey",
-    "Berry", "Starlight", "Moonlight", "Cherry Blossom"
-  ],
-
-  transformationItemTypes: [
-    "Locket", "Compact", "Bracelet", "Pendant", "Brooch", "Mirror", "Ring",
-    "Tiara", "Music Box", "Charm", "Pocket Watch", "Hair Clip", "Necklace",
-    "Wand", "Key", "Ribbon", "Earrings", "Anklet", "Circlet", "Hairpin",
-    "Medallion", "Fan", "Rose Pin", "Snow Globe", "Lantern"
-  ],
-
-  powers: [
-    "Healing magic", "Dream manipulation", "Moonlight beams", "Flower creation",
-    "Protective barriers", "Starlight attacks", "Weather magic", "Memory magic",
-    "Hope magic", "Music-based spells", "Ribbon binding", "Crystal purification",
-    "Wish granting", "Shadow cleansing", "Time-slowing sparkles"
-  ],
-
-  specialTraits: [
-    "Can hear wishes", "Leaves sparkles behind", "Can talk to animals",
-    "Transforms flowers into weapons", "Has glowing eyes during transformation",
-    "Can enter dreams", "Can sense sadness", "Can see magical creatures",
-    "Her outfit changes slightly with the moon phase", "Her mascot can hide inside her shadow",
-    "Her weapon sings when danger is near", "Her magic smells faintly like vanilla"
-  ],
-
-  storyHooks: [
-    "Discovers their powers during a meteor shower.",
-    "Must protect a hidden magical kingdom.",
-    "Is secretly descended from an ancient guardian.",
-    "Accidentally awakens a sleeping magical beast.",
-    "Finds a transformation item hidden in a library.",
-    "Learns their mascot has been searching for them for centuries.",
-    "Must gather magical relics before a lunar eclipse.",
-    "Protects a city no one realizes is magical.",
-    "Joins a magical girl team after saving a tiny injured mascot.",
-    "Finds out their favorite cafe is a gateway to a dream kingdom."
-  ]
-};
-
-function generateCivilianName(){
-  return `${pick(MAGICAL_GIRL_DATA.civilianFirstNames)} ${pick(MAGICAL_GIRL_DATA.civilianLastNames)}`;
-}
-
-function generateMagicalName(){
-  return `${pick(MAGICAL_GIRL_DATA.magicalPrefixes)} ${pick(MAGICAL_GIRL_DATA.magicalTitles)}`;
-}
-
-function generateMagicalGirl(){
-  const transformationItem =
-    `${pick(MAGICAL_GIRL_DATA.transformationPrefixes)} ${pick(MAGICAL_GIRL_DATA.transformationItemTypes)}`;
-
-  const girl = {
-    civilianName: generateCivilianName(),
-    magicalName: generateMagicalName(),
-    theme: pick(MAGICAL_GIRL_DATA.themes),
-    palette: pick(MAGICAL_GIRL_DATA.palettes),
-    weapon: pick(MAGICAL_GIRL_DATA.weapons),
-    mascot: pick(MAGICAL_GIRL_DATA.mascots),
-    transformationItem,
-    power: pick(MAGICAL_GIRL_DATA.powers),
-    specialTrait: pick(MAGICAL_GIRL_DATA.specialTraits),
-    story: pick(MAGICAL_GIRL_DATA.storyHooks)
-  };
-
-  renderStandardResult("magicalGirlResult", girl.magicalName, [
-    ["Civilian Name", girl.civilianName],
-    ["Theme", girl.theme],
-    ["Palette", girl.palette],
-    ["Weapon", girl.weapon],
-    ["Mascot", girl.mascot],
-    ["Transformation Item", girl.transformationItem],
-    ["Power", girl.power],
-    ["Special Trait", girl.specialTrait]
-  ], girl.story);
-}
-
-
 /* Dragon */
 function generateDragonName(){
   return `${pick(DRAGON_DATA.nameStarts)}${pick(DRAGON_DATA.nameEnds)} ${pick(DRAGON_DATA.titles)}`;
@@ -1528,89 +1400,227 @@ function generateFamiliar(){
   ], familiar.story);
 }
 
+
+/* Magical Girl */
+const MAGICAL_GIRL_DATA = {
+  civilianFirstNames: [
+    "Aiko", "Hana", "Mika", "Yuki", "Sora", "Rin", "Emi", "Akari", "Noa", "Kira",
+    "Luna", "Ruby", "Willow", "Rose", "Aurora", "Celeste", "Nova", "Ivy", "Skye", "Violet",
+    "Mira", "Seren", "Honey", "Mochi", "Lyra"
+  ],
+
+  civilianLastNames: [
+    "Moon", "Star", "Bloom", "Heart", "Petal", "Dream", "Song", "Mist", "Light", "River",
+    "Cloud", "Dawn", "Whisper", "Bell", "Shine", "Spark", "Willow", "Rose", "Snow", "Sky",
+    "Sundae", "Brew", "Lace", "Wish", "Charm"
+  ],
+
+  magicalPrefixes: [
+    "Pretty", "Glitter", "Radiant", "Celestial", "Dream", "Star", "Moon", "Crystal",
+    "Rainbow", "Rose", "Sugar", "Lucky", "Miracle", "Sparkle", "Twilight",
+    "Honey", "Velvet", "Aurora", "Sweet", "Lovely"
+  ],
+
+  magicalTitles: [
+    "Princess", "Angel", "Guardian", "Bloom", "Heart", "Wish", "Melody", "Charm",
+    "Star", "Moon", "Dream", "Butterfly", "Rose", "Aurora", "Harmony",
+    "Swan", "Ribbon", "Locket", "Bell", "Promise"
+  ],
+
+  themes: [
+    "Stars", "Moonlight", "Flowers", "Dreams", "Music", "Candy", "Butterflies",
+    "Rainbows", "Books", "Tea", "Snow", "Ocean", "Sunlight", "Cherry Blossoms",
+    "Constellations", "Roses", "Crystals", "Desserts", "Storms", "Lanterns"
+  ],
+
+  palettes: [
+    "Pink, White, Gold",
+    "Blue, Silver, White",
+    "Lavender, Cream, Gold",
+    "Mint, White, Pink",
+    "Black, Purple, Silver",
+    "Peach, Gold, Ivory",
+    "Sky Blue, White, Gold",
+    "Rose Pink, Cream, Gold",
+    "Baby Blue, Pearl White, Blush Pink",
+    "Wine Red, Black, Silver"
+  ],
+
+  weapons: [
+    "Magic Wand", "Ribbon Staff", "Moon Scepter", "Star Staff", "Crystal Sword",
+    "Heart Bow", "Music Baton", "Rose Lance", "Parasol", "Spellbook",
+    "Bell Hammer", "Dream Scythe", "Charm Rod", "Flower Rapier", "Compact Shield"
+  ],
+
+  mascots: [
+    "Moon Bunny", "Tiny Dragon", "Pocket Crow", "Cloud Cat", "Sugar Fox",
+    "Crystal Mouse", "Star Hamster", "Dream Otter", "Lantern Bat", "Tea Spirit",
+    "Plush Bear", "Rose Ferret", "Ribbon Frog", "Wish Kitten", "Honey Bee Fairy"
+  ],
+
+  transformationPrefixes: [
+    "Heart", "Moon", "Crystal", "Star", "Ribbon", "Dream", "Wish", "Rose",
+    "Aurora", "Celestial", "Butterfly", "Rainbow", "Sugar", "Melody", "Twilight",
+    "Sun", "Snow", "Cloud", "Pearl", "Magic", "Honey", "Berry", "Starlight",
+    "Moonlight", "Cherry Blossom"
+  ],
+
+  transformationItemTypes: [
+    "Locket", "Compact", "Bracelet", "Pendant", "Brooch", "Mirror", "Ring",
+    "Tiara", "Music Box", "Charm", "Pocket Watch", "Hair Clip", "Necklace",
+    "Wand", "Key", "Ribbon", "Earrings", "Anklet", "Circlet", "Hairpin",
+    "Medallion", "Fan", "Rose Pin", "Snow Globe", "Lantern"
+  ],
+
+  powers: [
+    "Healing magic", "Dream manipulation", "Moonlight beams", "Flower creation",
+    "Protective barriers", "Starlight attacks", "Weather magic", "Memory magic",
+    "Hope magic", "Music-based spells", "Crystal shields", "Ribbon binding",
+    "Wish purification", "Shadow sealing", "Light arrows"
+  ],
+
+  specialTraits: [
+    "Can hear wishes", "Leaves sparkles behind", "Can talk to animals",
+    "Transforms flowers into weapons", "Has glowing eyes during transformation",
+    "Can enter dreams", "Can sense sadness", "Can see magical creatures",
+    "Her outfit changes slightly with the moon phase", "Her mascot can hide inside her shadow",
+    "Her weapon sings when danger is near", "Her magic smells faintly like vanilla"
+  ],
+
+  storyHooks: [
+    "Discovers their powers during a meteor shower.",
+    "Must protect a hidden magical kingdom.",
+    "Is secretly descended from an ancient guardian.",
+    "Accidentally awakens a sleeping magical beast.",
+    "Finds a transformation item hidden in a library.",
+    "Learns their mascot has been searching for them for centuries.",
+    "Must gather magical relics before a lunar eclipse.",
+    "Protects a city no one realizes is magical.",
+    "Joins a magical girl team after saving a tiny injured mascot.",
+    "Their transformation item once belonged to a missing guardian."
+  ]
+};
+
+function generateCivilianName(){
+  return `${pick(MAGICAL_GIRL_DATA.civilianFirstNames)} ${pick(MAGICAL_GIRL_DATA.civilianLastNames)}`;
+}
+
+function generateMagicalName(){
+  return `${pick(MAGICAL_GIRL_DATA.magicalPrefixes)} ${pick(MAGICAL_GIRL_DATA.magicalTitles)}`;
+}
+
+function generateMagicalGirl(){
+  const transformationItem =
+    `${pick(MAGICAL_GIRL_DATA.transformationPrefixes)} ${pick(MAGICAL_GIRL_DATA.transformationItemTypes)}`;
+
+  const girl = {
+    civilianName: generateCivilianName(),
+    magicalName: generateMagicalName(),
+    theme: pick(MAGICAL_GIRL_DATA.themes),
+    palette: pick(MAGICAL_GIRL_DATA.palettes),
+    weapon: pick(MAGICAL_GIRL_DATA.weapons),
+    mascot: pick(MAGICAL_GIRL_DATA.mascots),
+    transformationItem,
+    power: pick(MAGICAL_GIRL_DATA.powers),
+    specialTrait: pick(MAGICAL_GIRL_DATA.specialTraits),
+    story: pick(MAGICAL_GIRL_DATA.storyHooks)
+  };
+
+  renderStandardResult("magicalGirlResult", girl.magicalName, [
+    ["Civilian Name", girl.civilianName],
+    ["Theme", girl.theme],
+    ["Palette", girl.palette],
+    ["Weapon", girl.weapon],
+    ["Mascot", girl.mascot],
+    ["Transformation Item", girl.transformationItem],
+    ["Power", girl.power],
+    ["Special Trait", girl.specialTrait]
+  ], girl.story);
+}
+
+
 document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
-document.getElementById("generateWeaponButton").addEventListener("click", generateWeapon);
-document.getElementById("copyWeaponButton").addEventListener("click", () => copyFromResult("weaponResult"));
-document.getElementById("clearWeaponButton").addEventListener("click", () => clearResult("weaponResult", "Your weapon idea will appear here."));
+
+  bindButton("generateMagicalGirlButton", generateMagicalGirl);
+  bindButton("copyMagicalGirlButton", () => copyFromResult("magicalGirlResult"));
+  bindButton("clearMagicalGirlButton", () => clearResult("magicalGirlResult", "Your magical girl will appear here."));
+bindButton("generateWeaponButton", generateWeapon);
+bindButton("copyWeaponButton", () => copyFromResult("weaponResult"));
+bindButton("clearWeaponButton", () => clearResult("weaponResult", "Your weapon idea will appear here."));
 
   
-  document.getElementById("generateCharacterButton").addEventListener("click", generateCharacter);
-  document.getElementById("copyCharacterButton").addEventListener("click", () => copyFromResult("characterResult"));
-  document.getElementById("clearCharacterButton").addEventListener("click", () => clearResult("characterResult", "Your character idea will appear here."));
+  bindButton("generateCharacterButton", generateCharacter);
+  bindButton("copyCharacterButton", () => copyFromResult("characterResult"));
+  bindButton("clearCharacterButton", () => clearResult("characterResult", "Your character idea will appear here."));
 
-  document.getElementById("generatePaletteButton").addEventListener("click", generatePalette);
-  document.getElementById("generateChaosPaletteButton").addEventListener("click", generateChaosPalette);
-  document.getElementById("copyPaletteButton").addEventListener("click", () => copyFromResult("paletteResult"));
-  document.getElementById("clearPaletteButton").addEventListener("click", () => clearResult("paletteResult", "Your palette idea will appear here."));
+  bindButton("generatePaletteButton", generatePalette);
+  bindButton("generateChaosPaletteButton", generateChaosPalette);
+  bindButton("copyPaletteButton", () => copyFromResult("paletteResult"));
+  bindButton("clearPaletteButton", () => clearResult("paletteResult", "Your palette idea will appear here."));
 
-  document.getElementById("generatePokemonButton").addEventListener("click", generatePokemon);
-  document.getElementById("copyPokemonButton").addEventListener("click", () => copyFromResult("pokemonResult"));
-  document.getElementById("clearPokemonButton").addEventListener("click", () => clearResult("pokemonResult", "Your Pokemon idea will appear here."));
+  bindButton("generatePokemonButton", generatePokemon);
+  bindButton("copyPokemonButton", () => copyFromResult("pokemonResult"));
+  bindButton("clearPokemonButton", () => clearResult("pokemonResult", "Your Pokemon idea will appear here."));
 
-  document.getElementById("generateFantasyButton").addEventListener("click", generateFantasy);
-  document.getElementById("copyFantasyButton").addEventListener("click", () => copyFromResult("fantasyResult"));
-  document.getElementById("clearFantasyButton").addEventListener("click", () => clearResult("fantasyResult", "Your fantasy character idea will appear here."));
+  bindButton("generateFantasyButton", generateFantasy);
+  bindButton("copyFantasyButton", () => copyFromResult("fantasyResult"));
+  bindButton("clearFantasyButton", () => clearResult("fantasyResult", "Your fantasy character idea will appear here."));
 
-  document.getElementById("generatePonyButton").addEventListener("click", generatePony);
-  document.getElementById("copyPonyButton").addEventListener("click", () => copyFromResult("ponyResult"));
-  document.getElementById("clearPonyButton").addEventListener("click", () => clearResult("ponyResult", "Your pony character idea will appear here."));
+  bindButton("generatePonyButton", generatePony);
+  bindButton("copyPonyButton", () => copyFromResult("ponyResult"));
+  bindButton("clearPonyButton", () => clearResult("ponyResult", "Your pony character idea will appear here."));
 
-  document.getElementById("generateGothButton").addEventListener("click", generateGoth);
-  document.getElementById("copyGothButton").addEventListener("click", () => copyFromResult("gothResult"));
-  document.getElementById("clearGothButton").addEventListener("click", () => clearResult("gothResult", "Your goth girl idea will appear here."));
+  bindButton("generateGothButton", generateGoth);
+  bindButton("copyGothButton", () => copyFromResult("gothResult"));
+  bindButton("clearGothButton", () => clearResult("gothResult", "Your goth girl idea will appear here."));
 
-  document.getElementById("generateMagicalGirlButton").addEventListener("click", generateMagicalGirl);
-  document.getElementById("copyMagicalGirlButton").addEventListener("click", () => copyFromResult("magicalGirlResult"));
-  document.getElementById("clearMagicalGirlButton").addEventListener("click", () => clearResult("magicalGirlResult", "Your magical girl will appear here."));
+  bindButton("generateDragonButton", generateDragon);
+  bindButton("copyDragonButton", () => copyFromResult("dragonResult"));
+  bindButton("clearDragonButton", () => clearResult("dragonResult", "Your dragon idea will appear here."));
 
-  document.getElementById("generateDragonButton").addEventListener("click", generateDragon);
-  document.getElementById("copyDragonButton").addEventListener("click", () => copyFromResult("dragonResult"));
-  document.getElementById("clearDragonButton").addEventListener("click", () => clearResult("dragonResult", "Your dragon idea will appear here."));
+  bindButton("generateWorldButton", generateWorld);
+  bindButton("copyWorldButton", () => copyFromResult("worldResult"));
+  bindButton("clearWorldButton", () => clearResult("worldResult", "Your world idea will appear here."));
 
-  document.getElementById("generateWorldButton").addEventListener("click", generateWorld);
-  document.getElementById("copyWorldButton").addEventListener("click", () => copyFromResult("worldResult"));
-  document.getElementById("clearWorldButton").addEventListener("click", () => clearResult("worldResult", "Your world idea will appear here."));
+  bindButton("generateTownButton", generateTown);
+  bindButton("copyTownButton", () => copyFromResult("townResult"));
+  bindButton("clearTownButton", () => clearResult("townResult", "Your town idea will appear here."));
 
-  document.getElementById("generateTownButton").addEventListener("click", generateTown);
-  document.getElementById("copyTownButton").addEventListener("click", () => copyFromResult("townResult"));
-  document.getElementById("clearTownButton").addEventListener("click", () => clearResult("townResult", "Your town idea will appear here."));
+  bindButton("generateMagicButton", generateMagic);
+  bindButton("copyMagicButton", () => copyFromResult("magicResult"));
+  bindButton("clearMagicButton", () => clearResult("magicResult", "Your magic idea will appear here."));
 
-  document.getElementById("generateMagicButton").addEventListener("click", generateMagic);
-  document.getElementById("copyMagicButton").addEventListener("click", () => copyFromResult("magicResult"));
-  document.getElementById("clearMagicButton").addEventListener("click", () => clearResult("magicResult", "Your magic idea will appear here."));
+  bindButton("generateOutfitButton", generateOutfit);
+  bindButton("copyOutfitButton", () => copyFromResult("outfitResult"));
+  bindButton("clearOutfitButton", () => clearResult("outfitResult", "Your outfit idea will appear here."));
 
-  document.getElementById("generateOutfitButton").addEventListener("click", generateOutfit);
-  document.getElementById("copyOutfitButton").addEventListener("click", () => copyFromResult("outfitResult"));
-  document.getElementById("clearOutfitButton").addEventListener("click", () => clearResult("outfitResult", "Your outfit idea will appear here."));
+  bindButton("generateItemButton", generateItem);
+  bindButton("copyItemButton", () => copyFromResult("itemResult"));
+  bindButton("clearItemButton", () => clearResult("itemResult", "Your item idea will appear here."));
 
-  document.getElementById("generateItemButton").addEventListener("click", generateItem);
-  document.getElementById("copyItemButton").addEventListener("click", () => copyFromResult("itemResult"));
-  document.getElementById("clearItemButton").addEventListener("click", () => clearResult("itemResult", "Your item idea will appear here."));
+  bindButton("generateRelationshipButton", generateRelationship);
+  bindButton("copyRelationshipButton", () => copyFromResult("relationshipResult"));
+  bindButton("clearRelationshipButton", () => clearResult("relationshipResult", "Your relationship idea will appear here."));
 
-  document.getElementById("generateRelationshipButton").addEventListener("click", generateRelationship);
-  document.getElementById("copyRelationshipButton").addEventListener("click", () => copyFromResult("relationshipResult"));
-  document.getElementById("clearRelationshipButton").addEventListener("click", () => clearResult("relationshipResult", "Your relationship idea will appear here."));
+  bindButton("generatePolyculeButton", generatePolycule);
+bindButton("copyPolyculeButton", () => copyFromResult("polyculeResult"));
+bindButton("clearPolyculeButton", () => clearResult("polyculeResult", "Your polycule idea will appear here."));
 
-  document.getElementById("generatePolyculeButton").addEventListener("click", generatePolycule);
-document.getElementById("copyPolyculeButton").addEventListener("click", () => copyFromResult("polyculeResult"));
-document.getElementById("clearPolyculeButton").addEventListener("click", () => clearResult("polyculeResult", "Your polycule idea will appear here."));
+  bindButton("generateVibeButton", generateVibe);
+bindButton("copyVibeButton", () => copyFromResult("vibeResult"));
+bindButton("clearVibeButton", () => clearResult("vibeResult", "Your vibe idea will appear here."));
 
-  document.getElementById("generateVibeButton").addEventListener("click", generateVibe);
-document.getElementById("copyVibeButton").addEventListener("click", () => copyFromResult("vibeResult"));
-document.getElementById("clearVibeButton").addEventListener("click", () => clearResult("vibeResult", "Your vibe idea will appear here."));
-
-  document.getElementById("generateFamiliarButton").addEventListener("click", generateFamiliar);
-  document.getElementById("copyFamiliarButton").addEventListener("click", () => copyFromResult("familiarResult"));
-  document.getElementById("clearFamiliarButton").addEventListener("click", () => clearResult("familiarResult", "Your familiar idea will appear here."));
+  bindButton("generateFamiliarButton", generateFamiliar);
+  bindButton("copyFamiliarButton", () => copyFromResult("familiarResult"));
+  bindButton("clearFamiliarButton", () => clearResult("familiarResult", "Your familiar idea will appear here."));
 
   document.getElementById("generateWarriorButton")
   .addEventListener("click", generateWarrior);
 
-document.getElementById("copyWarriorButton").addEventListener("click", () => copyFromResult("warriorResult"));
+bindButton("copyWarriorButton", () => copyFromResult("warriorResult"));
 
-document.getElementById("clearWarriorButton").addEventListener("click", () => clearResult("warriorResult", "Your warrior cat will appear here.")
-  );
+bindButton("clearWarriorButton", () => clearResult("warriorResult", "Your warrior cat will appear here."));
   
 });
 
