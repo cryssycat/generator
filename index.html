@@ -254,19 +254,24 @@
   </section>
 </section>
   <section id="familiar" class="tab-panel">
-  <div class="generator-card">
-    <h2>Familiar Generator</h2>
-    <p class="generator-description">
-      Roll a magical animal companion with a species, bond, magic type, personality, ability, item, and story hook.
-    </p>
+    <section class="generator-card">
+      <div class="section-title">
+        <h2>Familiar Generator</h2>
+        <p>Roll a magical animal companion with a species, bond, magic type, personality, ability, item, treat, and story hook.</p>
+      </div>
 
-    <button id="generateFamiliarButton" class="generate-button">
-      Generate Familiar
-    </button>
+      <button id="generateFamiliarButton" class="generate-button">🐾 Generate Familiar</button>
 
-    <div id="familiarResult" class="result-card"></div>
-  </div>
-</section>
+      <div id="familiarResult" class="result-card">
+        <p class="empty-text">Your familiar idea will appear here.</p>
+      </div>
+
+      <div class="button-row">
+        <button id="copyFamiliarButton" class="secondary-button">Copy Familiar Idea</button>
+        <button id="clearFamiliarButton" class="secondary-button">Clear</button>
+      </div>
+    </section>
+  </section>
 </main>
 
 <script src="generator-data.js?v=1"></script>
@@ -1187,6 +1192,61 @@ function generateVibe(){
   ]);
 }
 
+
+/* Familiar */
+function familiarList(...keys){
+  if(typeof FAMILIAR_DATA === "undefined") return [];
+
+  for(const key of keys){
+    if(Array.isArray(FAMILIAR_DATA[key]) && FAMILIAR_DATA[key].length){
+      return FAMILIAR_DATA[key];
+    }
+  }
+
+  return [];
+}
+
+function generateFamiliarName(){
+  const starts = familiarList("nameStarts", "starts");
+  const ends = familiarList("nameEnds", "ends");
+  const start = pick(starts);
+  const end = pick(ends);
+
+  if(start === "—" && end === "—") return "Unnamed Familiar";
+  return `${start}${end}`;
+}
+
+function generateFamiliar(){
+  if(typeof FAMILIAR_DATA === "undefined"){
+    renderStandardResult("familiarResult", "Familiar Generator Error", [
+      ["Missing Data", "FAMILIAR_DATA is not loaded"]
+    ], "Check generator-data.js and make sure it contains const FAMILIAR_DATA.");
+    return;
+  }
+
+  const familiar = {
+    name: generateFamiliarName(),
+    species: pick(familiarList("species", "creatures", "animalTypes")),
+    bondType: pick(familiarList("bondTypes", "bonds", "bondType")),
+    personality: pick(familiarList("personalities", "personality")),
+    magicType: pick(familiarList("magicTypes", "magic", "magicStyles")),
+    ability: pick(familiarList("abilities", "powers")),
+    accessory: pick(familiarList("accessories", "items", "accessory")),
+    favoriteTreat: pick(familiarList("favoriteTreats", "treats", "foods")),
+    story: pick(familiarList("storyHooks", "storyHook", "hooks"))
+  };
+
+  renderStandardResult("familiarResult", familiar.name, [
+    ["Species", familiar.species],
+    ["Bond Type", familiar.bondType],
+    ["Personality", familiar.personality],
+    ["Magic Type", familiar.magicType],
+    ["Ability", familiar.ability],
+    ["Accessory", familiar.accessory],
+    ["Favorite Treat", familiar.favoriteTreat]
+  ], familiar.story);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
 
@@ -1250,6 +1310,10 @@ document.getElementById("clearPolyculeButton").addEventListener("click", () => c
   document.getElementById("generateVibeButton").addEventListener("click", generateVibe);
 document.getElementById("copyVibeButton").addEventListener("click", () => copyFromResult("vibeResult"));
 document.getElementById("clearVibeButton").addEventListener("click", () => clearResult("vibeResult", "Your vibe idea will appear here."));
+
+  document.getElementById("generateFamiliarButton").addEventListener("click", generateFamiliar);
+  document.getElementById("copyFamiliarButton").addEventListener("click", () => copyFromResult("familiarResult"));
+  document.getElementById("clearFamiliarButton").addEventListener("click", () => clearResult("familiarResult", "Your familiar idea will appear here."));
   
 });
 
