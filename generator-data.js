@@ -46094,5 +46094,169 @@ storyHooks: [
   "A tiny spirit village builds itself inside their garden.",
   "They discover that they have already saved the world once."
 ]
+const VIBE_DATA = {
+
+themes: [
+"Moonlit Strawberry Cafe",
+"Rainy Bookstore Evening",
+"Pastel Goth Tea Party",
+"Sunflower Picnic",
+"Royal Rose Garden",
+"Cozy Aquarium Cafe",
+"Celestial Observatory",
+"Halloween Bakery",
+"Cherry Blossom Festival",
+"Crystal Lighthouse"
+],
+
+aesthetics: [
+"soft celestial",
+"pastel goth",
+"cozy cottagecore",
+"royalcore",
+"dreamcore",
+"aquariumcore",
+"angelcore",
+"dark academia",
+"witchcore",
+"vintage cafe"
+],
+
+palettes: [
+"Strawberry pink, cream, espresso brown, moon silver, lavender",
+"Black, wine red, silver, cream, rose gold",
+"Sage green, ivory, honey yellow, cinnamon, brown",
+"Baby blue, pearl white, blush pink, lilac, gold",
+"Forest green, cream, amber, moss, copper"
+],
+
+textures: [
+"lace",
+"velvet",
+"warm wood",
+"glass",
+"pearls",
+"ribbons",
+"embroidery",
+"soft fur",
+"flowers",
+"whipped cream",
+"stained glass",
+"silk",
+"plush fabric",
+"crystal",
+"tea steam"
+],
+
+motifs: [
+"crescent moons",
+"stars",
+"strawberries",
+"roses",
+"lanterns",
+"teacups",
+"clouds",
+"bells",
+"bows",
+"ribbons",
+"keys",
+"flowers",
+"books",
+"candles",
+"butterflies"
+],
+
+lighting: [
+"rainy evening",
+"golden sunset",
+"candlelit night",
+"foggy morning",
+"moonlit garden",
+"lantern festival",
+"warm cafe glow",
+"winter snowfall",
+"sunrise mist",
+"stormy twilight"
+],
+
+weather: [
+"gentle rain",
+"clear night sky",
+"light snowfall",
+"spring breeze",
+"summer sunset",
+"misty morning",
+"thunderstorm",
+"autumn leaves",
+"flower petals drifting",
+"warm sunshine"
+],
+
+keyItems: [
+"moon-shaped teacup",
+"crystal locket",
+"old spellbook",
+"flower crown",
+"silver bell",
+"ribbon wand",
+"lantern",
+"star umbrella",
+"heart pendant",
+"plush bunny"
+],
+
+characterDirections: [
+"soft anthro cafe worker",
+"gothic librarian",
+"royal healer",
+"moon witch",
+"traveling florist",
+"tea shop owner",
+"dream oracle",
+"bakery apprentice",
+"festival musician",
+"cozy tailor"
+],
+
+roomIdeas: [
+"tiny apartment above a cafe",
+"greenhouse bedroom",
+"book-filled attic",
+"candlelit library",
+"flower shop loft",
+"aquarium room",
+"cozy cabin",
+"witch cottage",
+"royal bedroom",
+"sunroom"
+],
+
+music: [
+"soft piano",
+"lofi beats",
+"music box melodies",
+"jazz cafe",
+"orchestral fantasy",
+"rain ambience",
+"harp music",
+"slow pop songs",
+"acoustic guitar",
+"vocal lullabies"
+],
+
+storyHooks: [
+"A mysterious letter changes their peaceful life forever.",
+"They inherit a cafe hiding magical secrets.",
+"A living map chooses them as its new owner.",
+"Their dreams connect to another world.",
+"A forgotten spirit follows them home.",
+"They discover a hidden room beneath the bookstore.",
+"A strange train station appears once a month.",
+"They accidentally adopt a baby dragon.",
+"A broken relic begins glowing around them.",
+"They find a diary predicting their future."
+]
 
 };
+
+  
