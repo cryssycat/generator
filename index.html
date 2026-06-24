@@ -65,11 +65,10 @@
 
 <main class="generator-page">
   <nav class="tabs generator-tabs" aria-label="Generator types">
+    <button class="tab-button" data-tab="vibeGenerator">Vibe</button>
+   <button class="tab-button" data-tab="paletteGenerator">Palette</button>
     <button class="tab-button active" data-tab="characterGenerator">Character</button>
-    <button class="tab-button" data-tab="paletteGenerator">Palette</button>
-    <button class="tab-button" data-tab="pokemonGenerator">Pokemon</button>
     <button class="tab-button" data-tab="fantasyGenerator">Fantasy</button>
-    <button class="tab-button" data-tab="ponyGenerator">Pony</button>
     <button class="tab-button" data-tab="gothGenerator">Goth Girl</button>
     <button class="tab-button" data-tab="dragonGenerator">Dragon</button>
     <button class="tab-button" data-tab="worldGenerator">World</button>
@@ -79,6 +78,8 @@
     <button class="tab-button" data-tab="itemGenerator">Item</button>
     <button class="tab-button" data-tab="relationshipGenerator">Relationship</button>
     <button class="tab-button" data-tab="polyculeGenerator">Polycule</button>
+   <button class="tab-button" data-tab="ponyGenerator">Pony</button>
+   <button class="tab-button" data-tab="pokemonGenerator">Pokemon</button>
   </nav>
 
   <section id="characterGenerator" class="tab-panel active">
@@ -227,6 +228,26 @@
     <div class="button-row">
       <button id="copyPolyculeButton" class="secondary-button">Copy Polycule Idea</button>
       <button id="clearPolyculeButton" class="secondary-button">Clear</button>
+    </div>
+  </section>
+</section>
+
+  <section id="vibeGenerator" class="tab-panel">
+  <section class="generator-card">
+    <div class="section-title">
+      <h2>Vibe Generator</h2>
+      <p>Generate a full moodboard-style design direction.</p>
+    </div>
+
+    <button id="generateVibeButton" class="generate-button">✨ Generate Vibe</button>
+
+    <div id="vibeResult" class="result-card">
+      <p class="empty-text">Your vibe idea will appear here.</p>
+    </div>
+
+    <div class="button-row">
+      <button id="copyVibeButton" class="secondary-button">Copy Vibe Idea</button>
+      <button id="clearVibeButton" class="secondary-button">Clear</button>
     </div>
   </section>
 </section>
@@ -1112,7 +1133,38 @@ function generatePolycule(){
     ["Shared Dream", sharedDream]
   ], story);
 }
-  
+function generateVibe(){
+  const textures = uniquePicks(VIBE_DATA.textures, 5).join(", ");
+  const motifs = uniquePicks(VIBE_DATA.motifs, 5).join(", ");
+
+  const vibe = {
+    theme: pick(VIBE_DATA.themes),
+    aesthetic: pick(VIBE_DATA.aesthetics),
+    palette: pick(VIBE_DATA.palettes),
+    textures,
+    motifs,
+    lighting: pick(VIBE_DATA.lighting),
+    weather: pick(VIBE_DATA.weather),
+    keyItem: pick(VIBE_DATA.keyItems),
+    characterDirection: pick(VIBE_DATA.characterDirections),
+    roomIdea: pick(VIBE_DATA.roomIdeas),
+    music: pick(VIBE_DATA.music),
+    story: pick(VIBE_DATA.storyHooks)
+  };
+
+  renderStandardResult("vibeResult", vibe.theme, [
+    ["Aesthetic", vibe.aesthetic],
+    ["Palette", vibe.palette],
+    ["Textures", vibe.textures],
+    ["Motifs", vibe.motifs],
+    ["Lighting", vibe.lighting],
+    ["Weather", vibe.weather],
+    ["Key Item", vibe.keyItem],
+    ["Character Direction", vibe.characterDirection],
+    ["Room Idea", vibe.roomIdea],
+    ["Music", vibe.music]
+  ], vibe.story);
+} 
 document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
 
@@ -1172,8 +1224,13 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("generatePolyculeButton").addEventListener("click", generatePolycule);
 document.getElementById("copyPolyculeButton").addEventListener("click", () => copyFromResult("polyculeResult"));
 document.getElementById("clearPolyculeButton").addEventListener("click", () => clearResult("polyculeResult", "Your polycule idea will appear here."));
+
+  document.getElementById("generateVibeButton").addEventListener("click", generateVibe);
+document.getElementById("copyVibeButton").addEventListener("click", () => copyFromResult("vibeResult"));
+document.getElementById("clearVibeButton").addEventListener("click", () => clearResult("vibeResult", "Your vibe idea will appear here."));
   
 });
+
 </script>
 </body>
 </html>
