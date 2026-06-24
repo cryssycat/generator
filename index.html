@@ -71,6 +71,7 @@
 <button class="tab-button" data-tab="gothGenerator">Goth Girl</button>
 <button class="tab-button" data-tab="ponyGenerator">Pony</button>
 <button class="tab-button" data-tab="pokemonGenerator">Pokemon</button>
+<button class="tab-button" data-tab="warriorGenerator">Warrior Cats</button>
 <button class="tab-button" data-tab="dragonGenerator">Dragon</button>
 
 <button class="tab-button" data-tab="familiar">Familiar</button>
@@ -302,6 +303,33 @@
       </button>
 
       <button id="clearWeaponButton" class="secondary-button">
+        Clear
+      </button>
+    </div>
+  </section>
+</section>
+
+  <section id="warriorGenerator" class="tab-panel">
+  <section class="generator-card">
+    <div class="section-title">
+      <h2>Warrior Cats Generator</h2>
+      <p>Create a Clan cat with appearance, rank, skills, and story hooks.</p>
+    </div>
+
+    <button id="generateWarriorButton" class="generate-button">
+      🐾 Generate Warrior Cat
+    </button>
+
+    <div id="warriorResult" class="result-card">
+      <p class="empty-text">Your warrior cat will appear here.</p>
+    </div>
+
+    <div class="button-row">
+      <button id="copyWarriorButton" class="secondary-button">
+        Copy Warrior
+      </button>
+
+      <button id="clearWarriorButton" class="secondary-button">
         Clear
       </button>
     </div>
@@ -764,6 +792,42 @@ function generateChaosPalette(){
 }
 
 
+  function generateWarriorName(){
+  return `${pick(WARRIOR_DATA.nameStarts)}${pick(WARRIOR_DATA.nameEnds)}`;
+}
+
+function generateWarrior(){
+  const warrior = {
+    name: generateWarriorName(),
+    rank: pick(WARRIOR_DATA.ranks),
+    clan: pick(WARRIOR_DATA.clans),
+    catType: pick(WARRIOR_DATA.catTypes),
+    coatColor: pick(WARRIOR_DATA.coatColors),
+    coatPattern: pick(WARRIOR_DATA.coatPatterns),
+    eyeColor: pick(WARRIOR_DATA.eyeColors),
+    personality: uniquePicks(WARRIOR_DATA.personalities, 3).join(", "),
+    skill: pick(WARRIOR_DATA.skills),
+    scar: pick(WARRIOR_DATA.scars),
+    accessory: pick(WARRIOR_DATA.accessories),
+    specialTrait: pick(WARRIOR_DATA.specialTraits),
+    story: pick(WARRIOR_DATA.storyHooks)
+  };
+
+  renderStandardResult("warriorResult", warrior.name, [
+    ["Rank", warrior.rank],
+    ["Clan", warrior.clan],
+    ["Cat Type", warrior.catType],
+    ["Coat Color", warrior.coatColor],
+    ["Coat Pattern", warrior.coatPattern],
+    ["Eye Color", warrior.eyeColor],
+    ["Personality", warrior.personality],
+    ["Skill", warrior.skill],
+    ["Scar", warrior.scar],
+    ["Accessory", warrior.accessory],
+    ["Special Trait", warrior.specialTrait]
+  ], warrior.story);
+}
+  
 /* Pokemon */
 function generatePokemonName(){
   return `${pick(POKEMON_DATA.nameStarts)}${pick(POKEMON_DATA.nameEnds)}`;
@@ -1382,6 +1446,14 @@ document.getElementById("clearVibeButton").addEventListener("click", () => clear
   document.getElementById("generateFamiliarButton").addEventListener("click", generateFamiliar);
   document.getElementById("copyFamiliarButton").addEventListener("click", () => copyFromResult("familiarResult"));
   document.getElementById("clearFamiliarButton").addEventListener("click", () => clearResult("familiarResult", "Your familiar idea will appear here."));
+
+  document.getElementById("generateWarriorButton")
+  .addEventListener("click", generateWarrior);
+
+document.getElementById("copyWarriorButton").addEventListener("click", () => copyFromResult("warriorResult"));
+
+document.getElementById("clearWarriorButton").addEventListener("click", () => clearResult("warriorResult", "Your warrior cat will appear here.")
+  );
   
 });
 
