@@ -47318,6 +47318,129 @@ music: [
   "stargazing playlists"
 ],
 
+// Familiar Generator Data
+const FAMILIAR_DATA = {
+  nameStarts: [
+    "Moon", "Star", "Honey", "Berry", "Rose", "Moss", "Cloud", "Pearl", "Sugar", "Velvet",
+    "Pumpkin", "Clover", "Ash", "Snow", "Tea", "Dream", "Willow", "Dawn", "Mist", "Lace"
+  ],
+
+  nameEnds: [
+    "whisker", "bloom", "bell", "paw", "song", "spark", "muffin", "glow", "tail", "bean",
+    "wisp", "heart", "petal", "shine", "puff", "drop", "charm", "button", "fern", "wish"
+  ],
+
+  species: [
+    "Moon Cat", "Tiny Dragon", "Teacup Bat", "Cloud Bunny", "Crystal Mouse",
+    "Lantern Fox", "Moss Ferret", "Star Frog", "Pocket Griffin", "Rose Moth",
+    "Plush Bear", "Sugar Glider", "Dream Otter", "Candle Crow", "Snow Stoat",
+    "Pearl Toad", "Velvet Rat", "Pumpkin Gecko", "Ribbon Snake", "Spirit Kitten"
+  ],
+
+  bondTypes: [
+    "Soulbound familiar", "Inherited family familiar", "Rescued forest familiar",
+    "Summoned by accident", "Guardian familiar", "Tea shop familiar",
+    "Dream-linked familiar", "Cursed familiar", "Royal companion", "Shrine familiar"
+  ],
+
+  personalities: [
+    "sleepy and loyal", "chaotic but affectionate", "gentle and watchful",
+    "spoiled and dramatic", "clever and suspicious", "tiny menace energy",
+    "brave despite being small", "motherly and protective", "curious and snack-motivated",
+    "quiet but deeply magical"
+  ],
+
+  magicTypes: [
+    "Dream magic", "Moonlight magic", "Tea magic", "Memory magic", "Flower magic",
+    "Bakery magic", "Lantern magic", "Starlight magic", "Protection magic", "Wish magic",
+    "Weather magic", "Crystal magic", "Shadow magic", "Healing magic", "Storybook magic"
+  ],
+
+  abilities: [
+    "can sense nightmares before they arrive",
+    "can hide tiny objects in pocket dimensions",
+    "can glow when danger is nearby",
+    "can guide lost travelers home",
+    "can turn tears into small flowers",
+    "can warm cold rooms with a soft aura",
+    "can whisper forgotten memories",
+    "can unlock doors during moonlight",
+    "can summon a single protective charm",
+    "can find missing keys and trinkets",
+    "can soothe panic with a gentle purr",
+    "can make tiny constellations appear overhead"
+  ],
+
+  accessories: [
+    "silver bell collar", "tiny ribbon cape", "moon charm anklet", "velvet pouch",
+    "crystal name tag", "mini witch hat", "flower crown", "starry blanket",
+    "lace bow", "gold key necklace", "tea leaf satchel", "glowing lantern charm"
+  ],
+
+  favoriteTreats: [
+    "sugar cookies", "warm milk", "moonberries", "honey toast", "rose tea biscuits",
+    "caramel drops", "crystal candy", "tiny pancakes", "strawberry cream",
+    "pumpkin muffins", "marshmallows", "buttered toast"
+  ],
+
+  storyHooks: [
+    "It appeared during a storm carrying a message from the past.",
+    "It refuses to leave an old bakery with a locked attic.",
+    "It is secretly guarding the last wish of a forgotten princess.",
+    "It chooses its owner after they show kindness to something small.",
+    "It keeps stealing shiny keys from haunted houses.",
+    "It once belonged to a witch who vanished under a blue moon.",
+    "It can only speak inside dreams.",
+    "It is searching for the missing half of its magical bell.",
+    "It follows a trail of blooming flowers no one else can see.",
+    "It protects children from nightmares but is afraid of thunder."
+  ]
 };
+
+function pick(array) {
+  return array[Math.floor(Math.random() * array.length)];
+}
+
+function generateFamiliar() {
+  const familiar = {
+    name: `${pick(FAMILIAR_DATA.nameStarts)}${pick(FAMILIAR_DATA.nameEnds)}`,
+    species: pick(FAMILIAR_DATA.species),
+    bondType: pick(FAMILIAR_DATA.bondTypes),
+    personality: pick(FAMILIAR_DATA.personalities),
+    magicType: pick(FAMILIAR_DATA.magicTypes),
+    ability: pick(FAMILIAR_DATA.abilities),
+    accessory: pick(FAMILIAR_DATA.accessories),
+    favoriteTreat: pick(FAMILIAR_DATA.favoriteTreats),
+    storyHook: pick(FAMILIAR_DATA.storyHooks)
+  };
+
+  const result = `
+    <h3>${familiar.name}</h3>
+
+    <p><strong>Species:</strong> ${familiar.species}</p>
+    <p><strong>Bond Type:</strong> ${familiar.bondType}</p>
+    <p><strong>Personality:</strong> ${familiar.personality}</p>
+    <p><strong>Magic Type:</strong> ${familiar.magicType}</p>
+    <p><strong>Ability:</strong> ${familiar.ability}</p>
+    <p><strong>Accessory:</strong> ${familiar.accessory}</p>
+    <p><strong>Favorite Treat:</strong> ${familiar.favoriteTreat}</p>
+
+    <div class="story-box">
+      <strong>Story Hook:</strong>
+      <p>${familiar.storyHook}</p>
+    </div>
+  `;
+
+  document.getElementById("familiarResult").innerHTML = result;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const familiarButton = document.getElementById("generateFamiliarButton");
+
+  if (familiarButton) {
+    familiarButton.addEventListener("click", generateFamiliar);
+  }
+});
+
 
   
