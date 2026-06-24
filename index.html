@@ -1150,20 +1150,20 @@ function generateVibe(){
     characterDirection: pick(VIBE_DATA.characterDirections),
     roomIdea: pick(VIBE_DATA.roomIdeas),
     music: pick(VIBE_DATA.music),
-    story: pick(VIBE_DATA.storyHooks)
   };
 
-  renderStandardResult("vibeResult", vibe.aesthetic, [
-    ["Palette", vibe.palette],
-    ["Textures", vibe.textures],
-    ["Motifs", vibe.motifs],
-    ["Lighting", vibe.lighting],
-    ["Weather", vibe.weather],
-    ["Key Item", vibe.keyItem],
-    ["Character Direction", vibe.characterDirection],
-    ["Room Idea", vibe.roomIdea],
-    ["Music", vibe.music]
-  ],);
+renderStandardResult("vibeResult", vibe.theme, [
+  ["Aesthetic", vibe.aesthetic],
+  ["Palette", vibe.palette],
+  ["Textures", vibe.textures],
+  ["Motifs", vibe.motifs],
+  ["Lighting", vibe.lighting],
+  ["Weather", vibe.weather],
+  ["Key Item", vibe.keyItem],
+  ["Character Direction", vibe.characterDirection],
+  ["Room Idea", vibe.roomIdea],
+  ["Music", vibe.music]
+]);
 } 
 document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
