@@ -47316,7 +47316,8 @@ music: [
   "rainy cafe playlists",
   "cozy evening playlists",
   "stargazing playlists"
-],
+]
+};
 
 // Familiar Generator Data
 const FAMILIAR_DATA = {
