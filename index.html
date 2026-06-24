@@ -288,29 +288,36 @@ function renderStandardResult(resultId, title, rows, story){
   const result = document.getElementById(resultId);
 
   const safeRows = Array.isArray(rows) ? rows : [];
-  const safeStory = story || "No story hook generated.";
+  const hasStory = typeof story === "string" && story.trim().length > 0;
 
   const rowsHtml = safeRows
     .map(row => `<div><strong>${row[0]}</strong><span>${row[1]}</span></div>`)
     .join("");
 
+  const storyHtml = hasStory ? `
+    <div class="story-box">
+      <strong>Story Hook</strong>
+      <p>${story}</p>
+    </div>
+  ` : "";
+
   result.innerHTML = `
     <h2>${title}</h2>
     <div class="result-grid">${rowsHtml}</div>
-    <div class="story-box">
-      <strong>Story Hook</strong>
-      <p>${safeStory}</p>
-    </div>
+    ${storyHtml}
   `;
 
-  result.dataset.copyText = [
+  const copyParts = [
     title,
     "",
-    ...safeRows.map(row => `${row[0]}: ${row[1]}`),
-    "",
-    "Story Hook:",
-    safeStory
-  ].join("\n");
+    ...safeRows.map(row => `${row[0]}: ${row[1]}`)
+  ];
+
+  if(hasStory){
+    copyParts.push("", "Story Hook:", story);
+  }
+
+  result.dataset.copyText = copyParts.join("\n");
 }
 
 async function copyFromResult(resultId){
@@ -1149,21 +1156,23 @@ function generateVibe(){
     keyItem: pick(VIBE_DATA.keyItems),
     characterDirection: pick(VIBE_DATA.characterDirections),
     roomIdea: pick(VIBE_DATA.roomIdeas),
-    music: pick(VIBE_DATA.music),
+    music: pick(VIBE_DATA.music)
   };
 
-renderStandardResult("vibeResult", vibe.aesthetic, [
-   
-  ["Palette", vibe.palette],
-  ["Textures", vibe.textures],
-  ["Motifs", vibe.motifs],
-  ["Lighting", vibe.lighting],
-  ["Weather", vibe.weather],
-  ["Key Item", vibe.keyItem],
-  ["Character Direction", vibe.characterDirection],
-  ["Room Idea", vibe.roomIdea],
-  ["Music", vibe.music]);
-} 
+  renderStandardResult("vibeResult", vibe.theme, [
+    ["Aesthetic", vibe.aesthetic],
+    ["Palette", vibe.palette],
+    ["Textures", vibe.textures],
+    ["Motifs", vibe.motifs],
+    ["Lighting", vibe.lighting],
+    ["Weather", vibe.weather],
+    ["Key Item", vibe.keyItem],
+    ["Character Direction", vibe.characterDirection],
+    ["Room Idea", vibe.roomIdea],
+    ["Music", vibe.music]
+  ]);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   setupTabs();
 
