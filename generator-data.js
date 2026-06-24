@@ -49439,7 +49439,8 @@ storyHooks: [
     "Orange",
     "Red",
     "Tortoiseshell",
-    "Calico"
+    "Calico",
+    "Albino"
   ],
 
   coatPatterns: [
@@ -49454,8 +49455,7 @@ storyHooks: [
     "Colorpoint",
     "Van Pattern",
     "Tortoiseshell",
-    "Calico"
-  ],
+     ],
 
   eyeColors: [
     "Amber",
@@ -49533,14 +49533,113 @@ storyHooks: [
     "Exceptional sense of smell"
   ],
 
-  storyHooks: [
-    "Receives a prophecy from StarClan.",
-    "Discovers a forgotten tunnel beneath camp.",
-    "Finds an abandoned kit in enemy territory.",
-    "Has recurring dreams about a long-dead warrior.",
-    "Witnesses a sign no other cat can see.",
-    "Must choose between loyalty and friendship.",
-    "Uncovers a secret hidden by the Clan leader.",
-    "Gets lost beyond the lake during leaf-bare."
-  ]
+storyHooks: [
+  "Receives a prophecy from StarClan.",
+  "Discovers a forgotten tunnel beneath camp.",
+  "Finds an abandoned kit in enemy territory.",
+  "Has recurring dreams about a long-dead warrior.",
+  "Witnesses a sign no other cat can see.",
+  "Must choose between loyalty and friendship.",
+  "Uncovers a secret hidden by the Clan leader.",
+  "Gets lost beyond the lake during leaf-bare.",
+
+  "Finds a mysterious scent trail leading beyond Clan borders.",
+  "Is chosen to mentor an unusually gifted apprentice.",
+  "Discovers evidence that StarClan may be trying to send a warning.",
+  "Overhears a secret meeting between rival Clan cats.",
+  "Stumbles upon an abandoned Twoleg place hiding an ancient secret.",
+  "Must protect a medicine cat's secret.",
+  "Finds strange pawprints no cat recognizes.",
+  "Accidentally breaks the warrior code and fears discovery.",
+  "Believes a StarClan ancestor is following them.",
+  "Discovers prey mysteriously disappearing from Clan territory.",
+
+  "Learns a dark truth about their parents.",
+  "Finds a wounded rogue near the border.",
+  "Must survive a dangerous flood.",
+  "Discovers an apprentice sneaking out at night.",
+  "Is haunted by visions of a coming disaster.",
+  "Witnesses a star falling into the lake.",
+  "Finds an old Clan camp lost to time.",
+  "Is accused of betraying the Clan.",
+  "Discovers a hidden cache of prey during a famine.",
+  "Must escort a lost kit home safely.",
+
+  "Finds evidence of a forgotten Clan.",
+  "Receives a message from a ghostly warrior.",
+  "Must help a rival Clan during a crisis.",
+  "Discovers an injured fox cub instead of prey.",
+  "Gets trapped underground during a storm.",
+  "Uncovers an ancient prophecy carved into stone.",
+  "Becomes responsible for a difficult apprentice.",
+  "Finds a mysterious feather believed to be a sign from StarClan.",
+  "Must keep peace between feuding Clanmates.",
+  "Discovers a dangerous predator stalking the territory.",
+
+  "Finds a kittypet who knows Clan secrets.",
+  "Has dreams of a future that keeps changing.",
+  "Discovers a hidden cave filled with old warrior markings.",
+  "Is chosen for a special journey by StarClan.",
+  "Witnesses a medicine cat receiving an impossible omen.",
+  "Must lead a patrol after their leader is injured.",
+  "Finds a lost elder wandering beyond the borders.",
+  "Discovers a hidden entrance to the Dark Forest.",
+  "Is forced to rely on an enemy to survive.",
+  "Finds prey behaving strangely before a disaster.",
+
+  "Discovers an abandoned camp deep in the forest.",
+  "Must decide whether to reveal a dangerous secret.",
+  "Finds a message buried beneath the roots of an old tree.",
+  "Receives a prophecy that seems impossible to understand.",
+  "Witnesses StarClan cats arguing in a dream.",
+  "Discovers that a Clanmate has been lying for moons.",
+  "Must cross dangerous territory to save a friend.",
+  "Finds an injured loner carrying valuable information.",
+  "Discovers a hidden pathway around the lake.",
+  "Is warned that someone close to them will betray the Clan.",
+
+  "Finds a kit with no memory of where they came from.",
+  "Discovers a strange illness spreading through the forest.",
+  "Receives a vision showing a future leader.",
+  "Finds claw marks unlike any animal they've seen.",
+  "Must uncover who is stealing prey from camp.",
+  "Discovers a forgotten medicine cat den.",
+  "Learns that an old legend may actually be true.",
+  "Witnesses an eclipse that terrifies the Clans.",
+  "Must guide younger cats through a harsh leaf-bare.",
+  "Finds evidence that StarClan is trying to communicate directly.",
+
+  "Discovers an ancient warrior's hidden journal.",
+  "Must survive alone after becoming separated from the Clan.",
+  "Finds a wounded cat from a distant Clan.",
+  "Witnesses a miracle at the Moonpool.",
+  "Discovers a hidden rivalry among senior warriors.",
+  "Must stop a conflict before it becomes a battle.",
+  "Finds a mysterious object left by Twolegs.",
+  "Receives dreams from a cat who should not exist.",
+  "Discovers an old enemy may have returned.",
+  "Must prove their loyalty after being falsely accused.",
+
+  "Finds a trail leading far beyond the territories.",
+  "Witnesses prey returning after a mysterious disappearance.",
+  "Discovers a cave only visible during certain seasons.",
+  "Must keep a prophecy secret from the Clan.",
+  "Finds signs that another group of cats lives nearby.",
+  "Receives warnings from both StarClan and the Dark Forest.",
+  "Discovers a forgotten section of the warrior code.",
+  "Must choose between two equally important duties.",
+  "Finds a hidden herb known only to ancient medicine cats.",
+  "Discovers an apprentice communicating with spirits.",
+
+  "Learns they are connected to an ancient prophecy.",
+  "Discovers a secret tunnel connecting two Clan territories.",
+  "Must save a rival cat during a dangerous storm.",
+  "Finds a hidden den beneath the roots of an ancient oak.",
+  "Receives a vision that could change the future of all Clans.",
+  "Discovers the truth behind a famous warrior's legend.",
+  "Must unite cats who refuse to work together.",
+  "Finds an abandoned camp that shouldn't exist.",
+  "Learns that StarClan has been hiding something important.",
+  "Realizes they may be the only cat who can prevent a coming disaster."
+]
 };
