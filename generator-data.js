@@ -46256,7 +46256,7 @@ storyHooks: [
 "A broken relic begins glowing around them.",
 "They find a diary predicting their future."
 ]
-
+};
 };
 
   
