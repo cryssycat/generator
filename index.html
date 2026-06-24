@@ -1162,7 +1162,13 @@ renderStandardResult("vibeResult", vibe.aesthetic, [
   ["Key Item", vibe.keyItem],
   ["Character Direction", vibe.characterDirection],
   ["Room Idea", vibe.roomIdea],
-  ["Music", vibe.music]
+  ["Music", vibe.music],
+  ${story ? `
+<div class="story-box">
+  <strong>Story Hook:</strong>
+  <p>${story}</p>
+</div>
+` : ""}
 ]);
 } 
 document.addEventListener("DOMContentLoaded", () => {
