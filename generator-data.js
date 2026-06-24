@@ -46093,7 +46093,8 @@ storyHooks: [
   "Their promise rings are keys to another world.",
   "A tiny spirit village builds itself inside their garden.",
   "They discover that they have already saved the world once."
-] };
+] }; 
+};
   
 const VIBE_DATA = {
 
@@ -46257,7 +46258,6 @@ storyHooks: [
 "A broken relic begins glowing around them.",
 "They find a diary predicting their future."
 ]
-};
 };
 
   
