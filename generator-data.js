@@ -47659,7 +47659,7 @@ species: [
   "Honey Lion",
   "Flower Lion",
   "Lantern Lion",
-  "Spirit Lion"
+  "Spirit Lion",
 
   // ===== Spirits =====
   "Moon Spirit",
