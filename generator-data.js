@@ -91,7 +91,78 @@ const DATA = {
 "Coffee Cat", "Matcha Bunny", "Taiyaki Fox", "Dango Deer", "Cake Bat",
 "Galaxy Bunny", "Space Otter", "Alien Cat", "Void Fox", "Dream Panda",
 "Cloud Bunny", "Sunflower Deer", "Rose Goat", "Mushroom Raccoon", "Pumpkin Bear",
-"Moon Fox", "Star Sheep", "Aurora Wolf", "Comet Cat", "Spirit Deer"
+"Moon Fox", "Star Sheep", "Aurora Wolf", "Comet Cat", "Spirit Deer",
+      "Rabbit", "Hare", "Mini Lop Bunny", "Dutch Bunny", "Lionhead Bunny",
+  "Flying Fox Bat", "Fruit Bat", "Flying Squirrel", "Sugar Bat", "Moon Moth Bat",
+
+  "Shiba Inu", "Corgi", "Border Collie", "Australian Shepherd", "Golden Retriever",
+  "Labrador", "Samoyed", "Akita", "Doberman", "German Shepherd",
+  "Saint Bernard", "Greyhound", "Whippet", "Pomeranian", "Papillon",
+  "Shih Tzu", "Maltese", "Pug", "Boston Terrier", "Dalmatian",
+
+  "Calico Cat", "Ragdoll Cat", "Maine Coon", "Persian Cat", "Scottish Fold",
+  "British Shorthair", "Siamese", "Bengal Cat", "Norwegian Forest Cat", "Turkish Angora",
+  "Russian Blue", "Bombay Cat", "Sphynx Cat", "Tuxedo Cat", "Tabby Cat",
+
+  "Opossum", "Ringtail Cat", "Coati", "Kinkajou", "Civet", "Genet",
+  "Mink", "Polecat", "Stoat", "Fisher", "Wolverine",
+
+  "Snowshoe Hare", "Pika", "Jerboa", "Dormouse", "Lemming",
+  "Prairie Dog", "Groundhog", "Nutria", "Muskrat", "Vole",
+
+  "Peacock", "Peafowl", "Swan", "Goose", "Duck",
+  "Mallard", "Mandarin Duck", "Flamingo", "Pelican", "Heron",
+  "Egret", "Stork", "Crane", "Spoonbill", "Ibis",
+  "Puffin", "Penguin", "Seagull", "Tern", "Albatross",
+  "Kingfisher", "Blue Jay", "Cardinal", "Robin", "Sparrow",
+  "Finch", "Canary", "Lovebird", "Parakeet", "Cockatiel",
+  "Cockatoo", "Macaw", "Parrot", "Toucan", "Owl",
+  "Barn Owl", "Snowy Owl", "Great Horned Owl", "Raven", "Crow",
+  "Magpie", "Rook", "Jackdaw", "Falcon", "Hawk",
+  "Eagle", "Kestrel", "Harpy Eagle", "Hummingbird", "Wren",
+  "Nightingale", "Lark", "Oriole", "Chickadee", "Dove",
+  "Pigeon", "Quail", "Pheasant", "Turkey", "Kiwi",
+
+  "Manta Ray", "Stingray", "Sea Turtle", "Manatee", "Narwhal",
+  "Beluga Whale", "Orca", "Hammerhead Shark", "Whale Shark", "Swordfish",
+  "Angelfish", "Betta Fish", "Goldfish", "Koi", "Clownfish",
+  "Pufferfish", "Lionfish", "Jellyfish", "Octopus", "Squid",
+  "Cuttlefish", "Nudibranch", "Sea Bunny", "Sea Slug", "Crab",
+  "Hermit Crab", "Lobster", "Shrimp", "Sea Urchin", "Starfish",
+
+  "Iguana", "Monitor Lizard", "Bearded Dragon", "Komodo Dragon", "Newt",
+  "Tree Frog", "Bullfrog", "Poison Dart Frog", "Skink", "Anole",
+
+  "Phoenix", "Cockatrice", "Hippogriff", "Hippocampus", "Amphithere",
+  "Wyvern", "Drake", "Lindworm", "Faun", "Satyr",
+  "Cerberus", "Chimera", "Sphinx", "Basilisk", "Cockatrice Chick",
+  "Moon Kirin", "Cloud Qilin", "Spirit Griffin", "Celestial Pegasus", "Jackalope Deer",
+
+  "Angel Bunny", "Angel Fox", "Angel Cat", "Angel Deer", "Angel Dragon",
+  "Demon Bunny", "Demon Fox", "Demon Cat", "Demon Bat", "Demon Wolf",
+
+  "Spirit Wolf", "Spirit Fox", "Spirit Bunny", "Spirit Cat", "Spirit Dragon",
+  "Ghost Deer", "Ghost Fox", "Ghost Cat", "Ghost Bunny", "Ghost Wolf",
+
+  "Mushroom Fox", "Mushroom Cat", "Mushroom Bunny", "Mushroom Wolf", "Mushroom Dragon",
+  "Flower Bunny", "Flower Cat", "Flower Fox", "Flower Bear", "Flower Dragon",
+
+  "Sun Bunny", "Sun Fox", "Sun Cat", "Sun Deer", "Sun Dragon",
+  "Rain Bunny", "Rain Fox", "Rain Cat", "Rain Wolf", "Rain Dragon",
+  "Snow Bunny", "Snow Fox", "Snow Cat", "Snow Bear", "Snow Dragon",
+  "Wind Fox", "Wind Deer", "Wind Dragon", "Storm Wolf", "Storm Griffin",
+
+  "Cotton Candy Bunny", "Blueberry Fox", "Mint Cat", "Lavender Deer", "Honey Bee Bear",
+  "Peach Bunny", "Apple Fox", "Cherry Cat", "Lemon Bird", "Orange Panda",
+  "Pudding Bear", "Cupcake Bunny", "Donut Dog", "Croissant Fox", "Macaron Cat",
+  "Milk Tea Bunny", "Latte Bear", "Espresso Wolf", "Mocha Deer", "Tiramisu Panda",
+
+  "Aurora Fox", "Stardust Bunny", "Eclipse Wolf", "Solar Lion", "Lunar Cat",
+  "Meteor Deer", "Asteroid Dragon", "Planet Otter", "Orbit Fox", "Supernova Bunny",
+  "Astral Bear", "Milky Way Cat", "Satellite Bunny", "Meteor Shower Fox", "Black Hole Dragon",
+
+  "Origami Crane", "Porcelain Cat", "Glass Fox", "Crystal Dragon", "Paper Bunny",
+  "Clockwork Bear", "Music Box Rabbit", "Patchwork Puppy", "Toy Soldier Wolf", "Stuffed Lamb"
   ],
 
   themes: [
@@ -45579,7 +45650,78 @@ species: [
   "Bunny Dragon","Fennec Dragon","Moth Bat","Moon Possum","Tea Otter",
   "Star Otter","Cloud Ferret","Moon Ferret","Cookie Ferret","Tea Ferret",
   "Moon Chihuahua","Star Corgi","Cloud Shiba","Tea Collie","Moon Shepherd",
-  "Aurora Husky","Snow Husky","Cloud Retriever","Golden Corgi","Moon Akita"
+  "Aurora Husky","Snow Husky","Cloud Retriever","Golden Corgi","Moon Akita",
+    "Rabbit", "Hare", "Mini Lop Bunny", "Dutch Bunny", "Lionhead Bunny",
+  "Flying Fox Bat", "Fruit Bat", "Flying Squirrel", "Sugar Bat", "Moon Moth Bat",
+
+  "Shiba Inu", "Corgi", "Border Collie", "Australian Shepherd", "Golden Retriever",
+  "Labrador", "Samoyed", "Akita", "Doberman", "German Shepherd",
+  "Saint Bernard", "Greyhound", "Whippet", "Pomeranian", "Papillon",
+  "Shih Tzu", "Maltese", "Pug", "Boston Terrier", "Dalmatian",
+
+  "Calico Cat", "Ragdoll Cat", "Maine Coon", "Persian Cat", "Scottish Fold",
+  "British Shorthair", "Siamese", "Bengal Cat", "Norwegian Forest Cat", "Turkish Angora",
+  "Russian Blue", "Bombay Cat", "Sphynx Cat", "Tuxedo Cat", "Tabby Cat",
+
+  "Opossum", "Ringtail Cat", "Coati", "Kinkajou", "Civet", "Genet",
+  "Mink", "Polecat", "Stoat", "Fisher", "Wolverine",
+
+  "Snowshoe Hare", "Pika", "Jerboa", "Dormouse", "Lemming",
+  "Prairie Dog", "Groundhog", "Nutria", "Muskrat", "Vole",
+
+  "Peacock", "Peafowl", "Swan", "Goose", "Duck",
+  "Mallard", "Mandarin Duck", "Flamingo", "Pelican", "Heron",
+  "Egret", "Stork", "Crane", "Spoonbill", "Ibis",
+  "Puffin", "Penguin", "Seagull", "Tern", "Albatross",
+  "Kingfisher", "Blue Jay", "Cardinal", "Robin", "Sparrow",
+  "Finch", "Canary", "Lovebird", "Parakeet", "Cockatiel",
+  "Cockatoo", "Macaw", "Parrot", "Toucan", "Owl",
+  "Barn Owl", "Snowy Owl", "Great Horned Owl", "Raven", "Crow",
+  "Magpie", "Rook", "Jackdaw", "Falcon", "Hawk",
+  "Eagle", "Kestrel", "Harpy Eagle", "Hummingbird", "Wren",
+  "Nightingale", "Lark", "Oriole", "Chickadee", "Dove",
+  "Pigeon", "Quail", "Pheasant", "Turkey", "Kiwi",
+
+  "Manta Ray", "Stingray", "Sea Turtle", "Manatee", "Narwhal",
+  "Beluga Whale", "Orca", "Hammerhead Shark", "Whale Shark", "Swordfish",
+  "Angelfish", "Betta Fish", "Goldfish", "Koi", "Clownfish",
+  "Pufferfish", "Lionfish", "Jellyfish", "Octopus", "Squid",
+  "Cuttlefish", "Nudibranch", "Sea Bunny", "Sea Slug", "Crab",
+  "Hermit Crab", "Lobster", "Shrimp", "Sea Urchin", "Starfish",
+
+  "Iguana", "Monitor Lizard", "Bearded Dragon", "Komodo Dragon", "Newt",
+  "Tree Frog", "Bullfrog", "Poison Dart Frog", "Skink", "Anole",
+
+  "Phoenix", "Cockatrice", "Hippogriff", "Hippocampus", "Amphithere",
+  "Wyvern", "Drake", "Lindworm", "Faun", "Satyr",
+  "Cerberus", "Chimera", "Sphinx", "Basilisk", "Cockatrice Chick",
+  "Moon Kirin", "Cloud Qilin", "Spirit Griffin", "Celestial Pegasus", "Jackalope Deer",
+
+  "Angel Bunny", "Angel Fox", "Angel Cat", "Angel Deer", "Angel Dragon",
+  "Demon Bunny", "Demon Fox", "Demon Cat", "Demon Bat", "Demon Wolf",
+
+  "Spirit Wolf", "Spirit Fox", "Spirit Bunny", "Spirit Cat", "Spirit Dragon",
+  "Ghost Deer", "Ghost Fox", "Ghost Cat", "Ghost Bunny", "Ghost Wolf",
+
+  "Mushroom Fox", "Mushroom Cat", "Mushroom Bunny", "Mushroom Wolf", "Mushroom Dragon",
+  "Flower Bunny", "Flower Cat", "Flower Fox", "Flower Bear", "Flower Dragon",
+
+  "Sun Bunny", "Sun Fox", "Sun Cat", "Sun Deer", "Sun Dragon",
+  "Rain Bunny", "Rain Fox", "Rain Cat", "Rain Wolf", "Rain Dragon",
+  "Snow Bunny", "Snow Fox", "Snow Cat", "Snow Bear", "Snow Dragon",
+  "Wind Fox", "Wind Deer", "Wind Dragon", "Storm Wolf", "Storm Griffin",
+
+  "Cotton Candy Bunny", "Blueberry Fox", "Mint Cat", "Lavender Deer", "Honey Bee Bear",
+  "Peach Bunny", "Apple Fox", "Cherry Cat", "Lemon Bird", "Orange Panda",
+  "Pudding Bear", "Cupcake Bunny", "Donut Dog", "Croissant Fox", "Macaron Cat",
+  "Milk Tea Bunny", "Latte Bear", "Espresso Wolf", "Mocha Deer", "Tiramisu Panda",
+
+  "Aurora Fox", "Stardust Bunny", "Eclipse Wolf", "Solar Lion", "Lunar Cat",
+  "Meteor Deer", "Asteroid Dragon", "Planet Otter", "Orbit Fox", "Supernova Bunny",
+  "Astral Bear", "Milky Way Cat", "Satellite Bunny", "Meteor Shower Fox", "Black Hole Dragon",
+
+  "Origami Crane", "Porcelain Cat", "Glass Fox", "Crystal Dragon", "Paper Bunny",
+  "Clockwork Bear", "Music Box Rabbit", "Patchwork Puppy", "Toy Soldier Wolf", "Stuffed Lamb"
 ],
 
 genders: [
@@ -47851,7 +47993,78 @@ species: [
   "Music Elemental",
   "Memory Elemental",
   "Wish Elemental",
-  "Starlight Elemental"
+  "Starlight Elemental",
+    "Rabbit", "Hare", "Mini Lop Bunny", "Dutch Bunny", "Lionhead Bunny",
+  "Flying Fox Bat", "Fruit Bat", "Flying Squirrel", "Sugar Bat", "Moon Moth Bat",
+
+  "Shiba Inu", "Corgi", "Border Collie", "Australian Shepherd", "Golden Retriever",
+  "Labrador", "Samoyed", "Akita", "Doberman", "German Shepherd",
+  "Saint Bernard", "Greyhound", "Whippet", "Pomeranian", "Papillon",
+  "Shih Tzu", "Maltese", "Pug", "Boston Terrier", "Dalmatian",
+
+  "Calico Cat", "Ragdoll Cat", "Maine Coon", "Persian Cat", "Scottish Fold",
+  "British Shorthair", "Siamese", "Bengal Cat", "Norwegian Forest Cat", "Turkish Angora",
+  "Russian Blue", "Bombay Cat", "Sphynx Cat", "Tuxedo Cat", "Tabby Cat",
+
+  "Opossum", "Ringtail Cat", "Coati", "Kinkajou", "Civet", "Genet",
+  "Mink", "Polecat", "Stoat", "Fisher", "Wolverine",
+
+  "Snowshoe Hare", "Pika", "Jerboa", "Dormouse", "Lemming",
+  "Prairie Dog", "Groundhog", "Nutria", "Muskrat", "Vole",
+
+  "Peacock", "Peafowl", "Swan", "Goose", "Duck",
+  "Mallard", "Mandarin Duck", "Flamingo", "Pelican", "Heron",
+  "Egret", "Stork", "Crane", "Spoonbill", "Ibis",
+  "Puffin", "Penguin", "Seagull", "Tern", "Albatross",
+  "Kingfisher", "Blue Jay", "Cardinal", "Robin", "Sparrow",
+  "Finch", "Canary", "Lovebird", "Parakeet", "Cockatiel",
+  "Cockatoo", "Macaw", "Parrot", "Toucan", "Owl",
+  "Barn Owl", "Snowy Owl", "Great Horned Owl", "Raven", "Crow",
+  "Magpie", "Rook", "Jackdaw", "Falcon", "Hawk",
+  "Eagle", "Kestrel", "Harpy Eagle", "Hummingbird", "Wren",
+  "Nightingale", "Lark", "Oriole", "Chickadee", "Dove",
+  "Pigeon", "Quail", "Pheasant", "Turkey", "Kiwi",
+
+  "Manta Ray", "Stingray", "Sea Turtle", "Manatee", "Narwhal",
+  "Beluga Whale", "Orca", "Hammerhead Shark", "Whale Shark", "Swordfish",
+  "Angelfish", "Betta Fish", "Goldfish", "Koi", "Clownfish",
+  "Pufferfish", "Lionfish", "Jellyfish", "Octopus", "Squid",
+  "Cuttlefish", "Nudibranch", "Sea Bunny", "Sea Slug", "Crab",
+  "Hermit Crab", "Lobster", "Shrimp", "Sea Urchin", "Starfish",
+
+  "Iguana", "Monitor Lizard", "Bearded Dragon", "Komodo Dragon", "Newt",
+  "Tree Frog", "Bullfrog", "Poison Dart Frog", "Skink", "Anole",
+
+  "Phoenix", "Cockatrice", "Hippogriff", "Hippocampus", "Amphithere",
+  "Wyvern", "Drake", "Lindworm", "Faun", "Satyr",
+  "Cerberus", "Chimera", "Sphinx", "Basilisk", "Cockatrice Chick",
+  "Moon Kirin", "Cloud Qilin", "Spirit Griffin", "Celestial Pegasus", "Jackalope Deer",
+
+  "Angel Bunny", "Angel Fox", "Angel Cat", "Angel Deer", "Angel Dragon",
+  "Demon Bunny", "Demon Fox", "Demon Cat", "Demon Bat", "Demon Wolf",
+
+  "Spirit Wolf", "Spirit Fox", "Spirit Bunny", "Spirit Cat", "Spirit Dragon",
+  "Ghost Deer", "Ghost Fox", "Ghost Cat", "Ghost Bunny", "Ghost Wolf",
+
+  "Mushroom Fox", "Mushroom Cat", "Mushroom Bunny", "Mushroom Wolf", "Mushroom Dragon",
+  "Flower Bunny", "Flower Cat", "Flower Fox", "Flower Bear", "Flower Dragon",
+
+  "Sun Bunny", "Sun Fox", "Sun Cat", "Sun Deer", "Sun Dragon",
+  "Rain Bunny", "Rain Fox", "Rain Cat", "Rain Wolf", "Rain Dragon",
+  "Snow Bunny", "Snow Fox", "Snow Cat", "Snow Bear", "Snow Dragon",
+  "Wind Fox", "Wind Deer", "Wind Dragon", "Storm Wolf", "Storm Griffin",
+
+  "Cotton Candy Bunny", "Blueberry Fox", "Mint Cat", "Lavender Deer", "Honey Bee Bear",
+  "Peach Bunny", "Apple Fox", "Cherry Cat", "Lemon Bird", "Orange Panda",
+  "Pudding Bear", "Cupcake Bunny", "Donut Dog", "Croissant Fox", "Macaron Cat",
+  "Milk Tea Bunny", "Latte Bear", "Espresso Wolf", "Mocha Deer", "Tiramisu Panda",
+
+  "Aurora Fox", "Stardust Bunny", "Eclipse Wolf", "Solar Lion", "Lunar Cat",
+  "Meteor Deer", "Asteroid Dragon", "Planet Otter", "Orbit Fox", "Supernova Bunny",
+  "Astral Bear", "Milky Way Cat", "Satellite Bunny", "Meteor Shower Fox", "Black Hole Dragon",
+
+  "Origami Crane", "Porcelain Cat", "Glass Fox", "Crystal Dragon", "Paper Bunny",
+  "Clockwork Bear", "Music Box Rabbit", "Patchwork Puppy", "Toy Soldier Wolf", "Stuffed Lamb"
 ],
 
   
