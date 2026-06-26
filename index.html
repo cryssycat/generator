@@ -1291,8 +1291,18 @@ function generateRelationshipName(){
 }
 
 function generateRelationship(){
+  const c1 = {
+    name: `${pick(DATA.nameStarts)}${pick(DATA.nameEnds)} ${pick(DATA.surnames)}`,
+    species: pick(DATA.species)
+  };
+
+  const c2 = {
+    name: `${pick(DATA.nameStarts)}${pick(DATA.nameEnds)} ${pick(DATA.surnames)}`,
+    species: pick(DATA.species)
+  };
+
   const relationship = {
-    name: generateRelationshipName(),
+    relationshipType: generateRelationshipName(),
     dynamic: pick(RELATIONSHIP_DATA.dynamics),
     loveLanguage: pick(RELATIONSHIP_DATA.loveLanguages),
     nickname: pick(RELATIONSHIP_DATA.nicknames),
@@ -1305,7 +1315,11 @@ function generateRelationship(){
     story: pick(RELATIONSHIP_DATA.storyHooks)
   };
 
-  renderStandardResult("relationshipResult", relationship.name, [
+  renderStandardResult("relationshipResult", relationship.relationshipType, [
+    ["Character 1 Name", c1.name],
+    ["Character 1 Species", c1.species],
+    ["Character 2 Name", c2.name],
+    ["Character 2 Species", c2.species],
     ["Dynamic", relationship.dynamic],
     ["Love Language", relationship.loveLanguage],
     ["Nickname", relationship.nickname],
