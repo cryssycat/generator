@@ -2,15 +2,17 @@ const magicalGirlGenerator = {
 
     name: "Magical Girl Generator",
 
-    groups: {
+ groups: {
 
-        "Identity":"✨",
+    "Identity":"✨",
 
-        "Transformation":"💖",
+    "Transformation":"💖",
 
-        "Powers":"🌙"
+    "Magic":"🌙",
 
-    },
+    "Finale":"⭐"
+
+},
 
     fields: [
 
@@ -61,12 +63,34 @@ const magicalGirlGenerator = {
             group:"Transformation",
             options:MAGICAL_GIRL_DATA.outfits
         },
+{
+    id:"transformItem",
+    label:"Transformation Item",
+    icon:"💎",
+    group:"Transformation",
+    options:MAGICAL_GIRL_DATA.transformationItems
+},
 
+{
+    id:"transformHair",
+    label:"Transformation Hair",
+    icon:"💇",
+    group:"Transformation",
+    options:MAGICAL_GIRL_DATA.transformationHair
+},
+
+{
+    id:"transformEffect",
+    label:"Transformation Effect",
+    icon:"✨",
+    group:"Magic",
+    options:MAGICAL_GIRL_DATA.transformationEffects
+},
         {
             id:"weapon",
             label:"Weapon",
             icon:"✨",
-            group:"Transformation",
+            group:"Magic",
             options:MAGICAL_GIRL_DATA.weapons
         },
 
@@ -100,8 +124,38 @@ const magicalGirlGenerator = {
             icon:"📖",
             group:"Powers",
             options:MAGICAL_GIRL_DATA.storyHooks
-        }
+        },
 
-    ]
 
+{
+    id:"pose",
+    label:"Signature Pose",
+    icon:"🩰",
+    group:"Finale",
+    options:MAGICAL_GIRL_DATA.signaturePoses
+},
+
+{
+    id:"catchphrase",
+    label:"Catchphrase",
+    icon:"💬",
+    group:"Finale",
+    options:MAGICAL_GIRL_DATA.catchphrases
+},
+
+{
+    id:"finisher",
+    label:"Finishing Attack",
+    icon:"💥",
+    group:"Finale",
+    options:MAGICAL_GIRL_DATA.finishers
+},
+
+{
+    id:"story",
+    label:"Story Hook",
+    icon:"📖",
+    group:"Finale",
+    options:MAGICAL_GIRL_DATA.storyHooks
+}   ]
 };
