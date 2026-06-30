@@ -15,7 +15,8 @@ const generators = {
    mlp: mlpGenerator,
    warrior: warriorGenerator,
    dragon: dragonGenerator,
-   pokemon: pokemonGenerator
+   pokemon: pokemonGenerator,
+   familiar: familiarGenerator
 };
 
 /* ---------------------------------------------------------
