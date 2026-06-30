@@ -20,7 +20,8 @@ const generators = {
    outfit: outfitGenerator,
    weapon: weaponGenerator,
    item: itemGenerator,
-   magic: magicGenerator
+   magic: magicGenerator,
+   polycule: polyculeGenerator
 };
 
 /* ---------------------------------------------------------
