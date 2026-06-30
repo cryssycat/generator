@@ -14,6 +14,7 @@ const generators = {
     magicalGirl: magicalGirlGenerator,
    mlp: mlpGenerator,
    warrior: warriorGenerator,
+   dragon: dragonGenerator,
    pokemon: pokemonGenerator
 };
 
