@@ -1,139 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <title>Character Generator</title>
-
 <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
 
 <div class="background"></div>
 
 <div class="container">
+<header class="hero glass">
+<h1>✨ Character Generator</h1>
+<p>Build characters one piece at a time. Lock your favorite traits and reroll the rest.</p>
+</header>
 
-    <!-- ===============================
-         Hero
-    ================================ -->
+<nav class="generator-tabs glass">
+<button class="generator-tab active" data-generator="character">✨ Character</button>
+<button class="generator-tab" data-generator="fantasy">🧙 Fantasy</button>
+</nav>
 
-    <header class="hero glass">
+<section class="toolbar glass">
+<button id="generateBtn">🎲 Generate</button>
+<button id="copyBtn">📋 Copy Character</button>
+<button id="unlockAllBtn">🔓 Unlock All</button>
+</section>
 
-        <h1>✨ Character Generator</h1>
+<section class="generator-title">
+<h2 id="generatorName">Character Generator</h2>
+</section>
 
-        <p>
-
-            Build characters one piece at a time.
-            Lock your favorite traits and reroll the rest.
-
-        </p>
-
-    </header>
-
-
-
-    <!-- ===============================
-         Generator Tabs
-    ================================ -->
-
-    <nav class="generator-tabs glass">
-
-        <button
-            class="generator-tab active"
-            data-generator="character">
-
-            ✨ Character
-
-        </button>
-        
-       <button
-            class="generator-tab active"
-            data-generator="fantasy">
-
-            ✨ fantasy
-
-        </button>
-     
-
-    </nav>
-
-
-
-    <!-- ===============================
-         Toolbar
-    ================================ -->
-
-    <section class="toolbar glass">
-
-        <button id="generateBtn">
-
-            🎲 Generate
-
-        </button>
-
-        <button id="copyBtn">
-
-            📋 Copy Character
-
-        </button>
-
-        <button id="unlockAllBtn">
-
-            🔓 Unlock All
-
-        </button>
-
-    </section>
-
-
-
-    <!-- ===============================
-         Generator Name
-    ================================ -->
-
-    <section class="generator-title">
-
-        <h2 id="generatorName">
-
-            Character Generator
-
-        </h2>
-
-    </section>
-
-
-
-    <!-- Generator Sections -->
 <div id="generatorSections"></div>
 
-
-
-    <!-- ===============================
-         Footer
-    ================================ -->
-
-    <footer>
-
-        Character Generator
-        •
-        StarHub Tools
-
-    </footer>
-
+<footer>Character Generator • StarHub Tools</footer>
 </div>
-
-
 
 <script src="data/character-data.js"></script>
 <script src="data/fantasy-data.js"></script>
-
 <script src="character.js"></script>
 <script src="fantasy.js"></script>
-
 <script src="script.js"></script>
 
 </body>
