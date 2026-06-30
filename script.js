@@ -11,6 +11,7 @@ const generators = {
 
     character: characterGenerator,
 
+    fantasy: fantasyGenerator
 
 };
 
