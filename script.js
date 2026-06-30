@@ -1,84 +1,260 @@
-/* ======================================================
-   Character Generator v1
-====================================================== */
+/* =========================================================
+   Character Generator
+   Script
+=========================================================*/
+
+/* ---------------------------------------------------------
+   Generator Registry
+---------------------------------------------------------*/
+
+const generators = {
+
+    character: characterGenerator,
+
+    fantasy: fantasyGenerator,
+
+    relationship: relationshipGenerator,
+
+    pokemon: pokemonGenerator,
+
+    familiar: familiarGenerator,
+
+    hearthling: hearthlingGenerator,
+
+    warrior: warriorGenerator,
+
+    magic: magicGenerator,
+
+    outfit: outfitGenerator
+
+};
+
+
+/* ---------------------------------------------------------
+   App State
+---------------------------------------------------------*/
+
+let currentGenerator =
+    generators.character;
 
 const state = {};
 
-/* ======================================================
-   Initialization
-====================================================== */
 
-window.addEventListener("DOMContentLoaded", () => {
-
-    // Build state from CHARACTER definition
-    CHARACTER.forEach(field => {
-
-        state[field.id] = {
-            ...field,
-            value: "",
-            locked: false
-        };
-
-    });
-
-    generateCharacter();
-
-    document
-        .getElementById("generateBtn")
-        .addEventListener("click", generateCharacter);
-
-    document
-        .getElementById("copyBtn")
-        .addEventListener("click", copyCharacter);
-
-    document
-        .getElementById("exportBtn")
-        .addEventListener("click", exportCharacter);
-
-    document
-        .getElementById("importBtn")
-        .addEventListener("click", () => {
-
-            document
-                .getElementById("importFile")
-                .click();
-
-        });
-
-    document
-        .getElementById("importFile")
-        .addEventListener("change", importCharacter);
-
-});
-
-
-/* ======================================================
+/* ---------------------------------------------------------
    Utilities
-====================================================== */
+---------------------------------------------------------*/
 
 function random(list){
 
+    if(!Array.isArray(list))
+        return "";
+
+    if(list.length===0)
+        return "";
+
     return list[
-        Math.floor(Math.random()*list.length)
+        Math.floor(
+            Math.random()*list.length
+        )
     ];
 
 }
 
 
-/* ======================================================
+/* ---------------------------------------------------------
+   Build State
+---------------------------------------------------------*/
+
+function buildState(){
+
+    Object.keys(state).forEach(key=>{
+
+        delete state[key];
+
+    });
+
+    currentGenerator.fields.forEach(field=>{
+
+        state[field.id]={
+
+            ...field,
+
+            value:"",
+
+            locked:false
+
+        };
+
+    });
+
+}
+
+
+/* ---------------------------------------------------------
+   Startup
+---------------------------------------------------------*/
+
+window.addEventListener(
+
+    "DOMContentLoaded",
+
+    ()=>{
+
+        setupTabs();
+
+        setupButtons();
+
+        buildState();
+
+        generateCharacter();
+
+    }
+
+);
+
+
+/* ---------------------------------------------------------
+   Generator Tabs
+---------------------------------------------------------*/
+
+function setupTabs(){
+
+    document
+
+    .querySelectorAll(
+
+        ".generator-tab"
+
+    )
+
+    .forEach(tab=>{
+
+        tab.onclick=()=>{
+
+            document
+
+            .querySelectorAll(
+
+                ".generator-tab"
+
+            )
+
+            .forEach(button=>{
+
+                button.classList.remove(
+
+                    "active"
+
+                );
+
+            });
+
+            tab.classList.add(
+
+                "active"
+
+            );
+
+            const id=
+
+                tab.dataset.generator;
+
+            currentGenerator=
+
+                generators[id];
+
+            document
+
+            .getElementById(
+
+                "generatorName"
+
+            )
+
+            .textContent=
+
+                currentGenerator.name;
+
+            buildState();
+
+            generateCharacter();
+
+        };
+
+    });
+
+}
+
+
+/* ---------------------------------------------------------
+   Toolbar Buttons
+---------------------------------------------------------*/
+
+function setupButtons(){
+
+    document
+
+    .getElementById(
+
+        "generateBtn"
+
+    )
+
+    .onclick=
+
+        generateCharacter;
+
+
+    document
+
+    .getElementById(
+
+        "copyBtn"
+
+    )
+
+    .onclick=
+
+        copyCharacter;
+
+
+    document
+
+    .getElementById(
+
+        "unlockAllBtn"
+
+    )
+
+    .onclick=()=>{
+
+        Object.values(state)
+
+        .forEach(field=>{
+
+            field.locked=false;
+
+        });
+
+        render();
+
+    };
+
+}
+
+/* ---------------------------------------------------------
    Generate
-====================================================== */
+---------------------------------------------------------*/
 
 function generateCharacter(){
 
-    Object.values(state).forEach(field => {
+    Object.values(state).forEach(field=>{
 
         if(field.locked)
             return;
 
-        field.value = random(
-            DATA[field.id]
-        );
+        field.value =
+            random(field.options);
 
     });
 
@@ -87,25 +263,31 @@ function generateCharacter(){
 }
 
 
-/* ======================================================
-   Single Field Reroll
-====================================================== */
+/* ---------------------------------------------------------
+   Individual Reroll
+---------------------------------------------------------*/
 
 function rerollField(id){
 
-    state[id].value =
-        random(DATA[id]);
+    const field = state[id];
+
+    if(!field) return;
+
+    field.value =
+        random(field.options);
 
     render();
 
 }
 
 
-/* ======================================================
-   Lock Toggle
-====================================================== */
+/* ---------------------------------------------------------
+   Toggle Lock
+---------------------------------------------------------*/
 
 function toggleLock(id){
+
+    if(!state[id]) return;
 
     state[id].locked =
         !state[id].locked;
@@ -115,55 +297,46 @@ function toggleLock(id){
 }
 
 
-/* ======================================================
+/* ---------------------------------------------------------
    Render
-====================================================== */
+---------------------------------------------------------*/
 
 function render(){
 
-    const appearance =
-        document.getElementById(
-            "appearanceGroup"
-        );
+    const groups={
 
-    const personality =
-        document.getElementById(
-            "personalityGroup"
-        );
+        Appearance:
+            document.getElementById(
+                "appearanceGroup"
+            ),
 
-    const lore =
-        document.getElementById(
-            "loreGroup"
-        );
+        Personality:
+            document.getElementById(
+                "personalityGroup"
+            ),
 
-    appearance.innerHTML = "";
-    personality.innerHTML = "";
-    lore.innerHTML = "";
+        Lore:
+            document.getElementById(
+                "loreGroup"
+            )
 
-    Object.values(state).forEach(field => {
+    };
+
+    Object.values(groups).forEach(group=>{
+
+        group.innerHTML="";
+
+    });
+
+    Object.values(state).forEach(field=>{
 
         const card =
             createCard(field);
 
-        switch(field.group){
+        if(groups[field.group]){
 
-            case "Appearance":
-
-                appearance.appendChild(card);
-
-                break;
-
-            case "Personality":
-
-                personality.appendChild(card);
-
-                break;
-
-            case "Lore":
-
-                lore.appendChild(card);
-
-                break;
+            groups[field.group]
+                .appendChild(card);
 
         }
 
@@ -172,9 +345,9 @@ function render(){
 }
 
 
-/* ======================================================
+/* ---------------------------------------------------------
    Card Builder
-====================================================== */
+---------------------------------------------------------*/
 
 function createCard(field){
 
@@ -182,10 +355,15 @@ function createCard(field){
         document.createElement("div");
 
     card.className =
-        "field" +
-        (field.locked
-            ? " locked"
-            : "");
+        "field";
+
+    if(field.locked){
+
+        card.classList.add(
+            "locked"
+        );
+
+    }
 
     card.innerHTML = `
 
@@ -199,6 +377,24 @@ function createCard(field){
 
             </div>
 
+            <div class="field-actions">
+
+                <button
+                    class="icon-btn lock">
+
+                    ${field.locked ? "🔒" : "🔓"}
+
+                </button>
+
+                <button
+                    class="icon-btn reroll">
+
+                    🎲
+
+                </button>
+
+            </div>
+
         </div>
 
         <div class="field-value">
@@ -207,141 +403,69 @@ function createCard(field){
 
         </div>
 
-        <div class="field-actions">
-
-            <button
-                class="icon-btn lock">
-
-                ${field.locked ? "🔒" : "🔓"}
-
-            </button>
-
-            <button
-                class="icon-btn reroll">
-
-                🎲
-
-            </button>
-
-        </div>
-
     `;
 
     card
         .querySelector(".lock")
-        .onclick = () =>
+        .onclick = ()=>{
+
             toggleLock(field.id);
+
+        };
 
     card
         .querySelector(".reroll")
-        .onclick = () =>
+        .onclick = ()=>{
+
             rerollField(field.id);
+
+        };
 
     return card;
 
 }
 
 
-/* ======================================================
-   Copy
-====================================================== */
+/* ---------------------------------------------------------
+   Copy Character
+---------------------------------------------------------*/
 
 function copyCharacter(){
 
     let text =
-        "Character Generator\n\n";
+`${currentGenerator.name}
 
-    Object.values(state).forEach(field => {
+`;
+
+    Object.values(state).forEach(field=>{
 
         text +=
-`${field.label}: ${field.value}\n`;
+`${field.label}: ${field.value}
+`;
 
     });
 
     navigator.clipboard
         .writeText(text);
 
-    alert("Character copied!");
-
 }
 
 
-/* ======================================================
-   Export
-====================================================== */
+/* ---------------------------------------------------------
+   Helpers
+---------------------------------------------------------*/
 
-function exportCharacter(){
+function getCharacter(){
 
-    const blob = new Blob(
+    const character={};
 
-        [
-            JSON.stringify(
-                state,
-                null,
-                2
-            )
-        ],
+    Object.values(state).forEach(field=>{
 
-        {
-            type:"application/json"
-        }
+        character[field.id]=
+            field.value;
 
-    );
+    });
 
-    const a =
-        document.createElement("a");
-
-    a.href =
-        URL.createObjectURL(blob);
-
-    a.download =
-        "character.json";
-
-    a.click();
-
-}
-
-
-/* ======================================================
-   Import
-====================================================== */
-
-function importCharacter(e){
-
-    const file =
-        e.target.files[0];
-
-    if(!file)
-        return;
-
-    const reader =
-        new FileReader();
-
-    reader.onload = () => {
-
-        const imported =
-            JSON.parse(
-                reader.result
-            );
-
-        Object.keys(state).forEach(id => {
-
-            if(imported[id]){
-
-                state[id].value =
-                    imported[id].value;
-
-                state[id].locked =
-                    imported[id].locked;
-
-            }
-
-        });
-
-        render();
-
-    };
-
-    reader.readAsText(file);
+    return character;
 
 }
