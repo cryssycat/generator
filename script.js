@@ -1,533 +1,552 @@
-/* =========================================================
-   StarBrew Generator Engine
-=========================================================*/
+/* ==========================================
+   Character Generator
+   StarHub Style
+========================================== */
 
-/* ---------------------------------------------------------
-   Generator Registry
----------------------------------------------------------*/
+:root{
 
-const generators = {
-    character: characterGenerator,
-    fantasy: fantasyGenerator,
-    goth: gothGenerator,
-    relationship: relationshipGenerator,
-    magicalGirl: magicalGirlGenerator,
-   mlp: mlpGenerator,
-   warrior: warriorGenerator,
-   dragon: dragonGenerator,
-   pokemon: pokemonGenerator,
-   familiar: familiarGenerator,
-   outfit: outfitGenerator,
-   weapon: weaponGenerator,
-   item: itemGenerator,
-   magic: magicGenerator,
-   polycule: polyculeGenerator,
-   world: worldGenerator,
-    palette: paletteGenerator
-};
+    --bg1:#122447;
+    --bg2:#09111f;
 
-/* ---------------------------------------------------------
-   App State
----------------------------------------------------------*/
+    --glass:rgba(18,30,56,.60);
+    --glass-light:rgba(255,255,255,.05);
 
-let currentGenerator = generators.character;
+    --border:rgba(255,255,255,.10);
 
-const state = {};
+    --text:#eef5ff;
+    --soft:#c9d7ea;
 
-/* ---------------------------------------------------------
-   Startup
----------------------------------------------------------*/
+    --accent:#9ecbff;
+    --accent-dark:#7db6ff;
 
-window.addEventListener("DOMContentLoaded", () => {
-
-    setupTabs();
-    setupToolbar();
-
-    loadGenerator("character");
-
-});
-
-/* ---------------------------------------------------------
-   Utilities
----------------------------------------------------------*/
-
-function random(options){
-
-    if(!Array.isArray(options))
-        return "";
-
-    if(options.length===0)
-        return "";
-
-    return options[
-        Math.floor(
-            Math.random()*options.length
-        )
-    ];
+    --shadow:0 12px 32px rgba(0,0,0,.35);
 
 }
 
-/* ---------------------------------------------------------
-   Load Generator
----------------------------------------------------------*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-function loadGenerator(name){
+body{
 
-    if(!generators[name]){
+    font-family:Inter,Segoe UI,Arial,sans-serif;
 
-        console.error(
-            "Generator not found:",
-            name
+    color:var(--text);
+
+    min-height:100vh;
+
+    background:
+
+        linear-gradient(
+            180deg,
+            var(--bg1),
+            var(--bg2)
         );
 
-        return;
+}
 
-    }
 
-    currentGenerator =
-        generators[name];
+/* ==========================================
+   Background
+========================================== */
 
-    buildState();
+.background{
 
-    generate();
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    background:
+
+        radial-gradient(circle at top,
+        rgba(170,210,255,.15),
+        transparent 55%),
+
+        radial-gradient(circle at bottom right,
+        rgba(120,170,255,.10),
+        transparent 45%);
+
+    z-index:-1;
 
 }
 
-/* ---------------------------------------------------------
-   Build State
----------------------------------------------------------*/
 
-function buildState(){
+/* ==========================================
+   Layout
+========================================== */
 
-    Object.keys(state).forEach(key=>{
+.container{
 
-        delete state[key];
+    width:min(1300px,95%);
 
-    });
+    margin:auto;
 
-    currentGenerator.fields.forEach(field=>{
-
-        state[field.id]={
-
-            ...field,
-
-            value:"",
-            locked:false
-
-        };
-
-    });
-
-    document.getElementById(
-        "generatorName"
-    ).textContent=
-        currentGenerator.name;
+    padding:32px 0 60px;
 
 }
 
-/* ---------------------------------------------------------
-   Tabs
----------------------------------------------------------*/
 
-function setupTabs(){
+/* ==========================================
+   Glass
+========================================== */
 
-    document
-        .querySelectorAll(".generator-tab")
-        .forEach(tab=>{
+.glass{
 
-            tab.onclick=()=>{
+    background:var(--glass);
 
-                document
-                    .querySelectorAll(".generator-tab")
-                    .forEach(button=>{
+    border:1px solid var(--border);
 
-                        button.classList.remove(
-                            "active"
-                        );
+    backdrop-filter:blur(20px);
 
-                    });
+    border-radius:22px;
 
-                tab.classList.add(
-                    "active"
-                );
-
-                loadGenerator(
-                    tab.dataset.generator
-                );
-
-            };
-
-        });
+    box-shadow:var(--shadow);
 
 }
 
-/* ---------------------------------------------------------
+
+/* ==========================================
+   Hero
+========================================== */
+
+.hero{
+
+    padding:42px;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.hero h1{
+
+    font-size:2.4rem;
+
+    margin-bottom:10px;
+
+}
+
+.hero p{
+
+    color:var(--soft);
+
+    max-width:700px;
+
+    margin:auto;
+
+    line-height:1.6;
+
+}
+
+
+/* ==========================================
+   Generator Tabs
+========================================== */
+
+.generator-tabs{
+
+    display:flex;
+
+    gap:12px;
+
+    flex-wrap:wrap;
+
+    padding:18px;
+
+    margin-bottom:20px;
+
+}
+
+.generator-tab{
+
+    background:rgba(255,255,255,.05);
+
+    color:white;
+
+    border:none;
+
+    border-radius:999px;
+
+    padding:10px 18px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+    font-weight:600;
+
+}
+
+.generator-tab:hover{
+
+    background:rgba(255,255,255,.12);
+
+}
+
+.generator-tab.active{
+
+    background:linear-gradient(
+        180deg,
+        var(--accent),
+        var(--accent-dark)
+    );
+
+    color:#06111d;
+
+}
+
+
+/* ==========================================
    Toolbar
----------------------------------------------------------*/
+========================================== */
 
-function setupToolbar(){
+.toolbar{
 
-    document
-        .getElementById("generateBtn")
-        .onclick=generate;
+    display:flex;
 
-    document
-        .getElementById("copyBtn")
-        .onclick=copyCharacter;
+    gap:15px;
 
-    document
-        .getElementById("unlockAllBtn")
-        .onclick=()=>{
+    flex-wrap:wrap;
 
-            Object.values(state).forEach(field=>{
+    justify-content:center;
 
-                field.locked=false;
+    padding:20px;
 
-            });
-
-            render();
-
-        };
+    margin-bottom:24px;
 
 }
 
-/* ---------------------------------------------------------
-   Generate
----------------------------------------------------------*/
+.toolbar button{
 
-function generate(){
+    border:none;
 
-    Object.values(state).forEach(field=>{
+    cursor:pointer;
 
-        if(field.locked)
-            return;
+    border-radius:999px;
 
-        field.value=
-            random(field.options);
+    padding:14px 22px;
 
-    });
+    font-weight:700;
 
-    render();
+    background:
+
+        linear-gradient(
+            180deg,
+            var(--accent),
+            var(--accent-dark)
+        );
+
+    color:#06111d;
+
+    transition:.2s;
 
 }
 
-/* ---------------------------------------------------------
-   Render
----------------------------------------------------------*/
+.toolbar button:hover{
 
-function render(){
+    transform:translateY(-3px);
 
-    const container=
-        document.getElementById(
-            "generatorSections"
-        );
+}
 
-    container.innerHTML="";
 
-    const groups={};
+/* ==========================================
+   Generator Title
+========================================== */
 
-    Object.values(state).forEach(field=>{
+.generator-title{
 
-        if(!groups[field.group]){
+    margin-bottom:20px;
 
-            groups[field.group]=[];
+}
 
-        }
+.generator-title h2{
 
-        groups[field.group].push(
-            field
-        );
+    font-size:2rem;
 
-    });
+    text-align:center;
 
-    Object.entries(groups).forEach(
-        ([groupName,fields])=>{
+}
 
-        const section=
-            document.createElement(
-                "section"
-            );
 
-        section.className=
-            "group glass";
+/* ==========================================
+   Sections
+========================================== */
 
-        section.innerHTML=`
+.group{
 
-            <h3>${groupName}</h3>
+    padding:22px;
 
-            <div class="field-list"></div>
+    margin-bottom:24px;
 
-        `;
+}
 
-        const list=
-            section.querySelector(
-                ".field-list"
-            );
+.group h3{
 
-        fields.forEach(field=>{
+    margin-bottom:18px;
 
-            list.appendChild(
-                createCard(field)
-            );
+    color:var(--accent);
 
-        });
+}
 
-        container.appendChild(
-            section
-        );
 
-    });
+/* ==========================================
+   Field Grid
+========================================== */
 
-}/* ---------------------------------------------------------
-   Create Card
----------------------------------------------------------*/
+.field-list{
 
-function createCard(field){
+    display:grid;
 
-    const card=document.createElement("div");
+    grid-template-columns:
 
-    card.className="field";
+        repeat(auto-fit,minmax(320px,1fr));
 
-    let valueHTML = field.value;
+    gap:14px;
 
-    const isColor = /^#[0-9A-F]{6}$/i.test(field.value);
+}
 
-    if(isColor){
 
-        valueHTML = `
-            <div class="color-preview">
-                <div class="color-swatch" style="background:${valueHTML}"></div>
-                <span>${valueHTML}</span>
-            </div>
-        `;
+/* ==========================================
+   Field Card
+========================================== */
+
+.field{
+
+    background:var(--glass-light);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:16px;
+
+    padding:14px 16px;
+
+    transition:.2s;
+
+}
+
+.field:hover{
+
+    transform:translateY(-2px);
+
+    border-color:rgba(255,255,255,.16);
+
+}
+
+
+/* ==========================================
+   Header
+========================================== */
+
+.field-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:8px;
+
+}
+
+.field-title{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-weight:700;
+
+    font-size:.95rem;
+
+}
+
+
+/* ==========================================
+   Value
+========================================== */
+
+.field-value{
+
+    color:var(--soft);
+
+    line-height:1.4;
+
+    font-size:1rem;
+
+}
+
+
+/* ==========================================
+   Actions
+========================================== */
+
+.field-actions{
+
+    display:flex;
+
+    gap:6px;
+
+}
+
+.icon-btn{
+
+    width:34px;
+
+    height:34px;
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:10px;
+
+    background:rgba(255,255,255,.06);
+
+    color:white;
+
+    font-size:.9rem;
+
+    transition:.2s;
+
+}
+
+.icon-btn:hover{
+
+    background:rgba(255,255,255,.14);
+
+}
+
+
+/* ==========================================
+   Locked
+========================================== */
+
+.field.locked{
+
+    border-color:rgba(155,205,255,.55);
+
+    box-shadow:
+
+        0 0 18px rgba(120,180,255,.18);
+
+}
+
+.field.locked .field-title{
+
+    color:var(--accent);
+
+}
+
+
+/* ==========================================
+   Footer
+========================================== */
+
+footer{
+
+    margin-top:40px;
+
+    text-align:center;
+
+    color:var(--soft);
+
+    opacity:.7;
+
+}
+
+
+/* ==========================================
+   Scrollbar
+========================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:rgba(255,255,255,.15);
+
+    border-radius:999px;
+
+}
+
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media(max-width:900px){
+
+    .field-list{
+
+        grid-template-columns:1fr;
 
     }
 
-    
-    if(field.locked){
+}
 
-        card.classList.add("locked");
+@media(max-width:700px){
+
+    .generator-tabs{
+
+        justify-content:center;
 
     }
 
-    card.innerHTML=`
+    .toolbar{
 
-        <div class="field-header">
+        flex-direction:column;
 
-            <div class="field-title">
+    }
 
-                <span>${field.icon}</span>
+    .toolbar button{
 
-                <span>${field.label}</span>
+        width:100%;
 
-            </div>
+    }
 
-            <div class="field-actions">
+    .hero{
 
-                <button
-                    class="icon-btn lock"
-                    title="Lock">
+        padding:28px;
 
-                    ${field.locked ? "🔒" : "🔓"}
+    }
 
-                </button>
+    .hero h1{
 
-                <button
-                    class="icon-btn reroll"
-                    title="Reroll">
+        font-size:2rem;
 
-                    🎲
-
-                </button>
-
-            </div>
-
-        </div>
-
-        <div class="field-value">
-
-            ${valueHTML}
-
-        </div>
-
-    `;
-
-    card.querySelector(".lock")
-        .onclick=()=>{
-
-            toggleLock(field.id);
-
-        };
-
-    card.querySelector(".reroll")
-        .onclick=()=>{
-
-            reroll(field.id);
-
-        };
-
-    return card;
+    }
 
 }
 
 
-/* ---------------------------------------------------------
-   Lock
----------------------------------------------------------*/
+.color-preview{
 
-function toggleLock(id){
+    display:flex;
 
-    if(!state[id]) return;
+    align-items:center;
 
-    state[id].locked=
-        !state[id].locked;
-
-    render();
+    gap:12px;
 
 }
 
+.color-swatch{
 
-/* ---------------------------------------------------------
-   Individual Reroll
----------------------------------------------------------*/
+    width:72px;
 
-function reroll(id){
+    height:28px;
 
-    if(!state[id]) return;
-
-    state[id].value=
-        random(state[id].options);
-
-    render();
+    border-radius:999px;
 
 }
-
-
-/* ---------------------------------------------------------
-   Copy Character
----------------------------------------------------------*/
-
-function copyCharacter(){
-
-    let text=`${currentGenerator.name}
-
-`;
-
-    const groups={};
-
-    Object.values(state).forEach(field=>{
-
-        if(!groups[field.group]){
-
-            groups[field.group]=[];
-
-        }
-
-        groups[field.group].push(field);
-
-    });
-
-    Object.entries(groups).forEach(
-
-        ([group,fields])=>{
-
-        text+=`${group}
-`;
-
-        text+="--------------------\n";
-
-        fields.forEach(field=>{
-
-            text+=`${field.label}: ${valueHTML}\n`;
-
-        });
-
-        text+="\n";
-
-    });
-
-    navigator.clipboard.writeText(text);
-
-}
-
-
-/* ---------------------------------------------------------
-   Helpers
----------------------------------------------------------*/
-
-function getState(){
-
-    return structuredClone(state);
-
-}
-
-
-function setState(newState){
-
-    Object.keys(state).forEach(key=>{
-
-        if(newState[key]){
-
-            state[key]=newState[key];
-
-        }
-
-    });
-
-    render();
-
-}
-
-
-/* Palettes */
-
-const palette =
-    random(PALETTE_DATA.presets);
-
-state.paletteName.value =
-    palette.name;
-
-state.color1.value =
-    palette.colors[0];
-
-state.color2.value =
-    palette.colors[1];
-
-state.color3.value =
-    palette.colors[2];
-
-state.color4.value =
-    palette.colors[3];
-
-state.color5.value =
-    palette.colors[4];
-
-function randomHex(){
-
-    return "#" +
-        Math.floor(
-            Math.random()*16777215
-        )
-        .toString(16)
-        .padStart(6,"0")
-        .toUpperCase();
-
-}
-
-state.paletteName.value =
-    "Chaos";
-
-state.color1.value =
-    randomHex();
-
-state.color2.value =
-    randomHex();
-
-state.color3.value =
-    randomHex();
-
-state.color4.value =
-    randomHex();
-
-state.color5.value =
-    randomHex();
