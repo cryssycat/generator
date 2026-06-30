@@ -1,552 +1,698 @@
-/* ==========================================
-   Character Generator
-   StarHub Style
-========================================== */
+/* =========================================================
+   StarBrew Generator Engine v2
+=========================================================*/
 
-:root{
+/* ---------------------------------------------------------
+   Generator Registry
+---------------------------------------------------------*/
 
-    --bg1:#122447;
-    --bg2:#09111f;
+const generators = {
 
-    --glass:rgba(18,30,56,.60);
-    --glass-light:rgba(255,255,255,.05);
+    character: characterGenerator,
+    fantasy: fantasyGenerator,
+    relationship: relationshipGenerator,
+    goth: gothGenerator,
+    magicalGirl: magicalGirlGenerator,
+    mlp: mlpGenerator,
+    pokemon: pokemonGenerator,
+    warrior: warriorGenerator,
+    dragon: dragonGenerator,
+    familiar: familiarGenerator,
+    outfit: outfitGenerator,
+    weapon: weaponGenerator,
+    item: itemGenerator,
+    magic: magicGenerator,
+    polycule: polyculeGenerator,
+    world: worldGenerator,
+    palette: paletteGenerator
 
-    --border:rgba(255,255,255,.10);
+};
 
-    --text:#eef5ff;
-    --soft:#c9d7ea;
+/* ---------------------------------------------------------
+   App State
+---------------------------------------------------------*/
 
-    --accent:#9ecbff;
-    --accent-dark:#7db6ff;
+let currentGenerator = generators.character;
 
-    --shadow:0 12px 32px rgba(0,0,0,.35);
+const state = {};
+
+/* ---------------------------------------------------------
+   Startup
+---------------------------------------------------------*/
+
+window.addEventListener("DOMContentLoaded", () => {
+
+    setupTabs();
+    setupToolbar();
+
+    loadGenerator("character");
+
+});
+
+/* ---------------------------------------------------------
+   Utilities
+---------------------------------------------------------*/
+
+function random(options){
+
+    if(!Array.isArray(options))
+        return "";
+
+    if(options.length===0)
+        return "";
+
+    return options[
+        Math.floor(
+            Math.random()*options.length
+        )
+    ];
 
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+function randomHex(){
+
+    return "#"+
+        Math.floor(
+            Math.random()*16777215
+        )
+        .toString(16)
+        .padStart(6,"0")
+        .toUpperCase();
+
 }
 
-body{
+function isHex(value){
 
-    font-family:Inter,Segoe UI,Arial,sans-serif;
+    return /^#[0-9A-F]{6}$/i.test(value);
 
-    color:var(--text);
+}
 
-    min-height:100vh;
+/* ---------------------------------------------------------
+   Generator Loading
+---------------------------------------------------------*/
 
-    background:
+function loadGenerator(name){
 
-        linear-gradient(
-            180deg,
-            var(--bg1),
-            var(--bg2)
+    if(!generators[name]){
+
+        console.error(
+            "Unknown generator:",
+            name
+        );
+
+        return;
+
+    }
+
+    currentGenerator =
+        generators[name];
+
+    buildState();
+
+    generate();
+
+}
+
+/* ---------------------------------------------------------
+   Build State
+---------------------------------------------------------*/
+
+function buildState(){
+
+    Object.keys(state).forEach(key=>{
+
+        delete state[key];
+
+    });
+
+    currentGenerator.fields.forEach(field=>{
+
+        state[field.id]={
+
+            id:field.id,
+            label:field.label,
+            icon:field.icon,
+            group:field.group,
+
+            options:field.options,
+
+            value:"",
+
+            locked:false
+
+        };
+
+    });
+
+    document
+        .getElementById("generatorName")
+        .textContent=
+            currentGenerator.name;
+
+}
+
+/* ---------------------------------------------------------
+   Tabs
+---------------------------------------------------------*/
+
+function setupTabs(){
+
+    document
+        .querySelectorAll(".generator-tab")
+        .forEach(tab=>{
+
+            tab.addEventListener("click",()=>{
+
+                document
+                    .querySelectorAll(".generator-tab")
+                    .forEach(button=>{
+
+                        button.classList.remove(
+                            "active"
+                        );
+
+                    });
+
+                tab.classList.add(
+                    "active"
+                );
+
+                loadGenerator(
+                    tab.dataset.generator
+                );
+
+            });
+
+        });
+
+}
+
+/* ---------------------------------------------------------
+   Toolbar
+---------------------------------------------------------*/
+
+function setupToolbar(){
+
+    document
+        .getElementById("generateBtn")
+        .addEventListener(
+            "click",
+            generate
+        );
+
+    document
+        .getElementById("copyBtn")
+        .addEventListener(
+            "click",
+            copyCharacter
+        );
+
+    document
+        .getElementById("unlockAllBtn")
+        .addEventListener(
+            "click",
+            ()=>{
+
+                Object.values(state)
+                    .forEach(field=>{
+
+                        field.locked=false;
+
+                    });
+
+                render();
+
+            }
         );
 
 }
 
+/* ---------------------------------------------------------
+   Generate
+---------------------------------------------------------*/
 
-/* ==========================================
-   Background
-========================================== */
+function generate(){
 
-.background{
+    /* ==========================================
+       Palette Generator
+    ========================================== */
 
-    position:fixed;
+    if(currentGenerator === paletteGenerator){
 
-    inset:0;
+        generatePalette();
 
-    pointer-events:none;
+        render();
 
-    background:
+        return;
 
-        radial-gradient(circle at top,
-        rgba(170,210,255,.15),
-        transparent 55%),
+    }
 
-        radial-gradient(circle at bottom right,
-        rgba(120,170,255,.10),
-        transparent 45%);
+    /* ==========================================
+       All Other Generators
+    ========================================== */
 
-    z-index:-1;
+    Object.values(state).forEach(field=>{
 
-}
+        if(field.locked)
+            return;
 
+        field.value =
+            random(field.options);
 
-/* ==========================================
-   Layout
-========================================== */
+    });
 
-.container{
-
-    width:min(1300px,95%);
-
-    margin:auto;
-
-    padding:32px 0 60px;
+    render();
 
 }
 
+/* ---------------------------------------------------------
+   Palette Generator
+---------------------------------------------------------*/
 
-/* ==========================================
-   Glass
-========================================== */
+function generatePalette(){
 
-.glass{
+    /* --------------------------
+       Determine Mode
+    -------------------------- */
 
-    background:var(--glass);
+    if(
+        !state.mode.locked ||
+        !state.mode.value
+    ){
 
-    border:1px solid var(--border);
+        state.mode.value =
+            random(state.mode.options);
 
-    backdrop-filter:blur(20px);
+    }
 
-    border-radius:22px;
+    const mode =
+        state.mode.value;
 
-    box-shadow:var(--shadow);
+    /* --------------------------
+       Preset
+    -------------------------- */
+
+    if(mode === "Preset"){
+
+        const palette =
+            random(
+                PALETTE_DATA.presets
+            );
+
+        if(
+            !state.paletteName.locked
+        ){
+
+            state.paletteName.value =
+                palette.name;
+
+        }
+
+        const colors=[
+
+            state.color1,
+            state.color2,
+            state.color3,
+            state.color4,
+            state.color5
+
+        ];
+
+        colors.forEach(
+            (field,index)=>{
+
+            if(field.locked)
+                return;
+
+            field.value =
+                palette.colors[index];
+
+        });
+
+        return;
+
+    }
+
+    /* --------------------------
+       Chaos
+    -------------------------- */
+
+    if(
+        !state.paletteName.locked
+    ){
+
+        state.paletteName.value =
+            "Chaos";
+
+    }
+
+    [
+
+        state.color1,
+        state.color2,
+        state.color3,
+        state.color4,
+        state.color5
+
+    ].forEach(field=>{
+
+        if(field.locked)
+            return;
+
+        field.value =
+            randomHex();
+
+    });
 
 }
 
+/* ---------------------------------------------------------
+   Render
+---------------------------------------------------------*/
 
-/* ==========================================
-   Hero
-========================================== */
+function render(){
 
-.hero{
+    const container =
+        document.getElementById(
+            "generatorSections"
+        );
 
-    padding:42px;
+    container.innerHTML = "";
 
-    text-align:center;
+    const groups = {};
 
-    margin-bottom:20px;
+    Object.values(state).forEach(field=>{
 
-}
+        if(!groups[field.group]){
 
-.hero h1{
+            groups[field.group]=[];
 
-    font-size:2.4rem;
+        }
 
-    margin-bottom:10px;
+        groups[field.group]
+            .push(field);
 
-}
+    });
 
-.hero p{
+    Object.entries(groups)
+        .forEach(([group,fields])=>{
 
-    color:var(--soft);
+        const section =
+            document.createElement(
+                "section"
+            );
 
-    max-width:700px;
+        section.className =
+            "group glass";
 
-    margin:auto;
+        section.innerHTML = `
 
-    line-height:1.6;
+            <h3>${group}</h3>
 
-}
+            <div class="field-list"></div>
 
+        `;
 
-/* ==========================================
-   Generator Tabs
-========================================== */
+        const list =
+            section.querySelector(
+                ".field-list"
+            );
 
-.generator-tabs{
+        fields.forEach(field=>{
 
-    display:flex;
+            list.appendChild(
 
-    gap:12px;
+                createCard(field)
 
-    flex-wrap:wrap;
+            );
 
-    padding:18px;
+        });
 
-    margin-bottom:20px;
+        container.appendChild(
+            section
+        );
 
-}
-
-.generator-tab{
-
-    background:rgba(255,255,255,.05);
-
-    color:white;
-
-    border:none;
-
-    border-radius:999px;
-
-    padding:10px 18px;
-
-    cursor:pointer;
-
-    transition:.2s;
-
-    font-weight:600;
+    });
 
 }
 
-.generator-tab:hover{
+/* ---------------------------------------------------------
+   Create Card
+---------------------------------------------------------*/
 
-    background:rgba(255,255,255,.12);
+function createCard(field){
+
+    const card =
+        document.createElement("div");
+
+    card.className = "field";
+
+    if(field.locked){
+
+        card.classList.add("locked");
+
+    }
+
+    let valueHTML = "";
+
+    if(isHex(field.value)){
+
+        valueHTML = `
+
+            <div class="color-preview">
+
+                <div
+                    class="color-swatch"
+                    style="background:${field.value};">
+                </div>
+
+                <span>${field.value}</span>
+
+            </div>
+
+        `;
+
+    }else{
+
+        valueHTML = field.value;
+
+    }
+
+    card.innerHTML = `
+
+        <div class="field-header">
+
+            <div class="field-title">
+
+                <span>${field.icon}</span>
+
+                <span>${field.label}</span>
+
+            </div>
+
+            <div class="field-actions">
+
+                <button
+                    class="icon-btn lock"
+                    title="Lock">
+
+                    ${field.locked ? "🔒" : "🔓"}
+
+                </button>
+
+                <button
+                    class="icon-btn reroll"
+                    title="Reroll">
+
+                    🎲
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="field-value">
+
+            ${valueHTML}
+
+        </div>
+
+    `;
+
+    card
+        .querySelector(".lock")
+        .addEventListener(
+            "click",
+            ()=>{
+
+                toggleLock(field.id);
+
+            }
+        );
+
+    card
+        .querySelector(".reroll")
+        .addEventListener(
+            "click",
+            ()=>{
+
+                reroll(field.id);
+
+            }
+        );
+
+    return card;
 
 }
 
-.generator-tab.active{
+/* ---------------------------------------------------------
+   Lock
+---------------------------------------------------------*/
 
-    background:linear-gradient(
-        180deg,
-        var(--accent),
-        var(--accent-dark)
+function toggleLock(id){
+
+    if(!state[id])
+        return;
+
+    state[id].locked =
+        !state[id].locked;
+
+    render();
+
+}
+
+/* ---------------------------------------------------------
+   Individual Reroll
+---------------------------------------------------------*/
+
+function reroll(id){
+
+    if(!state[id])
+        return;
+
+    const field =
+        state[id];
+
+    if(field.locked)
+        return;
+
+    if(
+        currentGenerator === paletteGenerator &&
+        id.startsWith("color")
+    ){
+
+        if(state.mode.value === "Preset"){
+
+            const palette =
+                random(
+                    PALETTE_DATA.presets
+                );
+
+            const index =
+                Number(
+                    id.replace("color","")
+                ) - 1;
+
+            field.value =
+                palette.colors[index];
+
+        }else{
+
+            field.value =
+                randomHex();
+
+        }
+
+    }else{
+
+        field.value =
+            random(field.options);
+
+    }
+
+    render();
+
+}
+
+/* ---------------------------------------------------------
+   Copy Generator
+---------------------------------------------------------*/
+
+function copyCharacter(){
+
+    let text =
+`${currentGenerator.name}
+
+`;
+
+    const groups = {};
+
+    Object.values(state)
+        .forEach(field=>{
+
+            if(!groups[field.group]){
+
+                groups[field.group]=[];
+
+            }
+
+            groups[field.group]
+                .push(field);
+
+        });
+
+    Object.entries(groups)
+        .forEach(([group,fields])=>{
+
+            text += `${group}\n`;
+
+            text +=
+"--------------------\n";
+
+            fields.forEach(field=>{
+
+                text +=
+`${field.label}: ${field.value}\n`;
+
+            });
+
+            text += "\n";
+
+        });
+
+    navigator.clipboard.writeText(
+        text
     );
 
-    color:#06111d;
+}
+
+/* ---------------------------------------------------------
+   Helpers
+---------------------------------------------------------*/
+
+function getState(){
+
+    return structuredClone(
+        state
+    );
 
 }
 
+function setState(newState){
 
-/* ==========================================
-   Toolbar
-========================================== */
+    Object.keys(state)
+        .forEach(key=>{
 
-.toolbar{
+            if(newState[key]){
 
-    display:flex;
+                state[key] =
+                    newState[key];
 
-    gap:15px;
+            }
 
-    flex-wrap:wrap;
+        });
 
-    justify-content:center;
-
-    padding:20px;
-
-    margin-bottom:24px;
-
-}
-
-.toolbar button{
-
-    border:none;
-
-    cursor:pointer;
-
-    border-radius:999px;
-
-    padding:14px 22px;
-
-    font-weight:700;
-
-    background:
-
-        linear-gradient(
-            180deg,
-            var(--accent),
-            var(--accent-dark)
-        );
-
-    color:#06111d;
-
-    transition:.2s;
-
-}
-
-.toolbar button:hover{
-
-    transform:translateY(-3px);
-
-}
-
-
-/* ==========================================
-   Generator Title
-========================================== */
-
-.generator-title{
-
-    margin-bottom:20px;
-
-}
-
-.generator-title h2{
-
-    font-size:2rem;
-
-    text-align:center;
-
-}
-
-
-/* ==========================================
-   Sections
-========================================== */
-
-.group{
-
-    padding:22px;
-
-    margin-bottom:24px;
-
-}
-
-.group h3{
-
-    margin-bottom:18px;
-
-    color:var(--accent);
-
-}
-
-
-/* ==========================================
-   Field Grid
-========================================== */
-
-.field-list{
-
-    display:grid;
-
-    grid-template-columns:
-
-        repeat(auto-fit,minmax(320px,1fr));
-
-    gap:14px;
-
-}
-
-
-/* ==========================================
-   Field Card
-========================================== */
-
-.field{
-
-    background:var(--glass-light);
-
-    border:1px solid rgba(255,255,255,.08);
-
-    border-radius:16px;
-
-    padding:14px 16px;
-
-    transition:.2s;
-
-}
-
-.field:hover{
-
-    transform:translateY(-2px);
-
-    border-color:rgba(255,255,255,.16);
-
-}
-
-
-/* ==========================================
-   Header
-========================================== */
-
-.field-header{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    margin-bottom:8px;
-
-}
-
-.field-title{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:8px;
-
-    font-weight:700;
-
-    font-size:.95rem;
-
-}
-
-
-/* ==========================================
-   Value
-========================================== */
-
-.field-value{
-
-    color:var(--soft);
-
-    line-height:1.4;
-
-    font-size:1rem;
-
-}
-
-
-/* ==========================================
-   Actions
-========================================== */
-
-.field-actions{
-
-    display:flex;
-
-    gap:6px;
-
-}
-
-.icon-btn{
-
-    width:34px;
-
-    height:34px;
-
-    border:none;
-
-    cursor:pointer;
-
-    border-radius:10px;
-
-    background:rgba(255,255,255,.06);
-
-    color:white;
-
-    font-size:.9rem;
-
-    transition:.2s;
-
-}
-
-.icon-btn:hover{
-
-    background:rgba(255,255,255,.14);
-
-}
-
-
-/* ==========================================
-   Locked
-========================================== */
-
-.field.locked{
-
-    border-color:rgba(155,205,255,.55);
-
-    box-shadow:
-
-        0 0 18px rgba(120,180,255,.18);
-
-}
-
-.field.locked .field-title{
-
-    color:var(--accent);
-
-}
-
-
-/* ==========================================
-   Footer
-========================================== */
-
-footer{
-
-    margin-top:40px;
-
-    text-align:center;
-
-    color:var(--soft);
-
-    opacity:.7;
-
-}
-
-
-/* ==========================================
-   Scrollbar
-========================================== */
-
-::-webkit-scrollbar{
-
-    width:10px;
-
-}
-
-::-webkit-scrollbar-thumb{
-
-    background:rgba(255,255,255,.15);
-
-    border-radius:999px;
-
-}
-
-
-/* ==========================================
-   Responsive
-========================================== */
-
-@media(max-width:900px){
-
-    .field-list{
-
-        grid-template-columns:1fr;
-
-    }
-
-}
-
-@media(max-width:700px){
-
-    .generator-tabs{
-
-        justify-content:center;
-
-    }
-
-    .toolbar{
-
-        flex-direction:column;
-
-    }
-
-    .toolbar button{
-
-        width:100%;
-
-    }
-
-    .hero{
-
-        padding:28px;
-
-    }
-
-    .hero h1{
-
-        font-size:2rem;
-
-    }
-
-}
-
-
-.color-preview{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:12px;
-
-}
-
-.color-swatch{
-
-    width:72px;
-
-    height:28px;
-
-    border-radius:999px;
+    render();
 
 }
