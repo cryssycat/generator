@@ -288,24 +288,65 @@ function toggleLock(id){
 
 function render(){
 
-    const groups={
+    const container =
+        document.getElementById(
+            "generatorSections"
+        );
 
-        Appearance:
-            document.getElementById(
-                "appearanceGroup"
-            ),
+    container.innerHTML = "";
 
-        Personality:
-            document.getElementById(
-                "personalityGroup"
-            ),
+    // Find all groups used by this generator
+    const groups = {};
 
-        Lore:
-            document.getElementById(
-                "loreGroup"
-            )
+    Object.values(state).forEach(field=>{
 
-    };
+        if(!groups[field.group]){
+
+            groups[field.group] = [];
+
+        }
+
+        groups[field.group].push(field);
+
+    });
+
+    // Build one section per group
+    Object.entries(groups).forEach(([groupName,fields])=>{
+
+        const section =
+            document.createElement("section");
+
+        section.className =
+            "group glass";
+
+        section.innerHTML = `
+
+            <h3>${groupName}</h3>
+
+            <div class="field-list"></div>
+
+        `;
+
+        const list =
+            section.querySelector(
+                ".field-list"
+            );
+
+        fields.forEach(field=>{
+
+            list.appendChild(
+                createCard(field)
+            );
+
+        });
+
+        container.appendChild(
+            section
+        );
+
+    });
+
+}
 
     Object.values(groups).forEach(group=>{
 
