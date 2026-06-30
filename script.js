@@ -19,7 +19,8 @@ const generators = {
    familiar: familiarGenerator,
    outfit: outfitGenerator,
    weapon: weaponGenerator,
-   item: itemGenerator
+   item: itemGenerator,
+   magic: magicGenerator
 };
 
 /* ---------------------------------------------------------
