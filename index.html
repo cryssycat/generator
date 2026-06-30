@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Character Generator</title>
 
@@ -16,104 +16,227 @@
 <div class="background"></div>
 
 <div class="container">
-<div class="tabs">
 
-    <button class="tab active" data-generator="character">
-        Character
-    </button>
+    <!-- ===============================
+         Hero
+    ================================ -->
 
-    <button class="tab" data-generator="fantasy">
-        Fantasy
-    </button>
-
-    <button class="tab" data-generator="relationship">
-        Relationship
-    </button>
-
-    <button class="tab" data-generator="pokemon">
-        Pokémon
-    </button>
-
-</div>
-    
-    
     <header class="hero glass">
 
         <h1>✨ Character Generator</h1>
 
         <p>
-            Build a character one piece at a time.
-            Lock the parts you love and reroll the rest.
+
+            Build characters one piece at a time.
+            Lock your favorite traits and reroll the rest.
+
         </p>
-
-        <div class="hero-buttons">
-
-            <button id="generateBtn">
-                🎲 Generate Character
-            </button>
-
-            <button id="copyBtn">
-                📋 Copy
-            </button>
-
-           </div>
 
     </header>
 
 
 
-    <main>
+    <!-- ===============================
+         Generator Tabs
+    ================================ -->
 
-        <!-- Appearance -->
+    <nav class="generator-tabs glass">
 
-        <section class="group glass">
+        <button
+            class="generator-tab active"
+            data-generator="character">
 
-            <h2>🦊 Appearance</h2>
+            ✨ Character
 
-            <div
-                id="appearanceGroup"
-                class="field-list">
-            </div>
+        </button>
 
-        </section>
+        <button
+            class="generator-tab"
+            data-generator="fantasy">
+
+            🧙 Fantasy
+
+        </button>
+
+        <button
+            class="generator-tab"
+            data-generator="relationship">
+
+            ❤️ Relationship
+
+        </button>
+
+        <button
+            class="generator-tab"
+            data-generator="pokemon">
+
+            🐉 Pokémon
+
+        </button>
+
+        <button
+            class="generator-tab"
+            data-generator="familiar">
+
+            🐾 Familiar
+
+        </button>
+
+        <button
+            class="generator-tab"
+            data-generator="hearthling">
+
+            🏡 Hearthling
+
+        </button>
+
+        <button
+            class="generator-tab"
+            data-generator="warrior">
+
+            ⚔️ Warrior
+
+        </button>
+
+        <button
+            class="generator-tab"
+            data-generator="magic">
+
+            ✨ Magic
+
+        </button>
+
+        <button
+            class="generator-tab"
+            data-generator="outfit">
+
+            👕 Outfit
+
+        </button>
+
+    </nav>
 
 
 
-        <!-- Personality -->
+    <!-- ===============================
+         Toolbar
+    ================================ -->
 
-        <section class="group glass">
+    <section class="toolbar glass">
 
-            <h2>😊 Personality</h2>
+        <button id="generateBtn">
 
-            <div
-                id="personalityGroup"
-                class="field-list">
-            </div>
+            🎲 Generate
 
-        </section>
+        </button>
 
+        <button id="copyBtn">
 
+            📋 Copy Character
 
-        <!-- Lore -->
+        </button>
 
-        <section class="group glass">
+        <button id="unlockAllBtn">
 
-            <h2>📖 Lore</h2>
+            🔓 Unlock All
 
-            <div
-                id="loreGroup"
-                class="field-list">
-            </div>
+        </button>
 
-        </section>
-
-    </main>
+    </section>
 
 
+
+    <!-- ===============================
+         Generator Name
+    ================================ -->
+
+    <section class="generator-title">
+
+        <h2 id="generatorName">
+
+            Character Generator
+
+        </h2>
+
+    </section>
+
+
+
+    <!-- ===============================
+         Appearance
+    ================================ -->
+
+    <section class="group glass">
+
+        <h3>
+
+            🦊 Appearance
+
+        </h3>
+
+        <div
+            id="appearanceGroup"
+            class="field-list">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===============================
+         Personality
+    ================================ -->
+
+    <section class="group glass">
+
+        <h3>
+
+            😊 Personality
+
+        </h3>
+
+        <div
+            id="personalityGroup"
+            class="field-list">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===============================
+         Lore
+    ================================ -->
+
+    <section class="group glass">
+
+        <h3>
+
+            📖 Lore
+
+        </h3>
+
+        <div
+            id="loreGroup"
+            class="field-list">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===============================
+         Footer
+    ================================ -->
 
     <footer>
 
-        Character Generator v1
+        Character Generator
+        •
+        StarHub Tools
 
     </footer>
 
@@ -121,17 +244,38 @@
 
 
 
-<!-- Hidden Import -->
+<!-- ===============================
+     Data Files
+================================ -->
 
-<input
-    type="file"
-    id="importFile"
-    accept=".json"
-    hidden>
+<script src="data/character-data.js"></script>
+
+<!-- Future -->
+
+<script src="data/fantasy-data.js"></script>
+<script src="data/relationship-data.js"></script>
+<script src="data/pokemon-data.js"></script>
 
 
 
-<script src="data.js"></script>
+<!-- ===============================
+     Generator Definitions
+================================ -->
+
+<script src="generators/character.js"></script>
+
+<!-- Future -->
+
+<script src="generators/fantasy.js"></script>
+<script src="generators/relationship.js"></script>
+<script src="generators/pokemon.js"></script>
+
+
+
+<!-- ===============================
+     Engine
+================================ -->
+
 <script src="script.js"></script>
 
 </body>
