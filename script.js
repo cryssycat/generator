@@ -13,6 +13,7 @@ const generators = {
     relationship: relationshipGenerator,
     magicalGirl: magicalGirlGenerator,
    mlp: mlpGenerator,
+   warrior: warriorGenerator,
    pokemon: pokemonGenerator
 };
 
