@@ -21,7 +21,8 @@ const generators = {
    weapon: weaponGenerator,
    item: itemGenerator,
    magic: magicGenerator,
-   polycule: polyculeGenerator
+   polycule: polyculeGenerator,
+   world: worldGenerator
 };
 
 /* ---------------------------------------------------------
