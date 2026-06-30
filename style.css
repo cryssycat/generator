@@ -529,3 +529,24 @@ footer{
     }
 
 }
+
+
+.color-preview{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.color-swatch{
+
+    width:72px;
+
+    height:28px;
+
+    border-radius:999px;
+
+}
