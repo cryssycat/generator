@@ -22,7 +22,8 @@ const generators = {
    item: itemGenerator,
    magic: magicGenerator,
    polycule: polyculeGenerator,
-   world: worldGenerator
+   world: worldGenerator,
+    palette: paletteGenerator
 };
 
 /* ---------------------------------------------------------
@@ -460,3 +461,57 @@ function setState(newState){
     render();
 
 }
+
+
+/* Palettes */
+
+const palette =
+    random(PALETTE_DATA.presets);
+
+state.paletteName.value =
+    palette.name;
+
+state.color1.value =
+    palette.colors[0];
+
+state.color2.value =
+    palette.colors[1];
+
+state.color3.value =
+    palette.colors[2];
+
+state.color4.value =
+    palette.colors[3];
+
+state.color5.value =
+    palette.colors[4];
+
+function randomHex(){
+
+    return "#" +
+        Math.floor(
+            Math.random()*16777215
+        )
+        .toString(16)
+        .padStart(6,"0")
+        .toUpperCase();
+
+}
+
+state.paletteName.value =
+    "Chaos";
+
+state.color1.value =
+    randomHex();
+
+state.color2.value =
+    randomHex();
+
+state.color3.value =
+    randomHex();
+
+state.color4.value =
+    randomHex();
+
+state.color5.value =
+    randomHex();
