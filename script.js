@@ -12,7 +12,8 @@ const generators = {
     goth: gothGenerator,
     relationship: relationshipGenerator,
     magicalGirl: magicalGirlGenerator,
-   mlp: mlpGenerator
+   mlp: mlpGenerator,
+   pokemon: pokemonGenerator
 };
 
 /* ---------------------------------------------------------
