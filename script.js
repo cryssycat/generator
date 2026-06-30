@@ -197,33 +197,18 @@ function setupToolbar(){
 
 function generate(){
 
-    if(currentGenerator === paletteGenerator){
-
-        const mode=(state.mode.locked&&state.mode.value)?state.mode.value:random(state.mode.options);
-        state.mode.value=mode;
-
-        if(mode==="Preset"){
-            const palette=random(PALETTE_DATA.presets);
-            if(!state.paletteName.locked) state.paletteName.value=palette.name;
-            [state.color1,state.color2,state.color3,state.color4,state.color5].forEach((field,i)=>{
-                if(!field.locked) field.value=palette.colors[i];
-            });
-        }else{
-            if(!state.paletteName.locked) state.paletteName.value="Chaos";
-            [state.color1,state.color2,state.color3,state.color4,state.color5].forEach(field=>{
-                if(!field.locked) field.value=randomHex();
-            });
-        }
-
-        render();
-        return;
-    }
-
     Object.values(state).forEach(field=>{
-        if(!field.locked) field.value=random(field.options);
+
+        if(field.locked)
+            return;
+
+        field.value=
+            random(field.options);
+
     });
 
     render();
+
 }
 
 /* ---------------------------------------------------------
@@ -303,6 +288,22 @@ function createCard(field){
 
     card.className="field";
 
+    let valueHTML = field.value;
+
+    const isColor = /^#[0-9A-F]{6}$/i.test(field.value);
+
+    if(isColor){
+
+        valueHTML = `
+            <div class="color-preview">
+                <div class="color-swatch" style="background:${valueHTML}"></div>
+                <span>${valueHTML}</span>
+            </div>
+        `;
+
+    }
+
+    
     if(field.locked){
 
         card.classList.add("locked");
@@ -345,7 +346,7 @@ function createCard(field){
 
         <div class="field-value">
 
-            ${field.value}
+            ${valueHTML}
 
         </div>
 
@@ -437,7 +438,7 @@ function copyCharacter(){
 
         fields.forEach(field=>{
 
-            text+=`${field.label}: ${field.value}\n`;
+            text+=`${field.label}: ${valueHTML}\n`;
 
         });
 
@@ -449,10 +450,6 @@ function copyCharacter(){
 
 }
 
-
-function randomHex(){
-    return "#"+Math.floor(Math.random()*16777215).toString(16).padStart(6,"0").toUpperCase();
-}
 
 /* ---------------------------------------------------------
    Helpers
@@ -482,3 +479,55 @@ function setState(newState){
 }
 
 
+/* Palettes */
+
+const palette =
+    random(PALETTE_DATA.presets);
+
+state.paletteName.value =
+    palette.name;
+
+state.color1.value =
+    palette.colors[0];
+
+state.color2.value =
+    palette.colors[1];
+
+state.color3.value =
+    palette.colors[2];
+
+state.color4.value =
+    palette.colors[3];
+
+state.color5.value =
+    palette.colors[4];
+
+function randomHex(){
+
+    return "#" +
+        Math.floor(
+            Math.random()*16777215
+        )
+        .toString(16)
+        .padStart(6,"0")
+        .toUpperCase();
+
+}
+
+state.paletteName.value =
+    "Chaos";
+
+state.color1.value =
+    randomHex();
+
+state.color2.value =
+    randomHex();
+
+state.color3.value =
+    randomHex();
+
+state.color4.value =
+    randomHex();
+
+state.color5.value =
+    randomHex();
