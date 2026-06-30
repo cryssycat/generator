@@ -11,21 +11,6 @@ const generators = {
 
     character: characterGenerator,
 
-    fantasy: fantasyGenerator,
-
-    relationship: relationshipGenerator,
-
-    pokemon: pokemonGenerator,
-
-    familiar: familiarGenerator,
-
-    hearthling: hearthlingGenerator,
-
-    warrior: warriorGenerator,
-
-    magic: magicGenerator,
-
-    outfit: outfitGenerator
 
 };
 
