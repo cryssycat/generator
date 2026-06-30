@@ -10,7 +10,8 @@ const generators = {
     character: characterGenerator,
     fantasy: fantasyGenerator,
     goth: gothGenerator,
-    relationship: relationshipGenerator
+    relationship: relationshipGenerator,
+    magicalGirl: magicalGirlGenerator
 };
 
 /* ---------------------------------------------------------
