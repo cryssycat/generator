@@ -8,7 +8,8 @@
 
 const generators = {
     character: characterGenerator,
-    fantasy: fantasyGenerator
+    fantasy: fantasyGenerator,
+      relationship: relationshipGenerator
 };
 
 /* ---------------------------------------------------------
