@@ -18,7 +18,8 @@ const generators = {
    pokemon: pokemonGenerator,
    familiar: familiarGenerator,
    outfit: outfitGenerator,
-   weapon: weaponGenerator
+   weapon: weaponGenerator,
+   item: itemGenerator
 };
 
 /* ---------------------------------------------------------
