@@ -232,7 +232,7 @@ bodyColors: [
     "Friendship Lavender",
     "Legendary Rainbow"
 
-].
+],
 maneColors: [
 
     "Rainbow",
