@@ -25,6 +25,7 @@ const generators = {
     polycule: polyculeGenerator,
     world: worldGenerator,
     palette: paletteGenerator,
+    inventory: inventoryGenerator,
     vibe: vibeGenerator,
 
 };
