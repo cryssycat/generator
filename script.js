@@ -24,7 +24,8 @@ const generators = {
     magic: magicGenerator,
     polycule: polyculeGenerator,
     world: worldGenerator,
-    palette: paletteGenerator
+    palette: paletteGenerator,
+    vibe: vibeGenerator,
 
 };
 
